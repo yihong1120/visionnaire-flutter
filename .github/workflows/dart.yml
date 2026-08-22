@@ -26,11 +26,16 @@ jobs:
           flutter-version: 3.47.0
           cache: true
 
-      - name: Set up JDK 17 for Android
-        uses: actions/setup-java@b6effb05e454b25005698d916606bdc6ffcbf961 # v5
-        with:
-          distribution: temurin
-          java-version: '17'
+      - name: Use runner JDK 17 for Android
+        shell: bash
+        run: |
+          if [[ -z "${JAVA_HOME_17_X64:-}" || ! -x "$JAVA_HOME_17_X64/bin/java" ]]; then
+            echo "::error::The GitHub runner does not provide the required JDK 17."
+            exit 1
+          fi
+          echo "JAVA_HOME=$JAVA_HOME_17_X64" >> "$GITHUB_ENV"
+          echo "$JAVA_HOME_17_X64/bin" >> "$GITHUB_PATH"
+          "$JAVA_HOME_17_X64/bin/java" -version
 
       - name: Provide non-production Firebase options
         run: |
