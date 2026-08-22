@@ -20,11 +20,18 @@ jobs:
         run: ./scripts/verify_public_source.sh
 
       - name: Set up Flutter
-        uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2
-        with:
-          channel: stable
-          flutter-version: 3.47.0
-          cache: true
+        shell: bash
+        run: |
+          flutter_archive="$RUNNER_TEMP/flutter_linux_3.47.0-stable.tar.xz"
+          curl --fail --location --proto '=https' --tlsv1.2 --retry 3 \
+            --output "$flutter_archive" \
+            "https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.47.0-stable.tar.xz"
+          echo "26cd99d3d94b1367e6b50535a18aeef0282c10a535bbe3ec493534dcdab75296  $flutter_archive" \
+            | sha256sum --check --strict
+          tar -xf "$flutter_archive" -C "$RUNNER_TEMP"
+          echo "$RUNNER_TEMP/flutter/bin" >> "$GITHUB_PATH"
+          "$RUNNER_TEMP/flutter/bin/flutter" config --no-analytics
+          "$RUNNER_TEMP/flutter/bin/flutter" --version
 
       - name: Use runner JDK 17 for Android
         shell: bash
