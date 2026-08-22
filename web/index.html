@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content">
+  <meta name="description" content="Visionnaire: Intelligent Safety & Hazard Detection Platform">
+  <meta name="theme-color" content="#2563EB">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Visionnaire">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Visionnaire</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      background: #0d0d11;
+    }
+
+    body {
+      overflow: hidden;
+      overscroll-behavior: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    input,
+    textarea,
+    [contenteditable="true"] {
+      -webkit-user-select: text;
+      user-select: text;
+      font-size: 16px;
+    }
+  </style>
+  <script type="text/javascript" src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"></script>
+</head>
+<body>
+  <script src='https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/build/pdf.min.mjs' type='module'></script>
+  <script src="assets/vendor/hls.min.js"></script>
+  <script>
+    window.visionnaireHlsInstances = window.visionnaireHlsInstances || {};
+    window.visionnaireHlsTimers = window.visionnaireHlsTimers || {};
+    window.visionnaireHlsCleanups = window.visionnaireHlsCleanups || {};
+    window.visionnaireHlsSources = window.visionnaireHlsSources || {};
+    window.visionnaireHlsShowControls = window.visionnaireHlsShowControls || {};
+    window.visionnaireHlsAuthHeaders = window.visionnaireHlsAuthHeaders || {};
+    window.visionnaireHlsAttachQueue = window.visionnaireHlsAttachQueue || [];
+    window.visionnaireHlsAttachVersions = window.visionnaireHlsAttachVersions || {};
+    window.visionnaireHlsAttachPumpRunning = false;
+
+    window.visionnairePumpHlsAttachQueue = function() {
+      if (window.visionnaireHlsAttachPumpRunning) return;
+      var job = window.visionnaireHlsAttachQueue.shift();
+      if (!job) return;
+
+      window.visionnaireHlsAttachPumpRunning = true;
+      window.setTimeout(function() {
+        try {
+          var latestVersion =
+            window.visionnaireHlsAttachVersions[job.elementId] || 0;
+          if (latestVersion === job.version &&
+              document.getElementById(job.elementId) &&
+              window.visionnaireAttachHlsByIdNow) {
+            window.visionnaireAttachHlsByIdNow(
+              job.elementId,
+              job.url,
+              job.headersJson,
+              job.showControls
+            );
+          }
+        } finally {
+          window.visionnaireHlsAttachPumpRunning = false;
+          window.setTimeout(
+            window.visionnairePumpHlsAttachQueue,
+            job.showControls ? 80 : 180
+          );
+        }
+      }, job.showControls ? 0 : 40);
+    };
+
+    window.visionnaireAttachHlsById = function(elementId, url, headersJson, showControls) {
+      if (!elementId || !url) return;
+      var nextVersion =
+        (window.visionnaireHlsAttachVersions[elementId] || 0) + 1;
+      window.visionnaireHlsAttachVersions[elementId] = nextVersion;
+      window.visionnaireHlsAttachQueue =
+        window.visionnaireHlsAttachQueue.filter(function(job) {
+          return job.elementId !== elementId;
+        });
+      window.visionnaireHlsAttachQueue.push({
+        elementId: elementId,
+        url: url,
+        headersJson: headersJson || '',
+        showControls: !!showControls,
+        version: nextVersion
+      });
+      window.visionnairePumpHlsAttachQueue();
+    };
+
+    window.visionnaireSetHlsAuthHeaders = function(headersJson) {
+      var nextHeaders = {};
+      if (headersJson) {
+        try {
+          nextHeaders = JSON.parse(headersJson) || {};
+        } catch (e) {}
+      }
+      window.visionnaireHlsAuthHeaders = nextHeaders;
+    };
+
+    window.visionnaireDisposeHlsCoreById = function(elementId) {
+      var video = document.getElementById(elementId);
+      var hls = window.visionnaireHlsInstances[elementId];
+      var timers = window.visionnaireHlsTimers[elementId] || [];
+      var cleanups = window.visionnaireHlsCleanups[elementId] || [];
+      timers.forEach(function(timerId) {
+        window.clearInterval(timerId);
+        window.clearTimeout(timerId);
+      });
+      cleanups.forEach(function(cleanup) {
+        try { cleanup(); } catch (e) {}
+      });
+      delete window.visionnaireHlsTimers[elementId];
+      delete window.visionnaireHlsCleanups[elementId];
+      delete window.visionnaireHlsSources[elementId];
+      delete window.visionnaireHlsShowControls[elementId];
+      if (hls) {
+        hls.destroy();
+        delete window.visionnaireHlsInstances[elementId];
+      }
+      if (video) {
+        video.pause();
+        video.removeAttribute('src');
+        video.removeAttribute('data-hls-url');
+        video.removeAttribute('data-hls-pending-url');
+        video.load();
+      }
+    };
+
+    window.visionnaireDisposeHlsById = function(elementId) {
+      if (!elementId) return;
+      window.visionnaireHlsAttachVersions[elementId] =
+        (window.visionnaireHlsAttachVersions[elementId] || 0) + 1;
+      window.visionnaireHlsAttachQueue =
+        window.visionnaireHlsAttachQueue.filter(function(job) {
+          return job.elementId !== elementId;
+        });
+      window.visionnaireDisposeHlsCoreById(elementId);
+    };
+
+    window.visionnaireResumeHlsById = function(elementId) {
+      var video = document.getElementById(elementId);
+      var hls = window.visionnaireHlsInstances[elementId];
+      if (hls) {
+        try { hls.startLoad(-1); } catch (e) {}
+      } else if (video) {
+        var source =
+          window.visionnaireHlsSources[elementId] ||
+          video.getAttribute('data-hls-url') ||
+          '';
+        if (source) {
+          window.visionnaireAttachHlsById(
+            elementId,
+            source,
+            JSON.stringify(window.visionnaireHlsAuthHeaders || {}),
+            !!window.visionnaireHlsShowControls[elementId]
+          );
+        }
+      }
+      if (video) {
+        video.play().catch(function() {});
+      }
+    };
+
+    window.visionnaireAttachHlsByIdNow = function(elementId, url, headersJson, showControls) {
+      var video = document.getElementById(elementId);
+      if (!video || !url) {
+        return;
+      }
+      video.removeAttribute('data-hls-pending-url');
+      video.controls = !!showControls;
+      video.autoplay = true;
+      video.muted = true;
+      video.playsInline = true;
+      video.preload = 'none';
+      video.setAttribute('controlsList', 'nodownload noremoteplayback noplaybackrate');
+      video.setAttribute('data-live-monitor', 'true');
+      try { video.disablePictureInPicture = true; } catch (e) {}
+      try { video.disableRemotePlayback = true; } catch (e) {}
+      var requestHeaders = {};
+      if (headersJson) {
+        try {
+          requestHeaders = JSON.parse(headersJson) || {};
+        } catch (e) {}
+      }
+      if (Object.keys(requestHeaders).length > 0) {
+        window.visionnaireHlsAuthHeaders = Object.assign(
+          {},
+          window.visionnaireHlsAuthHeaders || {},
+          requestHeaders
+        );
+      }
+
+      var existingSource =
+        window.visionnaireHlsSources[elementId] ||
+        video.getAttribute('data-hls-url') ||
+        '';
+      var existingHls = window.visionnaireHlsInstances[elementId];
+      if (existingSource === url && existingHls) {
+        if (video.paused) {
+          video.play().catch(function() {});
+        }
+        return;
+      }
+      if (existingSource === url && !existingHls && video.src) {
+        video.play().catch(function() {});
+        return;
+      }
+
+      window.visionnaireDisposeHlsCoreById(elementId);
+      window.visionnaireHlsSources[elementId] = url;
+      window.visionnaireHlsShowControls[elementId] = !!showControls;
+      video.setAttribute('data-hls-url', url);
+      video.removeAttribute('data-hls-has-frame');
+
+      var manifestParsed = false;
+      var didInitialLiveSeek = false;
+      var networkRetryTimer = null;
+      var networkRetryCount = 0;
+      var mediaRetryTimer = null;
+      var mediaRetryCount = 0;
+      var recoverAttemptCount = 0;
+      var lastRecoverAt = 0;
+      var useLowLatencyMode = !!showControls;
+      var targetLiveLatencySeconds = useLowLatencyMode ? 2 : 10;
+      var liveLatencyToleranceSeconds = useLowLatencyMode ? 2 : 8;
+      var maxLiveForwardBufferSeconds = useLowLatencyMode ? 8 : 18;
+      var maxBufferSizeBytes = useLowLatencyMode ? 8000000 : 12000000;
+      var maxLiveBackBufferSeconds = useLowLatencyMode ? 2 : 8;
+      var trimBufferIntervalMs = useLowLatencyMode ? 2000 : 10000;
+      var recoverThrottleMs = useLowLatencyMode ? 8000 : 20000;
+      var stalledEventDelayMs = useLowLatencyMode ? 3000 : 8000;
+      var stalledProgressThresholdMs = useLowLatencyMode ? 10000 : 30000;
+      var liveProgressThresholdMs = useLowLatencyMode ? 20000 : 60000;
+      var rebuildRecoverAttemptLimit = useLowLatencyMode ? 3 : 6;
+      var liveEdgeIntervalMs = useLowLatencyMode ? 2000 : 5000;
+      var lastBufferTrimAt = 0;
+      var lastProgressAt = Date.now();
+      var lastCurrentTime = 0;
+      window.visionnaireHlsTimers[elementId] = [];
+      window.visionnaireHlsCleanups[elementId] = [];
+      var latestRequestHeaders = function() {
+        return Object.assign(
+          {},
+          requestHeaders,
+          window.visionnaireHlsAuthHeaders || {}
+        );
+      };
+      var updateTilePlaceholder = function(message, visible) {
+        if (!video || !video.parentNode || !video.parentNode.querySelector) return;
+        var placeholder = video.parentNode.querySelector('[data-role="placeholder"]');
+        if (!placeholder) return;
+        placeholder.textContent = message || '重新連線中';
+        placeholder.style.display = visible ? 'flex' : 'none';
+        placeholder.style.alignItems = 'center';
+        placeholder.style.justifyContent = 'center';
+        placeholder.style.color = 'rgba(255,255,255,0.82)';
+        placeholder.style.font = '700 13px system-ui, -apple-system, sans-serif';
+        placeholder.style.letterSpacing = '0.02em';
+        placeholder.style.background = 'rgba(13,13,17,0.92)';
+      };
+      var notifyFlutterPlaying = function() {
+        window.dispatchEvent(new CustomEvent('visionnaire-hls-playing', {
+          detail: {
+            elementId: elementId,
+            url: url
+          }
+        }));
+      };
+      var markPlaying = function() {
+        if (!video || video.getAttribute('data-hls-has-frame') === 'true') return;
+        video.setAttribute('data-hls-has-frame', 'true');
+        updateTilePlaceholder('', false);
+        notifyFlutterPlaying();
+      };
+      var markReconnecting = function(message) {
+        if (!video) return;
+        video.removeAttribute('data-hls-has-frame');
+        updateTilePlaceholder(message || '重新連線中', true);
+      };
+      var reconnectDelayMs = function(attempt) {
+        var delays = [1000, 2000, 4000, 8000];
+        return delays[Math.min(Math.max(attempt, 1), delays.length) - 1];
+      };
+      var rebuildPlayer = function(reason) {
+        markReconnecting('重新連線中');
+        window.visionnaireDisposeHlsById(elementId);
+        window.setTimeout(function() {
+          window.visionnaireAttachHlsById(elementId, url, headersJson || '', showControls);
+        }, 0);
+      };
+      var hlsStatusCode = function(data) {
+        var response = (data && data.response) || {};
+        var networkDetails = (data && data.networkDetails) || {};
+        var details = (data && data.details) || {};
+        var detailsResponse = details.response || {};
+        var error = (data && data.error) || {};
+        return response.code ||
+          response.status ||
+          networkDetails.status ||
+          details.status ||
+          details.code ||
+          detailsResponse.status ||
+          detailsResponse.code ||
+          error.status ||
+          error.code ||
+          0;
+      };
+      var hlsErrorText = function(data) {
+        var response = (data && data.response) || {};
+        var details = (data && data.details) || {};
+        var detailsResponse = details.response || {};
+        var error = (data && data.error) || {};
+        var stringifyErrorValue = function(value) {
+          if (typeof value === 'string') return value;
+          if (value instanceof ArrayBuffer) {
+            try { return new TextDecoder().decode(new Uint8Array(value)); } catch (e) {}
+          }
+          if (ArrayBuffer.isView && ArrayBuffer.isView(value)) {
+            try { return new TextDecoder().decode(value); } catch (e) {}
+          }
+          try { return JSON.stringify(value); } catch (e) { return String(value); }
+        };
+        return [
+          response.text,
+          response.data,
+          response.body,
+          response.statusText,
+          details.text,
+          details.data,
+          details.body,
+          details.statusText,
+          detailsResponse.text,
+          detailsResponse.data,
+          detailsResponse.body,
+          detailsResponse.statusText,
+          error.message,
+          error.text
+        ].filter(Boolean).map(function(value) {
+          return stringifyErrorValue(value);
+        }).join(' ');
+      };
+      var hlsAuthReason = function(data) {
+        var text = hlsErrorText(data).toLowerCase();
+        var reasons = [
+          'expired_media_session',
+          'invalid_media_session',
+          'expired_token',
+          'invalid_token',
+          'inactive_user',
+          'missing_token'
+        ];
+        for (var i = 0; i < reasons.length; i += 1) {
+          if (text.indexOf(reasons[i]) >= 0) return reasons[i];
+        }
+        return 'unauthorized';
+      };
+      var hlsErrorUrl = function(data) {
+        var response = (data && data.response) || {};
+        return (data && data.url) || response.url || url;
+      };
+      var isAuthStatusCode = function(statusCode) {
+        return statusCode === 401 || statusCode === 403;
+      };
+      var isAuthError = function(data) {
+        if (isAuthStatusCode(hlsStatusCode(data))) return true;
+        var text = hlsErrorText(data).toLowerCase();
+        return text.indexOf('401') >= 0 ||
+          text.indexOf('403') >= 0 ||
+          text.indexOf('unauthorized') >= 0 ||
+          text.indexOf('forbidden') >= 0;
+      };
+      var isAbortError = function(data) {
+        var error = (data && data.error) || {};
+        var name = error.name || '';
+        var text = hlsErrorText(data).toLowerCase();
+        return name === 'AbortError' ||
+          text.indexOf('aborterror') >= 0 ||
+          text.indexOf('signal is aborted') >= 0 ||
+          text.indexOf('operation was aborted') >= 0;
+      };
+      var notifyFlutterPlaybackError = function(reason, data) {
+        var event = new CustomEvent('visionnaire-hls-playback-error', {
+          detail: {
+            elementId: elementId,
+            reason: reason || '',
+            statusCode: hlsStatusCode(data),
+            url: hlsErrorUrl(data)
+          }
+        });
+        window.dispatchEvent(event);
+      };
+      var notifyFlutterAuthError = function(reason, data) {
+        var event = new CustomEvent('visionnaire-hls-auth-error', {
+          detail: {
+            elementId: elementId,
+            reason: reason || 'unauthorized',
+            statusCode: hlsStatusCode(data),
+            url: hlsErrorUrl(data)
+          }
+        });
+        window.dispatchEvent(event);
+      };
+
+      if (window.Hls && window.Hls.isSupported()) {
+        var hls = new window.Hls({
+          enableWorker: true,
+          lowLatencyMode: useLowLatencyMode,
+          progressive: true,
+          liveDurationInfinity: true,
+          capLevelToPlayerSize: true,
+          abrMaxWithRealBitrate: true,
+          testBandwidth: useLowLatencyMode,
+          liveSyncDuration: targetLiveLatencySeconds,
+          liveMaxLatencyDuration: targetLiveLatencySeconds + 6,
+          maxLiveSyncPlaybackRate: 1.15,
+          maxBufferLength: maxLiveForwardBufferSeconds,
+          maxMaxBufferLength: maxLiveForwardBufferSeconds,
+          maxBufferSize: maxBufferSizeBytes,
+          backBufferLength: maxLiveBackBufferSeconds,
+          liveBackBufferLength: maxLiveBackBufferSeconds,
+          manifestLoadingMaxRetry: 3,
+          manifestLoadingTimeOut: 60000,
+          manifestLoadingRetryDelay: 1000,
+          manifestLoadingMaxRetryTimeout: 8000,
+          levelLoadingMaxRetry: 3,
+          levelLoadingTimeOut: 60000,
+          levelLoadingRetryDelay: 1000,
+          levelLoadingMaxRetryTimeout: 8000,
+          fragLoadingMaxRetry: 3,
+          fragLoadingTimeOut: 60000,
+          fragLoadingRetryDelay: 1000,
+          fragLoadingMaxRetryTimeout: 8000,
+          fetchSetup: function(context, initParams) {
+            var latestHeaders = latestRequestHeaders();
+            var nextInit = Object.assign({}, initParams || {});
+            var headers = new Headers(nextInit.headers || {});
+            Object.keys(latestHeaders).forEach(function(name) {
+              try {
+                headers.set(name, latestHeaders[name]);
+              } catch (e) {}
+            });
+            nextInit.headers = headers;
+            nextInit.credentials = 'include';
+            nextInit.mode = nextInit.mode || 'cors';
+            var requestUrl = context && context.url ? context.url : context;
+            return new Request(requestUrl, nextInit);
+          },
+          xhrSetup: function(xhr, xhrUrl) {
+            xhr.withCredentials = true;
+            var latestHeaders = latestRequestHeaders();
+            Object.keys(latestHeaders).forEach(function(name) {
+              try {
+                xhr.setRequestHeader(name, latestHeaders[name]);
+              } catch (e) {}
+            });
+          }
+        });
+        window.visionnaireHlsInstances[elementId] = hls;
+        hls.loadSource(url);
+        hls.attachMedia(video);
+        var flushOldBuffer = function(reason) {
+          if (!hls || !video || !Number.isFinite(video.currentTime)) return;
+          if (!window.Hls.Events.BUFFER_FLUSHING) return;
+          var now = Date.now();
+          if (now - lastBufferTrimAt < trimBufferIntervalMs) return;
+          var flushEnd = video.currentTime - maxLiveBackBufferSeconds;
+          if (flushEnd <= 0 || !video.buffered || video.buffered.length === 0) return;
+          var hasOldBuffer = false;
+          for (var i = 0; i < video.buffered.length; i += 1) {
+            if (video.buffered.start(i) < flushEnd - 0.5) {
+              hasOldBuffer = true;
+              break;
+            }
+          }
+          if (!hasOldBuffer) return;
+          try {
+            hls.trigger(window.Hls.Events.BUFFER_FLUSHING, {
+              startOffset: 0,
+              endOffset: flushEnd,
+              type: null
+            });
+            lastBufferTrimAt = now;
+          } catch (e) {}
+        };
+        var recoverStalledPlayback = function(reason) {
+          if (!hls || !video) return;
+          var now = Date.now();
+          if (now - lastRecoverAt < recoverThrottleMs) return;
+          lastRecoverAt = now;
+          recoverAttemptCount += 1;
+          if (!useLowLatencyMode && recoverAttemptCount === 1 && video.readyState >= 2) {
+            video.play().catch(function() {});
+            lastProgressAt = Date.now();
+            return;
+          }
+          if (recoverAttemptCount >= rebuildRecoverAttemptLimit) {
+            rebuildPlayer(reason + ' after repeated recover attempts');
+            return;
+          }
+          var liveSyncPosition = hls.liveSyncPosition;
+          hls.stopLoad();
+          if (Number.isFinite(liveSyncPosition) && liveSyncPosition > 0) {
+            video.currentTime = Math.max(0, liveSyncPosition - targetLiveLatencySeconds);
+          }
+          hls.startLoad(-1);
+          video.play().catch(function() {});
+          lastProgressAt = Date.now();
+          lastCurrentTime = Number.isFinite(video.currentTime) ? video.currentTime : 0;
+        };
+        hls.on(window.Hls.Events.MANIFEST_PARSED, function() {
+          manifestParsed = true;
+          hls.startLoad(-1);
+          video.play().catch(function() {});
+        });
+        var onPlaying = function() {
+          networkRetryCount = 0;
+          mediaRetryCount = 0;
+          recoverAttemptCount = 0;
+          markPlaying();
+        };
+        video.addEventListener('playing', onPlaying);
+        video.addEventListener('loadeddata', onPlaying);
+        video.addEventListener('canplay', onPlaying);
+        window.visionnaireHlsCleanups[elementId].push(function() {
+          video.removeEventListener('playing', onPlaying);
+          video.removeEventListener('loadeddata', onPlaying);
+          video.removeEventListener('canplay', onPlaying);
+        });
+        var onTimeUpdate = function() {
+          if (Number.isFinite(video.currentTime) &&
+              Math.abs(video.currentTime - lastCurrentTime) > 0.05) {
+            lastProgressAt = Date.now();
+            lastCurrentTime = video.currentTime;
+            recoverAttemptCount = 0;
+            markPlaying();
+          }
+        };
+        video.addEventListener('timeupdate', onTimeUpdate);
+        window.visionnaireHlsCleanups[elementId].push(function() {
+          video.removeEventListener('timeupdate', onTimeUpdate);
+        });
+        var onSeeking = function() {
+          if (!hls || !video || !Number.isFinite(video.currentTime)) return;
+          var liveSyncPosition = hls.liveSyncPosition;
+          if (!Number.isFinite(liveSyncPosition) || liveSyncPosition <= 0) return;
+          var targetPosition = Math.max(0, liveSyncPosition - targetLiveLatencySeconds);
+          var lagBehindTarget = targetPosition - video.currentTime;
+          if (lagBehindTarget > maxLiveBackBufferSeconds + liveLatencyToleranceSeconds) {
+            video.currentTime = targetPosition;
+          }
+        };
+        video.addEventListener('seeking', onSeeking);
+        window.visionnaireHlsCleanups[elementId].push(function() {
+          video.removeEventListener('seeking', onSeeking);
+        });
+        var onStalled = function() {
+          window.setTimeout(function() {
+            if (!video.paused &&
+                Date.now() - lastProgressAt > stalledProgressThresholdMs) {
+              markReconnecting('重新連線中');
+              recoverStalledPlayback('video stalled event');
+            }
+          }, stalledEventDelayMs);
+        };
+        video.addEventListener('stalled', onStalled);
+        video.addEventListener('waiting', onStalled);
+        window.visionnaireHlsCleanups[elementId].push(function() {
+          video.removeEventListener('stalled', onStalled);
+          video.removeEventListener('waiting', onStalled);
+        });
+        var onVisibilityChange = function() {
+          if (!document.hidden && hls && video) {
+            if (!hls.started) {
+              hls.startLoad(-1);
+            }
+            video.play().catch(function() {});
+          }
+        };
+        document.addEventListener('visibilitychange', onVisibilityChange);
+        window.visionnaireHlsCleanups[elementId].push(function() {
+          document.removeEventListener('visibilitychange', onVisibilityChange);
+        });
+        hls.on(window.Hls.Events.LEVEL_LOADED, function() {
+          if (didInitialLiveSeek) return;
+          var liveSyncPosition = hls.liveSyncPosition;
+          if (Number.isFinite(liveSyncPosition) && liveSyncPosition > 0) {
+            var currentTime = Number.isFinite(video.currentTime) ? video.currentTime : 0;
+            var targetPosition = Math.max(0, liveSyncPosition - targetLiveLatencySeconds);
+            if (currentTime === 0 || currentTime < targetPosition - liveLatencyToleranceSeconds) {
+              didInitialLiveSeek = true;
+              video.currentTime = targetPosition;
+            } else {
+              didInitialLiveSeek = true;
+            }
+          }
+        });
+        if (window.Hls.Events.BUFFER_APPENDED) {
+          hls.on(window.Hls.Events.BUFFER_APPENDED, function() {
+            flushOldBuffer('buffer appended');
+          });
+        }
+        var liveEdgeTimer = window.setInterval(function() {
+          if (!hls || !video || video.paused || !Number.isFinite(video.currentTime)) return;
+          if (Date.now() - lastProgressAt > liveProgressThresholdMs) {
+            markReconnecting('重新連線中');
+            recoverStalledPlayback('no playback progress');
+            return;
+          }
+          var liveSyncPosition = hls.liveSyncPosition;
+          if (Number.isFinite(liveSyncPosition) && liveSyncPosition > 0) {
+            var targetPosition = Math.max(0, liveSyncPosition - targetLiveLatencySeconds);
+            var lagBehindTarget = targetPosition - video.currentTime;
+            if (lagBehindTarget > liveLatencyToleranceSeconds) {
+              video.currentTime = targetPosition;
+            } else if (lagBehindTarget > 0.75 && video.playbackRate < 1.05) {
+              video.playbackRate = 1.05;
+            } else if (lagBehindTarget <= 0.25 && video.playbackRate !== 1) {
+              video.playbackRate = 1;
+            }
+          }
+          flushOldBuffer('live edge maintenance');
+        }, liveEdgeIntervalMs);
+        window.visionnaireHlsTimers[elementId].push(liveEdgeTimer);
+        hls.on(window.Hls.Events.ERROR, function(event, data) {
+          if (isAbortError(data)) {
+            return;
+          }
+          if (isAuthError(data)) {
+            var authReason = hlsAuthReason(data);
+            markReconnecting('續租串流授權中');
+            notifyFlutterAuthError(authReason, data);
+            try { hls.stopLoad(); } catch (e) {}
+            return;
+          }
+          var details = data && data.details;
+          if (!data || !data.fatal) return;
+          var isMissingManifest =
+            details === window.Hls.ErrorDetails.MANIFEST_LOAD_ERROR &&
+            data.response &&
+            data.response.code === 404;
+          if (isMissingManifest) {
+            markReconnecting('續租串流授權中');
+            notifyFlutterAuthError('expired_playback_session', data);
+            try { hls.stopLoad(); } catch (e) {}
+            return;
+          }
+          if (data.type === window.Hls.ErrorTypes.NETWORK_ERROR) {
+            networkRetryCount += 1;
+            markReconnecting('重新連線中');
+            var retryDelay = reconnectDelayMs(networkRetryCount);
+            window.clearTimeout(networkRetryTimer);
+            networkRetryTimer = window.setTimeout(function() {
+              if (!hls || !video) return;
+              if (networkRetryCount > 4) {
+                rebuildPlayer('repeated fatal network errors');
+                return;
+              }
+              hls.stopLoad();
+              hls.startLoad(-1);
+              if (video.paused) {
+                video.play().catch(function() {});
+              }
+            }, retryDelay);
+            window.visionnaireHlsTimers[elementId].push(networkRetryTimer);
+          } else if (data.type === window.Hls.ErrorTypes.MEDIA_ERROR) {
+            mediaRetryCount += 1;
+            markReconnecting('重新連線中');
+            var mediaRetryDelay = reconnectDelayMs(mediaRetryCount);
+            window.clearTimeout(mediaRetryTimer);
+            mediaRetryTimer = window.setTimeout(function() {
+              if (!hls || !video) return;
+              if (mediaRetryCount > 4) {
+                rebuildPlayer('repeated fatal media errors');
+                return;
+              }
+              try { hls.recoverMediaError(); } catch (e) {}
+              try { hls.startLoad(-1); } catch (e) {}
+              video.play().catch(function() {});
+            }, mediaRetryDelay);
+            window.visionnaireHlsTimers[elementId].push(mediaRetryTimer);
+          } else {
+            window.visionnaireDisposeHlsById(elementId);
+          }
+        });
+      } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        var nativeRetryCount = 0;
+        var nativeRetryTimer = null;
+        var reloadNativeHls = function(reason) {
+          nativeRetryCount += 1;
+          markReconnecting('重新連線中');
+          var retryDelay = reconnectDelayMs(nativeRetryCount);
+          window.clearTimeout(nativeRetryTimer);
+          nativeRetryTimer = window.setTimeout(function() {
+            if (!video) return;
+            if (nativeRetryCount > 4) {
+              rebuildPlayer('repeated native HLS errors');
+              return;
+            }
+            video.pause();
+            video.src = url;
+            video.load();
+            video.play().catch(function() {});
+          }, retryDelay);
+          window.visionnaireHlsTimers[elementId].push(nativeRetryTimer);
+        };
+        video.src = url;
+        var seekNativeToLiveEdge = function() {
+          if (!video || !video.seekable || video.seekable.length === 0) return;
+          if (!Number.isFinite(video.currentTime)) return;
+          var rangeIndex = video.seekable.length - 1;
+          var liveEdge = video.seekable.end(rangeIndex);
+          var rangeStart = video.seekable.start(rangeIndex);
+          if (!Number.isFinite(liveEdge) || liveEdge <= 0) return;
+          var targetPosition = Math.max(rangeStart, liveEdge - targetLiveLatencySeconds);
+          if (targetPosition - video.currentTime > liveLatencyToleranceSeconds) {
+            video.currentTime = targetPosition;
+          }
+        };
+        var nativeLiveEdgeTimer = window.setInterval(function() {
+          if (video.paused) return;
+          seekNativeToLiveEdge();
+        }, 2000);
+        window.visionnaireHlsTimers[elementId].push(nativeLiveEdgeTimer);
+        var onNativeError = function() {
+          reloadNativeHls('native video error');
+        };
+        var onNativePlaying = function() {
+          nativeRetryCount = 0;
+          markPlaying();
+          seekNativeToLiveEdge();
+        };
+        var onNativeWaiting = function() {
+          window.setTimeout(function() {
+            if (!video.paused && video.readyState < 3) {
+              reloadNativeHls('native video waiting');
+            }
+          }, 10000);
+        };
+        video.addEventListener('error', onNativeError);
+        video.addEventListener('playing', onNativePlaying);
+        video.addEventListener('stalled', onNativeWaiting);
+        video.addEventListener('waiting', onNativeWaiting);
+        window.visionnaireHlsCleanups[elementId].push(function() {
+          video.removeEventListener('error', onNativeError);
+          video.removeEventListener('playing', onNativePlaying);
+          video.removeEventListener('stalled', onNativeWaiting);
+          video.removeEventListener('waiting', onNativeWaiting);
+        });
+        video.play().catch(function() {});
+      }
+    };
+
+    window.visionnaireHlsWalls = window.visionnaireHlsWalls || {};
+
+    window.visionnaireDisposeHlsWallById = function(wallId) {
+      if (!wallId) return;
+      var state = window.visionnaireHlsWalls[wallId];
+      if (state && state.videoIds) {
+        Object.keys(state.videoIds).forEach(function(videoId) {
+          window.visionnaireDisposeHlsById(videoId);
+        });
+      }
+      var root = document.getElementById(wallId);
+      if (root) {
+        root.textContent = '';
+      }
+      delete window.visionnaireHlsWalls[wallId];
+    };
+
+    window.visionnaireUpdateHlsWallById = function(wallId, configJson, headersJson) {
+      if (!wallId || !configJson) return;
+      var root = document.getElementById(wallId);
+      if (!root) return;
+      if (window.visionnaireSetHlsAuthHeaders) {
+        window.visionnaireSetHlsAuthHeaders(headersJson || '');
+      }
+
+      var config = {};
+      try {
+        config = JSON.parse(configJson) || {};
+      } catch (e) {
+        return;
+      }
+
+      var columns = Math.max(1, parseInt(config.columns || 1, 10));
+      var tiles = Array.isArray(config.tiles) ? config.tiles : [];
+      var dividerColor = config.dividerColor || '#4A4A4A';
+      var warningColor = config.warningColor || '#B3261E';
+      var state = window.visionnaireHlsWalls[wallId] || { videoIds: {} };
+      var seenSlotIds = {};
+
+      root.style.display = 'grid';
+      root.style.gridTemplateColumns = 'repeat(' + columns + ', minmax(0, 1fr))';
+      root.style.gridAutoRows = '1fr';
+      root.style.gap = '0';
+      root.style.width = '100%';
+      root.style.height = '100%';
+      root.style.overflow = 'hidden';
+      root.style.background = '#0d0d11';
+
+      var safeSlotId = function(value, index) {
+        var text = (value || '').toString().trim();
+        if (!text) text = 'slot-' + index;
+        return text.replace(/[^a-zA-Z0-9_-]/g, '_');
+      };
+      var placeCellAt = function(cell, index) {
+        var currentAtIndex = root.children[index] || null;
+        if (cell.parentNode !== root) {
+          root.insertBefore(cell, currentAtIndex);
+          return;
+        }
+        if (currentAtIndex && currentAtIndex !== cell) {
+          root.insertBefore(cell, currentAtIndex);
+        }
+      };
+      var ensureDiv = function(parent, role) {
+        var node = parent.querySelector('[data-role="' + role + '"]');
+        if (!node) {
+          node = document.createElement('div');
+          node.setAttribute('data-role', role);
+          parent.appendChild(node);
+        }
+        return node;
+      };
+      var setBadgeStyle = function(node, position) {
+        node.style.position = 'absolute';
+        node.style.top = '6px';
+        node.style.boxSizing = 'border-box';
+        node.style.padding = position === 'left' ? '4px 7px' : '5px 8px';
+        node.style.borderRadius = '4px';
+        node.style.border = '1px solid rgba(255,255,255,0.10)';
+        node.style.background = 'rgba(0,0,0,0.48)';
+        node.style.color = 'white';
+        node.style.font = position === 'left'
+          ? '800 10px system-ui, -apple-system, sans-serif'
+          : '800 13px system-ui, -apple-system, sans-serif';
+        node.style.whiteSpace = 'nowrap';
+        node.style.overflow = 'hidden';
+        node.style.textOverflow = 'ellipsis';
+        node.style.pointerEvents = 'none';
+        node.style.maxWidth = position === 'left' ? '42%' : '56%';
+        if (position === 'left') {
+          node.style.left = '6px';
+          node.style.right = '';
+        } else {
+          node.style.left = '';
+          node.style.right = '6px';
+        }
+      };
+
+      tiles.forEach(function(tile, index) {
+        var slotId = safeSlotId(tile.slotId, index);
+        var slotKey = (tile.slotKey || slotId).toString();
+        seenSlotIds[slotId] = true;
+
+        var cellId = wallId + '-cell-' + slotId;
+        var videoId = wallId + '-video-' + slotId;
+        var cell = document.getElementById(cellId);
+        if (!cell) {
+          cell = document.createElement('div');
+          cell.id = cellId;
+          cell.style.position = 'relative';
+          cell.style.overflow = 'hidden';
+          cell.style.background = '#0d0d11';
+          cell.style.boxSizing = 'border-box';
+          cell.style.cursor = 'pointer';
+          cell.addEventListener('click', function() {
+            window.dispatchEvent(new CustomEvent('visionnaire-hls-wall-tap', {
+              detail: {
+                wallId: wallId,
+                slotKey: cell.getAttribute('data-slot-key') || ''
+              }
+            }));
+          });
+        }
+        cell.setAttribute('data-slot-id', slotId);
+        cell.setAttribute('data-slot-key', slotKey);
+        cell.style.border = '1px solid ' + (tile.hasWarning ? warningColor : dividerColor);
+        cell.style.boxShadow = tile.hasWarning
+          ? 'inset 0 0 0 4px ' + warningColor
+          : 'none';
+        cell.style.zIndex = tile.hasWarning ? '2' : '0';
+        cell.style.transition = 'border-color 120ms ease, box-shadow 120ms ease';
+        placeCellAt(cell, index);
+
+        var placeholder = ensureDiv(cell, 'placeholder');
+        placeholder.style.position = 'absolute';
+        placeholder.style.inset = '0';
+        placeholder.style.display = 'flex';
+        placeholder.style.alignItems = 'center';
+        placeholder.style.justifyContent = 'center';
+        placeholder.style.color = 'rgba(255,255,255,0.82)';
+        placeholder.style.font = '700 13px system-ui, -apple-system, sans-serif';
+        placeholder.style.letterSpacing = '0.02em';
+        placeholder.style.background = '#0d0d11';
+        placeholder.textContent = '重新連線中';
+
+        var stateBadge = ensureDiv(cell, 'state');
+        setBadgeStyle(stateBadge, 'left');
+        var titleBadge = ensureDiv(cell, 'title');
+        setBadgeStyle(titleBadge, 'right');
+
+        var overlayIndex = (tile.overlayIndex || '').toString().trim();
+        var overlayStatus = (tile.overlayStatus || '').toString().trim();
+        var stateText = [overlayIndex, overlayStatus].filter(Boolean).join(' ');
+        stateBadge.textContent = stateText ? '● ' + stateText : '';
+        stateBadge.style.display = stateText ? 'block' : 'none';
+        stateBadge.style.color = tile.overlayStatusColor || '#21d18b';
+
+        var title = (tile.title || '').toString().trim();
+        titleBadge.textContent = title ? '▸ ' + title : '';
+        titleBadge.style.display = title ? 'block' : 'none';
+
+        if (tile.isPlayable && tile.playbackUrl) {
+          var video = document.getElementById(videoId);
+          if (!video) {
+            video = document.createElement('video');
+            video.id = videoId;
+            video.setAttribute('crossorigin', 'use-credentials');
+            video.autoplay = true;
+            video.muted = true;
+            video.playsInline = true;
+            video.preload = 'none';
+            video.style.width = '100%';
+            video.style.height = '100%';
+            video.style.objectFit = 'contain';
+            video.style.backgroundColor = 'black';
+            video.style.display = 'block';
+            cell.insertBefore(video, cell.firstChild);
+          }
+          var hasFirstFrame = video.getAttribute('data-hls-has-frame') === 'true';
+          placeholder.textContent = hasFirstFrame ? '' : '重新連線中';
+          placeholder.style.display = hasFirstFrame ? 'none' : 'flex';
+          state.videoIds[videoId] = true;
+          var activePlaybackUrl =
+            window.visionnaireHlsSources[videoId] ||
+            video.getAttribute('data-hls-url') ||
+            '';
+          var pendingPlaybackUrl =
+            video.getAttribute('data-hls-pending-url') || '';
+          var needsAttach =
+            activePlaybackUrl !== tile.playbackUrl ||
+            !window.visionnaireHlsInstances[videoId];
+          if (needsAttach && pendingPlaybackUrl !== tile.playbackUrl) {
+            video.removeAttribute('data-hls-has-frame');
+            placeholder.textContent = '重新連線中';
+            placeholder.style.display = 'flex';
+            video.setAttribute('data-hls-pending-url', tile.playbackUrl);
+            window.visionnaireAttachHlsById(
+              videoId,
+              tile.playbackUrl,
+              headersJson || '',
+              false
+            );
+          } else if (!needsAttach && pendingPlaybackUrl) {
+            video.removeAttribute('data-hls-pending-url');
+          }
+        } else {
+          placeholder.textContent = '▶';
+          placeholder.style.color = '#5B5BD6';
+          placeholder.style.font = '600 38px system-ui, -apple-system, sans-serif';
+          placeholder.style.display = 'flex';
+          if (state.videoIds[videoId]) {
+            window.visionnaireDisposeHlsById(videoId);
+            delete state.videoIds[videoId];
+          }
+          var staleVideo = document.getElementById(videoId);
+          if (staleVideo && staleVideo.parentNode) {
+            staleVideo.parentNode.removeChild(staleVideo);
+          }
+        }
+      });
+
+      Array.prototype.slice.call(root.children).forEach(function(cell) {
+        var slotId = cell.getAttribute && cell.getAttribute('data-slot-id');
+        if (!slotId || seenSlotIds[slotId]) return;
+        var videoId = wallId + '-video-' + slotId;
+        window.visionnaireDisposeHlsById(videoId);
+        delete state.videoIds[videoId];
+        root.removeChild(cell);
+      });
+
+      window.visionnaireHlsWalls[wallId] = state;
+    };
+  </script>
+  <script type='module'>
+  var { pdfjsLib } = globalThis;
+  pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/build/pdf.worker.mjs';
+
+  var pdfRenderOptions = {
+    cMapUrl: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/cmaps/',
+    cMapPacked: true,
+  }
+  </script>
+  <script>
+    (function() {
+      var loadFlutter = function() {
+        var script = document.createElement('script');
+        script.src = 'flutter_bootstrap.js?v=' + Date.now();
+        script.async = true;
+        document.body.appendChild(script);
+      };
+
+      if (!('serviceWorker' in navigator)) {
+        loadFlutter();
+        return;
+      }
+
+      navigator.serviceWorker.getRegistrations()
+        .then(function(registrations) {
+          return Promise.all(registrations.map(function(registration) {
+            var scriptUrls = [
+              registration.active && registration.active.scriptURL,
+              registration.waiting && registration.waiting.scriptURL,
+              registration.installing && registration.installing.scriptURL
+            ].filter(Boolean).join(' ');
+            if (scriptUrls.indexOf('firebase-messaging-sw.js') >= 0) {
+              return false;
+            }
+            if (scriptUrls.indexOf('flutter_service_worker.js') < 0) {
+              return false;
+            }
+            return registration.unregister();
+          }));
+        })
+        .catch(function() {})
+        .finally(loadFlutter);
+    })();
+  </script>
+</body>
+</html>

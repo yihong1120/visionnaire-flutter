@@ -1,0 +1,131 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+!.env.social.example.json
+
+# Local credential stores
+**/.envrc
+**/.direnv/
+**/.netrc
+**/.aws/
+**/.gcloud/
+
+# Private signing and authentication material
+**/*.pem
+**/*.key
+!**/*.example.key
+**/*.p8
+**/*.p12
+**/*.pfx
+**/*.mobileprovision
+**/*.provisionprofile
+**/id_rsa
+**/id_dsa
+**/id_ecdsa
+**/id_ed25519
+**/*.keystore
+**/*.jks
+**/key.properties
+
+# Backend and OAuth credential exports
+**/service-account*.json
+**/service_account*.json
+**/serviceAccountKey.json
+**/*firebase-adminsdk*.json
+**/client_secret_*.json
+**/credentials.json
+!**/service-account*.example.json
+!**/service_account*.example.json
+!**/serviceAccountKey.example.json
+!**/*firebase-adminsdk*.example.json
+!**/client_secret_*.example.json
+!**/credentials.example.json
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+# Keep shareable tasks, but not machine-specific SDK paths.
+.vscode/settings.json
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Test and deployment artifacts
+/coverage/
+/.firebase/
+.firebaserc
+/web/firebase-messaging-config.generated.js
+
+# Deployment identity belongs to the deployment, not the public source tree.
+/apple-app-site-association
+/assetlinks.json
+
+# Organisation-specific enrollment and deployment material. Keep enrollment
+# codes, registry records, and signing keys out of public source.
+/deployment/private/
+
+# Platform-specific build artifacts
+ios/build/
+ios/.symlinks*
+macos/Flutter/ephemeral/
+macos/Pods/
+android/app/release/
+android/app/profile/
+android/app/debug/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+production_build.sh
+
+# Firebase config (do not commit generated Dart config)
+lib/firebase_options.dart
+lib/firebase_options*.dart
+!lib/firebase_options.example.dart
+
+# Flutter plugin dependency snapshots (sometimes created with suffixes)
+.flutter-plugins-dependencies*
+
+# Native Firebase config files (keep out of VCS)
+android/app/google-services*.json
+ios/Runner/GoogleService-Info*.plist
+macos/Runner/GoogleService-Info*.plist
+!android/app/google-services.example.json
+!ios/Runner/GoogleService-Info.example.plist

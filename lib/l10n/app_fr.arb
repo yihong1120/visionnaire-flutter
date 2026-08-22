@@ -1,0 +1,1772 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Application Visionnaire",
+  "@appTitle": {
+    "description": "Le titre de l'application"
+  },
+
+  "deviceLang": "fr-FR",
+  "@deviceLang": {
+    "description": "Code de la région"
+  },
+
+  "login": "Connexion",
+  "@login": {
+    "description": "Texte du bouton de connexion"
+  },
+  "username": "Nom d'utilisateur",
+  "@username": {
+    "description": "Indice pour le champ nom d'utilisateur"
+  },
+  "password": "Mot de passe",
+  "@password": {
+    "description": "Indice pour le champ mot de passe"
+  },
+  "chatList": "Liste de chats",
+  "@chatList": {
+    "description": "Titre de la page de la liste de chats"
+  },
+  "chatTitleCannotBeEmpty": "Le titre du chat ne peut pas être vide ou contenir uniquement des espaces",
+  "@chatTitleCannotBeEmpty": {
+    "description": "Message d'erreur lorsque le titre du chat est vide ou contient uniquement des espaces"
+  },
+  "cameraList": "Flux de caméras",
+  "@cameraList": {
+    "description": "Titre de la page des flux de caméras"
+  },
+  "detection": "Détection d'objets",
+  "@detection": {
+    "description": "Titre de la page de détection d'objets"
+  },
+  "logout": "Déconnexion",
+  "@logout": {
+    "description": "Texte du bouton de déconnexion"
+  },
+  "changeLanguage": "Changer de langue",
+  "@changeLanguage": {
+    "description": "Texte du bouton pour changer de langue"
+  },
+  "site": "Chantier",
+  "@site": {
+    "description": "Étiquette pour le chantier"
+  },
+  "stream": "Flux",
+  "@stream": {
+    "description": "Étiquette pour le flux"
+  },
+  "detectionTime": "Heure de détection",
+  "@detectionTime": {
+    "description": "Étiquette pour l'heure de détection"
+  },
+  "violationMessage": "Message d'infraction",
+  "@violationMessage": {
+    "description": "Étiquette pour le message d'infraction"
+  },
+  "loadingImageError": "Impossible de charger l'image",
+  "@loadingImageError": {
+    "description": "Message d'erreur lors de l'échec du chargement de l'image"
+  },
+  "violationRecordQuery": "Requête de registre d'infraction",
+  "@violationRecordQuery": {
+    "description": "Titre de la page de requête de registre d'infraction"
+  },
+  "keyword": "Mot-clé (stream_name ou message)",
+  "@keyword": {
+    "description": "Indice pour le champ de saisie du mot-clé"
+  },
+  "startTime": "Heure de début",
+  "@startTime": {
+    "description": "Étiquette pour l'heure de début"
+  },
+  "endTime": "Heure de fin",
+  "@endTime": {
+    "description": "Étiquette pour l'heure de fin"
+  },
+  "query": "Rechercher",
+  "@query": {
+    "description": "Texte du bouton de recherche"
+  },
+  "noRecords": "Aucun enregistrement disponible",
+  "@noRecords": {
+    "description": "Texte affiché lorsqu'aucun enregistrement n'est disponible"
+  },
+  "streamingWebSettings": "Surveillance en direct",
+  "@streamingWebSettings": {
+    "description": "Titre de la page de surveillance en direct"
+  },
+  "streamingWebUrl": "Streaming Web URL (avec http:// ou https://)",
+  "@streamingWebUrl": {
+    "description": "Indice pour la saisie de l'URL Streaming Web"
+  },
+  "save": "Enregistrer",
+  "@save": {
+    "description": "Texte du bouton d'enregistrement"
+  },
+  "goToLabels": "Aller aux sites",
+  "@goToLabels": {
+    "description": "Texte du bouton pour accéder aux sites de surveillance en direct"
+  },
+  "currentUrl": "URL actuelle",
+  "@currentUrl": {
+    "description": "Étiquette pour l'URL actuelle"
+  },
+  "labelList": "Sites",
+  "@labelList": {
+    "description": "Titre de la page des sites de surveillance en direct"
+  },
+  "label": "Étiquette",
+  "@label": {
+    "description": "Nom d'une étiquette"
+  },
+  "noImage": "Aucune image de caméra disponible",
+  "@noImage": {
+    "description": "Texte affiché lorsqu'aucune image de caméra n'est disponible"
+  },
+  "warnings": "Avertissements",
+  "@warnings": {
+    "description": "Étiquette pour la section des avertissements"
+  },
+  "lastUpdated": "Dernière mise à jour",
+  "@lastUpdated": {
+    "description": "Étiquette pour l'heure de la dernière mise à jour"
+  },
+  "noWarnings": "Aucun avertissement",
+  "@noWarnings": {
+    "description": "Texte affiché lorsqu'il n'y a aucun avertissement"
+  },
+  "detectionResult": "Résultat de détection",
+  "@detectionResult": {
+    "description": "Étiquette pour la section des résultats de détection"
+  },
+  "chooseModel": "Choisir un modèle",
+  "@chooseModel": {
+    "description": "Étiquette pour la sélection d'un modèle"
+  },
+  "noImageSelected": "Aucune image sélectionnée",
+  "@noImageSelected": {
+    "description": "Texte affiché lorsqu'aucune image n'est sélectionnée"
+  },
+  "noDetectionResult": "Aucun résultat de détection",
+  "@noDetectionResult": {
+    "description": "Texte affiché lorsqu'il n'y a aucun résultat de détection"
+  },
+  "takePhoto": "Prendre une photo",
+  "@takePhoto": {
+    "description": "Texte du bouton pour prendre une photo"
+  },
+  "photoLibrary": "Bibliothèque de photos",
+  "@photoLibrary": {
+    "description": "Texte du bouton pour accéder à la bibliothèque de photos"
+  },
+  "startDetection": "Lancer la détection",
+  "@startDetection": {
+    "description": "Texte du bouton pour démarrer la détection"
+  },
+  "cannotOpenCamera": "Impossible d'ouvrir la caméra",
+  "@cannotOpenCamera": {
+    "description": "Message d'erreur lorsqu'on ne peut pas ouvrir la caméra"
+  },
+  "cannotOpenGallery": "Impossible d'ouvrir la galerie",
+  "@cannotOpenGallery": {
+    "description": "Message d'erreur lorsqu'on ne peut pas ouvrir la galerie"
+  },
+  "getImageSizeFailed": "Échec de récupération de la taille de l'image",
+  "@getImageSizeFailed": {
+    "description": "Message d'erreur lors de l'échec de récupération de la taille de l'image"
+  },
+  "notLoggedIn": "Non connecté (jeton de service de détection invalide)",
+  "@notLoggedIn": {
+    "description": "Message d'erreur lorsqu'on n'est pas connecté ou que le jeton est invalide"
+  },
+  "tokenRefreshFailed": "Échec du rafraîchissement du jeton",
+  "@tokenRefreshFailed": {
+    "description": "Message d'erreur lors de l'échec du rafraîchissement du jeton"
+  },
+  "chatLoadFailed": "Échec du chargement de la conversation",
+  "@chatLoadFailed": {
+    "description": "Message d'erreur lorsque le chargement de la conversation échoue"
+  },
+  "chatRoom": "Salle de discussion",
+  "@chatRoom": {
+    "description": "Titre de la page de la salle de discussion"
+  },
+  "inputMessage": "Entrez un message...",
+  "@inputMessage": {
+    "description": "Texte indicatif pour le champ de saisie de message"
+  },
+  "newChatRoom": "Nouvelle Salle de Discussion",
+  "@newChatRoom": {
+    "description": "Titre pour la boîte de dialogue de nouvelle salle de discussion"
+  },
+  "enterChatRoomTitle": "Entrez le titre de la salle",
+  "@enterChatRoomTitle": {
+    "description": "Indice pour la saisie du titre de la salle de discussion"
+  },
+  "create": "Créer",
+  "@create": {
+    "description": "Texte du bouton de création"
+  },
+  "createFailed": "Échec de la création",
+  "@createFailed": {
+    "description": "Message d'erreur lors de l'échec de la création de la salle de discussion"
+  },
+  "confirmDeleteChatRoom": "Êtes-vous sûr de vouloir supprimer cette salle de discussion ?",
+  "@confirmDeleteChatRoom": {
+    "description": "Message de confirmation pour la suppression de la salle de discussion"
+  },
+  "cancel": "Annuler",
+  "@cancel": {
+    "description": "Texte du bouton d'annulation dans la boîte de dialogue"
+  },
+  "delete": "Supprimer",
+  "@delete": {
+    "description": "Texte du bouton de suppression dans la boîte de dialogue"
+  },
+  "deleteFailed": "Échec de la suppression",
+  "@deleteFailed": {
+    "description": "Message d'erreur lors de l'échec de la suppression de la salle de discussion"
+  },
+  "selectSite": "Sélectionnez le chantier",
+  "@selectSite": {
+    "description": "Indice pour le menu déroulant de sélection de chantier"
+  },
+  "notSelected": "Non sélectionné",
+  "@notSelected": {
+    "description": "Texte affiché lorsqu'aucun élément n'est sélectionné"
+  },
+  "errorPrefix": "Erreur : ",
+  "@errorPrefix": {
+    "description": "Préfixe pour les messages d'erreur"
+  },
+  "sitePrefix": "Chantier : ",
+  "@sitePrefix": {
+    "description": "Préfixe pour le nom du chantier"
+  },
+  "streamPrefix": "Flux : ",
+  "@streamPrefix": {
+    "description": "Préfixe pour le nom du flux"
+  },
+  "detectionTimePrefix": "Heure de détection : ",
+  "@detectionTimePrefix": {
+    "description": "Préfixe pour l'heure de détection"
+  },
+  "urlUpdated": "URL de Streaming Web mis à jour :",
+  "@urlUpdated": {
+    "description": "Message affiché lorsque l'URL de Streaming Web a été mise à jour"
+  },
+  "streamingWebIndexTitle": "Sites",
+  "@streamingWebIndexTitle": {
+    "description": "Titre pour la page des sites de surveillance en direct"
+  },
+  "unknownError": "Erreur inconnue",
+  "@unknownError": {
+    "description": "Message d'erreur par défaut lorsque l'information sur l'erreur est indisponible"
+  },
+  "noLabels": "Aucune étiquette disponible",
+  "@noLabels": {
+    "description": "Texte affiché lorsqu'il n'y a aucune donnée d'étiquette"
+  },
+  "chatMessageCannotBeEmpty": "Le message de la salle de discussion ne peut pas être vide",
+  "@chatMessageCannotBeEmpty": {
+    "description": "Message d'erreur lorsque le message de la salle de discussion est vide"
+  },
+
+  "editQuestionHint": "Veuillez saisir une nouvelle question",
+  "@editQuestionHint": {
+    "description": "Indice pour la saisie d'une nouvelle question"
+  },
+
+  "confirm": "Confirmer",
+  "@confirm": {
+    "description": "Texte du bouton de confirmation dans la boîte de dialogue"
+  },
+
+  "editQuestion": "Modifier la question",
+  "@editQuestion": {
+    "description": "Texte du bouton pour modifier la question"
+  },
+
+  "regenerateAnswer": "Régénérer la réponse",
+  "@regenerateAnswer": {
+    "description": "Texte du bouton pour régénérer la réponse"
+  },
+
+  "removeQuestionChain": "Supprimer la question (et les dialogues suivants)",
+  "@removeQuestionChain": {
+    "description": "Texte du bouton pour supprimer la question (et les dialogues suivants)"
+  },
+
+  "failedToLoadHistory": "Échec du chargement de l'historique",
+  "@failedToLoadHistory": {
+    "description": "Message d'erreur lorsque le chargement de l'historique échoue"
+  },
+
+  "failedToLoadHistoryAfterRefresh": "Échec du chargement de l'historique après rafraîchissement",
+  "@failedToLoadHistoryAfterRefresh": {
+    "description": "Message d'erreur lorsque le chargement de l'historique échoue après rafraîchissement"
+  },
+
+  "failedToAskAfterRefresh": "Échec de la demande après rafraîchissement",
+  "@failedToAskAfterRefresh": {
+    "description": "Message d'erreur lorsque la demande échoue après rafraîchissement"
+  },
+
+  "editFailed": "Échec de la modification",
+  "@editFailed": {
+    "description": "Message d'erreur lorsque la modification échoue"
+  },
+
+  "editFailedAfterRefresh": "Échec de la modification après rafraîchissement",
+  "@editFailedAfterRefresh": {
+    "description": "Message d'erreur lorsque la modification échoue après rafraîchissement"
+  },
+
+  "regenerateFailed": "Échec de la régénération",
+  "@regenerateFailed": {
+    "description": "Message d'erreur lorsque la régénération échoue"
+  },
+
+  "regenerateFailedAfterRefresh": "Échec de la régénération après rafraîchissement",
+  "@regenerateFailedAfterRefresh": {
+    "description": "Message d'erreur lorsque la régénération échoue après rafraîchissement"
+  },
+
+  "removeFailed": "Échec de la suppression",
+  "@removeFailed": {
+    "description": "Message d'erreur lorsque la suppression échoue"
+  },
+
+  "removeFailedAfterRefresh": "Échec de la suppression après rafraîchissement",
+  "@removeFailedAfterRefresh": {
+    "description": "Message d'erreur lorsque la suppression échoue après rafraîchissement"
+  },
+
+  "sendMessage": "Envoyer le message",
+  "@sendMessage": {
+    "description": "Infobulle et texte du bouton pour envoyer un message de discussion"
+  },
+  "addImages": "Ajouter des images",
+  "@addImages": {
+    "description": "Infobulle pour ajouter des images à un message de discussion"
+  },
+  "addFiles": "Ajouter des fichiers",
+  "@addFiles": {
+    "description": "Infobulle pour ajouter des fichiers à un message de discussion"
+  },
+  "attachmentCount": "{count} pièces jointes",
+  "@attachmentCount": {
+    "description": "Libellé indiquant le nombre de pièces jointes en attente dans la saisie du chat",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "cancelGeneration": "Annuler la génération",
+  "@cancelGeneration": {
+    "description": "Infobulle pour annuler la génération de réponse en cours"
+  },
+  "createChatRoom": "Créer une salle de discussion",
+  "@createChatRoom": {
+    "description": "Infobulle pour créer une salle de discussion depuis la zone de saisie"
+  },
+  "attachmentUploadFailed": "Échec du téléversement de la pièce jointe : {error}",
+  "@attachmentUploadFailed": {
+    "description": "Message d'erreur lorsqu'un téléversement de pièce jointe échoue",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "attachmentDeleteFailed": "Échec de la suppression de la pièce jointe : {error}",
+  "@attachmentDeleteFailed": {
+    "description": "Message d'erreur lorsque la suppression d'une pièce jointe échoue",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "selectLabel": "Sélectionner une étiquette",
+  "@selectLabel": {
+    "description": "Texte affiché lorsqu'aucune étiquette n'est sélectionnée dans le panneau de streaming"
+  },
+  "showDetectionResults": "Afficher les résultats de détection",
+  "@showDetectionResults": {
+    "description": "Libellé pour activer ou désactiver la superposition de détection d'objets"
+  },
+
+  "hardhat": "Casque de sécurité",
+  "@hardhat": {
+    "description": "Étiquette pour le casque de sécurité"
+  },
+
+  "vest": "Gilet",
+  "@vest": {
+    "description": "Étiquette pour le gilet"
+  },
+
+  "machinery": "Machinerie",
+  "@machinery": {
+    "description": "Étiquette pour la machinerie"
+  },
+
+  "vehicle": "Véhicule",
+  "@vehicle": {
+    "description": "Étiquette pour le véhicule"
+  },
+
+  "no_hardhat": "Pas de casque",
+  "@no_hardhat": {
+    "description": "Étiquette pour pas de casque"
+  },
+
+  "no_vest": "Pas de gilet",
+  "@no_vest": {
+    "description": "Étiquette pour pas de gilet"
+  },
+
+  "person": "Personne",
+  "@person": {
+    "description": "Étiquette pour personne"
+  },
+
+  "cone": "Cône de sécurité",
+  "@cone": {
+    "description": "Étiquette pour le cône de sécurité"
+  },
+
+  "mask": "Masque",
+  "@mask": {
+    "description": "Étiquette pour le masque"
+  },
+
+  "no_mask": "Pas de masque",
+  "@no_mask": {
+    "description": "Étiquette pour pas de masque"
+  },
+
+  "utility_pole": "Poteau utilitaire",
+  "@utility_pole": {
+    "description": "Étiquette pour le poteau utilitaire"
+  },
+
+  "warning_people_in_controlled_area": "Attention: {count} personnes sont entrées dans la zone contrôlée!",
+  "@warning_people_in_controlled_area": {
+    "description": "Message d'avertissement pour les personnes entrées dans la zone contrôlée",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+
+  "warning_people_in_utility_pole_controlled_area": "Attention: {count} personnes sont entrées dans la zone contrôlée du poteau utilitaire!",
+  "@warning_people_in_utility_pole_controlled_area": {
+    "description": "Warning message for people entering the utility pole controlled area",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+
+  "warning_no_hardhat": "Avertissement: {count} personnes ne portent pas de casque!",
+  "@warning_no_hardhat": {
+    "description": "Message d'avertissement pour l'absence de casque",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "4"
+      }
+    }
+  },
+
+  "warning_no_safety_vest": "Avertissement: {count} personnes ne portent pas de gilet de sécurité!",
+  "@warning_no_safety_vest": {
+    "description": "Message d'avertissement pour l'absence de gilet de sécurité",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+
+  "warning_close_to_machinery": "Attention: {count} personnes sont trop proches de la machinerie!",
+  "@warning_close_to_machinery": {
+    "description": "Message d'avertissement pour les personnes trop proches de la machinerie",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+
+  "warning_close_to_vehicle": "Attention: {count} personnes sont trop proches des véhicules!",
+  "@warning_close_to_vehicle": {
+    "description": "Message d'avertissement pour les personnes trop proches des véhicules",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+
+  "detect_machinery_close_to_pole": "Avertissement: {count} machines sont trop proches du poteau!",
+  "@detect_machinery_close_to_pole": {
+    "description": "Message d'avertissement pour les machines trop proches du poteau",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+
+  "showOverlay": "Afficher l'overlay",
+  "@showOverlay": {
+    "description": "Texte du bouton pour afficher l'overlay"
+  },
+
+  "add": "Ajouter",
+  "@add": {
+    "description": "Texte du bouton ajouter"
+  },
+  "edit": "Modifier",
+  "@edit": {
+    "description": "Texte du bouton modifier"
+  },
+  "submit": "Soumettre",
+  "@submit": {
+    "description": "Texte du bouton soumettre"
+  },
+  "build": "Créer",
+  "@build": {
+    "description": "Texte du bouton créer"
+  },
+  "saving": "Enregistrement...",
+  "@saving": {
+    "description": "Texte affiché pendant l'enregistrement"
+  },
+  "saveConfig": "Enregistrer la configuration",
+  "@saveConfig": {
+    "description": "Texte du bouton enregistrer la configuration"
+  },
+  "configSavedSuccessfully": "Configuration enregistrée avec succès",
+  "@configSavedSuccessfully": {
+    "description": "Message affiché quand la configuration est enregistrée avec succès"
+  },
+  "saveConfigFailed": "Échec de l'enregistrement de la configuration",
+  "@saveConfigFailed": {
+    "description": "Message affiché quand l'enregistrement de la configuration échoue"
+  },
+  "confirmResetAllConfigs": "Êtes-vous sûr de vouloir réinitialiser toutes les configurations API aux valeurs par défaut ? Cette action ne peut pas être annulée.",
+  "@confirmResetAllConfigs": {
+    "description": "Message de confirmation pour réinitialiser toutes les configurations"
+  },
+  "confirmResetConfig": "Êtes-vous sûr de vouloir réinitialiser {name} aux valeurs par défaut ?",
+  "@confirmResetConfig": {
+    "description": "Message de confirmation pour réinitialiser une configuration",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Point de terminaison API"
+      }
+    }
+  },
+  "confirmDelete": "Confirmer la suppression ?",
+  "@confirmDelete": {
+    "description": "Titre de la boîte de dialogue de confirmation de suppression"
+  },
+  "permanentDeleteWarning": "Supprimera définitivement \"{name}\". Cette action ne peut pas être annulée !",
+  "@permanentDeleteWarning": {
+    "description": "Message d'avertissement pour la suppression définitive",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Nom du site"
+      }
+    }
+  },
+  "deleteWarning": "Supprimera \"{name}\". Cette action ne peut pas être annulée.",
+  "@deleteWarning": {
+    "description": "Message d'avertissement pour la suppression",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Nom de l'élément"
+      }
+    }
+  },
+  "siteCreated": "✅ Site créé",
+  "@siteCreated": {
+    "description": "Message affiché quand le site est créé avec succès"
+  },
+  "deleted": "✅ Supprimé",
+  "@deleted": {
+    "description": "Message affiché quand l'élément est supprimé avec succès"
+  },
+  "added": "✅ Ajouté",
+  "@added": {
+    "description": "Message affiché quand l'élément est ajouté avec succès"
+  },
+  "featureAdded": "✅ Fonctionnalité ajoutée",
+  "@featureAdded": {
+    "description": "Message affiché quand la fonctionnalité est ajoutée avec succès"
+  },
+  "editFeature": "Modifier \"{name}\"",
+  "@editFeature": {
+    "description": "Titre de la boîte de dialogue de modification de fonctionnalité",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Nom de la fonctionnalité"
+      }
+    }
+  },
+  "editUser": "Modifier \"{username}\"",
+  "@editUser": {
+    "description": "Titre de la boîte de dialogue de modification d'utilisateur",
+    "placeholders": {
+      "username": {
+        "type": "String",
+        "example": "Nom d'utilisateur"
+      }
+    }
+  },
+  "addUser": "Ajouter un utilisateur",
+  "@addUser": {
+    "description": "Titre du formulaire d'ajout d'utilisateur"
+  },
+  "addFeature": "Ajouter une fonctionnalité",
+  "@addFeature": {
+    "description": "Texte du bouton ajouter une fonctionnalité"
+  },
+  "addGroup": "Ajouter un groupe",
+  "@addGroup": {
+    "description": "Titre du formulaire d'ajout de groupe"
+  },
+  "editGroup": "Modifier le groupe",
+  "@editGroup": {
+    "description": "Titre de la boîte de dialogue de modification de groupe"
+  },
+  "confirmDeleteFile": "Confirmer la suppression",
+  "@confirmDeleteFile": {
+    "description": "Titre de la boîte de dialogue de confirmation de suppression de fichier"
+  },
+  "confirmDeleteFileMessage": "Êtes-vous sûr de vouloir supprimer ce fichier ?",
+  "@confirmDeleteFileMessage": {
+    "description": "Message de confirmation de suppression de fichier"
+  },
+  "fileDeleted": "Fichier supprimé",
+  "@fileDeleted": {
+    "description": "Message affiché quand le fichier est supprimé avec succès"
+  },
+  "deleteFileFailed": "Échec de la suppression",
+  "@deleteFileFailed": {
+    "description": "Message affiché quand la suppression du fichier échoue"
+  },
+  "createAuditDoc": "Créer un document d'amélioration d'audit",
+  "@createAuditDoc": {
+    "description": "Titre de la page de création de document d'audit"
+  },
+  "createDocx": "Créer DOCX",
+  "@createDocx": {
+    "description": "Texte du bouton créer DOCX"
+  },
+  "addPhotoPrompt": "Veuillez ajouter des photos en prenant des photos ou depuis l'album",
+  "@addPhotoPrompt": {
+    "description": "Texte d'invite pour ajouter des photos"
+  },
+  "createFailedWith": "Échec de la création : {error}",
+  "@createFailedWith": {
+    "description": "Message affiché quand la création échoue",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Message d'erreur"
+      }
+    }
+  },
+  "addFile": "Ajouter un fichier",
+  "@addFile": {
+    "description": "Texte de l'infobulle ajouter un fichier"
+  },
+
+  "noConfigChangesDetected": "Aucun changement de configuration détecté",
+  "@noConfigChangesDetected": {
+    "description": "Message quand aucun changement de configuration n'est détecté"
+  },
+  "resetToDefaults": "Réinitialiser aux valeurs par défaut",
+  "@resetToDefaults": {
+    "description": "Texte du bouton réinitialiser aux valeurs par défaut"
+  },
+  "resetSuccess": "Réinitialisé à la configuration par défaut",
+  "@resetSuccess": {
+    "description": "Message affiché quand la réinitialisation réussit"
+  },
+  "resetFailed": "Réinitialisation échouée",
+  "@resetFailed": {
+    "description": "Message affiché quand la réinitialisation échoue"
+  },
+  "resetEndpointSuccess": "{name} a été réinitialisé à la valeur par défaut",
+  "@resetEndpointSuccess": {
+    "description": "Message affiché quand un seul point de terminaison est réinitialisé avec succès",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Point de terminaison API"
+      }
+    }
+  },
+  "resetEndpoint": "Réinitialiser {name}",
+  "@resetEndpoint": {
+    "description": "Titre de la boîte de dialogue de réinitialisation du point de terminaison",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Point de terminaison API"
+      }
+    }
+  },
+
+  "notLoggedInOrInvalidToken": "Non connecté ou jeton invalide",
+  "@notLoggedInOrInvalidToken": {
+    "description": "Message d'erreur pour non connecté ou jeton invalide"
+  },
+  "uploadFailed": "Échec du téléchargement : {error}",
+  "@uploadFailed": {
+    "description": "Message d'erreur pour l'échec du téléchargement",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Erreur réseau"
+      }
+    }
+  },
+  "pleaseWaitForSiteList": "Liste des sites pas encore chargée, veuillez patienter",
+  "@pleaseWaitForSiteList": {
+    "description": "Message pour attendre le chargement de la liste des sites"
+  },
+  "selectConstructionSite": "Sélectionner le site de construction",
+  "@selectConstructionSite": {
+    "description": "Titre de la boîte de dialogue de sélection du site de construction"
+  },
+  "allSites": "Tous les sites",
+  "@allSites": {
+    "description": "Option tous les sites"
+  },
+  "startDate": "Date de début",
+  "@startDate": {
+    "description": "Libellé de la date de début"
+  },
+  "endDate": "Date de fin",
+  "@endDate": {
+    "description": "Libellé de la date de fin"
+  },
+  "versions": "Versions",
+  "@versions": {
+    "description": "Option versions"
+  },
+  "fileTypeNotConfigured": "Ce type de fichier n'a pas de file_prefix configuré, impossible d'utiliser le modèle",
+  "@fileTypeNotConfigured": {
+    "description": "Message d'erreur pour un type de fichier non configuré"
+  },
+  "errorPrefix": "Erreur : {error}",
+  "@errorPrefix": {
+    "description": "Préfixe du message d'erreur",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Détails de l'erreur"
+      }
+    }
+  },
+
+  "noUsers": "Aucun utilisateur pour le moment",
+  "@noUsers": {
+    "description": "Message affiché quand il n'y a pas d'utilisateurs"
+  },
+  "nameDisplay": "Nom: {name} | Courriel: {email} | Rôle: {role} | Groupe: {group}",
+  "@nameDisplay": {
+    "description": "Format d'affichage des informations utilisateur",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Nom d'utilisateur"
+      },
+      "email": {
+        "type": "String",
+        "example": "email@example.com"
+      },
+      "role": {
+        "type": "String",
+        "example": "admin"
+      },
+      "group": {
+        "type": "String",
+        "example": "Groupe admin"
+      }
+    }
+  },
+  "deactivate": "Désactiver",
+  "@deactivate": {
+    "description": "Texte du bouton désactiver"
+  },
+  "activate": "Activer",
+  "@activate": {
+    "description": "Texte du bouton activer"
+  },
+  "permissionDenied": "Permission refusée",
+  "@permissionDenied": {
+    "description": "Message pour permission refusée"
+  },
+  "userManagement": "Gestion des utilisateurs",
+  "@userManagement": {
+    "description": "Titre de la page de gestion des utilisateurs"
+  },
+
+  "account": "Compte (nom d'utilisateur)",
+  "@account": {
+    "description": "Libellé du champ compte"
+  },
+  "familyName": "Nom de famille",
+  "@familyName": {
+    "description": "Libellé du champ nom de famille"
+  },
+  "middleName": "Deuxième prénom",
+  "@middleName": {
+    "description": "Libellé du champ deuxième prénom"
+  },
+  "givenName": "Prénom",
+  "@givenName": {
+    "description": "Libellé du champ prénom"
+  },
+  "email": "Courriel",
+  "@email": {
+    "description": "Libellé du champ courriel"
+  },
+  "mobile": "Mobile",
+  "@mobile": {
+    "description": "Libellé du champ mobile"
+  },
+  "resetPassword": "Réinitialiser le mot de passe (laisser vide pour ignorer)",
+  "@resetPassword": {
+    "description": "Libellé du champ réinitialisation du mot de passe"
+  },
+  "role": "Rôle",
+  "@role": {
+    "description": "Libellé du champ rôle"
+  },
+  "group": "Groupe",
+  "@group": {
+    "description": "Libellé du champ groupe"
+  },
+  "required": "Obligatoire",
+  "@required": {
+    "description": "Message de validation pour champ obligatoire"
+  },
+  "emailFormatError": "Erreur de format de courriel",
+  "@emailFormatError": {
+    "description": "Message d'erreur de format de courriel"
+  },
+  "selectGroup": "Doit sélectionner un groupe",
+  "@selectGroup": {
+    "description": "Message de validation pour sélection obligatoire de groupe"
+  },
+  "mobileOptional": "Mobile (optionnel)",
+  "@mobileOptional": {
+    "description": "Libellé du champ mobile optionnel"
+  },
+  "middleNameOptional": "Deuxième prénom (optionnel)",
+  "@middleNameOptional": {
+    "description": "Libellé du champ deuxième prénom optionnel"
+  },
+    "updated": "✅ Mis à jour",
+    "@updated": {
+      "description": "Message de succès de mise à jour"
+    },
+    "apiConfig": "Configuration API",
+    "@apiConfig": {
+      "description": "Titre de configuration API"
+    },
+      "custom": "Personnalisé",
+
+  "deleteFeatureConfirmation": "Supprimera la fonctionnalité \\\"{name}\\\". Cette action ne peut pas être annulée.",
+  "@deleteFeatureConfirmation": {
+  },
+  "assignGroups": "Assigner des groupes - {name}",
+  "@assignGroups": {
+  },
+  "setGroups": "Définir les groupes",
+  "@setGroups": {
+    "description": "Texte d'info-bulle pour définir les groupes"
+  },
+  "reload": "Recharger",
+    "@reload": {
+      "description": "Texte du bouton recharger"
+    },
+    "copy": "Copier",
+    "@copy": {
+      "description": "Texte du bouton copier"
+    },
+    "passwordChanged": "✅ Mot de passe changé, veuillez vous reconnecter avec le nouveau mot de passe",
+    "@passwordChanged": {
+      "description": "Message de succès de changement de mot de passe"
+    },
+    "oldPassword": "Ancien Mot de Passe",
+    "@oldPassword": {
+      "description": "Étiquette du champ ancien mot de passe"
+    },
+    "newPassword": "Nouveau Mot de Passe",
+    "@newPassword": {
+      "description": "Étiquette du champ nouveau mot de passe"
+    },
+    "pleaseLoginFirst": "Veuillez vous connecter d'abord",
+    "@pleaseLoginFirst": {
+      "description": "Invite de connexion"
+    },
+    "changePassword": "Changer le Mot de Passe",
+    "@changePassword": {
+      "description": "Titre de changement de mot de passe"
+    },
+    "minimumPasswordLength": "Au moins 8 caractères",
+    "@minimumPasswordLength": {
+      "description": "Message de validation longueur minimale mot de passe"
+    },
+    "featureManagement": "Gestion des Fonctionnalités",
+    "@featureManagement": {
+      "description": "Titre de la page de gestion des fonctionnalités"
+    },
+    "featureName": "Nom de Fonctionnalité",
+    "@featureName": {
+      "description": "Étiquette du champ nom de fonctionnalité"
+    },
+    "descriptionOptional": "Description (facultative)",
+    "@descriptionOptional": {
+      "description": "Étiquette du champ description facultative"
+    },
+    "assignGroup": "Assigner Groupe - {name}",
+    "@assignGroup": {
+      "description": "Titre d'assignation de groupe",
+      "placeholders": {
+        "name": {
+          "type": "String",
+          "example": "Nom de la fonctionnalité"
+        }
+      }
+    },
+    "noFeatures": "Aucune fonctionnalité",
+    "@noFeatures": {
+      "description": "Message aucune fonctionnalité"
+    },
+    "groupPermissionsUpdated": "✅ Permissions du groupe mises à jour",
+    "@groupPermissionsUpdated": {
+      "description": "Message de succès de mise à jour des permissions de groupe"
+    },
+    "setGroup": "Définir Groupe",
+    "@setGroup": {
+      "description": "Texte du bouton définir groupe"
+    },
+    "groupManagement": "Gestion des Groupes",
+    "@groupManagement": {
+      "description": "Titre de la page de gestion des groupes"
+    },
+    "groupName": "Nom de Groupe",
+    "@groupName": {
+      "description": "Étiquette du champ nom de groupe"
+    },
+    "uniformNumber": "Numéro Uniforme (8 chiffres)",
+    "@uniformNumber": {
+      "description": "Étiquette du champ numéro uniforme"
+    },
+    "uniformNumberError": "Le numéro uniforme nécessite 8 chiffres",
+    "@uniformNumberError": {
+      "description": "Message d'erreur de format du numéro uniforme"
+    },
+    "noGroups": "Aucun groupe",
+    "@noGroups": {
+      "description": "Message aucun groupe"
+    },
+    "uniformLabel": "Uniforme: {uniformNumber}",
+    "@uniformLabel": {
+      "description": "Étiquette d'affichage du numéro uniforme",
+      "placeholders": {
+        "uniformNumber": {
+          "type": "String",
+          "description": "Le numéro uniforme ou tiret si vide"
+        }
+      }
+    },
+    "uniformNumberValidation": "Doit être 8 chiffres",
+    "@uniformNumberValidation": {
+      "description": "Message d'erreur de validation du numéro uniforme"
+    },
+    "name": "Nom",
+    "@name": {
+      "description": "Étiquette du champ nom"
+    },
+    "siteManagement": "Gestion des Sites",
+    "@siteManagement": {
+      "description": "Titre de la page de gestion des sites"
+    },
+    "siteName": "Nom de Site",
+    "@siteName": {
+      "description": "Étiquette du champ nom de site"
+    },
+    "noSites": "Aucun site",
+    "@noSites": {
+      "description": "Message aucun site"
+    },
+    "userUpdated": "✅ Utilisateur mis à jour",
+    "@userUpdated": {
+      "description": "Message de succès de mise à jour utilisateur"
+    },
+    "deleteSite": "Supprimer Site",
+    "@deleteSite": {
+      "description": "Invite de suppression de site"
+    },
+    "configureUsers": "Configurer Utilisateurs",
+    "@configureUsers": {
+      "description": "Info-bulle configurer utilisateurs"
+    },
+    "configureStream": "Configurer Flux",
+    "@configureStream": {
+      "description": "Info-bulle configurer flux"
+    },
+    "managementTitle": "Gestion de Site - {siteName}",
+    "@managementTitle": {
+      "description": "Titre de dialogue gestion de site",
+      "placeholders": {
+        "siteName": {
+          "type": "String",
+          "description": "Le nom du site géré"
+        }
+      }
+    },
+    "groupLabel": "groupe: {groupName}",
+    "@groupLabel": {
+      "description": "Étiquette de groupe pour affichage de site",
+      "placeholders": {
+        "groupName": {
+          "type": "String",
+          "description": "Le nom du groupe"
+        }
+      }
+    },
+    "username": "Nom d'utilisateur",
+    "@username": {
+      "description": "Étiquette du champ nom d'utilisateur"
+    },
+    "password": "Mot de passe",
+    "@password": {
+      "description": "Étiquette du champ mot de passe"
+    },
+    "login": "Se connecter",
+    "@login": {
+      "description": "Texte du bouton de connexion"
+    },
+    "loginTitle": "Visionnaire App",
+    "@loginTitle": {
+      "description": "Titre de la page de connexion"
+    },
+    "loginFailed": "❌ Échec de la connexion",
+    "@loginFailed": {
+      "description": "Message d'échec de connexion"
+    },
+    "loginRequired": "Veuillez saisir le nom d'utilisateur ou le courriel et le mot de passe",
+    "@loginRequired": {
+      "description": "Invite des champs de connexion requis"
+    },
+    "role": "Rôle",
+    "@role": {
+      "description": "Étiquette du champ rôle"
+    },
+    "admin": "Administrateur",
+    "@admin": {
+      "description": "Rôle administrateur"
+    },
+    "user": "Utilisateur",
+    "@user": {
+      "description": "Rôle utilisateur régulier"
+    },
+    "group": "Groupe",
+    "@group": {
+      "description": "Étiquette groupe"
+    },
+    "error": "Erreur",
+    "@error": {
+      "description": "Titre d'erreur"
+    },
+    "success": "Succès",
+    "@success": {
+      "description": "Titre de succès"
+    },
+    "warning": "Avertissement",
+    "@warning": {
+      "description": "Titre d'avertissement"
+    },
+    "info": "Information",
+    "@info": {
+      "description": "Titre d'information"
+    },
+    "loading": "Chargement...",
+    "@loading": {
+      "description": "Message de chargement"
+    },
+    "noData": "Aucune donnée",
+    "@noData": {
+      "description": "Message aucune donnée"
+    },
+    "refreshData": "Actualiser les données",
+    "@refreshData": {
+      "description": "Bouton actualiser les données"
+    },
+    "search": "Rechercher",
+    "@search": {
+      "description": "Texte du bouton rechercher"
+    },
+    "filter": "Filtrer",
+    "@filter": {
+      "description": "Texte du bouton filtrer"
+    },
+    "selectAll": "Tout sélectionner",
+    "@selectAll": {
+      "description": "Option tout sélectionner"
+    },
+    "clearSelection": "Effacer la sélection",
+    "@clearSelection": {
+      "description": "Bouton effacer la sélection"
+    },
+    "back": "Retour",
+    "@back": {
+      "description": "Texte du bouton retour"
+    },
+    "next": "Suivant",
+    "@next": {
+      "description": "Texte du bouton suivant"
+    },
+    "previous": "Précédent",
+    "@previous": {
+      "description": "Texte du bouton précédent"
+    },
+    "finish": "Terminer",
+    "@finish": {
+      "description": "Texte du bouton terminer"
+    },
+    "close": "Fermer",
+    "@close": {
+      "description": "Texte du bouton fermer"
+    },
+
+    "apiConfigTitle": "Configuration API",
+    "@apiConfigTitle": {
+      "description": "Titre de la page de configuration API"
+    },
+
+    "loadConfigFailed": "Échec du chargement de la configuration",
+    "@loadConfigFailed": {
+      "description": "Message d'erreur lorsque le chargement de la configuration échoue"
+    },
+
+    "noConfigChangesDetected": "Aucun changement de configuration détecté",
+    "@noConfigChangesDetected": {
+      "description": "Message lorsqu'aucun changement n'est détecté dans la configuration"
+    },
+
+    "resetToDefaults": "Réinitialiser aux valeurs par défaut",
+    "@resetToDefaults": {
+      "description": "Texte du bouton pour réinitialiser toutes les configurations aux valeurs par défaut"
+    },
+
+    "resetSuccess": "Réinitialisation à la configuration par défaut",
+    "@resetSuccess": {
+      "description": "Message de succès après réinitialisation de la configuration"
+    },
+
+    "resetFailed": "Échec de la réinitialisation",
+    "@resetFailed": {
+      "description": "Message d'erreur lorsque l'opération de réinitialisation échoue"
+    },
+
+    "resetEndpoint": "Réinitialiser {name}",
+    "@resetEndpoint": {
+      "description": "Titre de la boîte de dialogue pour réinitialiser un point de terminaison spécifique",
+      "placeholders": {
+        "name": {
+          "type": "String"
+        }
+      }
+    },
+
+    "resetEndpointSuccess": "Réinitialisation de {name} réussie",
+    "@resetEndpointSuccess": {
+      "description": "Message de succès après réinitialisation d'un point de terminaison spécifique",
+      "placeholders": {
+        "name": {
+          "type": "String"
+        }
+      }
+    },
+
+    "customConfig": "Personnalisé",
+    "@customConfig": {
+      "description": "Étiquette pour configuration personnalisée"
+    },
+
+    "copyToClipboard": "Copier dans le presse-papiers",
+    "@copyToClipboard": {
+      "description": "Info-bulle pour le bouton copier"
+    },
+
+    "copiedToClipboard": "Copié dans le presse-papiers",
+    "@copiedToClipboard": {
+      "description": "Message affiché lorsque le texte est copié dans le presse-papiers"
+    },
+
+    "resetToDefault": "Réinitialiser par défaut",
+    "@resetToDefault": {
+      "description": "Info-bulle pour le bouton de réinitialisation"
+    },
+
+    "apiUrlHint": "Veuillez saisir l'URL de l'API",
+    "@apiUrlHint": {
+      "description": "Texte d'indication pour le champ de saisie d'URL API"
+    },
+
+    "validUrlError": "Veuillez saisir une URL valide",
+    "@validUrlError": {
+      "description": "Message d'erreur pour URL invalide"
+    },
+
+    "defaultValue": "Valeur par défaut : {value}",
+    "@defaultValue": {
+      "description": "Étiquette montrant la valeur par défaut",
+      "placeholders": {
+        "value": {
+          "type": "String"
+        }
+      }
+    },
+
+    "refresh": "Actualiser",
+    "@refresh": {
+      "description": "Info-bulle pour le bouton d'actualisation"
+    },
+
+    "resetAll": "Tout réinitialiser aux valeurs par défaut",
+    "@resetAll": {
+      "description": "Texte de l'élément de menu pour réinitialiser toutes les configurations"
+    },
+
+    "apiUrlLabel": "URL de l'API",
+    "@apiUrlLabel": {
+      "description": "Étiquette pour le champ de saisie d'URL de l'API"
+    },
+
+    "roleUser": "Utilisateur",
+    "@roleUser": {
+      "description": "Étiquette pour le rôle utilisateur"
+    },
+
+    "roleGuest": "Invité",
+    "@roleGuest": {
+      "description": "Étiquette pour le rôle invité"
+    },
+
+    "roleAdmin": "Administrateur",
+    "@roleAdmin": {
+      "description": "Étiquette pour le rôle administrateur"
+    },
+
+    "errorMessage": "❌ {error}",
+    "@errorMessage": {
+      "description": "Format du message d'erreur",
+      "placeholders": {
+        "error": {
+          "type": "String"
+        }
+      }
+    },
+
+    "nameDisplay": "Nom: {name} | Courriel: {email} | Rôle: {role} | Groupe: {group}",
+    "@nameDisplay": {
+      "description": "Format d'affichage des informations utilisateur",
+      "placeholders": {
+        "name": {
+          "type": "String"
+        },
+        "email": {
+          "type": "String"
+        },
+        "role": {
+          "type": "String"
+        },
+        "group": {
+          "type": "String"
+        }
+      }
+    },
+
+    "account": "Compte",
+    "@account": {
+      "description": "Étiquette pour le champ compte/nom d'utilisateur"
+    },
+
+    "familyName": "Nom de famille",
+    "@familyName": {
+      "description": "Étiquette pour le champ nom de famille"
+    },
+
+    "middleName": "Deuxième prénom",
+    "@middleName": {
+      "description": "Étiquette pour le champ deuxième prénom"
+    },
+
+    "middleNameOptional": "Deuxième prénom (Optionnel)",
+    "@middleNameOptional": {
+      "description": "Étiquette pour le champ deuxième prénom optionnel"
+    },
+
+    "givenName": "Prénom",
+    "@givenName": {
+      "description": "Étiquette pour le champ prénom"
+    },
+
+    "email": "Courriel",
+    "@email": {
+      "description": "Étiquette pour le champ courriel"
+    },
+
+    "mobile": "Mobile",
+    "@mobile": {
+      "description": "Étiquette pour le champ mobile"
+    },
+
+    "mobileOptional": "Mobile (Optionnel)",
+    "@mobileOptional": {
+      "description": "Étiquette pour le champ mobile optionnel"
+    },
+
+    "resetPassword": "Réinitialiser le mot de passe",
+    "@resetPassword": {
+      "description": "Étiquette pour le champ réinitialisation du mot de passe"
+    },
+
+    "role": "Rôle",
+    "@role": {
+      "description": "Étiquette pour le champ rôle"
+    },
+
+    "group": "Groupe",
+    "@group": {
+      "description": "Étiquette pour le champ groupe"
+    },
+
+    "required": "Obligatoire",
+    "@required": {
+      "description": "Message de validation pour les champs obligatoires"
+    },
+
+    "emailFormatError": "Veuillez saisir une adresse courriel valide",
+    "@emailFormatError": {
+      "description": "Message de validation pour un format de courriel invalide"
+    },
+
+    "selectGroup": "Veuillez sélectionner un groupe",
+    "@selectGroup": {
+      "description": "Message de validation pour la sélection de groupe"
+    },
+
+    "updated": "✅ Mis à jour",
+    "@updated": {
+      "description": "Message de succès pour l'opération de mise à jour"
+    },
+
+    "streamConfig": "Configuration de Flux",
+    "@streamConfig": {
+      "description": "Titre de la boîte de dialogue de configuration de flux"
+    },
+    "streamConfigTitle": "Configuration de Flux - {siteName}",
+    "@streamConfigTitle": {
+    },
+    "streamUsage": "Utilisé {used} / Limite {max}",
+    "@streamUsage": {
+    },
+    "streamLimitReached": "⚠️ Limite de flux atteinte ({max})",
+    "@streamLimitReached": {
+    },
+    "addStream": "Ajouter un Flux",
+    "@addStream": {
+      "description": "Titre d'ajout de flux"
+    },
+    "streamName": "Nom du Flux",
+    "@streamName": {
+      "description": "Étiquette du champ nom de flux"
+    },
+    "rtspHttpUrl": "URL RTSP / HTTP",
+    "@rtspHttpUrl": {
+      "description": "Étiquette du champ URL"
+    },
+    "modelKey": "Clé du modèle",
+    "@modelKey": {
+      "description": "Étiquette du champ clé de modèle"
+    },
+    "startHour": "Heure de Début (0-23)",
+    "@startHour": {
+      "description": "Étiquette du champ heure de début"
+    },
+    "endHour": "Heure de Fin (0-23)",
+    "@endHour": {
+      "description": "Étiquette du champ heure de fin"
+    },
+    "recognitionEnabled": "Activer le flux de reconnaissance",
+    "@recognitionEnabled": {
+      "description": "Interrupteur principal du flux de reconnaissance"
+    },
+    "recognitionEnabledHint": "Lorsqu’il est désactivé, la configuration est enregistrée, mais la reconnaissance n’est pas exécutée et le flux est masqué du mur en direct.",
+    "@recognitionEnabledHint": {
+      "description": "Explication de l’interrupteur principal du flux de reconnaissance"
+    },
+    "expireDate": "Date d'Expiration (optionnel)",
+    "@expireDate": {
+      "description": "Étiquette du champ date d'expiration"
+    },
+    "notSet": "Non défini",
+    "@notSet": {
+      "description": "Statut non défini"
+    },
+    "editStream": "Éditer - {streamName}",
+    "@editStream": {
+    },
+    "deleteStream": "Supprimer le Flux",
+    "@deleteStream": {
+      "description": "Titre de la boîte de dialogue de suppression de flux"
+    },
+    "deleteStreamConfirmation": "Êtes-vous sûr ? Cette action ne peut pas être annulée",
+    "@deleteStreamConfirmation": {
+      "description": "Message de confirmation de suppression de flux"
+    },
+    "streamAdded": "✅ Flux ajouté",
+    "@streamAdded": {
+      "description": "Message de succès d'ajout de flux"
+    },
+    "streamUpdated": "✅ Mis à jour",
+    "@streamUpdated": {
+      "description": "Message de succès de mise à jour de flux"
+    },
+    "streamDeleted": "✅ Supprimé",
+    "@streamDeleted": {
+      "description": "Message de succès de suppression de flux"
+    },
+    "noStreamConfigs": "Aucune configuration de flux",
+    "@noStreamConfigs": {
+      "description": "Texte affiché lorsqu'il n'y a aucune configuration de flux"
+    },
+    "editTooltip": "Éditer",
+    "@editTooltip": {
+      "description": "Info-bulle d'édition"
+    },
+    "deleteTooltip": "Supprimer",
+    "@deleteTooltip": {
+      "description": "Info-bulle de suppression"
+    },
+    "close": "Fermer",
+    "@close": {
+      "description": "Texte du bouton fermer"
+    },
+    "noSafetyVestOrHelmet": "Pas de Gilet/Casque de Sécurité",
+    "@noSafetyVestOrHelmet": {
+      "description": "Option de détection : pas de gilet ou casque de sécurité"
+    },
+    "nearMachineryOrVehicle": "Près de Machines/Véhicules",
+    "@nearMachineryOrVehicle": {
+      "description": "Option de détection : près de machines ou véhicules"
+    },
+    "inRestrictedArea": "Dans Zone Restreinte",
+    "@inRestrictedArea": {
+      "description": "Option de détection : dans zone restreinte"
+    },
+    "inUtilityPoleArea": "Dans Zone de Poteau Électrique",
+    "@inUtilityPoleArea": {
+      "description": "Option de détection : dans zone de poteau électrique"
+    },
+    "machineryNearPole": "Machines Près du Poteau",
+    "@machineryNearPole": {
+      "description": "Option de détection : machines près du poteau"
+    },
+    "streamLimitReached": "⚠️ Limite de flux atteinte ({maxStreams})",
+    "@streamLimitReached": {
+      "description": "Message d'avertissement: limite de flux atteinte",
+      "placeholders": {
+        "maxStreams": {
+          "type": "int",
+          "description": "Nombre maximum de flux"
+        }
+      }
+    },
+    "addStream": "Ajouter un Flux",
+    "@addStream": {
+      "description": "Titre ajouter un flux"
+    },
+    "required": "Requis",
+    "@required": {
+      "description": "Erreur de validation de formulaire: requis"
+    },
+    "startHour": "Heure de Début (0-23)",
+    "@startHour": {
+      "description": "Étiquette d'entrée de temps: heure de début"
+    },
+    "endHour": "Heure de Fin (0-23)",
+    "@endHour": {
+      "description": "Étiquette d'entrée de temps: heure de fin"
+    },
+    "expiryDate": "Date d'Expiration (optionnel)",
+    "@expiryDate": {
+      "description": "Étiquette d'option de date d'expiration"
+    },
+    "notSet": "Non Défini",
+    "@notSet": {
+      "description": "Statut non défini"
+    },
+    "add": "Ajouter",
+    "@add": {
+      "description": "Bouton ajouter"
+    },
+    "edit": "Modifier",
+    "@edit": {
+      "description": "Préfixe de titre de modification"
+    },
+    "cancel": "Annuler",
+    "@cancel": {
+      "description": "Bouton annuler"
+    },
+    "save": "Sauvegarder",
+    "@save": {
+      "description": "Bouton sauvegarder"
+    },
+    "updated": "✅ Mis à Jour",
+    "@updated": {
+      "description": "Message de succès de mise à jour"
+    },
+    "deleteStream": "Supprimer le Flux",
+    "@deleteStream": {
+      "description": "Titre de dialogue de suppression de flux"
+    },
+    "editStream": "Modifier - {streamName}",
+    "@editStream": {
+      "description": "Titre de dialogue de modification de flux",
+      "placeholders": {
+        "streamName": {
+          "type": "String",
+          "description": "Nom du flux"
+        }
+      }
+    },
+    "delete": "Supprimer",
+    "@delete": {
+      "description": "Bouton supprimer"
+    },
+    "deleted": "✅ Supprimé",
+    "@deleted": {
+      "description": "Message de succès de suppression"
+    },
+    "noStreamConfig": "Aucune configuration de flux",
+    "@noStreamConfig": {
+      "description": "Message quand aucune configuration de flux n'existe"
+    },
+    "streamConfigTitle": "Configuration de Flux - {siteName}",
+    "@streamConfigTitle": {
+      "description": "Titre de dialogue de configuration de flux",
+      "placeholders": {
+        "siteName": {
+          "type": "String",
+          "description": "Nom du site"
+        }
+      }
+    },
+    "streamUsage": "Utilisé {used} / Limite {max}",
+    "@streamUsage": {
+      "description": "Affichage de l'utilisation des flux",
+      "placeholders": {
+        "used": {
+          "type": "int",
+          "description": "Nombre de flux utilisés"
+        },
+        "max": {
+          "type": "int",
+          "description": "Nombre maximum de flux"
+        }
+      }
+    },
+    "close": "Fermer",
+    "@close": {
+      "description": "Bouton fermer"
+    },
+    "fileManagement": "Gestion de Fichiers",
+    "@fileManagement": {
+      "description": "Élément de menu gestion de fichiers"
+    },
+    "siteManagement": "Gestion de Site",
+    "@siteManagement": {
+      "description": "Élément de menu gestion de site"
+    },
+    "userManagement": "Gestion d'Utilisateurs",
+    "@userManagement": {
+      "description": "Élément de menu gestion d'utilisateurs"
+    },
+    "groupManagement": "Gestion de Groupes",
+    "@groupManagement": {
+      "description": "Élément de menu gestion de groupes"
+    },
+    "featureManagement": "Gestion de Fonctionnalités",
+    "@featureManagement": {
+      "description": "Élément de menu gestion de fonctionnalités"
+    },
+    "changePassword": "Changer le Mot de Passe",
+    "@changePassword": {
+      "description": "Élément de menu changer le mot de passe"
+    },
+    "apiConfiguration": "Configuration API",
+    "@apiConfiguration": {
+      "description": "Élément de menu configuration API"
+    },
+
+    "loadingApiConfig": "Chargement de la configuration API...",
+    "@loadingApiConfig": {
+      "description": "Message de chargement de la configuration API"
+    },
+    "apiConfigStatus": "État de la Configuration API",
+    "@apiConfigStatus": {
+      "description": "Titre de l'état de la configuration API"
+    },
+    "customConfigCount": "{count} Personnalisée(s)",
+    "@customConfigCount": {
+      "description": "Nombre de configurations personnalisées"
+    },
+    "usingDefaults": "Utilise les Valeurs par Défaut",
+    "@usingDefaults": {
+      "description": "Étiquette utilisant les valeurs par défaut"
+    },
+    "customApiEndpointsMessage": "Vous avez personnalisé {count} URL de points de terminaison API.",
+    "@customApiEndpointsMessage": {
+      "description": "Message du nombre de points de terminaison API personnalisés"
+    },
+    "allEndpointsUseDefaults": "Tous les points de terminaison API utilisent les URL par défaut.",
+    "@allEndpointsUseDefaults": {
+      "description": "Message que tous les points de terminaison utilisent les valeurs par défaut"
+    },
+    "apiEndpointDetails": "Détails des Points de Terminaison API",
+    "@apiEndpointDetails": {
+      "description": "Titre des détails des points de terminaison API"
+    },
+
+    "chatApiDescription": "Service API de conversation de chat",
+    "@chatApiDescription": {
+      "description": "Description du service API de chat"
+    },
+    "detectionApiDescription": "Service API de détection d'objets",
+    "@detectionApiDescription": {
+      "description": "Description du service API de détection"
+    },
+    "managementApiDescription": "Service API de gestion système",
+    "@managementApiDescription": {
+      "description": "Description du service API de gestion"
+    },
+    "notificationApiDescription": "Service API de notifications push",
+    "@notificationApiDescription": {
+      "description": "Description du service API de notifications"
+    },
+    "streamingApiDescription": "Service API de streaming média",
+    "@streamingApiDescription": {
+      "description": "Description du service API de streaming"
+    },
+    "fileManagementApiDescription": "Service API de gestion de fichiers",
+    "@fileManagementApiDescription": {
+      "description": "Description du service API de gestion de fichiers"
+    },
+    "violationRecordsApiDescription": "Service API d'enregistrements de violations",
+    "@violationRecordsApiDescription": {
+      "description": "Description du service API d'enregistrements de violations"
+    },
+
+    "apiService": "Service API",
+    "@apiService": {
+      "description": "Description générique du service API"
+    },
+
+    "welcomeUser": "Bienvenue, {username} !",
+    "@welcomeUser": {
+      "description": "Message de bienvenue pour l'utilisateur connecté",
+      "placeholders": {
+        "username": {
+          "type": "String",
+          "description": "Le nom d'utilisateur de l'utilisateur connecté"
+        }
+      }
+    },
+    "roleLabel": "Rôle : {role}",
+    "@roleLabel": {
+      "description": "Étiquette de rôle utilisateur",
+      "placeholders": {
+        "role": {
+          "type": "String",
+          "description": "Le rôle de l'utilisateur"
+        }
+      }
+    },
+    "guestUser": "Utilisateur invité",
+    "@guestUser": {
+      "description": "Étiquette pour utilisateur non connecté"
+    },
+    "pleaseLogin": "Veuillez vous connecter pour accéder aux fonctionnalités",
+    "@pleaseLogin": {
+      "description": "Message encourageant l'utilisateur à se connecter"
+    },
+
+    "downloadImage": "Télécharger l'image",
+    "@downloadImage": {
+      "description": "Texte du bouton pour télécharger l'image"
+    },
+    "copyImage": "Copier l'image",
+    "@copyImage": {
+      "description": "Texte du bouton pour copier l'image"
+    },
+    "shareImage": "Partager le lien",
+    "@shareImage": {
+      "description": "Texte du bouton pour partager le lien"
+    },
+    "imageDownloaded": "Image téléchargée sur l'appareil",
+    "@imageDownloaded": {
+      "description": "Message quand l'image est téléchargée sur l'appareil"
+    },
+    "imageSavedToGallery": "Image sauvegardée dans la galerie photos",
+    "@imageSavedToGallery": {
+      "description": "Message quand l'image est sauvegardée dans la galerie"
+    },
+    "imageCopied": "Image copiée dans le presse-papiers",
+    "@imageCopied": {
+      "description": "Message quand l'image est copiée"
+    },
+    "downloadFailed": "Téléchargement échoué",
+    "@downloadFailed": {
+      "description": "Message quand le téléchargement échoue"
+    },
+    "copyFailed": "Copie échouée",
+    "@copyFailed": {
+      "description": "Message quand la copie échoue"
+    },
+    "shareFailed": "Partage échoué",
+    "@shareFailed": {
+      "description": "Message quand le partage échoue"
+    }
+  }

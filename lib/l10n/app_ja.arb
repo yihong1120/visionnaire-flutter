@@ -1,0 +1,1775 @@
+{
+    "@@locale": "ja",
+    "appTitle": "Visionnaire Application",
+    "@appTitle": {
+      "description": "The title of the application"
+    },
+
+    "deviceLang": "en-UK",
+    "@deviceLang": {
+      "description": "Region code for the device language"
+    },
+
+    "login": "Login",
+    "@login": {
+      "description": "Text for the login button"
+    },
+    "username": "Username",
+    "@username": {
+      "description": "Hint text for username input"
+    },
+    "password": "Password",
+    "@password": {
+      "description": "Hint text for password input"
+    },
+    "chatList": "Chat List",
+    "@chatList": {
+      "description": "Title of the chat list page"
+    },
+    "chatTitleCannotBeEmpty": "Chat title cannot be empty or whitespace only",
+    "@chatTitleCannotBeEmpty": {
+      "description": "Error message when chat title is empty or whitespace only"
+    },
+    "cameraList": "Camera Streams",
+    "@cameraList": {
+      "description": "Title of the camera streams page"
+    },
+    "detection": "Object Detection",
+    "@detection": {
+      "description": "Title of the object detection page"
+    },
+    "logout": "Logout",
+    "@logout": {
+      "description": "Text for the logout button"
+    },
+    "changeLanguage": "Change Language",
+    "@changeLanguage": {
+      "description": "Text for the change language button"
+    },
+    "site": "Site",
+    "@site": {
+      "description": "Label for site"
+    },
+    "stream": "Stream",
+    "@stream": {
+      "description": "Label for stream"
+    },
+    "detectionTime": "Detection Time",
+    "@detectionTime": {
+      "description": "Label for detection time"
+    },
+    "violationMessage": "Violation Message",
+    "@violationMessage": {
+      "description": "Label for violation message"
+    },
+    "loadingImageError": "Failed to load image",
+    "@loadingImageError": {
+      "description": "Error message when image fails to load"
+    },
+    "violationRecordQuery": "Violation Record Query",
+    "@violationRecordQuery": {
+      "description": "Title of the violation record query page"
+    },
+    "keyword": "Keyword (stream_name or message)",
+    "@keyword": {
+      "description": "Hint text for keyword input"
+    },
+    "startTime": "Start Time",
+    "@startTime": {
+      "description": "Label for start time"
+    },
+    "endTime": "End Time",
+    "@endTime": {
+      "description": "Label for end time"
+    },
+    "query": "Query",
+    "@query": {
+      "description": "Text for the query button"
+    },
+    "noRecords": "No records available",
+    "@noRecords": {
+      "description": "Text shown when no records are available"
+    },
+    "streamingWebSettings": "Live Monitoring",
+    "@streamingWebSettings": {
+      "description": "Title of the live monitoring page"
+    },
+    "streamingWebUrl": "Streaming Web URL (with http:// or https://)",
+    "@streamingWebUrl": {
+      "description": "Hint text for Streaming Web URL input"
+    },
+    "save": "Save",
+    "@save": {
+      "description": "Text for the save button"
+    },
+    "goToLabels": "Go to Locations",
+    "@goToLabels": {
+      "description": "Text for the button to go to the live monitoring locations page"
+    },
+    "currentUrl": "Current URL",
+    "@currentUrl": {
+      "description": "Label for the current URL"
+    },
+    "labelList": "Locations",
+    "@labelList": {
+      "description": "Title of the live monitoring locations page"
+    },
+    "label": "Label",
+    "@label": {
+      "description": "Single label name"
+    },
+    "noImage": "No camera images available",
+    "@noImage": {
+      "description": "Text shown when no camera images are available"
+    },
+    "warnings": "Warnings",
+    "@warnings": {
+      "description": "Label for warnings section"
+    },
+    "lastUpdated": "Last updated",
+    "@lastUpdated": {
+      "description": "Label for the last updated time"
+    },
+    "noWarnings": "No warnings",
+    "@noWarnings": {
+      "description": "Text shown when there are no warnings"
+    },
+    "detectionResult": "Detection Result",
+    "@detectionResult": {
+      "description": "Label for detection result section"
+    },
+    "chooseModel": "Choose Model",
+    "@chooseModel": {
+      "description": "Label for model selection"
+    },
+    "noImageSelected": "No image selected",
+    "@noImageSelected": {
+      "description": "Text shown when no image has been selected"
+    },
+    "noDetectionResult": "No detection result",
+    "@noDetectionResult": {
+      "description": "Text shown when there is no detection result"
+    },
+    "takePhoto": "Take Photo",
+    "@takePhoto": {
+      "description": "Text for the take photo button"
+    },
+    "photoLibrary": "Photo Library",
+    "@photoLibrary": {
+      "description": "Text for the photo library button"
+    },
+    "startDetection": "Start Detection",
+    "@startDetection": {
+      "description": "Text for the start detection button"
+    },
+    "cannotOpenCamera": "Cannot open camera",
+    "@cannotOpenCamera": {
+      "description": "Error message when camera cannot be opened"
+    },
+    "cannotOpenGallery": "Cannot open gallery",
+    "@cannotOpenGallery": {
+      "description": "Error message when gallery cannot be opened"
+    },
+    "getImageSizeFailed": "Failed to get image size",
+    "@getImageSizeFailed": {
+      "description": "Error message when failed to get image size"
+    },
+    "notLoggedIn": "Not logged in (Detection service token invalid)",
+    "@notLoggedIn": {
+      "description": "Error message when not logged in or token is invalid"
+    },
+    "tokenRefreshFailed": "Token refresh failed",
+    "@tokenRefreshFailed": {
+      "description": "Error message when token refresh fails"
+    },
+    "chatLoadFailed": "Failed to load chat",
+    "@chatLoadFailed": {
+      "description": "Error message when chat fails to load"
+    },
+    "chatRoom": "Chat Room",
+    "@chatRoom": {
+      "description": "Title for the chat room page"
+    },
+    "inputMessage": "Enter message...",
+    "@inputMessage": {
+      "description": "Placeholder text for message input"
+    },
+    "newChatRoom": "New Chat Room",
+    "@newChatRoom": {
+      "description": "Title for new chat room dialog"
+    },
+    "enterChatRoomTitle": "Enter chat room title",
+    "@enterChatRoomTitle": {
+      "description": "Hint text for chat room title input"
+    },
+    "create": "Create",
+    "@create": {
+      "description": "Text for the create button"
+    },
+    "createFailed": "Creation failed",
+    "@createFailed": {
+      "description": "Error message when chat room creation fails"
+    },
+    "confirmDeleteChatRoom": "Are you sure you want to delete this chat room?",
+    "@confirmDeleteChatRoom": {
+      "description": "Confirmation message for chat room deletion"
+    },
+    "cancel": "Cancel",
+    "@cancel": {
+      "description": "Text for the cancel button in dialog"
+    },
+    "delete": "Delete",
+    "@delete": {
+      "description": "Text for the delete button in dialog"
+    },
+    "deleteFailed": "Deletion failed",
+    "@deleteFailed": {
+      "description": "Error message when chat room deletion fails"
+    },
+    "selectSite": "Select Site",
+    "@selectSite": {
+      "description": "Hint text for site selection dropdown"
+    },
+    "notSelected": "Not selected",
+    "@notSelected": {
+      "description": "Text shown when nothing is selected"
+    },
+    "errorPrefix": "Error: ",
+    "@errorPrefix": {
+      "description": "Prefix for error messages"
+    },
+    "sitePrefix": "Site: ",
+    "@sitePrefix": {
+      "description": "Prefix label for site name"
+    },
+    "streamPrefix": "Stream: ",
+    "@streamPrefix": {
+      "description": "Prefix label for stream name"
+    },
+    "detectionTimePrefix": "Detection Time: ",
+    "@detectionTimePrefix": {
+      "description": "Prefix label for detection time"
+    },
+    "urlUpdated": "Updated Streaming Web Base URL to:",
+    "@urlUpdated": {
+      "description": "Message displayed when the Streaming Web Base URL has been updated"
+    },
+    "streamingWebIndexTitle": "Locations",
+    "@streamingWebIndexTitle": {
+      "description": "Title for the live monitoring locations index page"
+    },
+    "unknownError": "Unknown error",
+    "@unknownError": {
+      "description": "Default error message when error information is not available"
+    },
+    "noLabels": "No labels available",
+    "@noLabels": {
+      "description": "Text shown when there are no label data"
+    },
+    "chatMessageCannotBeEmpty": "Chat message cannot be empty",
+    "@chatMessageCannotBeEmpty": {
+      "description": "Error message when chat message is empty"
+    },
+
+    "editQuestionHint": "Please enter the new question",
+    "@editQuestionHint": {
+      "description": "Hint text for editing question"
+    },
+
+    "confirm": "Confirm",
+    "@confirm": {
+      "description": "Text for the confirm button in dialog"
+    },
+
+    "editQuestion": "Edit Question",
+    "@editQuestion": {
+      "description": "Text for the edit question button"
+    },
+
+    "regenerateAnswer": "Regenerate Answer",
+    "@regenerateAnswer": {
+      "description": "Text for the regenerate answer button"
+    },
+
+    "removeQuestionChain": "Remove Question (with subsequent dialog)",
+    "@removeQuestionChain": {
+      "description": "Text for the remove question button"
+    },
+
+    "failedToLoadHistory": "Failed to load history",
+    "@failedToLoadHistory": {
+      "description": "Error message when history fails to load"
+    },
+
+    "failedToLoadHistoryAfterRefresh": "Failed to load history after refresh",
+    "@failedToLoadHistoryAfterRefresh": {
+      "description": "Error message when history fails to load after refresh"
+    },
+
+    "failedToAskAfterRefresh": "Failed to ask after refresh",
+    "@failedToAskAfterRefresh": {
+      "description": "Error message when asking fails after refresh"
+    },
+
+    "editFailed": "Edit failed",
+    "@editFailed": {
+      "description": "Error message when editing fails"
+    },
+
+    "editFailedAfterRefresh": "Edit failed after refresh",
+    "@editFailedAfterRefresh": {
+      "description": "Error message when editing fails after refresh"
+    },
+
+    "regenerateFailed": "Regenerate failed",
+    "@regenerateFailed": {
+      "description": "Error message when regeneration fails"
+    },
+
+    "regenerateFailedAfterRefresh": "Regenerate failed after refresh",
+    "@regenerateFailedAfterRefresh": {
+      "description": "Error message when regeneration fails after refresh"
+    },
+
+    "removeFailed": "Remove failed",
+    "@removeFailed": {
+      "description": "Error message when removal fails"
+    },
+
+    "removeFailedAfterRefresh": "Remove failed after refresh",
+    "@removeFailedAfterRefresh": {
+      "description": "Error message when removal fails after refresh"
+    },
+
+    "sendMessage": "メッセージを送信",
+    "@sendMessage": {
+      "description": "Tooltip and button text for sending a chat message"
+    },
+    "addImages": "画像を追加",
+    "@addImages": {
+      "description": "Tooltip for adding images to a chat message"
+    },
+    "addFiles": "ファイルを追加",
+    "@addFiles": {
+      "description": "Tooltip for adding files to a chat message"
+    },
+    "attachmentCount": "{count} 個の添付ファイル",
+    "@attachmentCount": {
+      "description": "Label showing how many attachments are pending in chat input",
+      "placeholders": {
+        "count": {
+          "type": "int",
+          "example": "2"
+        }
+      }
+    },
+    "cancelGeneration": "生成をキャンセル",
+    "@cancelGeneration": {
+      "description": "Tooltip for canceling active answer generation"
+    },
+    "createChatRoom": "チャットルームを作成",
+    "@createChatRoom": {
+      "description": "Tooltip for creating a new chat room from the input area"
+    },
+    "attachmentUploadFailed": "添付ファイルのアップロードに失敗しました: {error}",
+    "@attachmentUploadFailed": {
+      "description": "Error message when a chat attachment upload fails",
+      "placeholders": {
+        "error": {
+          "type": "String",
+          "example": "Network error"
+        }
+      }
+    },
+    "attachmentDeleteFailed": "添付ファイルの削除に失敗しました: {error}",
+    "@attachmentDeleteFailed": {
+      "description": "Error message when deleting a chat attachment fails",
+      "placeholders": {
+        "error": {
+          "type": "String",
+          "example": "Network error"
+        }
+      }
+    },
+    "selectLabel": "ラベルを選択",
+    "@selectLabel": {
+      "description": "Empty state text for desktop streaming label pane"
+    },
+    "showDetectionResults": "検知結果を表示",
+    "@showDetectionResults": {
+      "description": "Label for toggling object detection overlay on streams"
+    },
+
+    "hardhat": "Hardhat",
+    "@hardhat": {
+      "description": "Label for hardhat"
+    },
+
+    "vest": "Vest",
+    "@vest": {
+      "description": "Label for vest"
+    },
+
+    "machinery": "Machinery",
+    "@machinery": {
+      "description": "Label for machinery"
+    },
+
+    "vehicle": "Vehicle",
+    "@vehicle": {
+      "description": "Label for vehicle"
+    },
+
+    "no_hardhat": "No Hardhat",
+    "@no_hardhat": {
+      "description": "Label for no hardhat"
+    },
+
+    "no_vest": "No Vest",
+    "@no_vest": {
+      "description": "Label for no vest"
+    },
+
+    "person": "Person",
+    "@person": {
+      "description": "Label for person"
+    },
+
+    "cone": "Safety Cone",
+    "@cone": {
+      "description": "Label for safety cone"
+    },
+
+    "mask": "Mask",
+    "@mask": {
+      "description": "Label for mask"
+    },
+
+    "no_mask": "No Mask",
+    "@no_mask": {
+      "description": "Label for no mask"
+    },
+
+    "utility_pole": "Utility Pole",
+    "@utility_pole": {
+      "description": "Label for utility pole"
+    },
+
+    "warning_people_in_controlled_area": "Warning: {count} people have entered the controlled area!",
+    "@warning_people_in_controlled_area": {
+      "description": "Warning message for people entering the controlled zone",
+      "placeholders": {
+        "count": {
+          "type": "int",
+          "example": "2"
+        }
+      }
+    },
+
+    "warning_people_in_utility_pole_controlled_area": "Warning: {count} people have entered the utility pole restricted area!",
+    "@warning_people_in_utility_pole_controlled_area": {
+      "description": "Warning message for people entering the utility pole controlled area",
+      "placeholders": {
+        "count": {
+          "type": "int",
+          "example": "2"
+        }
+      }
+    },
+
+    "warning_no_hardhat": "Warning: {count} people are not wearing a hardhat!",
+    "@warning_no_hardhat": {
+      "description": "Warning message for missing hardhat",
+      "placeholders": {
+        "count": {
+          "type": "int",
+          "example": "3"
+        }
+      }
+    },
+
+    "warning_no_safety_vest": "Warning: {count} people are not wearing a safety vest!",
+    "@warning_no_safety_vest": {
+      "description": "Warning message for missing safety vest",
+      "placeholders": {
+        "count": {
+          "type": "int",
+          "example": "3"
+        }
+      }
+    },
+
+    "warning_close_to_machinery": "Warning: {count} people are too close to machinery!",
+    "@warning_close_to_machinery": {
+      "description": "Warning message for people close to machinery",
+      "placeholders": {
+        "count": {
+          "type": "int",
+          "example": "3"
+        }
+      }
+    },
+
+    "warning_close_to_vehicle": "Warning: {count} people are too close to vehicles!",
+    "@warning_close_to_vehicle": {
+      "description": "Warning message for people close to vehicles",
+      "placeholders": {
+        "count": {
+          "type": "int",
+          "example": "5"
+        }
+      }
+    },
+
+    "detect_machinery_close_to_pole": "Warning: {count} machinery are too close to the utility pole!",
+    "@detect_machinery_close_to_pole": {
+      "description": "Warning message for machinery close to the utility pole",
+      "placeholders": {
+        "count": {
+          "type": "int",
+          "example": "2"
+        }
+      }
+    },
+
+    "showOverlay": "Show Overlay",
+    "@showOverlay": {
+      "description": "Text for the show overlay button"
+    },
+
+    "add": "Add",
+    "@add": {
+      "description": "Text for the add button"
+    },
+    "edit": "Edit",
+    "@edit": {
+      "description": "Text for the edit button"
+    },
+    "submit": "Submit",
+    "@submit": {
+      "description": "Text for the submit button"
+    },
+    "build": "Create",
+    "@build": {
+      "description": "Text for the create button"
+    },
+    "saving": "Saving...",
+    "@saving": {
+      "description": "Text shown while saving"
+    },
+    "saveConfig": "Save Configuration",
+    "@saveConfig": {
+      "description": "Text for the save configuration button"
+    },
+    "configSavedSuccessfully": "Configuration saved successfully",
+    "@configSavedSuccessfully": {
+      "description": "Message shown when configuration is saved successfully"
+    },
+    "saveConfigFailed": "Failed to save configuration",
+    "@saveConfigFailed": {
+      "description": "Message shown when configuration save fails"
+    },
+    "confirmResetAllConfigs": "Are you sure you want to reset all API configurations to default values? This action cannot be undone.",
+    "@confirmResetAllConfigs": {
+      "description": "Confirmation message for resetting all configurations"
+    },
+    "confirmResetConfig": "Are you sure you want to reset {name} to default values?",
+    "@confirmResetConfig": {
+      "description": "Confirmation message for resetting a single configuration",
+      "placeholders": {
+        "name": {
+          "type": "String",
+          "example": "API Endpoint"
+        }
+      }
+    },
+    "confirmDelete": "Confirm Delete?",
+    "@confirmDelete": {
+      "description": "Title for delete confirmation dialog"
+    },
+    "permanentDeleteWarning": "Will permanently delete \"{name}\". This action cannot be undone!",
+    "@permanentDeleteWarning": {
+      "description": "Warning message for permanent deletion",
+      "placeholders": {
+        "name": {
+          "type": "String",
+          "example": "Site name"
+        }
+      }
+    },
+    "deleteWarning": "Will delete \"{name}\". This action cannot be undone.",
+    "@deleteWarning": {
+      "description": "Warning message for deletion",
+      "placeholders": {
+        "name": {
+          "type": "String",
+          "example": "Item name"
+        }
+      }
+    },
+    "siteCreated": "✅ Site created",
+    "@siteCreated": {
+      "description": "Message shown when site is created successfully"
+    },
+    "deleted": "✅ Deleted",
+    "@deleted": {
+      "description": "Message shown when item is deleted successfully"
+    },
+    "added": "✅ Added",
+    "@added": {
+      "description": "Message shown when item is added successfully"
+    },
+    "featureAdded": "✅ Feature added",
+    "@featureAdded": {
+      "description": "Message shown when feature is added successfully"
+    },
+    "editFeature": "Edit \"{name}\"",
+    "@editFeature": {
+      "description": "Title for edit feature dialog",
+      "placeholders": {
+        "name": {
+          "type": "String",
+          "example": "Feature name"
+        }
+      }
+    },
+    "editUser": "Edit \"{username}\"",
+    "@editUser": {
+      "description": "Title for edit user dialog",
+      "placeholders": {
+        "username": {
+          "type": "String",
+          "example": "Username"
+        }
+      }
+    },
+    "addUser": "Add User",
+    "@addUser": {
+      "description": "Title for add user form"
+    },
+    "addFeature": "Add Feature",
+    "@addFeature": {
+      "description": "Text for the add feature button"
+    },
+    "addGroup": "Add Group",
+    "@addGroup": {
+      "description": "Title for add group form"
+    },
+    "editGroup": "Edit Group",
+    "@editGroup": {
+      "description": "Title for edit group dialog"
+    },
+    "confirmDeleteFile": "Confirm Delete",
+    "@confirmDeleteFile": {
+      "description": "Title for file delete confirmation dialog"
+    },
+    "confirmDeleteFileMessage": "Are you sure you want to delete this file?",
+    "@confirmDeleteFileMessage": {
+      "description": "Message for file delete confirmation"
+    },
+    "fileDeleted": "File deleted",
+    "@fileDeleted": {
+      "description": "Message shown when file is deleted successfully"
+    },
+    "deleteFileFailed": "Delete failed",
+    "@deleteFileFailed": {
+      "description": "Message shown when file deletion fails"
+    },
+    "createAuditDoc": "Create Audit Improvement Document",
+    "@createAuditDoc": {
+      "description": "Title for create audit document page"
+    },
+    "createDocx": "Create DOCX",
+    "@createDocx": {
+      "description": "Text for the create DOCX button"
+    },
+    "addPhotoPrompt": "Please add photos by taking photos or from album",
+    "@addPhotoPrompt": {
+      "description": "Prompt text for adding photos"
+    },
+    "createFailedWith": "Creation failed: {error}",
+    "@createFailedWith": {
+      "description": "Message shown when creation fails",
+      "placeholders": {
+        "error": {
+          "type": "String",
+          "example": "Error message"
+        }
+      }
+    },
+    "addFile": "Add File",
+    "@addFile": {
+      "description": "Text for add file tooltip"
+    },
+
+    "noConfigChangesDetected": "No configuration changes detected",
+    "@noConfigChangesDetected": {
+      "description": "Message when no configuration changes are detected"
+    },
+    "resetToDefaults": "Reset to Defaults",
+    "@resetToDefaults": {
+      "description": "Text for reset to defaults button"
+    },
+    "resetSuccess": "Reset to default configuration",
+    "@resetSuccess": {
+      "description": "Message shown when reset is successful"
+    },
+    "resetFailed": "Reset failed",
+    "@resetFailed": {
+      "description": "Message shown when reset fails"
+    },
+    "resetEndpointSuccess": "{name} has been reset to default value",
+    "@resetEndpointSuccess": {
+      "description": "Message shown when single endpoint is reset successfully",
+      "placeholders": {
+        "name": {
+          "type": "String",
+          "example": "API Endpoint"
+        }
+      }
+    },
+    "resetEndpoint": "Reset {name}",
+    "@resetEndpoint": {
+      "description": "Title for reset endpoint dialog",
+      "placeholders": {
+        "name": {
+          "type": "String",
+          "example": "API Endpoint"
+        }
+      }
+    },
+
+    "notLoggedInOrInvalidToken": "Not logged in or invalid token",
+    "@notLoggedInOrInvalidToken": {
+      "description": "Error message for not logged in or invalid token"
+    },
+    "uploadFailed": "Upload failed: {error}",
+    "@uploadFailed": {
+      "description": "Error message for upload failure",
+      "placeholders": {
+        "error": {
+          "type": "String",
+          "example": "Network error"
+        }
+      }
+    },
+    "pleaseWaitForSiteList": "Site list not yet loaded, please wait",
+    "@pleaseWaitForSiteList": {
+      "description": "Message to wait for site list loading"
+    },
+    "selectConstructionSite": "Select Construction Site",
+    "@selectConstructionSite": {
+      "description": "Title for select construction site dialog"
+    },
+    "allSites": "All Sites",
+    "@allSites": {
+      "description": "All sites option"
+    },
+    "startDate": "Start Date",
+    "@startDate": {
+      "description": "Start date label"
+    },
+    "endDate": "End Date",
+    "@endDate": {
+      "description": "End date label"
+    },
+    "versions": "Versions",
+    "@versions": {
+      "description": "Versions option"
+    },
+    "fileTypeNotConfigured": "This file type has no file_prefix configured, cannot use template",
+    "@fileTypeNotConfigured": {
+      "description": "Error message for unconfigured file type"
+    },
+    "errorPrefix": "Error: {error}",
+    "@errorPrefix": {
+      "description": "Error message prefix",
+      "placeholders": {
+        "error": {
+          "type": "String",
+          "example": "Error details"
+        }
+      }
+    },
+
+    "noUsers": "No users yet",
+    "@noUsers": {
+      "description": "Message shown when there are no users"
+    },
+    "nameDisplay": "Name:{name} | email:{email} | role:{role} | group:{group}",
+    "@nameDisplay": {
+      "description": "User information display format",
+      "placeholders": {
+        "name": {
+          "type": "String",
+          "example": "User name"
+        },
+        "email": {
+          "type": "String",
+          "example": "email@example.com"
+        },
+        "role": {
+          "type": "String",
+          "example": "admin"
+        },
+        "group": {
+          "type": "String",
+          "example": "Admin group"
+        }
+      }
+    },
+    "deactivate": "Deactivate",
+    "@deactivate": {
+      "description": "Text for deactivate button"
+    },
+    "activate": "Activate",
+    "@activate": {
+      "description": "Text for activate button"
+    },
+    "permissionDenied": "Permission denied",
+    "@permissionDenied": {
+      "description": "Message for permission denied"
+    },
+    "userManagement": "User Management",
+    "@userManagement": {
+      "description": "Title for user management page"
+    },
+
+    "account": "Account (username)",
+    "@account": {
+      "description": "Account field label"
+    },
+    "familyName": "Family Name",
+    "@familyName": {
+      "description": "Family name field label"
+    },
+    "middleName": "Middle Name",
+    "@middleName": {
+      "description": "Middle name field label"
+    },
+    "givenName": "Given Name",
+    "@givenName": {
+      "description": "Given name field label"
+    },
+    "email": "Email",
+    "@email": {
+      "description": "Email field label"
+    },
+    "mobile": "Mobile",
+    "@mobile": {
+      "description": "Mobile field label"
+    },
+    "resetPassword": "Reset Password (leave blank to skip)",
+    "@resetPassword": {
+      "description": "Reset password field label"
+    },
+    "role": "Role",
+    "@role": {
+      "description": "Role field label"
+    },
+    "group": "Group",
+    "@group": {
+      "description": "Group field label"
+    },
+    "required": "Required",
+    "@required": {
+      "description": "Required field validation message"
+    },
+    "emailFormatError": "Email format error",
+    "@emailFormatError": {
+      "description": "Email format error message"
+    },
+    "selectGroup": "Must select group",
+    "@selectGroup": {
+      "description": "Must select group validation message"
+    },
+    "mobileOptional": "Mobile (optional)",
+    "@mobileOptional": {
+      "description": "Mobile optional field label"
+    },
+    "middleNameOptional": "Middle Name (optional)",
+    "@middleNameOptional": {
+      "description": "Middle name optional field label"
+    },
+    "updated": "✅ Updated",
+    "@updated": {
+      "description": "Updated success message"
+    },
+    "apiConfig": "API Configuration",
+    "@apiConfig": {
+      "description": "API configuration title"
+    },
+    "custom": "Custom",
+    "@custom": {
+      "description": "Custom option"
+    },
+
+    "deleteFeatureConfirmation": "Will delete feature \\\"{name}\\\". This action cannot be undone.",
+    "@deleteFeatureConfirmation": {
+    },
+    "assignGroups": "Assign Groups - {name}",
+    "@assignGroups": {
+    },
+    "setGroups": "Set Groups",
+    "@setGroups": {
+      "description": "Tooltip text for setting groups"
+    },
+    "reload": "Reload",
+    "@reload": {
+      "description": "Reload button text"
+    },
+    "copy": "Copy",
+    "@copy": {
+      "description": "Copy button text"
+    },
+    "passwordChanged": "✅ Password changed, please login again with new password",
+    "@passwordChanged": {
+      "description": "Password change success message"
+    },
+    "oldPassword": "Old Password",
+    "@oldPassword": {
+      "description": "Old password field label"
+    },
+    "newPassword": "New Password",
+    "@newPassword": {
+      "description": "New password field label"
+    },
+    "pleaseLoginFirst": "Please login first",
+    "@pleaseLoginFirst": {
+      "description": "Please login first prompt"
+    },
+    "changePassword": "Change Password",
+    "@changePassword": {
+      "description": "Change password title"
+    },
+    "minimumPasswordLength": "At least 8 characters",
+    "@minimumPasswordLength": {
+      "description": "Minimum password length validation message"
+    },
+    "featureManagement": "Feature Management",
+    "@featureManagement": {
+      "description": "Feature management page title"
+    },
+    "featureName": "Feature Name",
+    "@featureName": {
+      "description": "Feature name field label"
+    },
+    "descriptionOptional": "Description (optional)",
+    "@descriptionOptional": {
+      "description": "Description optional field label"
+    },
+    "assignGroup": "Assign Group - {name}",
+    "@assignGroup": {
+      "description": "Assign group title",
+      "placeholders": {
+        "name": {
+          "type": "String",
+          "example": "Feature name"
+        }
+      }
+    },
+    "noFeatures": "No features",
+    "@noFeatures": {
+      "description": "No features message"
+    },
+    "groupPermissionsUpdated": "✅ Group permissions updated",
+    "@groupPermissionsUpdated": {
+      "description": "Group permissions update success message"
+    },
+    "setGroup": "Set Group",
+    "@setGroup": {
+      "description": "Set group button text"
+    },
+    "groupManagement": "Group Management",
+    "@groupManagement": {
+      "description": "Group management page title"
+    },
+    "groupName": "Group Name",
+    "@groupName": {
+      "description": "Group name field label"
+    },
+    "uniformNumber": "Uniform Number (8 digits)",
+    "@uniformNumber": {
+      "description": "Uniform number field label"
+    },
+    "uniformNumberError": "Uniform number requires 8 digits",
+    "@uniformNumberError": {
+      "description": "Uniform number format error message"
+    },
+    "noGroups": "No groups",
+    "@noGroups": {
+      "description": "No groups message"
+    },
+    "uniformLabel": "Uniform: {uniformNumber}",
+    "@uniformLabel": {
+      "description": "Uniform number display label",
+      "placeholders": {
+        "uniformNumber": {
+          "type": "String",
+          "description": "The uniform number or dash if empty"
+        }
+      }
+    },
+    "uniformNumberValidation": "Must be 8 digits",
+    "@uniformNumberValidation": {
+      "description": "Uniform number validation error message"
+    },
+    "name": "Name",
+    "@name": {
+      "description": "Name field label"
+    },
+    "siteManagement": "Site Management",
+    "@siteManagement": {
+      "description": "Site management page title"
+    },
+    "siteName": "Site Name",
+    "@siteName": {
+      "description": "Site name field label"
+    },
+    "noSites": "No sites",
+    "@noSites": {
+      "description": "No sites message"
+    },
+    "userUpdated": "✅ User updated",
+    "@userUpdated": {
+      "description": "User update success message"
+    },
+    "deleteSite": "Delete Site",
+    "@deleteSite": {
+      "description": "Delete site prompt"
+    },
+    "configureUsers": "Configure Users",
+    "@configureUsers": {
+      "description": "Configure users tooltip"
+    },
+    "configureStream": "Configure Stream",
+    "@configureStream": {
+      "description": "Configure stream tooltip"
+    },
+    "managementTitle": "Site Management - {siteName}",
+    "@managementTitle": {
+      "description": "Site management dialog title",
+      "placeholders": {
+        "siteName": {
+          "type": "String",
+          "description": "The name of the site being managed"
+        }
+      }
+    },
+    "groupLabel": "group: {groupName}",
+    "@groupLabel": {
+      "description": "Group label for site display",
+      "placeholders": {
+        "groupName": {
+          "type": "String",
+          "description": "The name of the group"
+        }
+      }
+    },
+    "username": "Username",
+    "@username": {
+      "description": "Username field label"
+    },
+    "password": "Password",
+    "@password": {
+      "description": "Password field label"
+    },
+    "login": "Login",
+    "@login": {
+      "description": "Login button text"
+    },
+    "loginTitle": "Visionnaire App",
+    "@loginTitle": {
+      "description": "Login page title"
+    },
+    "loginFailed": "❌ Login failed",
+    "@loginFailed": {
+      "description": "Login failed message"
+    },
+    "loginRequired": "Please enter username and password",
+    "@loginRequired": {
+      "description": "Login required fields prompt"
+    },
+    "role": "Role",
+    "@role": {
+      "description": "Role field label"
+    },
+    "admin": "Admin",
+    "@admin": {
+      "description": "Admin role"
+    },
+    "user": "User",
+    "@user": {
+      "description": "Regular user role"
+    },
+    "group": "Group",
+    "@group": {
+      "description": "Group label"
+    },
+    "error": "Error",
+    "@error": {
+      "description": "Error title"
+    },
+    "success": "Success",
+    "@success": {
+      "description": "Success title"
+    },
+    "warning": "Warning",
+    "@warning": {
+      "description": "Warning title"
+    },
+    "info": "Information",
+    "@info": {
+      "description": "Information title"
+    },
+    "loading": "Loading...",
+    "@loading": {
+      "description": "Loading message"
+    },
+    "noData": "No data",
+    "@noData": {
+      "description": "No data message"
+    },
+    "refreshData": "Refresh data",
+    "@refreshData": {
+      "description": "Refresh data button"
+    },
+    "search": "Search",
+    "@search": {
+      "description": "Search button text"
+    },
+    "filter": "Filter",
+    "@filter": {
+      "description": "Filter button text"
+    },
+    "selectAll": "Select All",
+    "@selectAll": {
+      "description": "Select all option"
+    },
+    "clearSelection": "Clear Selection",
+    "@clearSelection": {
+      "description": "Clear selection button"
+    },
+    "back": "Back",
+    "@back": {
+      "description": "Back button text"
+    },
+    "next": "Next",
+    "@next": {
+      "description": "Next button text"
+    },
+    "previous": "Previous",
+    "@previous": {
+      "description": "Previous button text"
+    },
+    "finish": "Finish",
+    "@finish": {
+      "description": "Finish button text"
+    },
+    "close": "Close",
+    "@close": {
+      "description": "Close button text"
+    },
+
+    "apiConfigTitle": "API Configuration",
+    "@apiConfigTitle": {
+      "description": "Title for API configuration page"
+    },
+
+    "loadConfigFailed": "Failed to load configuration",
+    "@loadConfigFailed": {
+      "description": "Error message when configuration fails to load"
+    },
+
+    "noConfigChangesDetected": "No configuration changes detected",
+    "@noConfigChangesDetected": {
+      "description": "Message when no changes are detected in configuration"
+    },
+
+    "resetToDefaults": "Reset to Defaults",
+    "@resetToDefaults": {
+      "description": "Button text to reset all configurations to default values"
+    },
+
+    "resetSuccess": "Reset to default configuration",
+    "@resetSuccess": {
+      "description": "Success message after resetting configuration"
+    },
+
+    "resetFailed": "Reset failed",
+    "@resetFailed": {
+      "description": "Error message when reset operation fails"
+    },
+
+    "resetEndpoint": "Reset {name}",
+    "@resetEndpoint": {
+      "description": "Dialog title for resetting a specific endpoint",
+      "placeholders": {
+        "name": {
+          "type": "String"
+        }
+      }
+    },
+
+    "resetEndpointSuccess": "Reset {name} successfully",
+    "@resetEndpointSuccess": {
+      "description": "Success message after resetting a specific endpoint",
+      "placeholders": {
+        "name": {
+          "type": "String"
+        }
+      }
+    },
+
+    "customConfig": "Custom",
+    "@customConfig": {
+      "description": "Label for custom configuration"
+    },
+
+    "copyToClipboard": "Copy to clipboard",
+    "@copyToClipboard": {
+      "description": "Tooltip for copy button"
+    },
+
+    "copiedToClipboard": "Copied to clipboard",
+    "@copiedToClipboard": {
+      "description": "Message shown when text is copied to clipboard"
+    },
+
+    "resetToDefault": "Reset to default",
+    "@resetToDefault": {
+      "description": "Tooltip for reset button"
+    },
+
+    "apiUrlHint": "Please enter API URL",
+    "@apiUrlHint": {
+      "description": "Hint text for API URL input field"
+    },
+
+    "validUrlError": "Please enter a valid URL",
+    "@validUrlError": {
+      "description": "Error message for invalid URL"
+    },
+
+    "defaultValue": "Default value: {value}",
+    "@defaultValue": {
+      "description": "Label showing the default value",
+      "placeholders": {
+        "value": {
+          "type": "String"
+        }
+      }
+    },
+
+    "refresh": "Refresh",
+    "@refresh": {
+      "description": "Tooltip for refresh button"
+    },
+
+    "resetAll": "Reset All to Defaults",
+    "@resetAll": {
+      "description": "Menu item text to reset all configurations"
+    },
+
+    "apiUrlLabel": "API URL",
+    "@apiUrlLabel": {
+      "description": "Label for API URL input field"
+    },
+
+    "roleUser": "User",
+    "@roleUser": {
+      "description": "User role label"
+    },
+
+    "roleGuest": "Guest",
+    "@roleGuest": {
+      "description": "Guest role label"
+    },
+
+    "roleAdmin": "Admin",
+    "@roleAdmin": {
+      "description": "Admin role label"
+    },
+
+    "errorMessage": "❌ {error}",
+    "@errorMessage": {
+      "description": "Error message format",
+      "placeholders": {
+        "error": {
+          "type": "String"
+        }
+      }
+    },
+
+    "nameDisplay": "Name: {name} | Email: {email} | Role: {role} | Group: {group}",
+    "@nameDisplay": {
+      "description": "Format for displaying user information",
+      "placeholders": {
+        "name": {
+          "type": "String"
+        },
+        "email": {
+          "type": "String"
+        },
+        "role": {
+          "type": "String"
+        },
+        "group": {
+          "type": "String"
+        }
+      }
+    },
+
+    "account": "Account",
+    "@account": {
+      "description": "Label for account/username field"
+    },
+
+    "familyName": "Family Name",
+    "@familyName": {
+      "description": "Label for family name field"
+    },
+
+    "middleName": "Middle Name",
+    "@middleName": {
+      "description": "Label for middle name field"
+    },
+
+    "middleNameOptional": "Middle Name (Optional)",
+    "@middleNameOptional": {
+      "description": "Label for optional middle name field"
+    },
+
+    "givenName": "Given Name",
+    "@givenName": {
+      "description": "Label for given name field"
+    },
+
+    "email": "Email",
+    "@email": {
+      "description": "Label for email field"
+    },
+
+    "mobile": "Mobile",
+    "@mobile": {
+      "description": "Label for mobile field"
+    },
+
+    "mobileOptional": "Mobile (Optional)",
+    "@mobileOptional": {
+      "description": "Label for optional mobile field"
+    },
+
+    "resetPassword": "Reset Password",
+    "@resetPassword": {
+      "description": "Label for reset password field"
+    },
+
+    "role": "Role",
+    "@role": {
+      "description": "Label for role field"
+    },
+
+    "group": "Group",
+    "@group": {
+      "description": "Label for group field"
+    },
+
+    "required": "Required",
+    "@required": {
+      "description": "Validation message for required fields"
+    },
+
+    "emailFormatError": "Please enter a valid email address",
+    "@emailFormatError": {
+      "description": "Validation message for invalid email format"
+    },
+
+    "selectGroup": "Please select a group",
+    "@selectGroup": {
+      "description": "Validation message for group selection"
+    },
+
+    "updated": "✅ Updated",
+    "@updated": {
+      "description": "Success message for update operation"
+    },
+
+    "streamConfig": "Stream Configuration",
+    "@streamConfig": {
+      "description": "Stream configuration dialog title"
+    },
+    "streamConfigTitle": "Stream Configuration - {siteName}",
+    "@streamConfigTitle": {
+    },
+    "streamUsage": "Used {used} / Limit {max}",
+    "@streamUsage": {
+    },
+    "streamLimitReached": "⚠️ Stream limit reached ({max})",
+    "@streamLimitReached": {
+    },
+    "addStream": "Add Stream",
+    "@addStream": {
+      "description": "Add stream title"
+    },
+    "streamName": "Stream Name",
+    "@streamName": {
+      "description": "Stream name field label"
+    },
+    "rtspHttpUrl": "RTSP / HTTP URL",
+    "@rtspHttpUrl": {
+      "description": "URL field label"
+    },
+    "modelKey": "Model key",
+    "@modelKey": {
+      "description": "Model key field label"
+    },
+    "startHour": "Start Hour (0-23)",
+    "@startHour": {
+      "description": "Start hour field label"
+    },
+    "endHour": "End Hour (0-23)",
+    "@endHour": {
+      "description": "End hour field label"
+    },
+    "recognitionEnabled": "Enable recognition stream",
+    "@recognitionEnabled": {
+      "description": "Recognition stream master switch"
+    },
+    "recognitionEnabledHint": "When off, the configuration is saved, but recognition does not run and the stream is hidden from the live wall.",
+    "@recognitionEnabledHint": {
+      "description": "Recognition stream master switch explanation"
+    },
+    "expireDate": "Expire Date (optional)",
+    "@expireDate": {
+      "description": "Expire date field label"
+    },
+    "notSet": "Not set",
+    "@notSet": {
+      "description": "Not set status"
+    },
+    "editStream": "Edit - {streamName}",
+    "@editStream": {
+    },
+    "deleteStream": "Delete Stream",
+    "@deleteStream": {
+      "description": "Delete stream dialog title"
+    },
+    "deleteStreamConfirmation": "Are you sure? This action cannot be undone",
+    "@deleteStreamConfirmation": {
+      "description": "Delete stream confirmation message"
+    },
+    "streamAdded": "✅ Stream added",
+    "@streamAdded": {
+      "description": "Stream add success message"
+    },
+    "streamUpdated": "✅ Updated",
+    "@streamUpdated": {
+      "description": "Stream update success message"
+    },
+    "streamDeleted": "✅ Deleted",
+    "@streamDeleted": {
+      "description": "Stream delete success message"
+    },
+    "noStreamConfigs": "No stream configurations",
+    "@noStreamConfigs": {
+      "description": "Text shown when there are no stream configurations"
+    },
+    "editTooltip": "Edit",
+    "@editTooltip": {
+      "description": "Edit tooltip"
+    },
+    "deleteTooltip": "Delete",
+    "@deleteTooltip": {
+      "description": "Delete tooltip"
+    },
+    "close": "Close",
+    "@close": {
+      "description": "Close button text"
+    },
+    "noSafetyVestOrHelmet": "No Safety Vest/Helmet",
+    "@noSafetyVestOrHelmet": {
+      "description": "Detection option: no safety vest or helmet"
+    },
+    "nearMachineryOrVehicle": "Near Machinery/Vehicle",
+    "@nearMachineryOrVehicle": {
+      "description": "Detection option: near machinery or vehicle"
+    },
+    "inRestrictedArea": "In Restricted Area",
+    "@inRestrictedArea": {
+      "description": "Detection option: in restricted area"
+    },
+    "inUtilityPoleArea": "In Utility Pole Area",
+    "@inUtilityPoleArea": {
+      "description": "Detection option: in utility pole area"
+    },
+    "machineryNearPole": "Machinery Near Pole",
+    "@machineryNearPole": {
+      "description": "Detection option: machinery near pole"
+    },
+    "streamLimitReached": "⚠️ Stream limit reached ({maxStreams})",
+    "@streamLimitReached": {
+      "description": "Warning message: stream limit reached",
+      "placeholders": {
+        "maxStreams": {
+          "type": "int",
+          "description": "Maximum number of streams"
+        }
+      }
+    },
+    "addStream": "Add Stream",
+    "@addStream": {
+      "description": "Add stream title"
+    },
+    "required": "Required",
+    "@required": {
+      "description": "Form validation error: required"
+    },
+    "startHour": "Start Hour (0-23)",
+    "@startHour": {
+      "description": "Time input label: start hour"
+    },
+    "endHour": "End Hour (0-23)",
+    "@endHour": {
+      "description": "Time input label: end hour"
+    },
+    "expiryDate": "Expiry Date (optional)",
+    "@expiryDate": {
+      "description": "Expiry date option label"
+    },
+    "notSet": "Not Set",
+    "@notSet": {
+      "description": "Not set status"
+    },
+    "add": "Add",
+    "@add": {
+      "description": "Add button"
+    },
+    "edit": "Edit",
+    "@edit": {
+      "description": "Edit title prefix"
+    },
+    "cancel": "Cancel",
+    "@cancel": {
+      "description": "Cancel button"
+    },
+    "save": "Save",
+    "@save": {
+      "description": "Save button"
+    },
+    "updated": "✅ Updated",
+    "@updated": {
+      "description": "Update success message"
+    },
+    "deleteStream": "Delete Stream",
+    "@deleteStream": {
+      "description": "Delete stream dialog title"
+    },
+    "editStream": "Edit - {streamName}",
+    "@editStream": {
+      "description": "Edit stream dialog title",
+      "placeholders": {
+        "streamName": {
+          "type": "String",
+          "description": "Stream name"
+        }
+      }
+    },
+    "delete": "Delete",
+    "@delete": {
+      "description": "Delete button"
+    },
+    "deleted": "✅ Deleted",
+    "@deleted": {
+      "description": "Delete success message"
+    },
+    "noStreamConfig": "No stream configuration",
+    "@noStreamConfig": {
+      "description": "Message when no stream configurations exist"
+    },
+    "streamConfigTitle": "Stream Configuration - {siteName}",
+    "@streamConfigTitle": {
+      "description": "Stream configuration dialog title",
+      "placeholders": {
+        "siteName": {
+          "type": "String",
+          "description": "Site name"
+        }
+      }
+    },
+    "streamUsage": "Used {used} / Limit {max}",
+    "@streamUsage": {
+      "description": "Stream usage display",
+      "placeholders": {
+        "used": {
+          "type": "int",
+          "description": "Number of used streams"
+        },
+        "max": {
+          "type": "int",
+          "description": "Maximum number of streams"
+        }
+      }
+    },
+    "close": "Close",
+    "@close": {
+      "description": "Close button"
+    },
+    "fileManagement": "File Management",
+    "@fileManagement": {
+      "description": "File management menu item"
+    },
+    "siteManagement": "Site Management",
+    "@siteManagement": {
+      "description": "Site management menu item"
+    },
+    "userManagement": "User Management",
+    "@userManagement": {
+      "description": "User management menu item"
+    },
+    "groupManagement": "Group Management",
+    "@groupManagement": {
+      "description": "Group management menu item"
+    },
+    "featureManagement": "Feature Management",
+    "@featureManagement": {
+      "description": "Feature management menu item"
+    },
+    "changePassword": "Change Password",
+    "@changePassword": {
+      "description": "Change password menu item"
+    },
+    "apiConfiguration": "API Configuration",
+    "@apiConfiguration": {
+      "description": "API configuration menu item"
+    },
+
+    "loadingApiConfig": "Loading API configuration...",
+    "@loadingApiConfig": {
+      "description": "Loading API configuration message"
+    },
+    "apiConfigStatus": "API Configuration Status",
+    "@apiConfigStatus": {
+      "description": "API configuration status title"
+    },
+    "customConfigCount": "{count} Custom",
+    "@customConfigCount": {
+      "description": "Custom configuration count"
+    },
+    "usingDefaults": "Using Defaults",
+    "@usingDefaults": {
+      "description": "Using defaults label"
+    },
+    "customApiEndpointsMessage": "You have customized {count} API endpoint URLs.",
+    "@customApiEndpointsMessage": {
+      "description": "Custom API endpoints count message"
+    },
+    "allEndpointsUseDefaults": "All API endpoints use default URLs.",
+    "@allEndpointsUseDefaults": {
+      "description": "All endpoints use defaults message"
+    },
+    "apiEndpointDetails": "API Endpoint Details",
+    "@apiEndpointDetails": {
+      "description": "API endpoint details title"
+    },
+
+    "chatApiDescription": "Chat conversation API service",
+    "@chatApiDescription": {
+      "description": "Chat API service description"
+    },
+    "detectionApiDescription": "Object detection API service",
+    "@detectionApiDescription": {
+      "description": "Detection API service description"
+    },
+    "managementApiDescription": "System management API service",
+    "@managementApiDescription": {
+      "description": "Management API service description"
+    },
+    "notificationApiDescription": "Notification push API service",
+    "@notificationApiDescription": {
+      "description": "Notification API service description"
+    },
+    "streamingApiDescription": "Streaming media API service",
+    "@streamingApiDescription": {
+      "description": "Streaming API service description"
+    },
+    "fileManagementApiDescription": "File management API service",
+    "@fileManagementApiDescription": {
+      "description": "File management API service description"
+    },
+    "violationRecordsApiDescription": "Violation records API service",
+    "@violationRecordsApiDescription": {
+      "description": "Violation records API service description"
+    },
+
+    "apiService": "API Service",
+    "@apiService": {
+      "description": "Generic API service description"
+    },
+
+    "welcomeUser": "Welcome, {username}!",
+    "@welcomeUser": {
+      "description": "Welcome message for logged in user",
+      "placeholders": {
+        "username": {
+          "type": "String",
+          "description": "The username of the logged in user"
+        }
+      }
+    },
+    "roleLabel": "Role: {role}",
+    "@roleLabel": {
+      "description": "User role label",
+      "placeholders": {
+        "role": {
+          "type": "String",
+          "description": "The role of the user"
+        }
+      }
+    },
+    "guestUser": "Guest User",
+    "@guestUser": {
+      "description": "Label for non-logged in user"
+    },
+    "pleaseLogin": "Please login to access features",
+    "@pleaseLogin": {
+      "description": "Message encouraging user to login"
+    },
+
+    "downloadImage": "Download Image",
+    "@downloadImage": {
+      "description": "Button text for downloading image"
+    },
+    "copyImage": "Copy Image",
+    "@copyImage": {
+      "description": "Button text for copying image to clipboard"
+    },
+    "shareImage": "Share Link",
+    "@shareImage": {
+      "description": "Button text for sharing link"
+    },
+    "imageDownloaded": "Image downloaded to device",
+    "@imageDownloaded": {
+      "description": "Message when image is downloaded to device"
+    },
+    "imageSavedToGallery": "Image saved to photo gallery",
+    "@imageSavedToGallery": {
+      "description": "Message when image is saved to photo gallery"
+    },
+    "imageCopied": "Image copied to clipboard",
+    "@imageCopied": {
+      "description": "Message when image is copied"
+    },
+    "downloadFailed": "Download failed",
+    "@downloadFailed": {
+      "description": "Message when download fails"
+    },
+    "copyFailed": "Copy failed",
+    "@copyFailed": {
+      "description": "Message when copy fails"
+    },
+    "shareFailed": "Share failed",
+    "@shareFailed": {
+      "description": "Message when share fails"
+    }
+  }

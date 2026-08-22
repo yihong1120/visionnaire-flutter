@@ -1,0 +1,20 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "YOUR_APPLE_TEAM_ID.com.example.visionnaire"
+        ],
+        "components": [
+          {
+            "/": "/reset_password",
+            "?": {
+              "token": "*"
+            },
+            "comment": "Replace with your password-reset deep-link contract."
+          }
+        ]
+      }
+    ]
+  }
+}

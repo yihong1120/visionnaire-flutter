@@ -1,0 +1,539 @@
+{
+  "@@locale": "zh_CN",
+  "appTitle": "Visionnaire 應用程式",
+  "@appTitle": {
+    "description": "應用程式標題"
+  },
+
+  "deviceLang": "zh-CN",
+  "@deviceLang": {
+    "description": "地區代碼"
+  },
+
+  "login": "登入",
+  "@login": {
+    "description": "登入按鈕文字"
+  },
+  "username": "用戶名",
+  "@username": {
+    "description": "用戶名輸入提示"
+  },
+  "password": "密碼",
+  "@password": {
+    "description": "密碼輸入提示"
+  },
+  "chatList": "聊天列表",
+  "@chatList": {
+    "description": "聊天列表頁標題"
+  },
+  "chatTitleCannotBeEmpty": "聊天標題不能為空或僅包含空格",
+  "@chatTitleCannotBeEmpty": {
+    "description": "聊天標題不能為空或僅包含空格的錯誤訊息"
+  },
+  "cameraList": "監視器串流",
+  "@cameraList": {
+    "description": "監視器串流頁標題"
+  },
+  "detection": "物件偵測",
+  "@detection": {
+    "description": "物件偵測頁標題"
+  },
+  "logout": "登出",
+  "@logout": {
+    "description": "登出按鈕文字"
+  },
+  "changeLanguage": "切換語言",
+  "@changeLanguage": {
+    "description": "切換語言按鈕文字"
+  },
+  "site": "工地",
+  "@site": {
+    "description": "工地標籤"
+  },
+  "stream": "串流",
+  "@stream": {
+    "description": "串流標籤"
+  },
+  "detectionTime": "偵測時間",
+  "@detectionTime": {
+    "description": "偵測時間標籤"
+  },
+  "violationMessage": "違規訊息",
+  "@violationMessage": {
+    "description": "違規訊息標籤"
+  },
+  "loadingImageError": "無法載入影像",
+  "@loadingImageError": {
+    "description": "影像載入失敗錯誤訊息"
+  },
+  "violationRecordQuery": "違規紀錄查詢",
+  "@violationRecordQuery": {
+    "description": "違規紀錄查詢頁標題"
+  },
+  "keyword": "關鍵字 (stream_name 或訊息)",
+  "@keyword": {
+    "description": "關鍵字輸入提示"
+  },
+  "startTime": "開始時間",
+  "@startTime": {
+    "description": "開始時間標籤"
+  },
+  "endTime": "結束時間",
+  "@endTime": {
+    "description": "結束時間標籤"
+  },
+  "query": "查詢",
+  "@query": {
+    "description": "查詢按鈕文字"
+  },
+  "noRecords": "目前尚無標籤資料",
+  "@noRecords": {
+    "description": "無標籤資料時顯示的文字"
+  },
+  "streamingWebSettings": "即时影像",
+  "@streamingWebSettings": {
+    "description": "即时影像页面标题"
+  },
+  "streamingWebUrl": "Streaming Web URL (含 http:// 或 https://)",
+  "@streamingWebUrl": {
+    "description": "Streaming Web URL 輸入提示"
+  },
+  "save": "儲存",
+  "@save": {
+    "description": "儲存按鈕文字"
+  },
+  "goToLabels": "前往地点列表",
+  "@goToLabels": {
+    "description": "前往即时影像地点列表按钮文字"
+  },
+  "currentUrl": "目前 URL",
+  "@currentUrl": {
+    "description": "目前 URL 標籤"
+  },
+  "labelList": "地点",
+  "@labelList": {
+    "description": "即时影像地点列表页标题"
+  },
+  "label": "標籤",
+  "@label": {
+    "description": "單一標籤名稱"
+  },
+  "noImage": "尚無攝影機畫面資料",
+  "@noImage": {
+    "description": "無攝影機畫面時顯示的文字"
+  },
+  "warnings": "警告訊息",
+  "@warnings": {
+    "description": "警告訊息標籤"
+  },
+  "lastUpdated": "最後更新時間",
+  "@lastUpdated": {
+    "description": "最後更新時間標籤"
+  },
+  "noWarnings": "沒有警告訊息",
+  "@noWarnings": {
+    "description": "無警告訊息時顯示的文字"
+  },
+  "detectionResult": "偵測結果",
+  "@detectionResult": {
+    "description": "偵測結果標籤"
+  },
+  "chooseModel": "選擇模型",
+  "@chooseModel": {
+    "description": "模型選擇標籤"
+  },
+  "noImageSelected": "尚未選擇圖片",
+  "@noImageSelected": {
+    "description": "未選擇圖片時顯示的文字"
+  },
+  "noDetectionResult": "尚無偵測結果",
+  "@noDetectionResult": {
+    "description": "無偵測結果時顯示的文字"
+  },
+  "takePhoto": "拍照",
+  "@takePhoto": {
+    "description": "拍照按鈕文字"
+  },
+  "photoLibrary": "相簿",
+  "@photoLibrary": {
+    "description": "相簿按鈕文字"
+  },
+  "startDetection": "開始偵測",
+  "@startDetection": {
+    "description": "開始偵測按鈕文字"
+  },
+  "cannotOpenCamera": "無法開啟相機",
+  "@cannotOpenCamera": {
+    "description": "無法開啟相機時的錯誤訊息"
+  },
+  "cannotOpenGallery": "無法開啟相簿",
+  "@cannotOpenGallery": {
+    "description": "無法開啟相簿時的錯誤訊息"
+  },
+  "getImageSizeFailed": "取得圖片尺寸失敗",
+  "@getImageSizeFailed": {
+    "description": "取得圖片尺寸失敗時的錯誤訊息"
+  },
+  "notLoggedIn": "尚未登入 (偵測服務 Token 無效)",
+  "@notLoggedIn": {
+    "description": "尚未登入或 Token 無效的錯誤訊息"
+  },
+  "tokenRefreshFailed": "Token 刷新失敗",
+  "@tokenRefreshFailed": {
+    "description": "Token 刷新失敗時的錯誤訊息"
+  },
+  "chatLoadFailed": "載入對話失敗",
+  "@chatLoadFailed": {
+    "description": "載入對話失敗的錯誤訊息"
+  },
+  "chatRoom": "對話房",
+  "@chatRoom": {
+    "description": "對話房頁面的標題"
+  },
+  "inputMessage": "輸入訊息...",
+  "@inputMessage": {
+    "description": "訊息輸入框的提示文字"
+  },
+  "newChatRoom": "新聊天室",
+  "@newChatRoom": {
+    "description": "新聊天室對話框的標題"
+  },
+  "enterChatRoomTitle": "輸入聊天室標題",
+  "@enterChatRoomTitle": {
+    "description": "聊天室標題輸入提示"
+  },
+  "create": "創建",
+  "@create": {
+    "description": "創建按鈕文字"
+  },
+  "createFailed": "創建失敗",
+  "@createFailed": {
+    "description": "創建失敗的錯誤訊息"
+  },
+  "confirmDeleteChatRoom": "你確定要刪除此聊天房間嗎？",
+  "@confirmDeleteChatRoom": {
+    "description": "提示用戶是否確認要刪除聊天房間"
+  },
+  "cancel": "取消",
+  "@cancel": {
+    "description": "Dialog 取消按鈕文字"
+  },
+  "delete": "刪除",
+  "@delete": {
+    "description": "Dialog 刪除按鈕文字"
+  },
+  "deleteFailed": "刪除失敗",
+  "@deleteFailed": {
+    "description": "刪除失敗的錯誤訊息"
+  },
+  "selectSite": "選擇工地",
+  "@selectSite": {
+    "description": "下拉選單提示：選擇工地"
+  },
+  "notSelected": "未選擇",
+  "@notSelected": {
+    "description": "當未選擇項目時顯示的文字"
+  },
+  "errorPrefix": "錯誤：",
+  "@errorPrefix": {
+    "description": "錯誤訊息前綴"
+  },
+  "sitePrefix": "工地：",
+  "@sitePrefix": {
+    "description": "工地名稱前綴"
+  },
+  "streamPrefix": "串流：",
+  "@streamPrefix": {
+    "description": "串流名稱前綴"
+  },
+  "detectionTimePrefix": "偵測時間：",
+  "@detectionTimePrefix": {
+    "description": "偵測時間前綴"
+  },
+  "urlUpdated": "已更新 Streaming Web Base URL 為：",
+  "@urlUpdated": {
+    "description": "當 Streaming Web Base URL 更新後顯示的提示文字"
+  },
+  "streamingWebIndexTitle": "地点",
+  "@streamingWebIndexTitle": {
+    "description": "即时影像地点页面标题"
+  },
+  "unknownError": "未知錯誤",
+  "@unknownError": {
+    "description": "預設錯誤訊息，當錯誤資訊不明時使用"
+  },
+  "noLabels": "目前尚無標籤資料",
+  "@noLabels": {
+    "description": "當沒有標籤資料時顯示的文字"
+  },
+  "chatMessageCannotBeEmpty": "不可輸入空問題",
+  "@chatMessageCannotBeEmpty": {
+    "description": "聊天室不可輸入空問題"
+  },
+
+  "editQuestionHint": "請輸入新的問題",
+  "@editQuestionHint": {
+    "description": "聊天室編輯問題時的提示文字"
+  },
+
+  "confirm": "確定",
+  "@confirm": {
+    "description": "Dialog 確定按鈕文字"
+  },
+
+  "editQuestion": "編輯問題",
+  "@editQuestion": {
+    "description": "編輯問題按鈕文字"
+  },
+
+  "regenerateAnswer": "重新生成答案",
+  "@regenerateAnswer": {
+    "description": "重新生成答案按鈕文字"
+  },
+
+  "removeQuestionChain": "移除問題(含後續對話)",
+  "@removeQuestionChain": {
+    "description": "移除問題 (含後續對話) 按鈕文字"
+  },
+
+  "failedToLoadHistory": "載入歷史失敗",
+  "@failedToLoadHistory": {
+    "description": "載入歷史失敗時的錯誤訊息"
+  },
+
+  "failedToLoadHistoryAfterRefresh": "刷新後仍載入歷史失敗",
+  "@failedToLoadHistoryAfterRefresh": {
+    "description": "刷新後仍載入歷史失敗時的錯誤訊息"
+  },
+
+  "failedToAskAfterRefresh": "刷新後提問失敗",
+  "@failedToAskAfterRefresh": {
+    "description": "刷新後提問失敗時的錯誤訊息"
+  },
+
+  "editFailed": "編輯失敗",
+  "@editFailed": {
+    "description": "編輯問題失敗時的錯誤訊息"
+  },
+
+  "editFailedAfterRefresh": "刷新後仍編輯失敗",
+  "@editFailedAfterRefresh": {
+    "description": "刷新後仍編輯失敗時的錯誤訊息"
+  },
+
+  "regenerateFailed": "重新生成失敗",
+  "@regenerateFailed": {
+    "description": "重新生成答案失敗時的錯誤訊息"
+  },
+
+  "regenerateFailedAfterRefresh": "刷新後仍重新生成失敗",
+  "@regenerateFailedAfterRefresh": {
+    "description": "刷新後仍重新生成失敗時的錯誤訊息"
+  },
+
+  "removeFailed": "移除失敗",
+  "@removeFailed": {
+    "description": "移除失敗時的錯誤訊息"
+  },
+
+  "removeFailedAfterRefresh": "刷新後仍移除失敗",
+  "@removeFailedAfterRefresh": {
+    "description": "刷新後仍移除失敗時的錯誤訊息"
+  },
+
+  "sendMessage": "发送消息",
+  "@sendMessage": {
+    "description": "聊天消息发送按钮与提示文字"
+  },
+  "addImages": "新增图片",
+  "@addImages": {
+    "description": "聊天消息新增图片提示文字"
+  },
+  "addFiles": "新增文件",
+  "@addFiles": {
+    "description": "聊天消息新增文件提示文字"
+  },
+  "attachmentCount": "{count} 个附件",
+  "@attachmentCount": {
+    "description": "聊天输入区待发送附件数量",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "cancelGeneration": "取消生成",
+  "@cancelGeneration": {
+    "description": "取消当前回答生成提示文字"
+  },
+  "createChatRoom": "创建聊天室",
+  "@createChatRoom": {
+    "description": "从输入区创建聊天室提示文字"
+  },
+  "attachmentUploadFailed": "上传附件失败：{error}",
+  "@attachmentUploadFailed": {
+    "description": "聊天附件上传失败错误消息",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "attachmentDeleteFailed": "删除附件失败：{error}",
+  "@attachmentDeleteFailed": {
+    "description": "聊天附件删除失败错误消息",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "selectLabel": "选择标签",
+  "@selectLabel": {
+    "description": "串流桌面双栏右侧未选择标签提示文字"
+  },
+  "showDetectionResults": "显示识别结果",
+  "@showDetectionResults": {
+    "description": "串流画面切换对象识别覆盖层文字"
+  },
+
+  "hardhat": "安全帽",
+  "@hardhat": {
+    "description": "安全帽標籤"
+  },
+
+  "vest": "背心",
+  "@vest": {
+    "description": "背心標籤"
+  },
+
+  "machinery": "機具",
+  "@machinery": {
+    "description": "機具標籤"
+  },
+
+  "vehicle": "車輛",
+  "@vehicle": {
+    "description": "車輛標籤"
+  },
+
+  "no_hardhat": "無安全帽",
+  "@no_hardhat": {
+    "description": "無安全帽標籤"
+  },
+
+  "no_vest": "無安全背心",
+  "@no_vest": {
+    "description": "無安全背心標籤"
+  },
+
+  "person": "人員",
+  "@person": {
+    "description": "人員標籤"
+  },
+
+  "cone": "安全錐",
+  "@cone": {
+    "description": "安全錐標籤"
+  },
+
+  "mask": "口罩",
+  "@mask": {
+    "description": "口罩標籤"
+  },
+
+  "no_mask": "無口罩",
+  "@no_mask": {
+    "description": "無口罩標籤"
+  },
+
+  "utility_pole": "電桿",
+  "@utility_pole": {
+    "description": "電桿標籤"
+  },
+
+  "warning_people_in_controlled_area": "警告：{count} 人進入受控區域！",
+  "@warning_people_in_controlled_area": {
+    "description": "警告訊息：人員進入受控區域",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+
+  "warning_people_in_utility_pole_controlled_area": "警告：{count} 人進入電桿受控區域！",
+  "@warning_people_in_utility_pole_controlled_area": {
+    "description": "警告訊息：人員進入電桿受控區域",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+
+  "warning_no_hardhat": "警告: 有{count}人未佩戴安全帽！",
+  "@warning_no_hardhat": {
+    "description": "警告訊息：缺少安全帽",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "4"
+      }
+    }
+  },
+
+  "warning_no_safety_vest": "警告: 有{count}人未穿著安全背心！",
+  "@warning_no_safety_vest": {
+    "description": "警告訊息：缺少安全背心",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+
+  "warning_close_to_machinery": "警告：{count} 人靠近機具！",
+  "@warning_close_to_machinery": {
+    "description": "警告訊息：人員靠近機具",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+
+  "warning_close_to_vehicle": "警告：{count} 人靠近車輛！",
+  "@warning_close_to_vehicle": {
+    "description": "警告訊息：人員靠近車輛",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+
+  "detect_machinery_close_to_pole": "警告：{count} 台機具靠近電桿！",
+  "@detect_machinery_close_to_pole": {
+    "description": "警告訊息：機具靠近電桿",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+
+  "showOverlay": "顯示覆蓋層",
+  "@showOverlay": {
+    "description": "顯示覆蓋層按鈕文字"
+  }
+}

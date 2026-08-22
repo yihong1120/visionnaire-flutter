@@ -1,0 +1,2040 @@
+{
+  "@@locale": "zh",
+  "appTitle": "Visionnaire 應用程式",
+  "@appTitle": {
+    "description": "應用程式標題"
+  },
+  "deviceLang": "zh-TW",
+  "@deviceLang": {
+    "description": "地區代碼"
+  },
+  "login": "登入",
+  "@login": {
+    "description": "登入按鈕文字"
+  },
+  "username": "使用者名稱",
+  "@username": {
+    "description": "使用者名稱欄位標籤"
+  },
+  "password": "密碼",
+  "@password": {
+    "description": "密碼欄位標籤"
+  },
+  "chatList": "聊天列表",
+  "@chatList": {
+    "description": "聊天列表頁標題"
+  },
+  "chatTitleCannotBeEmpty": "聊天標題不能為空或僅包含空格",
+  "@chatTitleCannotBeEmpty": {
+    "description": "聊天標題不能為空或僅包含空格的錯誤訊息"
+  },
+  "cameraList": "監視器串流",
+  "@cameraList": {
+    "description": "監視器串流頁標題"
+  },
+  "detection": "物件偵測",
+  "@detection": {
+    "description": "物件偵測頁標題"
+  },
+  "logout": "登出",
+  "@logout": {
+    "description": "登出按鈕文字"
+  },
+  "changeLanguage": "切換語言",
+  "@changeLanguage": {
+    "description": "切換語言按鈕文字"
+  },
+  "site": "工地",
+  "@site": {
+    "description": "工地標籤"
+  },
+  "stream": "串流",
+  "@stream": {
+    "description": "串流標籤"
+  },
+  "detectionTime": "偵測時間",
+  "@detectionTime": {
+    "description": "偵測時間標籤"
+  },
+  "violationMessage": "違規訊息",
+  "@violationMessage": {
+    "description": "違規訊息標籤"
+  },
+  "loadingImageError": "無法載入影像",
+  "@loadingImageError": {
+    "description": "影像載入失敗錯誤訊息"
+  },
+  "violationRecordQuery": "違規紀錄查詢",
+  "@violationRecordQuery": {
+    "description": "違規紀錄查詢頁標題"
+  },
+  "keyword": "關鍵字 (stream_name 或訊息)",
+  "@keyword": {
+    "description": "關鍵字輸入提示"
+  },
+  "startTime": "開始時間",
+  "@startTime": {
+    "description": "開始時間標籤"
+  },
+  "endTime": "結束時間",
+  "@endTime": {
+    "description": "結束時間標籤"
+  },
+  "query": "查詢",
+  "@query": {
+    "description": "查詢按鈕文字"
+  },
+  "noRecords": "目前尚無標籤資料",
+  "@noRecords": {
+    "description": "無標籤資料時顯示的文字"
+  },
+  "streamingWebSettings": "即時影像",
+  "@streamingWebSettings": {
+    "description": "即時影像頁面標題"
+  },
+  "streamingWebUrl": "Streaming Web URL (含 http:// 或 https://)",
+  "@streamingWebUrl": {
+    "description": "Streaming Web URL 輸入提示"
+  },
+  "save": "儲存",
+  "@save": {
+    "description": "儲存按鈕"
+  },
+  "goToLabels": "前往地點列表",
+  "@goToLabels": {
+    "description": "前往即時影像地點列表按鈕文字"
+  },
+  "currentUrl": "目前 URL",
+  "@currentUrl": {
+    "description": "目前 URL 標籤"
+  },
+  "labelList": "地點",
+  "@labelList": {
+    "description": "即時影像地點列表頁標題"
+  },
+  "label": "標籤",
+  "@label": {
+    "description": "單一標籤名稱"
+  },
+  "noImage": "尚無攝影機畫面資料",
+  "@noImage": {
+    "description": "無攝影機畫面時顯示的文字"
+  },
+  "warnings": "警告訊息",
+  "@warnings": {
+    "description": "警告訊息標籤"
+  },
+  "lastUpdated": "最後更新時間",
+  "@lastUpdated": {
+    "description": "最後更新時間標籤"
+  },
+  "noWarnings": "沒有警告訊息",
+  "@noWarnings": {
+    "description": "無警告訊息時顯示的文字"
+  },
+  "detectionResult": "偵測結果",
+  "@detectionResult": {
+    "description": "偵測結果標籤"
+  },
+  "chooseModel": "選擇模型",
+  "@chooseModel": {
+    "description": "模型選擇標籤"
+  },
+  "noImageSelected": "尚未選擇圖片",
+  "@noImageSelected": {
+    "description": "未選擇圖片時顯示的文字"
+  },
+  "noDetectionResult": "尚無偵測結果",
+  "@noDetectionResult": {
+    "description": "無偵測結果時顯示的文字"
+  },
+  "takePhoto": "拍照",
+  "@takePhoto": {
+    "description": "拍照按鈕文字"
+  },
+  "photoLibrary": "相簿",
+  "@photoLibrary": {
+    "description": "相簿按鈕文字"
+  },
+  "startDetection": "開始偵測",
+  "@startDetection": {
+    "description": "開始偵測按鈕文字"
+  },
+  "cannotOpenCamera": "無法開啟相機",
+  "@cannotOpenCamera": {
+    "description": "無法開啟相機時的錯誤訊息"
+  },
+  "cannotOpenGallery": "無法開啟相簿",
+  "@cannotOpenGallery": {
+    "description": "無法開啟相簿時的錯誤訊息"
+  },
+  "getImageSizeFailed": "取得圖片尺寸失敗",
+  "@getImageSizeFailed": {
+    "description": "取得圖片尺寸失敗時的錯誤訊息"
+  },
+  "notLoggedIn": "尚未登入 (偵測服務 Token 無效)",
+  "@notLoggedIn": {
+    "description": "尚未登入或 Token 無效的錯誤訊息"
+  },
+  "tokenRefreshFailed": "Token 刷新失敗",
+  "@tokenRefreshFailed": {
+    "description": "Token 刷新失敗時的錯誤訊息"
+  },
+  "chatLoadFailed": "載入對話失敗",
+  "@chatLoadFailed": {
+    "description": "載入對話失敗的錯誤訊息"
+  },
+  "chatRoom": "對話房",
+  "@chatRoom": {
+    "description": "對話房頁面的標題"
+  },
+  "inputMessage": "輸入訊息...",
+  "@inputMessage": {
+    "description": "訊息輸入框的提示文字"
+  },
+  "newChatRoom": "新聊天室",
+  "@newChatRoom": {
+    "description": "新聊天室對話框的標題"
+  },
+  "enterChatRoomTitle": "輸入聊天室標題",
+  "@enterChatRoomTitle": {
+    "description": "聊天室標題輸入提示"
+  },
+  "create": "創建",
+  "@create": {
+    "description": "創建按鈕文字"
+  },
+  "createFailed": "創建失敗",
+  "@createFailed": {
+    "description": "創建失敗的錯誤訊息"
+  },
+  "confirmDeleteChatRoom": "你確定要刪除此聊天房間嗎？",
+  "@confirmDeleteChatRoom": {
+    "description": "提示用戶是否確認要刪除聊天房間"
+  },
+  "cancel": "取消",
+  "@cancel": {
+    "description": "取消按鈕"
+  },
+  "delete": "刪除",
+  "@delete": {
+    "description": "刪除按鈕"
+  },
+  "deleteFailed": "刪除失敗",
+  "@deleteFailed": {
+    "description": "刪除失敗的錯誤訊息"
+  },
+  "selectSite": "選擇工地",
+  "@selectSite": {
+    "description": "下拉選單提示：選擇工地"
+  },
+  "notSelected": "未選擇",
+  "@notSelected": {
+    "description": "當未選擇項目時顯示的文字"
+  },
+  "errorPrefix": "錯誤：{error}",
+  "@errorPrefix": {
+    "description": "錯誤訊息前綴",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "錯誤詳情"
+      }
+    }
+  },
+  "sitePrefix": "工地：",
+  "@sitePrefix": {
+    "description": "工地名稱前綴"
+  },
+  "streamPrefix": "串流：",
+  "@streamPrefix": {
+    "description": "串流名稱前綴"
+  },
+  "detectionTimePrefix": "偵測時間：",
+  "@detectionTimePrefix": {
+    "description": "偵測時間前綴"
+  },
+  "urlUpdated": "已更新 Streaming Web Base URL 為：",
+  "@urlUpdated": {
+    "description": "當 Streaming Web Base URL 更新後顯示的提示文字"
+  },
+  "streamingWebIndexTitle": "地點",
+  "@streamingWebIndexTitle": {
+    "description": "即時影像地點頁面標題"
+  },
+  "unknownError": "未知錯誤",
+  "@unknownError": {
+    "description": "預設錯誤訊息，當錯誤資訊不明時使用"
+  },
+  "noLabels": "目前尚無標籤資料",
+  "@noLabels": {
+    "description": "當沒有標籤資料時顯示的文字"
+  },
+  "chatMessageCannotBeEmpty": "不可輸入空問題",
+  "@chatMessageCannotBeEmpty": {
+    "description": "聊天室不可輸入空問題"
+  },
+  "editQuestionHint": "請輸入新的問題",
+  "@editQuestionHint": {
+    "description": "聊天室編輯問題時的提示文字"
+  },
+  "confirm": "確定",
+  "@confirm": {
+    "description": "Dialog 確定按鈕文字"
+  },
+  "editQuestion": "編輯問題",
+  "@editQuestion": {
+    "description": "編輯問題按鈕文字"
+  },
+  "regenerateAnswer": "重新生成答案",
+  "@regenerateAnswer": {
+    "description": "重新生成答案按鈕文字"
+  },
+  "removeQuestionChain": "移除問題(含後續對話)",
+  "@removeQuestionChain": {
+    "description": "移除問題 (含後續對話) 按鈕文字"
+  },
+  "failedToLoadHistory": "載入歷史失敗",
+  "@failedToLoadHistory": {
+    "description": "載入歷史失敗時的錯誤訊息"
+  },
+  "failedToLoadHistoryAfterRefresh": "刷新後仍載入歷史失敗",
+  "@failedToLoadHistoryAfterRefresh": {
+    "description": "刷新後仍載入歷史失敗時的錯誤訊息"
+  },
+  "failedToAskAfterRefresh": "刷新後提問失敗",
+  "@failedToAskAfterRefresh": {
+    "description": "刷新後提問失敗時的錯誤訊息"
+  },
+  "editFailed": "編輯失敗",
+  "@editFailed": {
+    "description": "編輯問題失敗時的錯誤訊息"
+  },
+  "editFailedAfterRefresh": "刷新後仍編輯失敗",
+  "@editFailedAfterRefresh": {
+    "description": "刷新後仍編輯失敗時的錯誤訊息"
+  },
+  "regenerateFailed": "重新生成失敗",
+  "@regenerateFailed": {
+    "description": "重新生成答案失敗時的錯誤訊息"
+  },
+  "regenerateFailedAfterRefresh": "刷新後仍重新生成失敗",
+  "@regenerateFailedAfterRefresh": {
+    "description": "刷新後仍重新生成失敗時的錯誤訊息"
+  },
+  "removeFailed": "移除失敗",
+  "@removeFailed": {
+    "description": "移除失敗時的錯誤訊息"
+  },
+  "removeFailedAfterRefresh": "刷新後仍移除失敗",
+  "@removeFailedAfterRefresh": {
+    "description": "刷新後仍移除失敗時的錯誤訊息"
+  },
+  "sendMessage": "發送訊息",
+  "@sendMessage": {
+    "description": "聊天訊息送出按鈕與提示文字"
+  },
+  "addImages": "新增圖片",
+  "@addImages": {
+    "description": "聊天訊息新增圖片提示文字"
+  },
+  "addFiles": "新增檔案",
+  "@addFiles": {
+    "description": "聊天訊息新增檔案提示文字"
+  },
+  "attachmentCount": "{count} 個附件",
+  "@attachmentCount": {
+    "description": "聊天輸入區待送出附件數量",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "cancelGeneration": "取消生成",
+  "@cancelGeneration": {
+    "description": "取消目前回答生成提示文字"
+  },
+  "createChatRoom": "創建聊天室",
+  "@createChatRoom": {
+    "description": "從輸入區建立聊天室提示文字"
+  },
+  "attachmentUploadFailed": "上傳附件失敗：{error}",
+  "@attachmentUploadFailed": {
+    "description": "聊天附件上傳失敗錯誤訊息",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "attachmentDeleteFailed": "刪除附件失敗：{error}",
+  "@attachmentDeleteFailed": {
+    "description": "聊天附件刪除失敗錯誤訊息",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "selectLabel": "選擇標籤",
+  "@selectLabel": {
+    "description": "串流桌面雙欄右側未選取標籤提示文字"
+  },
+  "showDetectionResults": "顯示辨識結果",
+  "@showDetectionResults": {
+    "description": "串流畫面切換物件辨識覆蓋層文字"
+  },
+  "hardhat": "安全帽",
+  "@hardhat": {
+    "description": "安全帽標籤"
+  },
+  "vest": "背心",
+  "@vest": {
+    "description": "背心標籤"
+  },
+  "machinery": "機具",
+  "@machinery": {
+    "description": "機具標籤"
+  },
+  "vehicle": "車輛",
+  "@vehicle": {
+    "description": "車輛標籤"
+  },
+  "no_hardhat": "無安全帽",
+  "@no_hardhat": {
+    "description": "無安全帽標籤"
+  },
+  "no_vest": "無安全背心",
+  "@no_vest": {
+    "description": "無安全背心標籤"
+  },
+  "person": "人員",
+  "@person": {
+    "description": "人員標籤"
+  },
+  "cone": "安全錐",
+  "@cone": {
+    "description": "安全錐標籤"
+  },
+  "mask": "口罩",
+  "@mask": {
+    "description": "口罩標籤"
+  },
+  "no_mask": "無口罩",
+  "@no_mask": {
+    "description": "無口罩標籤"
+  },
+  "utility_pole": "電桿",
+  "@utility_pole": {
+    "description": "電桿標籤"
+  },
+  "warning_people_in_controlled_area": "警告：{count} 人進入受控區域！",
+  "@warning_people_in_controlled_area": {
+    "description": "警告訊息：人員進入受控區域",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "warning_people_in_utility_pole_controlled_area": "警告：{count} 人進入電桿受控區域！",
+  "@warning_people_in_utility_pole_controlled_area": {
+    "description": "警告訊息：人員進入電桿受控區域",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "warning_no_hardhat": "警告: 有{count}人未佩戴安全帽！",
+  "@warning_no_hardhat": {
+    "description": "警告訊息：缺少安全帽",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "4"
+      }
+    }
+  },
+  "warning_no_safety_vest": "警告: 有{count}人未穿著安全背心！",
+  "@warning_no_safety_vest": {
+    "description": "警告訊息：缺少安全背心",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "warning_close_to_machinery": "警告：{count} 人靠近機具！",
+  "@warning_close_to_machinery": {
+    "description": "警告訊息：人員靠近機具",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "warning_close_to_vehicle": "警告：{count} 人靠近車輛！",
+  "@warning_close_to_vehicle": {
+    "description": "警告訊息：人員靠近車輛",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "detect_machinery_close_to_pole": "警告：{count} 台機具靠近電桿！",
+  "@detect_machinery_close_to_pole": {
+    "description": "警告訊息：機具靠近電桿",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "showOverlay": "顯示覆蓋層",
+  "@showOverlay": {
+    "description": "顯示覆蓋層按鈕文字"
+  },
+  "add": "新增",
+  "@add": {
+    "description": "新增按鈕"
+  },
+  "edit": "編輯",
+  "@edit": {
+    "description": "編輯標題前綴"
+  },
+  "submit": "送出",
+  "@submit": {
+    "description": "送出按鈕文字"
+  },
+  "build": "建立",
+  "@build": {
+    "description": "建立按鈕文字"
+  },
+  "saving": "儲存中...",
+  "@saving": {
+    "description": "儲存中狀態文字"
+  },
+  "saveConfig": "儲存配置",
+  "@saveConfig": {
+    "description": "儲存配置按鈕文字"
+  },
+  "configSavedSuccessfully": "配置已成功儲存",
+  "@configSavedSuccessfully": {
+    "description": "配置儲存成功訊息"
+  },
+  "saveConfigFailed": "儲存配置失敗",
+  "@saveConfigFailed": {
+    "description": "儲存配置失敗訊息"
+  },
+  "confirmResetAllConfigs": "確定要將所有 API 配置重置為預設值嗎？此操作無法復原。",
+  "@confirmResetAllConfigs": {
+    "description": "重置所有配置確認訊息"
+  },
+  "confirmResetConfig": "確定要將 {name} 重置為預設值嗎？",
+  "@confirmResetConfig": {
+    "description": "重置單個配置確認訊息",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "API Endpoint"
+      }
+    }
+  },
+  "confirmDelete": "確定刪除？",
+  "@confirmDelete": {
+    "description": "刪除確認對話框標題"
+  },
+  "permanentDeleteWarning": "將永久刪除「{name}」。此動作無法復原！",
+  "@permanentDeleteWarning": {
+    "description": "永久刪除警告訊息",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "工地名稱"
+      }
+    }
+  },
+  "deleteWarning": "將刪除「{name}」。此動作無法復原。",
+  "@deleteWarning": {
+    "description": "刪除警告訊息",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "項目名稱"
+      }
+    }
+  },
+  "siteCreated": "✅ 已建立工地",
+  "@siteCreated": {
+    "description": "工地建立成功訊息"
+  },
+  "deleted": "✅ 已刪除",
+  "@deleted": {
+    "description": "刪除成功訊息"
+  },
+  "added": "✅ 已新增",
+  "@added": {
+    "description": "新增成功訊息"
+  },
+  "featureAdded": "✅ 已新增功能",
+  "@featureAdded": {
+    "description": "功能新增成功訊息"
+  },
+  "editFeature": "編輯「{name}」",
+  "@editFeature": {
+    "description": "編輯功能對話框標題",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "功能名稱"
+      }
+    }
+  },
+  "editUser": "編輯「{username}」",
+  "@editUser": {
+    "description": "編輯使用者對話框標題",
+    "placeholders": {
+      "username": {
+        "type": "String",
+        "example": "使用者名稱"
+      }
+    }
+  },
+  "addUser": "新增使用者",
+  "@addUser": {
+    "description": "新增使用者標題"
+  },
+  "addFeature": "新增功能",
+  "@addFeature": {
+    "description": "新增功能按鈕文字"
+  },
+  "addGroup": "新增群組",
+  "@addGroup": {
+    "description": "新增群組標題"
+  },
+  "editGroup": "編輯群組",
+  "@editGroup": {
+    "description": "編輯群組對話框標題"
+  },
+  "confirmDeleteFile": "確認刪除",
+  "@confirmDeleteFile": {
+    "description": "刪除檔案確認對話框標題"
+  },
+  "confirmDeleteFileMessage": "確定要刪除此文件？",
+  "@confirmDeleteFileMessage": {
+    "description": "刪除檔案確認訊息"
+  },
+  "fileDeleted": "已刪除文件",
+  "@fileDeleted": {
+    "description": "檔案刪除成功訊息"
+  },
+  "deleteFileFailed": "刪除失敗",
+  "@deleteFileFailed": {
+    "description": "檔案刪除失敗訊息"
+  },
+  "createAuditDoc": "新增稽核缺失改善",
+  "@createAuditDoc": {
+    "description": "新增稽核缺失改善頁面標題"
+  },
+  "createDocx": "建立 DOCX",
+  "@createDocx": {
+    "description": "建立 DOCX 按鈕文字"
+  },
+  "addPhotoPrompt": "請透過拍照/相簿新增照片",
+  "@addPhotoPrompt": {
+    "description": "新增照片提示文字"
+  },
+  "createFailedWith": "建立失敗：{error}",
+  "@createFailedWith": {
+    "description": "建立失敗訊息",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "錯誤訊息"
+      }
+    }
+  },
+  "addFile": "新增檔案",
+  "@addFile": {
+    "description": "新增檔案提示"
+  },
+  "noConfigChangesDetected": "未偵測到配置變更",
+  "@noConfigChangesDetected": {
+    "description": "未偵測到配置變更的訊息"
+  },
+  "resetToDefaults": "重置為預設值",
+  "@resetToDefaults": {
+    "description": "重置所有配置為預設值的按鈕文字"
+  },
+  "resetSuccess": "已重置為預設配置",
+  "@resetSuccess": {
+    "description": "重置配置成功的訊息"
+  },
+  "fileManagement": "文件管理",
+  "@fileManagement": {
+    "description": "文件管理菜單項目"
+  },
+  "siteManagement": "工地管理",
+  "@siteManagement": {
+    "description": "工地管理頁面標題"
+  },
+  "userManagement": "使用者管理",
+  "@userManagement": {
+    "description": "使用者管理頁面標題"
+  },
+  "groupManagement": "群組管理",
+  "@groupManagement": {
+    "description": "群組管理頁面標題"
+  },
+  "featureManagement": "功能管理",
+  "@featureManagement": {
+    "description": "功能管理頁面標題"
+  },
+  "changePassword": "變更密碼",
+  "@changePassword": {
+    "description": "變更密碼標題"
+  },
+  "apiConfiguration": "API 配置",
+  "@apiConfiguration": {
+    "description": "API 配置菜單項目"
+  },
+  "resetFailed": "重置失敗",
+  "@resetFailed": {
+    "description": "重置操作失敗的錯誤訊息"
+  },
+  "streamConfig": "串流設定",
+  "@streamConfig": {
+    "description": "串流設定對話框標題"
+  },
+  "streamConfigTitle": "串流設定 - {siteName}",
+  "@streamConfigTitle": {
+    "description": "串流配置對話框標題",
+    "placeholders": {
+      "siteName": {
+        "type": "String",
+        "description": "站點名稱"
+      }
+    }
+  },
+  "streamUsage": "已用 {used} / 上限 {max}",
+  "@streamUsage": {
+    "description": "串流使用量顯示",
+    "placeholders": {
+      "used": {
+        "type": "int",
+        "description": "已使用串流數量"
+      },
+      "max": {
+        "type": "int",
+        "description": "最大串流數量"
+      }
+    }
+  },
+  "streamLimitReached": "⚠️ 已達串流上限（{maxStreams}）",
+  "@streamLimitReached": {
+    "description": "警告訊息：已達串流上限",
+    "placeholders": {
+      "maxStreams": {
+        "type": "int",
+        "description": "最大串流數量"
+      }
+    }
+  },
+  "addStream": "新增串流",
+  "@addStream": {
+    "description": "新增串流標題"
+  },
+  "streamName": "串流名稱",
+  "@streamName": {
+    "description": "串流名稱欄位標籤"
+  },
+  "rtspHttpUrl": "RTSP / HTTP URL",
+  "@rtspHttpUrl": {
+    "description": "URL 欄位標籤"
+  },
+  "modelKey": "Model key",
+  "@modelKey": {
+    "description": "模型鍵值欄位標籤"
+  },
+  "startHour": "開始時 (0-23)",
+  "@startHour": {
+    "description": "時間輸入標籤：開始時"
+  },
+  "endHour": "結束時 (0-23)",
+  "@endHour": {
+    "description": "時間輸入標籤：結束時"
+  },
+  "recognitionEnabled": "啟用辨識串流",
+  "@recognitionEnabled": {
+    "description": "辨識串流總開關"
+  },
+  "recognitionEnabledHint": "關閉後會保留設定，但不會執行辨識，也不會顯示於即時影像。",
+  "@recognitionEnabledHint": {
+    "description": "辨識串流總開關說明"
+  },
+  "expireDate": "到期日 (optional)",
+  "@expireDate": {
+    "description": "到期日欄位標籤"
+  },
+  "notSet": "未設定",
+  "@notSet": {
+    "description": "未設定狀態"
+  },
+  "editStream": "編輯 - {streamName}",
+  "@editStream": {
+    "description": "編輯串流對話框標題",
+    "placeholders": {
+      "streamName": {
+        "type": "String",
+        "description": "串流名稱"
+      }
+    }
+  },
+  "deleteStream": "刪除串流",
+  "@deleteStream": {
+    "description": "刪除串流對話框標題"
+  },
+  "deleteStreamConfirmation": "確定刪除？此動作無法復原",
+  "@deleteStreamConfirmation": {
+    "description": "刪除串流確認訊息"
+  },
+  "streamAdded": "✅ 已新增串流",
+  "@streamAdded": {
+    "description": "串流新增成功訊息"
+  },
+  "streamUpdated": "✅ 已更新",
+  "@streamUpdated": {
+    "description": "串流更新成功訊息"
+  },
+  "streamDeleted": "✅ 已刪除",
+  "@streamDeleted": {
+    "description": "串流刪除成功訊息"
+  },
+  "noStreamConfigs": "尚無串流設定",
+  "@noStreamConfigs": {
+    "description": "無串流設定時顯示的文字"
+  },
+  "editTooltip": "編輯",
+  "@editTooltip": {
+    "description": "編輯工具提示"
+  },
+  "deleteTooltip": "刪除",
+  "@deleteTooltip": {
+    "description": "刪除工具提示"
+  },
+  "close": "關閉",
+  "@close": {
+    "description": "關閉按鈕"
+  },
+  "noSafetyVestOrHelmet": "無背心/安全帽",
+  "@noSafetyVestOrHelmet": {
+    "description": "偵測選項：無安全背心或安全帽"
+  },
+  "nearMachineryOrVehicle": "靠近機具/車輛",
+  "@nearMachineryOrVehicle": {
+    "description": "偵測選項：靠近機具或車輛"
+  },
+  "inRestrictedArea": "闖入管制區",
+  "@inRestrictedArea": {
+    "description": "偵測選項：闖入管制區"
+  },
+  "inUtilityPoleArea": "闖入電杆區",
+  "@inUtilityPoleArea": {
+    "description": "偵測選項：闖入電杆區"
+  },
+  "machineryNearPole": "機具靠近電杆",
+  "@machineryNearPole": {
+    "description": "偵測選項：機具靠近電杆"
+  },
+  "required": "必填",
+  "@required": {
+    "description": "必填欄位驗證訊息"
+  },
+  "expiryDate": "到期日 (optional)",
+  "@expiryDate": {
+    "description": "到期日選項標籤"
+  },
+  "updated": "✅ 已更新",
+  "@updated": {
+    "description": "更新操作成功訊息"
+  },
+  "noStreamConfig": "尚無串流設定",
+  "@noStreamConfig": {
+    "description": "沒有串流配置時顯示的訊息"
+  },
+  "resetEndpointSuccess": "已成功重置 {name}",
+  "@resetEndpointSuccess": {
+    "description": "重置特定端點成功的訊息",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "resetEndpoint": "重置 {name}",
+  "@resetEndpoint": {
+    "description": "重置特定端點的對話框標題",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notLoggedInOrInvalidToken": "未登入或 Token 無效",
+  "@notLoggedInOrInvalidToken": {
+    "description": "未登入或 Token 無效錯誤訊息"
+  },
+  "uploadFailed": "上傳失敗：{error}",
+  "@uploadFailed": {
+    "description": "上傳失敗錯誤訊息",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "網路錯誤"
+      }
+    }
+  },
+  "pleaseWaitForSiteList": "尚未取得站點清單，請稍候",
+  "@pleaseWaitForSiteList": {
+    "description": "等待站點清單載入訊息"
+  },
+  "selectConstructionSite": "選擇施工站點",
+  "@selectConstructionSite": {
+    "description": "選擇施工站點對話框標題"
+  },
+  "allSites": "全部站點",
+  "@allSites": {
+    "description": "全部站點選項"
+  },
+  "startDate": "開始日期",
+  "@startDate": {
+    "description": "開始日期標籤"
+  },
+  "endDate": "結束日期",
+  "@endDate": {
+    "description": "結束日期標籤"
+  },
+  "versions": "歷史版本",
+  "@versions": {
+    "description": "歷史版本選項"
+  },
+  "fileTypeNotConfigured": "此文件類型未設定 file_prefix，無法使用範本",
+  "@fileTypeNotConfigured": {
+    "description": "檔案類型未配置錯誤訊息"
+  },
+  "noUsers": "尚無使用者",
+  "@noUsers": {
+    "description": "沒有使用者時顯示的訊息"
+  },
+  "nameDisplay": "名稱: {name} | 電子郵件: {email} | 角色: {role} | 群組: {group}",
+  "@nameDisplay": {
+    "description": "使用者資訊顯示格式",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "email": {
+        "type": "String"
+      },
+      "role": {
+        "type": "String"
+      },
+      "group": {
+        "type": "String"
+      }
+    }
+  },
+  "deactivate": "停用",
+  "@deactivate": {
+    "description": "停用按鈕文字"
+  },
+  "activate": "啟用",
+  "@activate": {
+    "description": "啟用按鈕文字"
+  },
+  "permissionDenied": "權限不足",
+  "@permissionDenied": {
+    "description": "權限不足錯誤訊息"
+  },
+  "account": "帳號",
+  "@account": {
+    "description": "帳號/使用者名稱欄位標籤"
+  },
+  "familyName": "姓氏",
+  "@familyName": {
+    "description": "姓氏欄位標籤"
+  },
+  "middleName": "中間名",
+  "@middleName": {
+    "description": "中間名欄位標籤"
+  },
+  "givenName": "名字",
+  "@givenName": {
+    "description": "名字欄位標籤"
+  },
+  "email": "電子郵件",
+  "@email": {
+    "description": "電子郵件欄位標籤"
+  },
+  "mobile": "手機",
+  "@mobile": {
+    "description": "手機欄位標籤"
+  },
+  "resetPassword": "重設密碼",
+  "@resetPassword": {
+    "description": "重設密碼欄位標籤"
+  },
+  "role": "角色",
+  "@role": {
+    "description": "角色欄位標籤"
+  },
+  "group": "群組",
+  "@group": {
+    "description": "群組欄位標籤"
+  },
+  "emailFormatError": "請輸入有效的電子郵件地址",
+  "@emailFormatError": {
+    "description": "無效電子郵件格式驗證訊息"
+  },
+  "selectGroup": "請選擇群組",
+  "@selectGroup": {
+    "description": "群組選擇驗證訊息"
+  },
+  "mobileOptional": "手機 (選填)",
+  "@mobileOptional": {
+    "description": "選填手機欄位標籤"
+  },
+  "middleNameOptional": "中間名 (選填)",
+  "@middleNameOptional": {
+    "description": "選填中間名欄位標籤"
+  },
+  "apiConfig": "API 配置",
+  "@apiConfig": {
+    "description": "API 配置標題"
+  },
+  "custom": "自訂",
+  "deleteFeatureConfirmation": "將刪除功能「{name}」。此動作無法復原。",
+  "@deleteFeatureConfirmation": {},
+  "assignGroups": "指派群組 - {name}",
+  "@assignGroups": {},
+  "setGroups": "設定群組",
+  "@setGroups": {
+    "description": "設定群組的工具提示文字"
+  },
+  "reload": "重新載入",
+  "@reload": {
+    "description": "重新載入按鈕文字"
+  },
+  "copy": "複製",
+  "@copy": {
+    "description": "複製按鈕文字"
+  },
+  "passwordChanged": "✅ 密碼已變更，請使用新密碼重新登入",
+  "@passwordChanged": {
+    "description": "密碼變更成功訊息"
+  },
+  "oldPassword": "舊密碼",
+  "@oldPassword": {
+    "description": "舊密碼欄位標籤"
+  },
+  "newPassword": "新密碼",
+  "@newPassword": {
+    "description": "新密碼欄位標籤"
+  },
+  "pleaseLoginFirst": "請先登入",
+  "@pleaseLoginFirst": {
+    "description": "請先登入提示"
+  },
+  "minimumPasswordLength": "至少 8 碼",
+  "@minimumPasswordLength": {
+    "description": "最小密碼長度驗證訊息"
+  },
+  "featureName": "功能名稱",
+  "@featureName": {
+    "description": "功能名稱欄位標籤"
+  },
+  "descriptionOptional": "描述 (可省略)",
+  "@descriptionOptional": {
+    "description": "描述可選欄位標籤"
+  },
+  "assignGroup": "指派群組 - {name}",
+  "@assignGroup": {
+    "description": "指派群組標題",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "功能名稱"
+      }
+    }
+  },
+  "noFeatures": "尚無功能",
+  "@noFeatures": {
+    "description": "沒有功能時顯示的訊息"
+  },
+  "groupPermissionsUpdated": "✅ 已更新群組權限",
+  "@groupPermissionsUpdated": {
+    "description": "群組權限更新成功訊息"
+  },
+  "setGroup": "設定群組",
+  "@setGroup": {
+    "description": "設定群組按鈕文字"
+  },
+  "groupName": "群組名稱",
+  "@groupName": {
+    "description": "群組名稱欄位標籤"
+  },
+  "uniformNumber": "統一編號 (8 碼)",
+  "@uniformNumber": {
+    "description": "統一編號欄位標籤"
+  },
+  "uniformNumberError": "統一編號需 8 位數字",
+  "@uniformNumberError": {
+    "description": "統一編號格式錯誤訊息"
+  },
+  "noGroups": "尚無群組",
+  "@noGroups": {
+    "description": "沒有群組時顯示的訊息"
+  },
+  "uniformLabel": "統編：{uniformNumber}",
+  "@uniformLabel": {
+    "description": "統一編號顯示標籤",
+    "placeholders": {
+      "uniformNumber": {
+        "type": "String",
+        "description": "統一編號或空值時顯示的破折號"
+      }
+    }
+  },
+  "uniformNumberValidation": "必須 8 位數字",
+  "@uniformNumberValidation": {
+    "description": "統一編號驗證錯誤訊息"
+  },
+  "name": "名稱",
+  "@name": {
+    "description": "名稱欄位標籤"
+  },
+  "siteName": "工地名稱",
+  "@siteName": {
+    "description": "工地名稱欄位標籤"
+  },
+  "noSites": "尚無工地",
+  "@noSites": {
+    "description": "沒有工地時顯示的訊息"
+  },
+  "userUpdated": "✅ 使用者已更新",
+  "@userUpdated": {
+    "description": "使用者更新成功訊息"
+  },
+  "deleteSite": "刪除工地",
+  "@deleteSite": {
+    "description": "刪除工地提示"
+  },
+  "configureUsers": "設定使用者",
+  "@configureUsers": {
+    "description": "設定使用者提示"
+  },
+  "configureStream": "設定串流",
+  "@configureStream": {
+    "description": "設定串流提示"
+  },
+  "managementTitle": "工地管理 - {siteName}",
+  "@managementTitle": {
+    "description": "工地管理對話框標題",
+    "placeholders": {
+      "siteName": {
+        "type": "String",
+        "description": "被管理的工地名稱"
+      }
+    }
+  },
+  "groupLabel": "群組: {groupName}",
+  "@groupLabel": {
+    "description": "工地群組標籤",
+    "placeholders": {
+      "groupName": {
+        "type": "String",
+        "description": "群組名稱"
+      }
+    }
+  },
+  "loginTitle": "Visionnaire App",
+  "@loginTitle": {
+    "description": "登入頁面標題"
+  },
+  "loginFailed": "❌ 登入失敗",
+  "@loginFailed": {
+    "description": "登入失敗訊息"
+  },
+  "loginRequired": "請輸入使用者名稱和密碼",
+  "@loginRequired": {
+    "description": "登入欄位必填提示"
+  },
+  "admin": "管理員",
+  "@admin": {
+    "description": "管理員角色"
+  },
+  "user": "使用者",
+  "@user": {
+    "description": "一般使用者角色"
+  },
+  "error": "錯誤",
+  "@error": {
+    "description": "錯誤標題"
+  },
+  "success": "成功",
+  "@success": {
+    "description": "成功標題"
+  },
+  "warning": "警告",
+  "@warning": {
+    "description": "警告標題"
+  },
+  "info": "資訊",
+  "@info": {
+    "description": "資訊標題"
+  },
+  "loading": "載入中...",
+  "@loading": {
+    "description": "載入中訊息"
+  },
+  "noData": "無資料",
+  "@noData": {
+    "description": "無資料訊息"
+  },
+  "refreshData": "重新整理資料",
+  "@refreshData": {
+    "description": "重新整理資料按鈕"
+  },
+  "search": "搜尋",
+  "@search": {
+    "description": "搜尋按鈕文字"
+  },
+  "filter": "篩選",
+  "@filter": {
+    "description": "篩選按鈕文字"
+  },
+  "selectAll": "全選",
+  "@selectAll": {
+    "description": "全選選項"
+  },
+  "clearSelection": "清除選取",
+  "@clearSelection": {
+    "description": "清除選取按鈕"
+  },
+  "back": "返回",
+  "@back": {
+    "description": "返回按鈕文字"
+  },
+  "next": "下一步",
+  "@next": {
+    "description": "下一步按鈕文字"
+  },
+  "previous": "上一步",
+  "@previous": {
+    "description": "上一步按鈕文字"
+  },
+  "finish": "完成",
+  "@finish": {
+    "description": "完成按鈕文字"
+  },
+  "apiConfigTitle": "API 配置",
+  "@apiConfigTitle": {
+    "description": "API 配置頁面標題"
+  },
+  "loadConfigFailed": "載入配置失敗",
+  "@loadConfigFailed": {
+    "description": "配置載入失敗錯誤訊息"
+  },
+  "customConfig": "自訂",
+  "@customConfig": {
+    "description": "自訂配置的標籤"
+  },
+  "copyToClipboard": "複製",
+  "@copyToClipboard": {
+    "description": "複製按鈕的提示文字"
+  },
+  "copiedToClipboard": "已複製到剪貼簿",
+  "@copiedToClipboard": {
+    "description": "文字已複製到剪貼簿的訊息"
+  },
+  "resetToDefault": "重置為預設值",
+  "@resetToDefault": {
+    "description": "重置按鈕的提示文字"
+  },
+  "apiUrlHint": "請輸入 API URL",
+  "@apiUrlHint": {
+    "description": "API URL 輸入欄位的提示文字"
+  },
+  "validUrlError": "請輸入有效的 URL",
+  "@validUrlError": {
+    "description": "無效 URL 的錯誤訊息"
+  },
+  "defaultValue": "預設值: {value}",
+  "@defaultValue": {
+    "description": "顯示預設值的標籤",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "refresh": "重新載入",
+  "@refresh": {
+    "description": "重新載入按鈕的提示文字"
+  },
+  "resetAll": "重置全部為預設值",
+  "@resetAll": {
+    "description": "重置所有配置的選單項目文字"
+  },
+  "apiUrlLabel": "API URL",
+  "@apiUrlLabel": {
+    "description": "API URL 輸入欄位的標籤"
+  },
+  "roleUser": "使用者",
+  "@roleUser": {
+    "description": "使用者角色標籤"
+  },
+  "roleGuest": "訪客",
+  "@roleGuest": {
+    "description": "訪客角色標籤"
+  },
+  "roleAdmin": "管理員",
+  "@roleAdmin": {
+    "description": "管理員角色標籤"
+  },
+  "errorMessage": "❌ {error}",
+  "@errorMessage": {
+    "description": "錯誤訊息格式",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "loadingApiConfig": "載入 API 配置中...",
+  "@loadingApiConfig": {
+    "description": "載入 API 配置的提示訊息"
+  },
+  "apiConfigStatus": "API 配置狀態",
+  "@apiConfigStatus": {
+    "description": "API 配置狀態標題"
+  },
+  "customConfigCount": "{count} 個自訂",
+  "@customConfigCount": {
+    "description": "自訂配置數量"
+  },
+  "usingDefaults": "使用預設值",
+  "@usingDefaults": {
+    "description": "使用預設值標籤"
+  },
+  "customApiEndpointsMessage": "您已自訂 {count} 個 API 端點的 URL。",
+  "@customApiEndpointsMessage": {
+    "description": "自訂 API 端點數量訊息"
+  },
+  "allEndpointsUseDefaults": "所有 API 端點都使用預設 URL。",
+  "@allEndpointsUseDefaults": {
+    "description": "所有端點使用預設值的訊息"
+  },
+  "apiEndpointDetails": "API 端點詳情",
+  "@apiEndpointDetails": {
+    "description": "API 端點詳情標題"
+  },
+  "chatApiDescription": "聊天對話 API 服務",
+  "@chatApiDescription": {
+    "description": "聊天 API 服務描述"
+  },
+  "detectionApiDescription": "物件偵測 API 服務",
+  "@detectionApiDescription": {
+    "description": "偵測 API 服務描述"
+  },
+  "managementApiDescription": "系統管理 API 服務",
+  "@managementApiDescription": {
+    "description": "管理 API 服務描述"
+  },
+  "notificationApiDescription": "通知推送 API 服務",
+  "@notificationApiDescription": {
+    "description": "通知 API 服務描述"
+  },
+  "streamingApiDescription": "串流媒體 API 服務",
+  "@streamingApiDescription": {
+    "description": "串流 API 服務描述"
+  },
+  "fileManagementApiDescription": "檔案管理 API 服務",
+  "@fileManagementApiDescription": {
+    "description": "檔案管理 API 服務描述"
+  },
+  "violationRecordsApiDescription": "違規記錄 API 服務",
+  "@violationRecordsApiDescription": {
+    "description": "違規記錄 API 服務描述"
+  },
+  "apiService": "API 服務",
+  "@apiService": {
+    "description": "通用 API 服務描述"
+  },
+  "welcomeUser": "歡迎，{username}！",
+  "@welcomeUser": {
+    "description": "已登入用戶的歡迎訊息",
+    "placeholders": {
+      "username": {
+        "type": "String",
+        "description": "已登入用戶的用戶名"
+      }
+    }
+  },
+  "roleLabel": "角色：{role}",
+  "@roleLabel": {
+    "description": "用戶角色標籤",
+    "placeholders": {
+      "role": {
+        "type": "String",
+        "description": "用戶的角色"
+      }
+    }
+  },
+  "guestUser": "訪客用戶",
+  "@guestUser": {
+    "description": "未登入用戶的標籤"
+  },
+  "pleaseLogin": "請登入以使用功能",
+  "@pleaseLogin": {
+    "description": "鼓勵用戶登入的訊息"
+  },
+  "downloadImage": "下載圖片",
+  "@downloadImage": {
+    "description": "下載圖片按鈕文字"
+  },
+  "copyImage": "複製圖片",
+  "@copyImage": {
+    "description": "複製圖片按鈕文字"
+  },
+  "shareImage": "分享連結",
+  "@shareImage": {
+    "description": "分享連結按鈕文字"
+  },
+  "imageDownloaded": "圖片已下載到設備",
+  "@imageDownloaded": {
+    "description": "圖片下載到設備訊息"
+  },
+  "imageSavedToGallery": "圖片已保存到相簿",
+  "@imageSavedToGallery": {
+    "description": "圖片保存到相簿訊息"
+  },
+  "imageCopied": "圖片已複製到剪貼簿",
+  "@imageCopied": {
+    "description": "圖片複製成功訊息"
+  },
+  "downloadFailed": "下載失敗",
+  "@downloadFailed": {
+    "description": "下載失敗訊息"
+  },
+  "copyFailed": "複製失敗",
+  "@copyFailed": {
+    "description": "複製失敗訊息"
+  },
+  "shareFailed": "分享失敗",
+  "@shareFailed": {
+    "description": "分享失敗訊息"
+  },
+  "signupConsentMissingError": "請先勾選三項同意內容。",
+  "signUp": "註冊",
+  "requiredField": "必填",
+  "confirmPassword": "確認密碼",
+  "passwordMismatch": "密碼不一致",
+  "signupLegalFallbackNotice": "目前使用預設條款內容，送出時仍會記錄同意版本。",
+  "signupTermsTitle": "使用條款",
+  "signupTermsContent": "Visionnaire 提供工地安全紀錄、偵測審核、通知、文件與協作等功能。使用者應提供正確帳號資料，妥善保管登入憑證，並僅於授權工作目的內使用本服務。AI 偵測與系統警示僅作為輔助工具，不取代現場安全管理、專業判斷或法定責任。禁止未授權存取、濫用、逆向工程、資料擷取或提交違法內容。",
+  "signupPrivacyTitle": "隱私權政策",
+  "signupPrivacyContent": "Visionnaire 可能蒐集帳號與個人資料、工地與群組資訊、串流中繼資料、違規紀錄、圖片、審核備註、裝置通知 token、IP 位址、user agent 與使用紀錄。資料將用於安全偵測、審核流程、通知、稽核軌跡、資安維護、服務營運與改善。資料可能依組織設定透過雲端基礎設施、Firebase Cloud Messaging 與授權 AI 服務處理。",
+  "signupAiTermsTitle": "LLM 與 AI Agent 使用條款",
+  "signupAiTermsContent": "LLM 與 AI Agent 的輸出為系統輔助生成，可能不完整、不正確或非即時資訊。使用者在將輸出用於安全、法規、法律、財務或營運決策前，應自行確認與判斷。除非所屬組織已授權，請勿輸入機密、敏感、個資或違法內容。提示詞、檔案、上下文、輸出與操作紀錄可能為提供服務、資安、稽核與改善目的而被記錄。",
+  "signupSocialTitle": "使用社群帳號快速申請",
+  "signupSocialSubtitle": "若建立新帳號，請先完成信箱驗證，接著等待管理員審核。",
+  "signupSubmittedTitle": "請先驗證電子郵件",
+  "signupSubmittedMessage": "申請已送出。我們已寄出一次性且有期限的驗證連結，請到信箱完成驗證。驗證後帳號會進入管理員審核。",
+  "signupConsentTitle": "同意事項",
+  "signupAcceptTermsPrivacyPrefix": "我已閱讀並同意",
+  "signupConsentAnd": "與",
+  "signupAcceptNotifications": "我同意接收安全警示與審核通知",
+  "signupAcceptAiTermsPrefix": "我了解並同意",
+  "signupConsentRequirement": "需勾選三項同意內容後才能送出申請。",
+  "emailVerificationTitle": "驗證電子郵件",
+  "emailVerificationChecking": "正在確認驗證連結。此連結只能使用一次，並會在期限後失效。",
+  "emailVerificationMissingOrInvalid": "此驗證連結無效或缺少 token。你可以重新寄送驗證信。",
+  "emailVerificationExpired": "此驗證連結已過期。請重新寄送驗證信。",
+  "emailVerificationUsed": "此驗證連結已使用過。若帳號仍無法登入，請重新寄送驗證信或聯絡管理員。",
+  "emailVerificationGenericError": "驗證時發生錯誤，請稍後再試。",
+  "emailVerificationVerified": "電子郵件已驗證完成，請回到登入頁繼續使用。",
+  "emailVerificationPendingApproval": "電子郵件已驗證完成，帳號正在等待管理員審核。",
+  "emailVerificationEnterEmail": "請輸入註冊用電子郵件。",
+  "emailVerificationResend": "重新寄送驗證信",
+  "emailVerificationResendSent": "如果此電子郵件已註冊且尚未驗證，驗證信已寄出。請檢查收件匣或垃圾郵件。",
+  "notificationDiagnosticsTitle": "通知狀態檢查",
+  "notificationMissingUserId": "尚未取得使用者 ID，請重新登入。",
+  "notificationTokenUploaded": "FCM token 已重新上傳。",
+  "notificationSignInBeforeTest": "尚未登入，無法送出測試通知。",
+  "notificationTestSent": "已送出測試通知。",
+  "notificationFirebaseLabel": "Firebase 初始化",
+  "notificationConfigured": "已完成",
+  "notificationNotConfigured": "未完成",
+  "notificationPermission": "通知權限",
+  "notificationLastUpload": "最近上傳",
+  "notificationMissing": "未設定",
+  "notificationServiceWorker": "Service worker",
+  "notificationUploadToken": "重新上傳 token",
+  "notificationTestNotification": "測試通知",
+  "notificationCenterTitle": "通知中心",
+  "notificationLoadMoreFailed": "載入更多通知失敗：{error}",
+  "@notificationLoadMoreFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationMarkReadFailed": "標記已讀失敗：{error}",
+  "@notificationMarkReadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationMarkAllReadFailed": "全部標記已讀失敗：{error}",
+  "@notificationMarkAllReadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationOpenFailed": "通知連結無法開啟：{error}",
+  "@notificationOpenFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationFilterAll": "全部",
+  "notificationFilterUnread": "未讀",
+  "notificationFilterSignature": "簽核",
+  "notificationFilterViolation": "違規",
+  "notificationFilterDocument": "文件",
+  "notificationFilterSystem": "系統",
+  "notificationJustNow": "剛剛",
+  "notificationMinutesAgo": "{minutes} 分鐘前",
+  "@notificationMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationHoursAgo": "{hours} 小時前",
+  "@notificationHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationDaysAgo": "{days} 天前",
+  "@notificationDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationMarkAllRead": "全部標記已讀",
+  "notificationUnreadCount": "{count} 則未讀",
+  "@notificationUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationNoUnread": "無未讀",
+  "notificationEmpty": "目前沒有通知",
+  "notificationLoadFailed": "通知載入失敗",
+  "notificationFallbackTitle": "通知",
+  "violationNoMatchingRecords": "沒有符合條件的紀錄",
+  "violationRecordsTab": "紀錄",
+  "violationAnalyticsTab": "統計",
+  "violationGroup": "群組",
+  "violationAllGroups": "所有群組",
+  "violationRangeLastDay": "過去一天",
+  "violationRangeLast30Days": "過去30天",
+  "violationRangeLastHalfYear": "過去半年",
+  "violationRangeLastYear": "過去一年",
+  "violationRangeYearToDate": "年初至今",
+  "violationUnnamedGroup": "未命名群組",
+  "reviewFilterAll": "全部",
+  "reviewFilterFlagged": "被標記",
+  "reviewFilterPending": "待審",
+  "reviewFilterResolved": "已處理",
+  "reviewFilterDismissed": "已忽略",
+  "reviewStatusReviewed": "已審",
+  "reviewStatusNotSubmitted": "未提交",
+  "reviewFlagReasonLabel": "標記原因",
+  "reviewSectionTitle": "審核處理",
+  "reviewFlaggedBadge": "被標記",
+  "reviewPendingNote": "待審備註",
+  "reviewNote": "審核備註",
+  "reviewHandled": "處理紀錄",
+  "reviewNoteOptional": "審核備註，可選",
+  "reviewAuditTrail": "審核歷史",
+  "reviewAuditTrailLoadFailed": "目前無法載入審核歷史：{error}",
+  "@reviewAuditTrailLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "reviewAuditTrailEmpty": "目前沒有審核歷史。",
+  "overlayLabel": "覆蓋層",
+  "overlayHidden": "關閉",
+  "overlayAll": "全部",
+  "overlayFlaggedOnly": "只標記",
+  "reviewChangeMarkerColor": "切換標記顏色",
+  "reviewActionResolve": "標為已處理",
+  "reviewActionDismiss": "標為忽略",
+  "reviewActionPending": "退回待審",
+  "reviewMissingRecordUpdate": "找不到這筆紀錄的 ID，無法更新審核狀態。",
+  "reviewSignInRequiredUpdate": "尚未登入，無法更新審核狀態。",
+  "reviewUpdated": "審核狀態已更新。",
+  "reviewUpdatedNext": "審核狀態已更新，前往下一筆待審。",
+  "reviewUpdateFailed": "審核更新失敗：{error}",
+  "@reviewUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "reviewReasonFalsePositive": "標記誤判：偵測結果被回報為誤判",
+  "reviewReasonFalseNegative": "框選漏判：畫面中有漏掉的目標",
+  "reviewReasonWrongClass": "類別錯誤：偵測類別需要修正",
+  "reviewReasonBadBox": "框選位置錯誤：偵測框位置需要修正",
+  "detectionFeedbackTitle": "偵測結果回饋",
+  "detectionFeedbackDescription": "標記誤判或漏判，後端會收集成模型改善候選資料。",
+  "detectionFeedbackFalsePositive": "標記誤判",
+  "detectionFeedbackMissed": "框選漏判",
+  "detectionFeedbackNoBoxes": "目前沒有可點選的偵測框。",
+  "detectionFeedbackMissedLabel": "漏判類別",
+  "detectionFeedbackNoteOptional": "備註，可選",
+  "detectionFeedbackNoMissedTarget": "尚未框選漏判目標",
+  "detectionFeedbackSelectedBox": "已框選 {bbox}",
+  "@detectionFeedbackSelectedBox": {
+    "placeholders": {
+      "bbox": {
+        "type": "String"
+      }
+    }
+  },
+  "detectionFeedbackSubmitMissed": "送出漏判",
+  "detectionFeedbackFalsePositiveHint": "請點選圖片中的錯誤偵測框。",
+  "detectionFeedbackMissedHint": "請在圖片中拖曳框出漏掉的目標。",
+  "detectionFeedbackBoxes": "可選框數",
+  "feedbackNoDetectionSelected": "沒有點到偵測框，請直接點框內。",
+  "feedbackSelectionTooSmall": "框選範圍太小，請重新框選。",
+  "feedbackFalsePositiveDialogTitle": "回報誤判",
+  "feedbackFalsePositiveDialogMessage": "這筆偵測會被標記為誤判，送出後可供後端審核與模型改善。",
+  "feedbackDrawMissedFirst": "請先在圖片中框選漏判目標。",
+  "feedbackMissingRecord": "找不到這筆紀錄的 ID，無法送出回饋。",
+  "feedbackSignInRequired": "尚未登入，無法送出回饋。",
+  "feedbackSubmitted": "已送出回饋，謝謝你的協助。",
+  "feedbackSubmitFailed": "回饋送出失敗：{error}",
+  "@feedbackSubmitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "imageViewerTitle": "圖片瀏覽",
+  "imageViewerRotate": "旋轉",
+  "imageViewerResetZoom": "重設縮放",
+  "falsePositivePickerTitle": "選擇誤判項目",
+  "falsePositivePickerHint": "雙擊縮放，拖曳移動，點選框或文字標籤。",
+  "falsePositivePickerBottomHint": "點選標示框或標籤送出誤判",
+  "falsePositivePickerMiss": "沒有點到框或標籤，請放大後再點一次。",
+  "saveSuccess": "儲存成功。",
+  "editAuditFixDocTitle": "編輯缺失稽核改善",
+  "addAuditFixDocTitle": "新增缺失稽核改善",
+  "multiSelectAlbum": "從相簿選取",
+  "auditDateLabel": "稽核日期",
+  "todayLabel": "今日：{date}",
+  "@todayLabel": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "addPhotoViaCamera": "使用相機或相簿新增照片",
+  "showDateLabel": "顯示日期戳記",
+  "dateLabel": "日期",
+  "descriptionLabel": "說明",
+  "descBeforeLabel": "改善前",
+  "descDuringLabel": "改善中",
+  "descAfterLabel": "改善後",
+  "groupNumberLabel": "第 {number} 組",
+  "@groupNumberLabel": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "applyDescriptionToAllGroups": "套用描述到後續群組",
+  "doneWithCount": "完成（{count}）",
+  "@doneWithCount": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "loadFailedError": "載入失敗：{error}",
+  "@loadFailedError": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tryAgain": "重試",
+  "pleaseSelectSignerFor": "請為「{field}」選擇簽核人員",
+  "@pleaseSelectSignerFor": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "field": {
+        "type": "String"
+      }
+    }
+  },
+  "submitted": "已送出",
+  "failedWith": "失敗：{error}",
+  "@failedWith": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "editDocumentTitle": "編輯文件",
+  "headerSection": "表頭",
+  "bodySection": "內容",
+  "footerSection": "頁尾",
+  "saveAndSubmit": "儲存並送出",
+  "tableLabel": "表格 {number}",
+  "@tableLabel": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "unnamedSite": "未命名工地",
+  "addImage": "新增圖片",
+  "tapToSign": "點擊簽名",
+  "signatureSection": "簽名",
+  "signatureFlow": "簽核流程",
+  "orderedSigningActive": "目前啟用依序簽核。",
+  "freeSigningActive": "目前啟用不限順序簽核。",
+  "signingOrderLocked": "簽核任務建立後，簽核順序已鎖定。",
+  "anyOrder": "不限順序",
+  "signInOrder": "依序簽核",
+  "orderedSigningDragHint": "送出前可拖曳簽核人員調整順序。",
+  "freeSigningHint": "所有被指派的簽核人員可不依固定順序簽核。",
+  "selectSignerHint": "選擇簽核人員",
+  "orderRank": "順序 {rank}",
+  "@orderRank": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "rank": {
+        "type": "String"
+      }
+    }
+  },
+  "signatureFieldLabel": "簽名欄位",
+  "commentLabel": "備註：{comment}",
+  "@commentLabel": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "comment": {
+        "type": "String"
+      }
+    }
+  },
+  "sitesNotLoaded": "尚未載入工地資料。",
+  "documentListTitle": "文件列表",
+  "creatorLabel": "建立者",
+  "editorLabel": "編輯者",
+  "signerLabel": "簽核者",
+  "selectSiteFirstHint": "請先選擇工地以載入成員。",
+  "loadingMemberList": "正在載入成員...",
+  "memberLoadFailed": "成員載入失敗：{error}",
+  "@memberLoadFailed": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noMemberListForSite": "此工地沒有可用成員。",
+  "uploadButton": "上傳",
+  "allFilter": "全部{label}",
+  "@allFilter": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "unclassified": "未分類",
+  "documentLocked": "文件已鎖定",
+  "mySignTasks": "我的簽核任務",
+  "browserDownloadStarted": "已開始瀏覽器下載。",
+  "storagePermissionRequired": "下載檔案需要儲存權限。",
+  "downloadComplete": "下載完成。",
+  "downloadFailedError": "下載失敗：{error}",
+  "@downloadFailedError": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteVersionConfirm": "確定刪除版本 {version} 嗎？",
+  "@deleteVersionConfirm": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "versionDeleted": "版本已刪除。",
+  "deleteVersionFailedError": "刪除版本失敗：{error}",
+  "@deleteVersionFailedError": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "documentVersionListTitle": "{document} 的版本列表",
+  "@documentVersionListTitle": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "document": {
+        "type": "String"
+      }
+    }
+  },
+  "versionNumber": "版本 {version}",
+  "@versionNumber": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "downloadDocx": "下載 DOCX",
+  "downloadPdf": "下載 PDF",
+  "pdfConverting": "PDF 轉換中",
+  "deleteVersionTooltip": "刪除版本",
+  "pdfNotReady": "PDF 尚未準備完成",
+  "addPhotoDocTitle": "新增圖片文件",
+  "editPhotoDocTitle": "編輯圖片文件",
+  "requiredSelect": "請選擇項目",
+  "projectNameLabel": "工程名稱",
+  "addPhotosHint": "請拍照或從相簿選取圖片。",
+  "locationLabel": "位置",
+  "applyImageDataToAll": "套用圖片資料到後續項目",
+  "notificationSettings": "通知設定",
+  "siteNotificationTitle": "工地通知",
+  "siteNotificationDescription": "選擇要接收的工地警示通知。",
+  "noSiteNotification": "目前沒有工地通知項目。",
+  "notificationSearchHint": "搜尋通知設定",
+  "siteNotificationSaveSuccess": "工地通知設定已儲存。",
+  "documentNotificationTitle": "文件通知",
+  "documentNotificationDescription": "選擇要接收的文件流程通知。",
+  "noDocumentNotification": "目前沒有文件通知項目。",
+  "documentNotificationSaveSuccess": "文件通知設定已儲存。",
+  "siteNotificationChannel": "工地警示",
+  "documentNotificationChannel": "文件流程",
+  "notificationSaveFailed": "通知設定儲存失敗：{error}",
+  "@notificationSaveFailed": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationSearchEmpty": "沒有符合搜尋條件的通知設定。",
+  "allSiteGroups": "所有工地群組",
+  "notificationEnabled": "已啟用",
+  "notificationPendingSave": "待儲存",
+  "notificationStatus": "狀態",
+  "notificationSaving": "儲存中",
+  "notificationSynced": "已同步",
+  "enableAllNotifications": "全部啟用",
+  "disableAllNotifications": "全部停用",
+  "saveNotificationChanges": "儲存變更",
+  "notificationAlreadySynced": "已同步",
+  "notificationEnabledCount": "已啟用 {enabled}/{total}",
+  "@notificationEnabledCount": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "enabled": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationUnsaved": "尚未儲存",
+  "pendingSignStatus": "待簽核",
+  "signedStatus": "已簽核",
+  "commentedStatus": "已註記",
+  "skippedStatus": "已跳過",
+  "rejectedStatus": "已退回",
+  "commentedStatusDescription": "以註記退回修正。",
+  "skippedStatusDescription": "跳過此簽核步驟。",
+  "rejectedStatusDescription": "退回此文件。",
+  "signedStatusDescription": "簽名並通過此步驟。",
+  "chooseDocumentTypeTitle": "選擇文件類型",
+  "documentTypeSearchHint": "搜尋文件類型",
+  "noAvailableCategories": "沒有可用分類",
+  "noMatchingDocumentTypes": "沒有符合的文件類型",
+  "documentTypePrefixUnset": "未設定前綴",
+  "documentTypePrefixValue": "前綴：{prefix}",
+  "@documentTypePrefixValue": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "approveUser": "核准使用者",
+  "selectGroupForUser": "請為此使用者選擇群組。",
+  "statusPending": "待審核",
+  "pendingApprovalTitle": "等待審核",
+  "pendingApprovalMessage": "你的帳號正在等待管理員審核。",
+  "signDocument": "簽核文件",
+  "goToMyTasks": "前往我的任務",
+  "loadSignTaskFailed": "簽核任務載入失敗：{error}",
+  "signTaskNotFound": "找不到簽核任務。",
+  "signTaskLoadFailed": "簽核任務載入失敗：{error}",
+  "pleaseSignFirst": "請先完成簽名再送出。",
+  "submitFailed": "送出失敗：{error}",
+  "documentVersionUpdated": "文件版本已更新，請重新載入。",
+  "revisionCommentLabel": "修正註記",
+  "revisionCommentHint": "請說明需要修正的內容。",
+  "rejectionReasonLabel": "退回原因",
+  "rejectionReasonHint": "請說明退回原因。",
+  "signAction": "簽核",
+  "commentAction": "註記",
+  "skipAction": "跳過",
+  "rejectAction": "退回",
+  "signResult": "簽核結果",
+  "handwrittenSignature": "手寫簽名",
+  "resignature": "重新簽名",
+  "signatureConfirmed": "簽名已確認。",
+  "confirmSignature": "確認簽名",
+  "signaturePreview": "簽名預覽",
+  "confirmSubmit": "確認送出",
+  "startSign": "開始簽核",
+  "signatureHint": "請提供簽名。",
+  "noSignTasks": "目前沒有簽核任務。",
+  "createdTime": "建立時間",
+  "taskNumberStatus": "任務 {taskId} · {status}",
+  "@taskNumberStatus": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "taskId": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "versionPlaceholder": "版本 {version} · {placeholder}",
+  "@versionPlaceholder": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "placeholder": {
+        "type": "String"
+      }
+    }
+  },
+  "@loadSignTaskFailed": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@signTaskLoadFailed": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "pdfLoadFailed": "PDF 載入失敗：{error}",
+  "@pdfLoadFailed": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@submitFailed": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "commentRequired": "此操作需要填寫註記。"
+}

@@ -1,0 +1,55 @@
+name: Flutter
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Check public-source hygiene
+        run: ./scripts/verify_public_source.sh
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2
+        with:
+          channel: stable
+          flutter-version: 3.47.0
+          cache: true
+
+      - name: Set up JDK 17 for Android
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Provide non-production Firebase options
+        run: |
+          cp lib/firebase_options.example.dart lib/firebase_options.dart
+          cp android/app/google-services.example.json android/app/google-services.json
+
+      - name: Install dependencies
+        run: flutter pub get --enforce-lockfile
+
+      - name: Analyze project source
+        run: flutter analyze
+
+      - name: Run tests
+        run: flutter test
+
+      - name: Build Web with public configuration
+        run: |
+          cp .env.social.example.json .env.social.prod.json
+          ./scripts/flutter_with_env.sh build web --release --no-wasm-dry-run
+
+      - name: Build Android debug APK
+        run: ./scripts/flutter_with_env.sh build apk --debug

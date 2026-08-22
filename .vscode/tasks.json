@@ -1,0 +1,94 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "flutter pub get (update markdown_widget)",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"pub",
+				"get"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$dart-warning"
+			],
+			"group": "build"
+		},
+		{
+			"label": "flutter build web (smoke test)",
+			"type": "shell",
+			"command": "./scripts/flutter_with_env.sh",
+			"args": [
+				"build",
+				"web",
+				"--no-wasm-dry-run"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$dart-warning"
+			],
+			"group": "build"
+		},
+		{
+			"label": "flutter run web (social env)",
+			"type": "shell",
+			"command": "./scripts/flutter_with_env.sh",
+			"args": [
+				"run",
+				"-d",
+				"chrome"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$dart-warning"
+			],
+			"group": "build"
+		},
+		{
+			"label": "flutter build web (social env)",
+			"type": "shell",
+			"command": "./scripts/flutter_with_env.sh",
+			"args": [
+				"build",
+				"web",
+				"--release"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$dart-warning"
+			],
+			"group": "build"
+		},
+		{
+			"label": "flutter build ios (social env)",
+			"type": "shell",
+			"command": "./scripts/flutter_with_env.sh",
+			"args": [
+				"build",
+				"ios",
+				"--release"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$dart-warning"
+			],
+			"group": "build"
+		},
+		{
+			"label": "flutter build android appbundle (social env)",
+			"type": "shell",
+			"command": "./scripts/flutter_with_env.sh",
+			"args": [
+				"build",
+				"appbundle",
+				"--release"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$dart-warning"
+			],
+			"group": "build"
+		}
+	]
+}

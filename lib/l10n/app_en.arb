@@ -1,0 +1,2043 @@
+{
+  "@@locale": "en",
+  "appTitle": "Visionnaire Application",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "deviceLang": "en-UK",
+  "@deviceLang": {
+    "description": "Region code for the device language"
+  },
+  "login": "Login",
+  "@login": {
+    "description": "Login button text"
+  },
+  "username": "Username",
+  "@username": {
+    "description": "Username field label"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "Password field label"
+  },
+  "chatList": "Chat List",
+  "@chatList": {
+    "description": "Title of the chat list page"
+  },
+  "chatTitleCannotBeEmpty": "Chat title cannot be empty or whitespace only",
+  "@chatTitleCannotBeEmpty": {
+    "description": "Error message when chat title is empty or whitespace only"
+  },
+  "cameraList": "Camera Streams",
+  "@cameraList": {
+    "description": "Title of the camera streams page"
+  },
+  "detection": "Object Detection",
+  "@detection": {
+    "description": "Title of the object detection page"
+  },
+  "logout": "Logout",
+  "@logout": {
+    "description": "Text for the logout button"
+  },
+  "changeLanguage": "Change Language",
+  "@changeLanguage": {
+    "description": "Text for the change language button"
+  },
+  "site": "Site",
+  "@site": {
+    "description": "Label for site"
+  },
+  "stream": "Stream",
+  "@stream": {
+    "description": "Label for stream"
+  },
+  "detectionTime": "Detection Time",
+  "@detectionTime": {
+    "description": "Label for detection time"
+  },
+  "violationMessage": "Violation Message",
+  "@violationMessage": {
+    "description": "Label for violation message"
+  },
+  "loadingImageError": "Failed to load image",
+  "@loadingImageError": {
+    "description": "Error message when image fails to load"
+  },
+  "violationRecordQuery": "Violation Record Query",
+  "@violationRecordQuery": {
+    "description": "Title of the violation record query page"
+  },
+  "keyword": "Keyword (stream_name or message)",
+  "@keyword": {
+    "description": "Hint text for keyword input"
+  },
+  "startTime": "Start Time",
+  "@startTime": {
+    "description": "Label for start time"
+  },
+  "endTime": "End Time",
+  "@endTime": {
+    "description": "Label for end time"
+  },
+  "query": "Query",
+  "@query": {
+    "description": "Text for the query button"
+  },
+  "noRecords": "No records available",
+  "@noRecords": {
+    "description": "Text shown when no records are available"
+  },
+  "streamingWebSettings": "Live Monitoring",
+  "@streamingWebSettings": {
+    "description": "Title of the live monitoring page"
+  },
+  "streamingWebUrl": "Streaming Web URL (with http:// or https://)",
+  "@streamingWebUrl": {
+    "description": "Hint text for Streaming Web URL input"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save button"
+  },
+  "goToLabels": "Go to Locations",
+  "@goToLabels": {
+    "description": "Text for the button to go to the live monitoring locations page"
+  },
+  "currentUrl": "Current URL",
+  "@currentUrl": {
+    "description": "Label for the current URL"
+  },
+  "labelList": "Locations",
+  "@labelList": {
+    "description": "Title of the live monitoring locations page"
+  },
+  "label": "Label",
+  "@label": {
+    "description": "Single label name"
+  },
+  "noImage": "No camera images available",
+  "@noImage": {
+    "description": "Text shown when no camera images are available"
+  },
+  "warnings": "Warnings",
+  "@warnings": {
+    "description": "Label for warnings section"
+  },
+  "lastUpdated": "Last updated",
+  "@lastUpdated": {
+    "description": "Label for the last updated time"
+  },
+  "noWarnings": "No warnings",
+  "@noWarnings": {
+    "description": "Text shown when there are no warnings"
+  },
+  "detectionResult": "Detection Result",
+  "@detectionResult": {
+    "description": "Label for detection result section"
+  },
+  "chooseModel": "Choose Model",
+  "@chooseModel": {
+    "description": "Label for model selection"
+  },
+  "noImageSelected": "No image selected",
+  "@noImageSelected": {
+    "description": "Text shown when no image has been selected"
+  },
+  "noDetectionResult": "No detection result",
+  "@noDetectionResult": {
+    "description": "Text shown when there is no detection result"
+  },
+  "takePhoto": "Take Photo",
+  "@takePhoto": {
+    "description": "Text for the take photo button"
+  },
+  "photoLibrary": "Photo Library",
+  "@photoLibrary": {
+    "description": "Text for the photo library button"
+  },
+  "startDetection": "Start Detection",
+  "@startDetection": {
+    "description": "Text for the start detection button"
+  },
+  "cannotOpenCamera": "Cannot open camera",
+  "@cannotOpenCamera": {
+    "description": "Error message when camera cannot be opened"
+  },
+  "cannotOpenGallery": "Cannot open gallery",
+  "@cannotOpenGallery": {
+    "description": "Error message when gallery cannot be opened"
+  },
+  "getImageSizeFailed": "Failed to get image size",
+  "@getImageSizeFailed": {
+    "description": "Error message when failed to get image size"
+  },
+  "notLoggedIn": "Not logged in (Detection service token invalid)",
+  "@notLoggedIn": {
+    "description": "Error message when not logged in or token is invalid"
+  },
+  "tokenRefreshFailed": "Token refresh failed",
+  "@tokenRefreshFailed": {
+    "description": "Error message when token refresh fails"
+  },
+  "chatLoadFailed": "Failed to load chat",
+  "@chatLoadFailed": {
+    "description": "Error message when chat fails to load"
+  },
+  "chatRoom": "Chat Room",
+  "@chatRoom": {
+    "description": "Title for the chat room page"
+  },
+  "inputMessage": "Enter message...",
+  "@inputMessage": {
+    "description": "Placeholder text for message input"
+  },
+  "newChatRoom": "New Chat Room",
+  "@newChatRoom": {
+    "description": "Title for new chat room dialog"
+  },
+  "enterChatRoomTitle": "Enter chat room title",
+  "@enterChatRoomTitle": {
+    "description": "Hint text for chat room title input"
+  },
+  "create": "Create",
+  "@create": {
+    "description": "Text for the create button"
+  },
+  "createFailed": "Creation failed",
+  "@createFailed": {
+    "description": "Error message when chat room creation fails"
+  },
+  "confirmDeleteChatRoom": "Are you sure you want to delete this chat room?",
+  "@confirmDeleteChatRoom": {
+    "description": "Confirmation message for chat room deletion"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete button"
+  },
+  "deleteFailed": "Deletion failed",
+  "@deleteFailed": {
+    "description": "Error message when chat room deletion fails"
+  },
+  "selectSite": "Select Site",
+  "@selectSite": {
+    "description": "Hint text for site selection dropdown"
+  },
+  "notSelected": "Not selected",
+  "@notSelected": {
+    "description": "Text shown when nothing is selected"
+  },
+  "errorPrefix": "Error: {error}",
+  "@errorPrefix": {
+    "description": "Error message prefix",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Error details"
+      }
+    }
+  },
+  "sitePrefix": "Site: ",
+  "@sitePrefix": {
+    "description": "Prefix label for site name"
+  },
+  "streamPrefix": "Stream: ",
+  "@streamPrefix": {
+    "description": "Prefix label for stream name"
+  },
+  "detectionTimePrefix": "Detection Time: ",
+  "@detectionTimePrefix": {
+    "description": "Prefix label for detection time"
+  },
+  "urlUpdated": "Updated Streaming Web Base URL to:",
+  "@urlUpdated": {
+    "description": "Message displayed when the Streaming Web Base URL has been updated"
+  },
+  "streamingWebIndexTitle": "Locations",
+  "@streamingWebIndexTitle": {
+    "description": "Title for the live monitoring locations index page"
+  },
+  "unknownError": "Unknown error",
+  "@unknownError": {
+    "description": "Default error message when error information is not available"
+  },
+  "noLabels": "No labels available",
+  "@noLabels": {
+    "description": "Text shown when there are no label data"
+  },
+  "chatMessageCannotBeEmpty": "Chat message cannot be empty",
+  "@chatMessageCannotBeEmpty": {
+    "description": "Error message when chat message is empty"
+  },
+  "editQuestionHint": "Please enter the new question",
+  "@editQuestionHint": {
+    "description": "Hint text for editing question"
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Text for the confirm button in dialog"
+  },
+  "editQuestion": "Edit Question",
+  "@editQuestion": {
+    "description": "Text for the edit question button"
+  },
+  "regenerateAnswer": "Regenerate Answer",
+  "@regenerateAnswer": {
+    "description": "Text for the regenerate answer button"
+  },
+  "removeQuestionChain": "Remove Question (with subsequent dialog)",
+  "@removeQuestionChain": {
+    "description": "Text for the remove question button"
+  },
+  "failedToLoadHistory": "Failed to load history",
+  "@failedToLoadHistory": {
+    "description": "Error message when history fails to load"
+  },
+  "failedToLoadHistoryAfterRefresh": "Failed to load history after refresh",
+  "@failedToLoadHistoryAfterRefresh": {
+    "description": "Error message when history fails to load after refresh"
+  },
+  "failedToAskAfterRefresh": "Failed to ask after refresh",
+  "@failedToAskAfterRefresh": {
+    "description": "Error message when asking fails after refresh"
+  },
+  "editFailed": "Edit failed",
+  "@editFailed": {
+    "description": "Error message when editing fails"
+  },
+  "editFailedAfterRefresh": "Edit failed after refresh",
+  "@editFailedAfterRefresh": {
+    "description": "Error message when editing fails after refresh"
+  },
+  "regenerateFailed": "Regenerate failed",
+  "@regenerateFailed": {
+    "description": "Error message when regeneration fails"
+  },
+  "regenerateFailedAfterRefresh": "Regenerate failed after refresh",
+  "@regenerateFailedAfterRefresh": {
+    "description": "Error message when regeneration fails after refresh"
+  },
+  "removeFailed": "Remove failed",
+  "@removeFailed": {
+    "description": "Error message when removal fails"
+  },
+  "removeFailedAfterRefresh": "Remove failed after refresh",
+  "@removeFailedAfterRefresh": {
+    "description": "Error message when removal fails after refresh"
+  },
+  "sendMessage": "Send message",
+  "@sendMessage": {
+    "description": "Tooltip and button text for sending a chat message"
+  },
+  "addImages": "Add images",
+  "@addImages": {
+    "description": "Tooltip for adding images to a chat message"
+  },
+  "addFiles": "Add files",
+  "@addFiles": {
+    "description": "Tooltip for adding files to a chat message"
+  },
+  "attachmentCount": "{count} attachments",
+  "@attachmentCount": {
+    "description": "Label showing how many attachments are pending in chat input",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "cancelGeneration": "Cancel generation",
+  "@cancelGeneration": {
+    "description": "Tooltip for canceling active answer generation"
+  },
+  "createChatRoom": "Create chat room",
+  "@createChatRoom": {
+    "description": "Tooltip for creating a new chat room from the input area"
+  },
+  "attachmentUploadFailed": "Attachment upload failed: {error}",
+  "@attachmentUploadFailed": {
+    "description": "Error message when a chat attachment upload fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "attachmentDeleteFailed": "Attachment deletion failed: {error}",
+  "@attachmentDeleteFailed": {
+    "description": "Error message when deleting a chat attachment fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "selectLabel": "Select a label",
+  "@selectLabel": {
+    "description": "Empty state text for desktop streaming label pane"
+  },
+  "showDetectionResults": "Show detection results",
+  "@showDetectionResults": {
+    "description": "Label for toggling object detection overlay on streams"
+  },
+  "hardhat": "Hardhat",
+  "@hardhat": {
+    "description": "Label for hardhat"
+  },
+  "vest": "Vest",
+  "@vest": {
+    "description": "Label for vest"
+  },
+  "machinery": "Machinery",
+  "@machinery": {
+    "description": "Label for machinery"
+  },
+  "vehicle": "Vehicle",
+  "@vehicle": {
+    "description": "Label for vehicle"
+  },
+  "no_hardhat": "No Hardhat",
+  "@no_hardhat": {
+    "description": "Label for no hardhat"
+  },
+  "no_vest": "No Vest",
+  "@no_vest": {
+    "description": "Label for no vest"
+  },
+  "person": "Person",
+  "@person": {
+    "description": "Label for person"
+  },
+  "cone": "Safety Cone",
+  "@cone": {
+    "description": "Label for safety cone"
+  },
+  "mask": "Mask",
+  "@mask": {
+    "description": "Label for mask"
+  },
+  "no_mask": "No Mask",
+  "@no_mask": {
+    "description": "Label for no mask"
+  },
+  "utility_pole": "Utility Pole",
+  "@utility_pole": {
+    "description": "Label for utility pole"
+  },
+  "warning_people_in_controlled_area": "Warning: {count} people have entered the controlled area!",
+  "@warning_people_in_controlled_area": {
+    "description": "Warning message for people entering the controlled zone",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "warning_people_in_utility_pole_controlled_area": "Warning: {count} people have entered the utility pole restricted area!",
+  "@warning_people_in_utility_pole_controlled_area": {
+    "description": "Warning message for people entering the utility pole controlled area",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "warning_no_hardhat": "Warning: {count} people are not wearing a hardhat!",
+  "@warning_no_hardhat": {
+    "description": "Warning message for missing hardhat",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "warning_no_safety_vest": "Warning: {count} people are not wearing a safety vest!",
+  "@warning_no_safety_vest": {
+    "description": "Warning message for missing safety vest",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "warning_close_to_machinery": "Warning: {count} people are too close to machinery!",
+  "@warning_close_to_machinery": {
+    "description": "Warning message for people close to machinery",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "warning_close_to_vehicle": "Warning: {count} people are too close to vehicles!",
+  "@warning_close_to_vehicle": {
+    "description": "Warning message for people close to vehicles",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "detect_machinery_close_to_pole": "Warning: {count} machinery are too close to the utility pole!",
+  "@detect_machinery_close_to_pole": {
+    "description": "Warning message for machinery close to the utility pole",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "showOverlay": "Show Overlay",
+  "@showOverlay": {
+    "description": "Text for the show overlay button"
+  },
+  "add": "Add",
+  "@add": {
+    "description": "Add button"
+  },
+  "edit": "Edit",
+  "@edit": {
+    "description": "Edit title prefix"
+  },
+  "submit": "Submit",
+  "@submit": {
+    "description": "Text for the submit button"
+  },
+  "build": "Create",
+  "@build": {
+    "description": "Text for the create button"
+  },
+  "saving": "Saving...",
+  "@saving": {
+    "description": "Text shown while saving"
+  },
+  "saveConfig": "Save Configuration",
+  "@saveConfig": {
+    "description": "Text for the save configuration button"
+  },
+  "configSavedSuccessfully": "Configuration saved successfully",
+  "@configSavedSuccessfully": {
+    "description": "Message shown when configuration is saved successfully"
+  },
+  "saveConfigFailed": "Failed to save configuration",
+  "@saveConfigFailed": {
+    "description": "Message shown when configuration save fails"
+  },
+  "confirmResetAllConfigs": "Are you sure you want to reset all API configurations to default values? This action cannot be undone.",
+  "@confirmResetAllConfigs": {
+    "description": "Confirmation message for resetting all configurations"
+  },
+  "confirmResetConfig": "Are you sure you want to reset {name} to default values?",
+  "@confirmResetConfig": {
+    "description": "Confirmation message for resetting a single configuration",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "API Endpoint"
+      }
+    }
+  },
+  "confirmDelete": "Confirm Delete?",
+  "@confirmDelete": {
+    "description": "Title for delete confirmation dialog"
+  },
+  "permanentDeleteWarning": "Will permanently delete \"{name}\". This action cannot be undone!",
+  "@permanentDeleteWarning": {
+    "description": "Warning message for permanent deletion",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Site name"
+      }
+    }
+  },
+  "deleteWarning": "Will delete \"{name}\". This action cannot be undone.",
+  "@deleteWarning": {
+    "description": "Warning message for deletion",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Item name"
+      }
+    }
+  },
+  "siteCreated": "✅ Site created",
+  "@siteCreated": {
+    "description": "Message shown when site is created successfully"
+  },
+  "deleted": "✅ Deleted",
+  "@deleted": {
+    "description": "Delete success message"
+  },
+  "added": "✅ Added",
+  "@added": {
+    "description": "Message shown when item is added successfully"
+  },
+  "featureAdded": "✅ Feature added",
+  "@featureAdded": {
+    "description": "Message shown when feature is added successfully"
+  },
+  "editFeature": "Edit \"{name}\"",
+  "@editFeature": {
+    "description": "Title for edit feature dialog",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Feature name"
+      }
+    }
+  },
+  "editUser": "Edit \"{username}\"",
+  "@editUser": {
+    "description": "Title for edit user dialog",
+    "placeholders": {
+      "username": {
+        "type": "String",
+        "example": "Username"
+      }
+    }
+  },
+  "addUser": "Add User",
+  "@addUser": {
+    "description": "Title for add user form"
+  },
+  "addFeature": "Add Feature",
+  "@addFeature": {
+    "description": "Text for the add feature button"
+  },
+  "addGroup": "Add Group",
+  "@addGroup": {
+    "description": "Title for add group form"
+  },
+  "editGroup": "Edit Group",
+  "@editGroup": {
+    "description": "Title for edit group dialog"
+  },
+  "confirmDeleteFile": "Confirm Delete",
+  "@confirmDeleteFile": {
+    "description": "Title for file delete confirmation dialog"
+  },
+  "confirmDeleteFileMessage": "Are you sure you want to delete this file?",
+  "@confirmDeleteFileMessage": {
+    "description": "Message for file delete confirmation"
+  },
+  "fileDeleted": "File deleted",
+  "@fileDeleted": {
+    "description": "Message shown when file is deleted successfully"
+  },
+  "deleteFileFailed": "Delete failed",
+  "@deleteFileFailed": {
+    "description": "Message shown when file deletion fails"
+  },
+  "createAuditDoc": "Create Audit Improvement Document",
+  "@createAuditDoc": {
+    "description": "Title for create audit document page"
+  },
+  "createDocx": "Create DOCX",
+  "@createDocx": {
+    "description": "Text for the create DOCX button"
+  },
+  "addPhotoPrompt": "Please add photos by taking photos or from album",
+  "@addPhotoPrompt": {
+    "description": "Prompt text for adding photos"
+  },
+  "createFailedWith": "Creation failed: {error}",
+  "@createFailedWith": {
+    "description": "Message shown when creation fails",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Error message"
+      }
+    }
+  },
+  "addFile": "Add File",
+  "@addFile": {
+    "description": "Text for add file tooltip"
+  },
+  "noConfigChangesDetected": "No configuration changes detected",
+  "@noConfigChangesDetected": {
+    "description": "Message when no changes are detected in configuration"
+  },
+  "resetToDefaults": "Reset to Defaults",
+  "@resetToDefaults": {
+    "description": "Button text to reset all configurations to default values"
+  },
+  "resetSuccess": "Reset to default configuration",
+  "@resetSuccess": {
+    "description": "Success message after resetting configuration"
+  },
+  "resetFailed": "Reset failed",
+  "@resetFailed": {
+    "description": "Error message when reset operation fails"
+  },
+  "resetEndpointSuccess": "Reset {name} successfully",
+  "@resetEndpointSuccess": {
+    "description": "Success message after resetting a specific endpoint",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "resetEndpoint": "Reset {name}",
+  "@resetEndpoint": {
+    "description": "Dialog title for resetting a specific endpoint",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "notLoggedInOrInvalidToken": "Not logged in or invalid token",
+  "@notLoggedInOrInvalidToken": {
+    "description": "Error message for not logged in or invalid token"
+  },
+  "uploadFailed": "Upload failed: {error}",
+  "@uploadFailed": {
+    "description": "Error message for upload failure",
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "pleaseWaitForSiteList": "Site list not yet loaded, please wait",
+  "@pleaseWaitForSiteList": {
+    "description": "Message to wait for site list loading"
+  },
+  "selectConstructionSite": "Select Construction Site",
+  "@selectConstructionSite": {
+    "description": "Title for select construction site dialog"
+  },
+  "allSites": "All Sites",
+  "@allSites": {
+    "description": "All sites option"
+  },
+  "startDate": "Start Date",
+  "@startDate": {
+    "description": "Start date label"
+  },
+  "endDate": "End Date",
+  "@endDate": {
+    "description": "End date label"
+  },
+  "versions": "Versions",
+  "@versions": {
+    "description": "Versions option"
+  },
+  "fileTypeNotConfigured": "This file type has no file_prefix configured, cannot use template",
+  "@fileTypeNotConfigured": {
+    "description": "Error message for unconfigured file type"
+  },
+  "noUsers": "No users yet",
+  "@noUsers": {
+    "description": "Message shown when there are no users"
+  },
+  "nameDisplay": "Name: {name} | Email: {email} | Role: {role} | Group: {group}",
+  "@nameDisplay": {
+    "description": "Format for displaying user information",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "email": {
+        "type": "String"
+      },
+      "role": {
+        "type": "String"
+      },
+      "group": {
+        "type": "String"
+      }
+    }
+  },
+  "deactivate": "Deactivate",
+  "@deactivate": {
+    "description": "Text for deactivate button"
+  },
+  "activate": "Activate",
+  "@activate": {
+    "description": "Text for activate button"
+  },
+  "permissionDenied": "Permission denied",
+  "@permissionDenied": {
+    "description": "Message for permission denied"
+  },
+  "userManagement": "User Management",
+  "@userManagement": {
+    "description": "User management menu item"
+  },
+  "account": "Account",
+  "@account": {
+    "description": "Label for account/username field"
+  },
+  "familyName": "Family Name",
+  "@familyName": {
+    "description": "Label for family name field"
+  },
+  "middleName": "Middle Name",
+  "@middleName": {
+    "description": "Label for middle name field"
+  },
+  "givenName": "Given Name",
+  "@givenName": {
+    "description": "Label for given name field"
+  },
+  "email": "Email",
+  "@email": {
+    "description": "Label for email field"
+  },
+  "mobile": "Mobile",
+  "@mobile": {
+    "description": "Label for mobile field"
+  },
+  "resetPassword": "Reset Password",
+  "@resetPassword": {
+    "description": "Label for reset password field"
+  },
+  "role": "Role",
+  "@role": {
+    "description": "Label for role field"
+  },
+  "group": "Group",
+  "@group": {
+    "description": "Label for group field"
+  },
+  "required": "Required",
+  "@required": {
+    "description": "Form validation error: required"
+  },
+  "emailFormatError": "Please enter a valid email address",
+  "@emailFormatError": {
+    "description": "Validation message for invalid email format"
+  },
+  "selectGroup": "Please select a group",
+  "@selectGroup": {
+    "description": "Validation message for group selection"
+  },
+  "mobileOptional": "Mobile (Optional)",
+  "@mobileOptional": {
+    "description": "Label for optional mobile field"
+  },
+  "middleNameOptional": "Middle Name (Optional)",
+  "@middleNameOptional": {
+    "description": "Label for optional middle name field"
+  },
+  "updated": "✅ Updated",
+  "@updated": {
+    "description": "Update success message"
+  },
+  "apiConfig": "API Configuration",
+  "@apiConfig": {
+    "description": "API configuration title"
+  },
+  "custom": "Custom",
+  "@custom": {
+    "description": "Custom option"
+  },
+  "deleteFeatureConfirmation": "Will delete feature \\\"{name}\\\". This action cannot be undone.",
+  "@deleteFeatureConfirmation": {},
+  "assignGroups": "Assign Groups - {name}",
+  "@assignGroups": {},
+  "setGroups": "Set Groups",
+  "@setGroups": {
+    "description": "Tooltip text for setting groups"
+  },
+  "reload": "Reload",
+  "@reload": {
+    "description": "Reload button text"
+  },
+  "copy": "Copy",
+  "@copy": {
+    "description": "Copy button text"
+  },
+  "passwordChanged": "✅ Password changed, please login again with new password",
+  "@passwordChanged": {
+    "description": "Password change success message"
+  },
+  "oldPassword": "Old Password",
+  "@oldPassword": {
+    "description": "Old password field label"
+  },
+  "newPassword": "New Password",
+  "@newPassword": {
+    "description": "New password field label"
+  },
+  "pleaseLoginFirst": "Please login first",
+  "@pleaseLoginFirst": {
+    "description": "Please login first prompt"
+  },
+  "changePassword": "Change Password",
+  "@changePassword": {
+    "description": "Change password menu item"
+  },
+  "minimumPasswordLength": "At least 8 characters",
+  "@minimumPasswordLength": {
+    "description": "Minimum password length validation message"
+  },
+  "featureManagement": "Feature Management",
+  "@featureManagement": {
+    "description": "Feature management menu item"
+  },
+  "featureName": "Feature Name",
+  "@featureName": {
+    "description": "Feature name field label"
+  },
+  "descriptionOptional": "Description (optional)",
+  "@descriptionOptional": {
+    "description": "Description optional field label"
+  },
+  "assignGroup": "Assign Group - {name}",
+  "@assignGroup": {
+    "description": "Assign group title",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Feature name"
+      }
+    }
+  },
+  "noFeatures": "No features",
+  "@noFeatures": {
+    "description": "No features message"
+  },
+  "groupPermissionsUpdated": "✅ Group permissions updated",
+  "@groupPermissionsUpdated": {
+    "description": "Group permissions update success message"
+  },
+  "setGroup": "Set Group",
+  "@setGroup": {
+    "description": "Set group button text"
+  },
+  "groupManagement": "Group Management",
+  "@groupManagement": {
+    "description": "Group management menu item"
+  },
+  "groupName": "Group Name",
+  "@groupName": {
+    "description": "Group name field label"
+  },
+  "uniformNumber": "Uniform Number (8 digits)",
+  "@uniformNumber": {
+    "description": "Uniform number field label"
+  },
+  "uniformNumberError": "Uniform number requires 8 digits",
+  "@uniformNumberError": {
+    "description": "Uniform number format error message"
+  },
+  "noGroups": "No groups",
+  "@noGroups": {
+    "description": "No groups message"
+  },
+  "uniformLabel": "Uniform: {uniformNumber}",
+  "@uniformLabel": {
+    "description": "Uniform number display label",
+    "placeholders": {
+      "uniformNumber": {
+        "type": "String",
+        "description": "The uniform number or dash if empty"
+      }
+    }
+  },
+  "uniformNumberValidation": "Must be 8 digits",
+  "@uniformNumberValidation": {
+    "description": "Uniform number validation error message"
+  },
+  "name": "Name",
+  "@name": {
+    "description": "Name field label"
+  },
+  "siteManagement": "Site Management",
+  "@siteManagement": {
+    "description": "Site management menu item"
+  },
+  "siteName": "Site Name",
+  "@siteName": {
+    "description": "Site name field label"
+  },
+  "noSites": "No sites",
+  "@noSites": {
+    "description": "No sites message"
+  },
+  "userUpdated": "✅ User updated",
+  "@userUpdated": {
+    "description": "User update success message"
+  },
+  "deleteSite": "Delete Site",
+  "@deleteSite": {
+    "description": "Delete site prompt"
+  },
+  "configureUsers": "Configure Users",
+  "@configureUsers": {
+    "description": "Configure users tooltip"
+  },
+  "configureStream": "Configure Stream",
+  "@configureStream": {
+    "description": "Configure stream tooltip"
+  },
+  "managementTitle": "Site Management - {siteName}",
+  "@managementTitle": {
+    "description": "Site management dialog title",
+    "placeholders": {
+      "siteName": {
+        "type": "String",
+        "description": "The name of the site being managed"
+      }
+    }
+  },
+  "groupLabel": "group: {groupName}",
+  "@groupLabel": {
+    "description": "Group label for site display",
+    "placeholders": {
+      "groupName": {
+        "type": "String",
+        "description": "The name of the group"
+      }
+    }
+  },
+  "loginTitle": "Visionnaire App",
+  "@loginTitle": {
+    "description": "Login page title"
+  },
+  "loginFailed": "❌ Login failed",
+  "@loginFailed": {
+    "description": "Login failed message"
+  },
+  "loginRequired": "Please enter username and password",
+  "@loginRequired": {
+    "description": "Login required fields prompt"
+  },
+  "admin": "Admin",
+  "@admin": {
+    "description": "Admin role"
+  },
+  "user": "User",
+  "@user": {
+    "description": "Regular user role"
+  },
+  "error": "Error",
+  "@error": {
+    "description": "Error title"
+  },
+  "success": "Success",
+  "@success": {
+    "description": "Success title"
+  },
+  "warning": "Warning",
+  "@warning": {
+    "description": "Warning title"
+  },
+  "info": "Information",
+  "@info": {
+    "description": "Information title"
+  },
+  "loading": "Loading...",
+  "@loading": {
+    "description": "Loading message"
+  },
+  "noData": "No data",
+  "@noData": {
+    "description": "No data message"
+  },
+  "refreshData": "Refresh data",
+  "@refreshData": {
+    "description": "Refresh data button"
+  },
+  "search": "Search",
+  "@search": {
+    "description": "Search button text"
+  },
+  "filter": "Filter",
+  "@filter": {
+    "description": "Filter button text"
+  },
+  "selectAll": "Select All",
+  "@selectAll": {
+    "description": "Select all option"
+  },
+  "clearSelection": "Clear Selection",
+  "@clearSelection": {
+    "description": "Clear selection button"
+  },
+  "back": "Back",
+  "@back": {
+    "description": "Back button text"
+  },
+  "next": "Next",
+  "@next": {
+    "description": "Next button text"
+  },
+  "previous": "Previous",
+  "@previous": {
+    "description": "Previous button text"
+  },
+  "finish": "Finish",
+  "@finish": {
+    "description": "Finish button text"
+  },
+  "close": "Close",
+  "@close": {
+    "description": "Close button"
+  },
+  "apiConfigTitle": "API Configuration",
+  "@apiConfigTitle": {
+    "description": "Title for API configuration page"
+  },
+  "loadConfigFailed": "Failed to load configuration",
+  "@loadConfigFailed": {
+    "description": "Error message when configuration fails to load"
+  },
+  "customConfig": "Custom",
+  "@customConfig": {
+    "description": "Label for custom configuration"
+  },
+  "copyToClipboard": "Copy to clipboard",
+  "@copyToClipboard": {
+    "description": "Tooltip for copy button"
+  },
+  "copiedToClipboard": "Copied to clipboard",
+  "@copiedToClipboard": {
+    "description": "Message shown when text is copied to clipboard"
+  },
+  "resetToDefault": "Reset to default",
+  "@resetToDefault": {
+    "description": "Tooltip for reset button"
+  },
+  "apiUrlHint": "Please enter API URL",
+  "@apiUrlHint": {
+    "description": "Hint text for API URL input field"
+  },
+  "validUrlError": "Please enter a valid URL",
+  "@validUrlError": {
+    "description": "Error message for invalid URL"
+  },
+  "defaultValue": "Default value: {value}",
+  "@defaultValue": {
+    "description": "Label showing the default value",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "refresh": "Refresh",
+  "@refresh": {
+    "description": "Tooltip for refresh button"
+  },
+  "resetAll": "Reset All to Defaults",
+  "@resetAll": {
+    "description": "Menu item text to reset all configurations"
+  },
+  "apiUrlLabel": "API URL",
+  "@apiUrlLabel": {
+    "description": "Label for API URL input field"
+  },
+  "roleUser": "User",
+  "@roleUser": {
+    "description": "User role label"
+  },
+  "roleGuest": "Guest",
+  "@roleGuest": {
+    "description": "Guest role label"
+  },
+  "roleAdmin": "Admin",
+  "@roleAdmin": {
+    "description": "Admin role label"
+  },
+  "errorMessage": "❌ {error}",
+  "@errorMessage": {
+    "description": "Error message format",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "streamConfig": "Stream Configuration",
+  "@streamConfig": {
+    "description": "Stream configuration dialog title"
+  },
+  "streamConfigTitle": "Stream Configuration - {siteName}",
+  "@streamConfigTitle": {
+    "description": "Stream configuration dialog title",
+    "placeholders": {
+      "siteName": {
+        "type": "String",
+        "description": "Site name"
+      }
+    }
+  },
+  "streamUsage": "Used {used} / Limit {max}",
+  "@streamUsage": {
+    "description": "Stream usage display",
+    "placeholders": {
+      "used": {
+        "type": "int",
+        "description": "Number of used streams"
+      },
+      "max": {
+        "type": "int",
+        "description": "Maximum number of streams"
+      }
+    }
+  },
+  "streamLimitReached": "⚠️ Stream limit reached ({maxStreams})",
+  "@streamLimitReached": {
+    "description": "Warning message: stream limit reached",
+    "placeholders": {
+      "maxStreams": {
+        "type": "int",
+        "description": "Maximum number of streams"
+      }
+    }
+  },
+  "addStream": "Add Stream",
+  "@addStream": {
+    "description": "Add stream title"
+  },
+  "streamName": "Stream Name",
+  "@streamName": {
+    "description": "Stream name field label"
+  },
+  "rtspHttpUrl": "RTSP / HTTP URL",
+  "@rtspHttpUrl": {
+    "description": "URL field label"
+  },
+  "modelKey": "Model key",
+  "@modelKey": {
+    "description": "Model key field label"
+  },
+  "startHour": "Start Hour (0-23)",
+  "@startHour": {
+    "description": "Time input label: start hour"
+  },
+  "endHour": "End Hour (0-23)",
+  "@endHour": {
+    "description": "Time input label: end hour"
+  },
+  "recognitionEnabled": "Enable recognition stream",
+  "@recognitionEnabled": {
+    "description": "Master switch for the recognition stream"
+  },
+  "recognitionEnabledHint": "When off, the configuration is saved, but recognition does not run and the stream is hidden from the live wall.",
+  "@recognitionEnabledHint": {
+    "description": "Explanation of the recognition stream master switch"
+  },
+  "expireDate": "Expire Date (optional)",
+  "@expireDate": {
+    "description": "Expire date field label"
+  },
+  "notSet": "Not Set",
+  "@notSet": {
+    "description": "Not set status"
+  },
+  "editStream": "Edit - {streamName}",
+  "@editStream": {
+    "description": "Edit stream dialog title",
+    "placeholders": {
+      "streamName": {
+        "type": "String",
+        "description": "Stream name"
+      }
+    }
+  },
+  "deleteStream": "Delete Stream",
+  "@deleteStream": {
+    "description": "Delete stream dialog title"
+  },
+  "deleteStreamConfirmation": "Are you sure? This action cannot be undone",
+  "@deleteStreamConfirmation": {
+    "description": "Delete stream confirmation message"
+  },
+  "streamAdded": "✅ Stream added",
+  "@streamAdded": {
+    "description": "Stream add success message"
+  },
+  "streamUpdated": "✅ Updated",
+  "@streamUpdated": {
+    "description": "Stream update success message"
+  },
+  "streamDeleted": "✅ Deleted",
+  "@streamDeleted": {
+    "description": "Stream delete success message"
+  },
+  "noStreamConfigs": "No stream configurations",
+  "@noStreamConfigs": {
+    "description": "Text shown when there are no stream configurations"
+  },
+  "editTooltip": "Edit",
+  "@editTooltip": {
+    "description": "Edit tooltip"
+  },
+  "deleteTooltip": "Delete",
+  "@deleteTooltip": {
+    "description": "Delete tooltip"
+  },
+  "noSafetyVestOrHelmet": "No Safety Vest/Helmet",
+  "@noSafetyVestOrHelmet": {
+    "description": "Detection option: no safety vest or helmet"
+  },
+  "nearMachineryOrVehicle": "Near Machinery/Vehicle",
+  "@nearMachineryOrVehicle": {
+    "description": "Detection option: near machinery or vehicle"
+  },
+  "inRestrictedArea": "In Restricted Area",
+  "@inRestrictedArea": {
+    "description": "Detection option: in restricted area"
+  },
+  "inUtilityPoleArea": "In Utility Pole Area",
+  "@inUtilityPoleArea": {
+    "description": "Detection option: in utility pole area"
+  },
+  "machineryNearPole": "Machinery Near Pole",
+  "@machineryNearPole": {
+    "description": "Detection option: machinery near pole"
+  },
+  "expiryDate": "Expiry Date (optional)",
+  "@expiryDate": {
+    "description": "Expiry date option label"
+  },
+  "noStreamConfig": "No stream configuration",
+  "@noStreamConfig": {
+    "description": "Message when no stream configurations exist"
+  },
+  "fileManagement": "File Management",
+  "@fileManagement": {
+    "description": "File management menu item"
+  },
+  "apiConfiguration": "API Configuration",
+  "@apiConfiguration": {
+    "description": "API configuration menu item"
+  },
+  "loadingApiConfig": "Loading API configuration...",
+  "@loadingApiConfig": {
+    "description": "Loading API configuration message"
+  },
+  "apiConfigStatus": "API Configuration Status",
+  "@apiConfigStatus": {
+    "description": "API configuration status title"
+  },
+  "customConfigCount": "{count} Custom",
+  "@customConfigCount": {
+    "description": "Custom configuration count"
+  },
+  "usingDefaults": "Using Defaults",
+  "@usingDefaults": {
+    "description": "Using defaults label"
+  },
+  "customApiEndpointsMessage": "You have customized {count} API endpoint URLs.",
+  "@customApiEndpointsMessage": {
+    "description": "Custom API endpoints count message"
+  },
+  "allEndpointsUseDefaults": "All API endpoints use default URLs.",
+  "@allEndpointsUseDefaults": {
+    "description": "All endpoints use defaults message"
+  },
+  "apiEndpointDetails": "API Endpoint Details",
+  "@apiEndpointDetails": {
+    "description": "API endpoint details title"
+  },
+  "chatApiDescription": "Chat conversation API service",
+  "@chatApiDescription": {
+    "description": "Chat API service description"
+  },
+  "detectionApiDescription": "Object detection API service",
+  "@detectionApiDescription": {
+    "description": "Detection API service description"
+  },
+  "managementApiDescription": "System management API service",
+  "@managementApiDescription": {
+    "description": "Management API service description"
+  },
+  "notificationApiDescription": "Notification push API service",
+  "@notificationApiDescription": {
+    "description": "Notification API service description"
+  },
+  "streamingApiDescription": "Streaming media API service",
+  "@streamingApiDescription": {
+    "description": "Streaming API service description"
+  },
+  "fileManagementApiDescription": "File management API service",
+  "@fileManagementApiDescription": {
+    "description": "File management API service description"
+  },
+  "violationRecordsApiDescription": "Violation records API service",
+  "@violationRecordsApiDescription": {
+    "description": "Violation records API service description"
+  },
+  "apiService": "API Service",
+  "@apiService": {
+    "description": "Generic API service description"
+  },
+  "welcomeUser": "Welcome, {username}!",
+  "@welcomeUser": {
+    "description": "Welcome message for logged in user",
+    "placeholders": {
+      "username": {
+        "type": "String",
+        "description": "The username of the logged in user"
+      }
+    }
+  },
+  "roleLabel": "Role: {role}",
+  "@roleLabel": {
+    "description": "User role label",
+    "placeholders": {
+      "role": {
+        "type": "String",
+        "description": "The role of the user"
+      }
+    }
+  },
+  "guestUser": "Guest User",
+  "@guestUser": {
+    "description": "Label for non-logged in user"
+  },
+  "pleaseLogin": "Please login to access features",
+  "@pleaseLogin": {
+    "description": "Message encouraging user to login"
+  },
+  "downloadImage": "Download Image",
+  "@downloadImage": {
+    "description": "Button text for downloading image"
+  },
+  "copyImage": "Copy Image",
+  "@copyImage": {
+    "description": "Button text for copying image to clipboard"
+  },
+  "shareImage": "Share Link",
+  "@shareImage": {
+    "description": "Button text for sharing link"
+  },
+  "imageDownloaded": "Image downloaded to device",
+  "@imageDownloaded": {
+    "description": "Message when image is downloaded to device"
+  },
+  "imageSavedToGallery": "Image saved to photo gallery",
+  "@imageSavedToGallery": {
+    "description": "Message when image is saved to photo gallery"
+  },
+  "imageCopied": "Image copied to clipboard",
+  "@imageCopied": {
+    "description": "Message when image is copied"
+  },
+  "downloadFailed": "Download failed",
+  "@downloadFailed": {
+    "description": "Message when download fails"
+  },
+  "copyFailed": "Copy failed",
+  "@copyFailed": {
+    "description": "Message when copy fails"
+  },
+  "shareFailed": "Share failed",
+  "@shareFailed": {
+    "description": "Message when share fails"
+  },
+  "signupConsentMissingError": "Please accept all required consent items.",
+  "signUp": "Sign up",
+  "requiredField": "Required",
+  "confirmPassword": "Confirm password",
+  "passwordMismatch": "Passwords do not match",
+  "signupLegalFallbackNotice": "Using the bundled legal text for now; accepted versions will still be submitted.",
+  "signupTermsTitle": "Terms of Service",
+  "signupTermsContent": "Visionnaire provides construction safety records, detection review, notification, document, and collaboration features. Users must provide accurate account information, protect their credentials, and use the service only for authorized work purposes. AI detection and system alerts are assistive tools and do not replace on-site safety management, professional judgment, or legal responsibilities. Misuse, unauthorized access, reverse engineering, data scraping, or unlawful content is prohibited.",
+  "signupPrivacyTitle": "Privacy Policy",
+  "signupPrivacyContent": "Visionnaire may collect account profile data, worksite and group information, camera stream metadata, violation records, images, review notes, device tokens, IP address, user agent, and usage logs. Data is used to provide safety detection, review workflows, notifications, audit trails, security, maintenance, and service improvement. Data may be processed through cloud infrastructure, Firebase Cloud Messaging, and authorized AI services according to organizational settings.",
+  "signupAiTermsTitle": "LLM and AI Agent Terms",
+  "signupAiTermsContent": "LLM and AI Agent outputs are generated assistance and may be incomplete, inaccurate, or outdated. Users must independently verify outputs before using them for safety, compliance, legal, financial, or operational decisions. Do not submit confidential, sensitive, personal, or unlawful information unless your organization has authorized that use. Prompts, files, context, outputs, and actions may be logged for service delivery, security, audit, and improvement.",
+  "signupSocialTitle": "Quick signup with a social account",
+  "signupSocialSubtitle": "If a new account is created, verify your email first, then wait for administrator approval.",
+  "signupSubmittedTitle": "Verify your email",
+  "signupSubmittedMessage": "Your request has been submitted. We sent a one-time verification link that expires automatically. After verification, your account will wait for administrator approval.",
+  "signupConsentTitle": "Required consent",
+  "signupAcceptTermsPrivacyPrefix": "I have read and agree to",
+  "signupConsentAnd": "and",
+  "signupAcceptNotifications": "I agree to receive safety alerts and review notifications",
+  "signupAcceptAiTermsPrefix": "I understand and agree to the",
+  "signupConsentRequirement": "All three consent items are required before submitting.",
+  "emailVerificationTitle": "Verify email",
+  "emailVerificationChecking": "Checking your verification link. This link can only be used once and expires automatically.",
+  "emailVerificationMissingOrInvalid": "This verification link is invalid or missing a token. You can send a new email.",
+  "emailVerificationExpired": "This verification link has expired. Send a new verification email.",
+  "emailVerificationUsed": "This verification link has already been used. If you still cannot login, send a new email or contact an administrator.",
+  "emailVerificationGenericError": "Something went wrong while verifying your email.",
+  "emailVerificationVerified": "Your email is verified. Please return to login.",
+  "emailVerificationPendingApproval": "Your email is verified. Your account is waiting for administrator approval.",
+  "emailVerificationEnterEmail": "Enter the email used for registration.",
+  "emailVerificationResend": "Resend verification email",
+  "emailVerificationResendSent": "If this email is registered and not yet verified, a verification email has been sent.",
+  "notificationDiagnosticsTitle": "Notification check",
+  "notificationMissingUserId": "Missing user ID. Please sign in again.",
+  "notificationTokenUploaded": "FCM token uploaded.",
+  "notificationSignInBeforeTest": "Please sign in before sending a test notification.",
+  "notificationTestSent": "Test notification sent.",
+  "notificationFirebaseLabel": "Firebase",
+  "notificationConfigured": "Configured",
+  "notificationNotConfigured": "Not configured",
+  "notificationPermission": "Permission",
+  "notificationLastUpload": "Last upload",
+  "notificationMissing": "Missing",
+  "notificationServiceWorker": "Service worker",
+  "notificationUploadToken": "Upload token",
+  "notificationTestNotification": "Test notification",
+  "notificationCenterTitle": "Notification center",
+  "notificationLoadMoreFailed": "Failed to load more notifications: {error}",
+  "@notificationLoadMoreFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationMarkReadFailed": "Failed to mark notification as read: {error}",
+  "@notificationMarkReadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationMarkAllReadFailed": "Failed to mark all notifications as read: {error}",
+  "@notificationMarkAllReadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationOpenFailed": "Unable to open notification link: {error}",
+  "@notificationOpenFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationFilterAll": "All",
+  "notificationFilterUnread": "Unread",
+  "notificationFilterSignature": "Signature",
+  "notificationFilterViolation": "Violation",
+  "notificationFilterDocument": "Document",
+  "notificationFilterSystem": "System",
+  "notificationJustNow": "Just now",
+  "notificationMinutesAgo": "{minutes} minutes ago",
+  "@notificationMinutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationHoursAgo": "{hours} hours ago",
+  "@notificationHoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationDaysAgo": "{days} days ago",
+  "@notificationDaysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationMarkAllRead": "Mark all as read",
+  "notificationUnreadCount": "{count} unread",
+  "@notificationUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationNoUnread": "No unread",
+  "notificationEmpty": "No notifications yet",
+  "notificationLoadFailed": "Failed to load notifications",
+  "notificationFallbackTitle": "Notification",
+  "violationNoMatchingRecords": "No matching records",
+  "violationRecordsTab": "Records",
+  "violationAnalyticsTab": "Analytics",
+  "violationGroup": "Group",
+  "violationAllGroups": "All groups",
+  "violationRangeLastDay": "Last day",
+  "violationRangeLast30Days": "30 days",
+  "violationRangeLastHalfYear": "6 months",
+  "violationRangeLastYear": "1 year",
+  "violationRangeYearToDate": "YTD",
+  "violationUnnamedGroup": "Unnamed group",
+  "reviewFilterAll": "All",
+  "reviewFilterFlagged": "Flagged",
+  "reviewFilterPending": "Pending",
+  "reviewFilterResolved": "Resolved",
+  "reviewFilterDismissed": "Dismissed",
+  "reviewStatusReviewed": "Reviewed",
+  "reviewStatusNotSubmitted": "Not submitted",
+  "reviewFlagReasonLabel": "Flag reason",
+  "reviewSectionTitle": "Review",
+  "reviewFlaggedBadge": "Flagged",
+  "reviewPendingNote": "Pending note",
+  "reviewNote": "Review note",
+  "reviewHandled": "Handled",
+  "reviewNoteOptional": "Review note, optional",
+  "reviewAuditTrail": "Audit trail",
+  "reviewAuditTrailLoadFailed": "Unable to load audit trail: {error}",
+  "@reviewAuditTrailLoadFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "reviewAuditTrailEmpty": "No audit trail yet.",
+  "overlayLabel": "Overlay",
+  "overlayHidden": "Off",
+  "overlayAll": "All",
+  "overlayFlaggedOnly": "Flagged only",
+  "reviewChangeMarkerColor": "Change marker color",
+  "reviewActionResolve": "Resolve",
+  "reviewActionDismiss": "Dismiss",
+  "reviewActionPending": "Set pending",
+  "reviewMissingRecordUpdate": "Unable to update review because the record ID is missing.",
+  "reviewSignInRequiredUpdate": "You must be signed in to update review status.",
+  "reviewUpdated": "Review status updated.",
+  "reviewUpdatedNext": "Review updated. Moving to the next pending item.",
+  "reviewUpdateFailed": "Failed to update review: {error}",
+  "@reviewUpdateFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "reviewReasonFalsePositive": "False positive: the detection was reported as incorrect",
+  "reviewReasonFalseNegative": "Missed detection: an object was missing from the results",
+  "reviewReasonWrongClass": "Wrong class: the detection label needs correction",
+  "reviewReasonBadBox": "Bad box: the bounding box needs correction",
+  "detectionFeedbackTitle": "Detection feedback",
+  "detectionFeedbackDescription": "Mark false positives or missed detections for model improvement review.",
+  "detectionFeedbackFalsePositive": "Mark wrong",
+  "detectionFeedbackMissed": "Draw missed",
+  "detectionFeedbackNoBoxes": "No detection boxes are available to select.",
+  "detectionFeedbackMissedLabel": "Missed label",
+  "detectionFeedbackNoteOptional": "Note, optional",
+  "detectionFeedbackNoMissedTarget": "No missed target selected",
+  "detectionFeedbackSelectedBox": "Selected {bbox}",
+  "@detectionFeedbackSelectedBox": {
+    "placeholders": {
+      "bbox": {
+        "type": "String"
+      }
+    }
+  },
+  "detectionFeedbackSubmitMissed": "Submit missed",
+  "detectionFeedbackFalsePositiveHint": "Tap the wrong detection box in the image.",
+  "detectionFeedbackMissedHint": "Drag on the image to draw the missed target.",
+  "detectionFeedbackBoxes": "Boxes",
+  "feedbackNoDetectionSelected": "No detection box was selected. Tap inside a box.",
+  "feedbackSelectionTooSmall": "The selected area is too small. Please draw it again.",
+  "feedbackFalsePositiveDialogTitle": "Report false positive",
+  "feedbackFalsePositiveDialogMessage": "This detection will be marked as a false positive for review.",
+  "feedbackDrawMissedFirst": "Draw the missed target in the image first.",
+  "feedbackMissingRecord": "Unable to submit feedback because the record ID is missing.",
+  "feedbackSignInRequired": "You must be signed in to submit feedback.",
+  "feedbackSubmitted": "Feedback submitted. Thank you.",
+  "feedbackSubmitFailed": "Failed to submit feedback: {error}",
+  "@feedbackSubmitFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "imageViewerTitle": "Image viewer",
+  "imageViewerRotate": "Rotate",
+  "imageViewerResetZoom": "Reset zoom",
+  "falsePositivePickerTitle": "Select wrong detection",
+  "falsePositivePickerHint": "Double tap to zoom, pan, then tap a box or label.",
+  "falsePositivePickerBottomHint": "Tap a highlighted box or label to report",
+  "falsePositivePickerMiss": "Tap a box or label. Zoom in if needed.",
+  "saveSuccess": "Saved successfully.",
+  "editAuditFixDocTitle": "Edit audit improvement document",
+  "addAuditFixDocTitle": "Add audit improvement document",
+  "multiSelectAlbum": "Select from album",
+  "auditDateLabel": "Audit date",
+  "todayLabel": "Today: {date}",
+  "@todayLabel": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "addPhotoViaCamera": "Add photos with camera or album",
+  "showDateLabel": "Show date stamp",
+  "dateLabel": "Date",
+  "descriptionLabel": "Description",
+  "descBeforeLabel": "Before improvement",
+  "descDuringLabel": "During improvement",
+  "descAfterLabel": "After improvement",
+  "groupNumberLabel": "Group {number}",
+  "@groupNumberLabel": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "applyDescriptionToAllGroups": "Apply description to following groups",
+  "doneWithCount": "Done ({count})",
+  "@doneWithCount": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "loadFailedError": "Load failed: {error}",
+  "@loadFailedError": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tryAgain": "Try again",
+  "pleaseSelectSignerFor": "Please select a signer for {field}",
+  "@pleaseSelectSignerFor": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "field": {
+        "type": "String"
+      }
+    }
+  },
+  "submitted": "Submitted",
+  "failedWith": "Failed: {error}",
+  "@failedWith": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "editDocumentTitle": "Edit document",
+  "headerSection": "Header",
+  "bodySection": "Body",
+  "footerSection": "Footer",
+  "saveAndSubmit": "Save and submit",
+  "tableLabel": "Table {number}",
+  "@tableLabel": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "unnamedSite": "Unnamed site",
+  "addImage": "Add image",
+  "tapToSign": "Tap to sign",
+  "signatureSection": "Signature",
+  "signatureFlow": "Signature flow",
+  "orderedSigningActive": "Ordered signing is active.",
+  "freeSigningActive": "Any-order signing is active.",
+  "signingOrderLocked": "Signing order is locked after tasks are created.",
+  "anyOrder": "Any order",
+  "signInOrder": "Sign in order",
+  "orderedSigningDragHint": "Drag signers to adjust the signing order before submitting.",
+  "freeSigningHint": "All assigned signers can sign without a fixed order.",
+  "selectSignerHint": "Select signer",
+  "orderRank": "Order {rank}",
+  "@orderRank": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "rank": {
+        "type": "String"
+      }
+    }
+  },
+  "signatureFieldLabel": "Signature field",
+  "commentLabel": "Comment: {comment}",
+  "@commentLabel": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "comment": {
+        "type": "String"
+      }
+    }
+  },
+  "sitesNotLoaded": "Sites have not been loaded yet.",
+  "documentListTitle": "Documents",
+  "creatorLabel": "Creator",
+  "editorLabel": "Editor",
+  "signerLabel": "Signer",
+  "selectSiteFirstHint": "Select a site first to load members.",
+  "loadingMemberList": "Loading members...",
+  "memberLoadFailed": "Failed to load members: {error}",
+  "@memberLoadFailed": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noMemberListForSite": "No members are available for this site.",
+  "uploadButton": "Upload",
+  "allFilter": "All {label}",
+  "@allFilter": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "unclassified": "Unclassified",
+  "documentLocked": "Document locked",
+  "mySignTasks": "My signature tasks",
+  "browserDownloadStarted": "Browser download started.",
+  "storagePermissionRequired": "Storage permission is required to download files.",
+  "downloadComplete": "Download complete.",
+  "downloadFailedError": "Download failed: {error}",
+  "@downloadFailedError": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteVersionConfirm": "Delete version {version}?",
+  "@deleteVersionConfirm": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "versionDeleted": "Version deleted.",
+  "deleteVersionFailedError": "Failed to delete version: {error}",
+  "@deleteVersionFailedError": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "documentVersionListTitle": "Versions for {document}",
+  "@documentVersionListTitle": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "document": {
+        "type": "String"
+      }
+    }
+  },
+  "versionNumber": "Version {version}",
+  "@versionNumber": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "downloadDocx": "Download DOCX",
+  "downloadPdf": "Download PDF",
+  "pdfConverting": "PDF converting",
+  "deleteVersionTooltip": "Delete version",
+  "pdfNotReady": "PDF is not ready yet",
+  "addPhotoDocTitle": "Add photo document",
+  "editPhotoDocTitle": "Edit photo document",
+  "requiredSelect": "Please select an option",
+  "projectNameLabel": "Project name",
+  "addPhotosHint": "Take photos or select images from album.",
+  "locationLabel": "Location",
+  "applyImageDataToAll": "Apply image data to following items",
+  "notificationSettings": "Notification settings",
+  "siteNotificationTitle": "Site notifications",
+  "siteNotificationDescription": "Choose which site alerts you want to receive.",
+  "noSiteNotification": "No site notification items.",
+  "notificationSearchHint": "Search notifications",
+  "siteNotificationSaveSuccess": "Site notification settings saved.",
+  "documentNotificationTitle": "Document notifications",
+  "documentNotificationDescription": "Choose which document workflow notifications you want to receive.",
+  "noDocumentNotification": "No document notification items.",
+  "documentNotificationSaveSuccess": "Document notification settings saved.",
+  "siteNotificationChannel": "Site alerts",
+  "documentNotificationChannel": "Document workflow",
+  "notificationSaveFailed": "Failed to save notification settings: {error}",
+  "@notificationSaveFailed": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationSearchEmpty": "No notification settings match your search.",
+  "allSiteGroups": "All site groups",
+  "notificationEnabled": "Enabled",
+  "notificationPendingSave": "Pending save",
+  "notificationStatus": "Status",
+  "notificationSaving": "Saving",
+  "notificationSynced": "Synced",
+  "enableAllNotifications": "Enable all",
+  "disableAllNotifications": "Disable all",
+  "saveNotificationChanges": "Save changes",
+  "notificationAlreadySynced": "Already synced",
+  "notificationEnabledCount": "{enabled}/{total} enabled",
+  "@notificationEnabledCount": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "enabled": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationUnsaved": "Unsaved changes",
+  "pendingSignStatus": "Pending",
+  "signedStatus": "Signed",
+  "commentedStatus": "Commented",
+  "skippedStatus": "Skipped",
+  "rejectedStatus": "Rejected",
+  "commentedStatusDescription": "Return with a comment for revision.",
+  "skippedStatusDescription": "Skip this signature step.",
+  "rejectedStatusDescription": "Reject and return the document.",
+  "signedStatusDescription": "Sign and approve this step.",
+  "chooseDocumentTypeTitle": "Choose document type",
+  "documentTypeSearchHint": "Search document types",
+  "noAvailableCategories": "No available categories",
+  "noMatchingDocumentTypes": "No matching document types",
+  "documentTypePrefixUnset": "Prefix not set",
+  "documentTypePrefixValue": "Prefix: {prefix}",
+  "@documentTypePrefixValue": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "approveUser": "Approve user",
+  "selectGroupForUser": "Select a group for this user.",
+  "statusPending": "Pending",
+  "pendingApprovalTitle": "Pending approval",
+  "pendingApprovalMessage": "Your account is waiting for administrator approval.",
+  "signDocument": "Sign document",
+  "goToMyTasks": "Go to my tasks",
+  "loadSignTaskFailed": "Failed to load signature task: {error}",
+  "signTaskNotFound": "Signature task not found.",
+  "signTaskLoadFailed": "Failed to load signature task: {error}",
+  "pleaseSignFirst": "Please sign before submitting.",
+  "submitFailed": "Submit failed: {error}",
+  "documentVersionUpdated": "Document version has been updated. Please reload.",
+  "revisionCommentLabel": "Revision comment",
+  "revisionCommentHint": "Describe what should be revised.",
+  "rejectionReasonLabel": "Rejection reason",
+  "rejectionReasonHint": "Describe why this document is rejected.",
+  "signAction": "Sign",
+  "commentAction": "Comment",
+  "skipAction": "Skip",
+  "rejectAction": "Reject",
+  "signResult": "Signature result",
+  "handwrittenSignature": "Handwritten signature",
+  "resignature": "Sign again",
+  "signatureConfirmed": "Signature confirmed.",
+  "confirmSignature": "Confirm signature",
+  "signaturePreview": "Signature preview",
+  "confirmSubmit": "Confirm submit",
+  "startSign": "Start signing",
+  "signatureHint": "Please provide your signature.",
+  "noSignTasks": "No signature tasks.",
+  "createdTime": "Created",
+  "taskNumberStatus": "Task {taskId} · {status}",
+  "@taskNumberStatus": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "taskId": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "versionPlaceholder": "Version {version} · {placeholder}",
+  "@versionPlaceholder": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "placeholder": {
+        "type": "String"
+      }
+    }
+  },
+  "@loadSignTaskFailed": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@signTaskLoadFailed": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "pdfLoadFailed": "Failed to load PDF: {error}",
+  "@pdfLoadFailed": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@submitFailed": {
+    "description": "Generated placeholder metadata.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "commentRequired": "Comment is required for this action."
+}
