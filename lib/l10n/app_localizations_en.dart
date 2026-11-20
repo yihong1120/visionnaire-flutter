@@ -1982,4 +1982,82 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get commentRequired => 'Comment is required for this action.';
+
+  @override
+  String get violationResultsHeading => 'Results';
+
+  @override
+  String get violationEvidenceImage => 'Image';
+
+  @override
+  String get violationSiteStreamHeading => 'Site / Stream';
+
+  @override
+  String get violationTimeRange => 'Time range';
+
+  @override
+  String get violationReviewStatus => 'Review status';
+
+  @override
+  String get violationFiltersHeading => 'Filters';
+
+  @override
+  String get violationFiltersDescription => 'Narrow records by site, camera, violation type, time and review status.';
+
+  @override
+  String get violationAllCameras => 'All cameras';
+
+  @override
+  String get violationCameraLabel => 'Camera';
+
+  @override
+  String get violationAllTypes => 'All violation types';
+
+  @override
+  String get violationTypeLabel => 'Violation type';
+
+  @override
+  String get violationAnalyticsTotal => 'Total violations';
+
+  @override
+  String get violationAnalyticsToday => 'Today';
+
+  @override
+  String get violationAnalyticsTopSite => 'Most affected site';
+
+  @override
+  String get violationAnalyticsTopType => 'Most frequent type';
+
+  @override
+  String get violationAnalyticsTrend => 'Violation trend';
+
+  @override
+  String get violationAnalyticsNoTrend => 'No trend data';
+
+  @override
+  String get violationAnalyticsTypeBreakdown => 'Breakdown by type';
+
+  @override
+  String get violationAnalyticsNoType => 'No data by type';
+
+  @override
+  String get violationAnalyticsTypeRanking => 'Violation type ranking';
+
+  @override
+  String get violationAnalyticsSiteRanking => 'Site ranking';
+
+  @override
+  String get violationAnalyticsHourly => 'Hourly distribution';
+
+  @override
+  String get violationAnalyticsNoHourly => 'No hourly data';
+
+  @override
+  String get violationAnalyticsNoRanking => 'No ranking data';
+
+  @override
+  String get violationAnalyticsUnavailable => 'Analytics are unavailable';
+
+  @override
+  String get violationAnalyticsEmpty => 'No analytics data';
 }

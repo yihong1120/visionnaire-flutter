@@ -51,25 +51,25 @@ class AppLocalizationsId extends AppLocalizations {
   String get detectionTime => 'Detection Time';
 
   @override
-  String get violationMessage => 'Violation Message';
+  String get violationMessage => 'Pesan pelanggaran';
 
   @override
   String get loadingImageError => 'Failed to load image';
 
   @override
-  String get violationRecordQuery => 'Violation Record Query';
+  String get violationRecordQuery => 'Catatan pelanggaran';
 
   @override
-  String get keyword => 'Keyword (stream_name or message)';
+  String get keyword => 'Kata kunci (kamera atau pesan)';
 
   @override
-  String get startTime => 'Start Time';
+  String get startTime => 'Waktu mulai';
 
   @override
-  String get endTime => 'End Time';
+  String get endTime => 'Waktu selesai';
 
   @override
-  String get query => 'Query';
+  String get query => 'Cari';
 
   @override
   String get noRecords => 'No records available';
@@ -99,7 +99,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get noImage => 'No camera images available';
 
   @override
-  String get warnings => 'Warnings';
+  String get warnings => 'Peringatan';
 
   @override
   String get lastUpdated => 'Last updated';
@@ -168,7 +168,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get confirmDeleteChatRoom => 'Are you sure you want to delete this chat room?';
 
   @override
-  String get cancel => 'Cancel';
+  String get cancel => 'Batal';
 
   @override
   String get delete => 'Delete';
@@ -177,24 +177,24 @@ class AppLocalizationsId extends AppLocalizations {
   String get deleteFailed => 'Deletion failed';
 
   @override
-  String get selectSite => 'Select Site';
+  String get selectSite => 'Pilih lokasi';
 
   @override
-  String get notSelected => 'Not selected';
+  String get notSelected => 'Belum dipilih';
 
   @override
   String errorPrefix(String error) {
-    return 'Error: $error';
+    return 'Galat: $error';
   }
 
   @override
-  String get sitePrefix => 'Site: ';
+  String get sitePrefix => 'Lokasi: ';
 
   @override
-  String get streamPrefix => 'Stream: ';
+  String get streamPrefix => 'Siaran: ';
 
   @override
-  String get detectionTimePrefix => 'Detection Time: ';
+  String get detectionTimePrefix => 'Waktu deteksi: ';
 
   @override
   String get urlUpdated => 'Updated Streaming Web Base URL to:';
@@ -290,75 +290,75 @@ class AppLocalizationsId extends AppLocalizations {
   String get showDetectionResults => 'Tampilkan hasil deteksi';
 
   @override
-  String get hardhat => 'Hardhat';
+  String get hardhat => 'Helm keselamatan';
 
   @override
-  String get vest => 'Vest';
+  String get vest => 'Rompi keselamatan';
 
   @override
-  String get machinery => 'Machinery';
+  String get machinery => 'Alat berat';
 
   @override
-  String get vehicle => 'Vehicle';
+  String get vehicle => 'Kendaraan';
 
   @override
-  String get no_hardhat => 'No Hardhat';
+  String get no_hardhat => 'Tanpa helm';
 
   @override
-  String get no_vest => 'No Vest';
+  String get no_vest => 'Tanpa rompi keselamatan';
 
   @override
-  String get person => 'Person';
+  String get person => 'Orang';
 
   @override
-  String get cone => 'Safety Cone';
+  String get cone => 'Kerucut lalu lintas';
 
   @override
-  String get mask => 'Mask';
+  String get mask => 'Masker';
 
   @override
-  String get no_mask => 'No Mask';
+  String get no_mask => 'Tanpa masker';
 
   @override
-  String get utility_pole => 'Utility Pole';
+  String get utility_pole => 'Tiang listrik';
 
   @override
   String warning_people_in_controlled_area(int count) {
-    return 'Warning: $count people have entered the controlled area!';
+    return 'Peringatan: $count orang memasuki area terkendali!';
   }
 
   @override
   String warning_people_in_utility_pole_controlled_area(int count) {
-    return 'Warning: $count people have entered the utility pole restricted area!';
+    return 'Peringatan: $count orang memasuki area terbatas di sekitar tiang listrik!';
   }
 
   @override
   String warning_no_hardhat(int count) {
-    return 'Warning: $count people are not wearing a hardhat!';
+    return 'Peringatan: $count orang tidak mengenakan helm keselamatan!';
   }
 
   @override
   String warning_no_safety_vest(int count) {
-    return 'Warning: $count people are not wearing a safety vest!';
+    return 'Peringatan: $count orang tidak mengenakan rompi keselamatan!';
   }
 
   @override
   String warning_close_to_machinery(int count) {
-    return 'Warning: $count people are too close to machinery!';
+    return 'Peringatan: $count orang terlalu dekat dengan alat berat!';
   }
 
   @override
   String warning_close_to_vehicle(int count) {
-    return 'Warning: $count people are too close to vehicles!';
+    return 'Peringatan: $count orang terlalu dekat dengan kendaraan!';
   }
 
   @override
   String detect_machinery_close_to_pole(int count) {
-    return 'Warning: $count machinery are too close to the utility pole!';
+    return 'Peringatan: $count alat berat terlalu dekat dengan tiang listrik!';
   }
 
   @override
-  String get showOverlay => 'Show Overlay';
+  String get showOverlay => 'Tampilkan anotasi';
 
   @override
   String get add => 'Add';
@@ -505,7 +505,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get selectConstructionSite => 'Select Construction Site';
 
   @override
-  String get allSites => 'All Sites';
+  String get allSites => 'Semua lokasi';
 
   @override
   String get startDate => 'Start Date';
@@ -753,7 +753,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get selectAll => 'Select All';
 
   @override
-  String get clearSelection => 'Clear Selection';
+  String get clearSelection => 'Hapus pilihan';
 
   @override
   String get back => 'Back';
@@ -800,7 +800,7 @@ class AppLocalizationsId extends AppLocalizations {
   }
 
   @override
-  String get refresh => 'Refresh';
+  String get refresh => 'Muat ulang';
 
   @override
   String get resetAll => 'Reset All to Defaults';
@@ -1239,234 +1239,234 @@ class AppLocalizationsId extends AppLocalizations {
   String get notificationFallbackTitle => 'Notification';
 
   @override
-  String get violationNoMatchingRecords => 'No matching records';
+  String get violationNoMatchingRecords => 'Tidak ada catatan yang cocok';
 
   @override
-  String get violationRecordsTab => 'Records';
+  String get violationRecordsTab => 'Catatan';
 
   @override
-  String get violationAnalyticsTab => 'Analytics';
+  String get violationAnalyticsTab => 'Statistik';
 
   @override
-  String get violationGroup => 'Group';
+  String get violationGroup => 'Grup';
 
   @override
-  String get violationAllGroups => 'All groups';
+  String get violationAllGroups => 'Semua grup';
 
   @override
-  String get violationRangeLastDay => 'Last day';
+  String get violationRangeLastDay => '24 jam terakhir';
 
   @override
-  String get violationRangeLast30Days => '30 days';
+  String get violationRangeLast30Days => '30 hari terakhir';
 
   @override
-  String get violationRangeLastHalfYear => '6 months';
+  String get violationRangeLastHalfYear => '6 bulan terakhir';
 
   @override
-  String get violationRangeLastYear => '1 year';
+  String get violationRangeLastYear => '12 bulan terakhir';
 
   @override
-  String get violationRangeYearToDate => 'YTD';
+  String get violationRangeYearToDate => 'Sejak awal tahun';
 
   @override
-  String get violationUnnamedGroup => 'Unnamed group';
+  String get violationUnnamedGroup => 'Grup tanpa nama';
 
   @override
-  String get reviewFilterAll => 'All';
+  String get reviewFilterAll => 'Semua';
 
   @override
-  String get reviewFilterFlagged => 'Flagged';
+  String get reviewFilterFlagged => 'Ditandai';
 
   @override
-  String get reviewFilterPending => 'Pending';
+  String get reviewFilterPending => 'Menunggu';
 
   @override
-  String get reviewFilterResolved => 'Resolved';
+  String get reviewFilterResolved => 'Diselesaikan';
 
   @override
-  String get reviewFilterDismissed => 'Dismissed';
+  String get reviewFilterDismissed => 'Ditolak';
 
   @override
-  String get reviewStatusReviewed => 'Reviewed';
+  String get reviewStatusReviewed => 'Ditinjau';
 
   @override
-  String get reviewStatusNotSubmitted => 'Not submitted';
+  String get reviewStatusNotSubmitted => 'Belum dikirim';
 
   @override
-  String get reviewFlagReasonLabel => 'Flag reason';
+  String get reviewFlagReasonLabel => 'Alasan penandaan';
 
   @override
-  String get reviewSectionTitle => 'Review';
+  String get reviewSectionTitle => 'Peninjauan';
 
   @override
-  String get reviewFlaggedBadge => 'Flagged';
+  String get reviewFlaggedBadge => 'Ditandai';
 
   @override
-  String get reviewPendingNote => 'Pending note';
+  String get reviewPendingNote => 'Catatan tertunda';
 
   @override
-  String get reviewNote => 'Review note';
+  String get reviewNote => 'Catatan peninjauan';
 
   @override
-  String get reviewHandled => 'Handled';
+  String get reviewHandled => 'Sudah ditangani';
 
   @override
-  String get reviewNoteOptional => 'Review note, optional';
+  String get reviewNoteOptional => 'Catatan peninjauan (opsional)';
 
   @override
-  String get reviewAuditTrail => 'Audit trail';
+  String get reviewAuditTrail => 'Riwayat peninjauan';
 
   @override
   String reviewAuditTrailLoadFailed(String error) {
-    return 'Unable to load audit trail: $error';
+    return 'Riwayat peninjauan tidak dapat dimuat: $error';
   }
 
   @override
-  String get reviewAuditTrailEmpty => 'No audit trail yet.';
+  String get reviewAuditTrailEmpty => 'Belum ada riwayat peninjauan.';
 
   @override
-  String get overlayLabel => 'Overlay';
+  String get overlayLabel => 'Anotasi';
 
   @override
-  String get overlayHidden => 'Off';
+  String get overlayHidden => 'Nonaktif';
 
   @override
-  String get overlayAll => 'All';
+  String get overlayAll => 'Semua';
 
   @override
-  String get overlayFlaggedOnly => 'Flagged only';
+  String get overlayFlaggedOnly => 'Hanya yang ditandai';
 
   @override
-  String get reviewChangeMarkerColor => 'Change marker color';
+  String get reviewChangeMarkerColor => 'Ubah warna penanda';
 
   @override
-  String get reviewActionResolve => 'Resolve';
+  String get reviewActionResolve => 'Selesaikan';
 
   @override
-  String get reviewActionDismiss => 'Dismiss';
+  String get reviewActionDismiss => 'Tolak';
 
   @override
-  String get reviewActionPending => 'Set pending';
+  String get reviewActionPending => 'Tandai menunggu';
 
   @override
-  String get reviewMissingRecordUpdate => 'Unable to update review because the record ID is missing.';
+  String get reviewMissingRecordUpdate => 'Peninjauan tidak dapat diperbarui karena ID catatan tidak ada.';
 
   @override
-  String get reviewSignInRequiredUpdate => 'You must be signed in to update review status.';
+  String get reviewSignInRequiredUpdate => 'Masuk untuk memperbarui status peninjauan.';
 
   @override
-  String get reviewUpdated => 'Review status updated.';
+  String get reviewUpdated => 'Status peninjauan diperbarui.';
 
   @override
-  String get reviewUpdatedNext => 'Review updated. Moving to the next pending item.';
+  String get reviewUpdatedNext => 'Peninjauan diperbarui. Beralih ke item tertunda berikutnya.';
 
   @override
   String reviewUpdateFailed(String error) {
-    return 'Failed to update review: $error';
+    return 'Peninjauan gagal diperbarui: $error';
   }
 
   @override
-  String get reviewReasonFalsePositive => 'False positive: the detection was reported as incorrect';
+  String get reviewReasonFalsePositive => 'Positif palsu: deteksi dilaporkan tidak tepat';
 
   @override
-  String get reviewReasonFalseNegative => 'Missed detection: an object was missing from the results';
+  String get reviewReasonFalseNegative => 'Deteksi terlewat: ada objek yang tidak muncul dalam hasil';
 
   @override
-  String get reviewReasonWrongClass => 'Wrong class: the detection label needs correction';
+  String get reviewReasonWrongClass => 'Kelas salah: label deteksi perlu diperbaiki';
 
   @override
-  String get reviewReasonBadBox => 'Bad box: the bounding box needs correction';
+  String get reviewReasonBadBox => 'Kotak salah: kotak deteksi perlu diperbaiki';
 
   @override
-  String get detectionFeedbackTitle => 'Detection feedback';
+  String get detectionFeedbackTitle => 'Masukan deteksi';
 
   @override
-  String get detectionFeedbackDescription => 'Mark false positives or missed detections for model improvement review.';
+  String get detectionFeedbackDescription => 'Tandai deteksi yang salah atau terlewat untuk membantu memperbaiki model.';
 
   @override
-  String get detectionFeedbackFalsePositive => 'Mark wrong';
+  String get detectionFeedbackFalsePositive => 'Tandai salah deteksi';
 
   @override
-  String get detectionFeedbackMissed => 'Draw missed';
+  String get detectionFeedbackMissed => 'Bingkai objek yang terlewat';
 
   @override
-  String get detectionFeedbackNoBoxes => 'No detection boxes are available to select.';
+  String get detectionFeedbackNoBoxes => 'Tidak ada kotak deteksi yang dapat dipilih.';
 
   @override
-  String get detectionFeedbackMissedLabel => 'Missed label';
+  String get detectionFeedbackMissedLabel => 'Kelas objek yang terlewat';
 
   @override
-  String get detectionFeedbackNoteOptional => 'Note, optional';
+  String get detectionFeedbackNoteOptional => 'Catatan (opsional)';
 
   @override
-  String get detectionFeedbackNoMissedTarget => 'No missed target selected';
+  String get detectionFeedbackNoMissedTarget => 'Belum ada objek terlewat yang dipilih';
 
   @override
   String detectionFeedbackSelectedBox(String bbox) {
-    return 'Selected $bbox';
+    return 'Kotak terpilih: $bbox';
   }
 
   @override
-  String get detectionFeedbackSubmitMissed => 'Submit missed';
+  String get detectionFeedbackSubmitMissed => 'Kirim laporan objek terlewat';
 
   @override
-  String get detectionFeedbackFalsePositiveHint => 'Tap the wrong detection box in the image.';
+  String get detectionFeedbackFalsePositiveHint => 'Ketuk kotak deteksi yang salah pada gambar.';
 
   @override
-  String get detectionFeedbackMissedHint => 'Drag on the image to draw the missed target.';
+  String get detectionFeedbackMissedHint => 'Seret pada gambar untuk membingkai objek yang terlewat.';
 
   @override
-  String get detectionFeedbackBoxes => 'Boxes';
+  String get detectionFeedbackBoxes => 'Kotak';
 
   @override
-  String get feedbackNoDetectionSelected => 'No detection box was selected. Tap inside a box.';
+  String get feedbackNoDetectionSelected => 'Belum ada kotak deteksi yang dipilih. Ketuk bagian dalam kotak.';
 
   @override
-  String get feedbackSelectionTooSmall => 'The selected area is too small. Please draw it again.';
+  String get feedbackSelectionTooSmall => 'Area yang dipilih terlalu kecil. Gambar ulang area tersebut.';
 
   @override
-  String get feedbackFalsePositiveDialogTitle => 'Report false positive';
+  String get feedbackFalsePositiveDialogTitle => 'Laporkan positif palsu';
 
   @override
-  String get feedbackFalsePositiveDialogMessage => 'This detection will be marked as a false positive for review.';
+  String get feedbackFalsePositiveDialogMessage => 'Deteksi ini akan ditandai sebagai positif palsu untuk ditinjau.';
 
   @override
-  String get feedbackDrawMissedFirst => 'Draw the missed target in the image first.';
+  String get feedbackDrawMissedFirst => 'Bingkai objek yang terlewat pada gambar terlebih dahulu.';
 
   @override
-  String get feedbackMissingRecord => 'Unable to submit feedback because the record ID is missing.';
+  String get feedbackMissingRecord => 'Masukan tidak dapat dikirim karena ID catatan tidak ada.';
 
   @override
-  String get feedbackSignInRequired => 'You must be signed in to submit feedback.';
+  String get feedbackSignInRequired => 'Masuk untuk mengirim masukan.';
 
   @override
-  String get feedbackSubmitted => 'Feedback submitted. Thank you.';
+  String get feedbackSubmitted => 'Masukan dikirim. Terima kasih.';
 
   @override
   String feedbackSubmitFailed(String error) {
-    return 'Failed to submit feedback: $error';
+    return 'Masukan gagal dikirim: $error';
   }
 
   @override
-  String get imageViewerTitle => 'Image viewer';
+  String get imageViewerTitle => 'Penampil gambar';
 
   @override
-  String get imageViewerRotate => 'Rotate';
+  String get imageViewerRotate => 'Putar';
 
   @override
-  String get imageViewerResetZoom => 'Reset zoom';
+  String get imageViewerResetZoom => 'Atur ulang zoom';
 
   @override
-  String get falsePositivePickerTitle => 'Select wrong detection';
+  String get falsePositivePickerTitle => 'Pilih deteksi yang salah';
 
   @override
-  String get falsePositivePickerHint => 'Double tap to zoom, pan, then tap a box or label.';
+  String get falsePositivePickerHint => 'Ketuk dua kali untuk memperbesar, geser gambar, lalu ketuk kotak atau label.';
 
   @override
-  String get falsePositivePickerBottomHint => 'Tap a highlighted box or label to report';
+  String get falsePositivePickerBottomHint => 'Ketuk kotak atau label yang disorot untuk melaporkan.';
 
   @override
-  String get falsePositivePickerMiss => 'Tap a box or label. Zoom in if needed.';
+  String get falsePositivePickerMiss => 'Ketuk kotak atau label. Perbesar jika perlu.';
 
   @override
   String get saveSuccess => 'Saved successfully.';
@@ -1982,4 +1982,82 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get commentRequired => 'Comment is required for this action.';
+
+  @override
+  String get violationResultsHeading => 'Hasil';
+
+  @override
+  String get violationEvidenceImage => 'Gambar';
+
+  @override
+  String get violationSiteStreamHeading => 'Lokasi / Siaran';
+
+  @override
+  String get violationTimeRange => 'Rentang waktu';
+
+  @override
+  String get violationReviewStatus => 'Status peninjauan';
+
+  @override
+  String get violationFiltersHeading => 'Filter';
+
+  @override
+  String get violationFiltersDescription => 'Persempit hasil berdasarkan lokasi, kamera, jenis pelanggaran, waktu, dan status peninjauan.';
+
+  @override
+  String get violationAllCameras => 'Semua kamera';
+
+  @override
+  String get violationCameraLabel => 'Kamera';
+
+  @override
+  String get violationAllTypes => 'Semua jenis pelanggaran';
+
+  @override
+  String get violationTypeLabel => 'Jenis pelanggaran';
+
+  @override
+  String get violationAnalyticsTotal => 'Total pelanggaran';
+
+  @override
+  String get violationAnalyticsToday => 'Hari ini';
+
+  @override
+  String get violationAnalyticsTopSite => 'Lokasi dengan pelanggaran terbanyak';
+
+  @override
+  String get violationAnalyticsTopType => 'Jenis paling sering terjadi';
+
+  @override
+  String get violationAnalyticsTrend => 'Tren pelanggaran';
+
+  @override
+  String get violationAnalyticsNoTrend => 'Tidak ada data tren';
+
+  @override
+  String get violationAnalyticsTypeBreakdown => 'Rincian berdasarkan jenis';
+
+  @override
+  String get violationAnalyticsNoType => 'Tidak ada data berdasarkan jenis';
+
+  @override
+  String get violationAnalyticsTypeRanking => 'Peringkat jenis pelanggaran';
+
+  @override
+  String get violationAnalyticsSiteRanking => 'Peringkat lokasi';
+
+  @override
+  String get violationAnalyticsHourly => 'Distribusi per jam';
+
+  @override
+  String get violationAnalyticsNoHourly => 'Tidak ada data per jam';
+
+  @override
+  String get violationAnalyticsNoRanking => 'Tidak ada data peringkat';
+
+  @override
+  String get violationAnalyticsUnavailable => 'Statistik tidak tersedia';
+
+  @override
+  String get violationAnalyticsEmpty => 'Tidak ada data statistik';
 }

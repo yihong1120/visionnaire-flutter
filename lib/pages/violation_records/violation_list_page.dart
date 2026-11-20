@@ -176,11 +176,6 @@ class _ViolationListPageState extends State<ViolationListPage> {
     return kIsWeb && MediaQuery.sizeOf(context).width >= _desktopWebBreakpoint;
   }
 
-  String _webCopy(String zh, String en) {
-    final String language = Localizations.localeOf(context).languageCode;
-    return language.toLowerCase().startsWith('zh') ? zh : en;
-  }
-
   @override
   void initState() {
     super.initState();
@@ -873,7 +868,7 @@ class _ViolationListPageState extends State<ViolationListPage> {
             child: Row(
               children: <Widget>[
                 Text(
-                  _webCopy('查詢結果', 'Results'),
+                  local.violationResultsHeading,
                   style: theme.textTheme.titleMedium?.copyWith(
                     fontWeight: FontWeight.w800,
                   ),
@@ -910,7 +905,7 @@ class _ViolationListPageState extends State<ViolationListPage> {
             height: 1,
             color: colorScheme.outlineVariant.withValues(alpha: .65),
           ),
-          _buildDesktopResultsHeader(),
+          _buildDesktopResultsHeader(local),
           for (int index = 0; index < _violations.length; index += 1)
             _buildDesktopViolationRow(
               _violations[index],
@@ -922,7 +917,7 @@ class _ViolationListPageState extends State<ViolationListPage> {
     );
   }
 
-  Widget _buildDesktopResultsHeader() {
+  Widget _buildDesktopResultsHeader(AppLocalizations local) {
     final ThemeData theme = Theme.of(context);
     final ColorScheme colorScheme = theme.colorScheme;
     final TextStyle? style = theme.textTheme.labelLarge?.copyWith(
@@ -937,27 +932,27 @@ class _ViolationListPageState extends State<ViolationListPage> {
         children: <Widget>[
           SizedBox(
             width: 132,
-            child: Text(_webCopy('影像', 'Image'), style: style),
+            child: Text(local.violationEvidenceImage, style: style),
           ),
           const SizedBox(width: 14),
           Expanded(
             flex: 4,
-            child: Text(_webCopy('工地 / 串流', 'Site / Stream'), style: style),
+            child: Text(local.violationSiteStreamHeading, style: style),
           ),
           const SizedBox(width: 18),
           SizedBox(
             width: 190,
-            child: Text(_webCopy('偵測時間', 'Detected At'), style: style),
+            child: Text(local.detectionTime, style: style),
           ),
           const SizedBox(width: 18),
           Expanded(
             flex: 3,
-            child: Text(_webCopy('警告', 'Warnings'), style: style),
+            child: Text(local.warnings, style: style),
           ),
           const SizedBox(width: 18),
           SizedBox(
             width: 156,
-            child: Text(_webCopy('審核狀態', 'Review'), style: style),
+            child: Text(local.violationReviewStatus, style: style),
           ),
           const SizedBox(width: 34),
         ],
@@ -1384,7 +1379,7 @@ class _ViolationListPageState extends State<ViolationListPage> {
                 const SizedBox(height: 14),
                 _buildFilterSectionLabel(
                   icon: Icons.history_rounded,
-                  label: _webCopy('時間範圍', 'Time Range'),
+                  label: local.violationTimeRange,
                 ),
                 const SizedBox(height: 8),
                 _buildAnalyticsRangeButtons(),
@@ -1393,7 +1388,7 @@ class _ViolationListPageState extends State<ViolationListPage> {
                 const SizedBox(height: 14),
                 _buildFilterSectionLabel(
                   icon: Icons.fact_check_outlined,
-                  label: _webCopy('審核狀態', 'Review Status'),
+                  label: local.violationReviewStatus,
                 ),
                 const SizedBox(height: 8),
                 _buildReviewFilterControls(),
@@ -1464,15 +1459,14 @@ class _ViolationListPageState extends State<ViolationListPage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  _webCopy('查詢條件', 'Filters'),
+                  local.violationFiltersHeading,
                   style: theme.textTheme.titleSmall?.copyWith(
                     fontWeight: FontWeight.w900,
                   ),
                 ),
                 const SizedBox(height: 2),
                 Text(
-                  _webCopy('依工地、鏡頭、違規項目、時間與審核狀態縮小查詢範圍',
-                      'Narrow records by site, camera, violation type, time and review state'),
+                  local.violationFiltersDescription,
                   style: theme.textTheme.bodySmall?.copyWith(
                     color: colorScheme.onSurfaceVariant,
                     fontWeight: FontWeight.w500,
@@ -1571,10 +1565,11 @@ class _ViolationListPageState extends State<ViolationListPage> {
   }
 
   Widget _buildCameraSelector() {
+    final AppLocalizations local = AppLocalizations.of(context)!;
     final List<DropdownMenuItem<String?>> items = <DropdownMenuItem<String?>>[
       DropdownMenuItem<String?>(
         value: null,
-        child: Text(_webCopy('全部鏡頭', 'All cameras')),
+        child: Text(local.violationAllCameras),
       ),
       ..._violationFilterOptions.cameras.map(
         (ViolationCameraFilterOption option) => DropdownMenuItem<String?>(
@@ -1597,7 +1592,7 @@ class _ViolationListPageState extends State<ViolationListPage> {
     }
 
     return _buildOutlinedDropdown<String?>(
-      label: _webCopy('鏡頭', 'Camera'),
+      label: local.violationCameraLabel,
       icon: Icons.videocam_outlined,
       value: _selectedStreamId,
       items: items,
@@ -1607,10 +1602,11 @@ class _ViolationListPageState extends State<ViolationListPage> {
   }
 
   Widget _buildViolationTypeSelector() {
+    final AppLocalizations local = AppLocalizations.of(context)!;
     final List<DropdownMenuItem<String?>> items = <DropdownMenuItem<String?>>[
       DropdownMenuItem<String?>(
         value: null,
-        child: Text(_webCopy('全部違規項目', 'All violation types')),
+        child: Text(local.violationAllTypes),
       ),
       ..._violationFilterOptions.violationTypes.map(
         (ViolationTypeFilterOption option) => DropdownMenuItem<String?>(
@@ -1633,7 +1629,7 @@ class _ViolationListPageState extends State<ViolationListPage> {
     }
 
     return _buildOutlinedDropdown<String?>(
-      label: _webCopy('違規項目', 'Violation type'),
+      label: local.violationTypeLabel,
       icon: Icons.category_outlined,
       value: _selectedViolationType,
       items: items,

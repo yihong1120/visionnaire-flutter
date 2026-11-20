@@ -1,6 +1,7 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
+import 'package:visionnaire/l10n/app_localizations.dart';
 
 import '../../services/violation_records_api_service.dart';
 
@@ -155,23 +156,23 @@ class _SummaryGrid extends StatelessWidget {
     final List<_SummaryItem> items = <_SummaryItem>[
       _SummaryItem(
         icon: Icons.warning_amber_rounded,
-        label: _t(context, '總違規數', 'Total violations'),
+        label: AppLocalizations.of(context)!.violationAnalyticsTotal,
         value: summary.total.toString(),
       ),
       _SummaryItem(
         icon: Icons.today_rounded,
-        label: _t(context, '今日違規', 'Today'),
+        label: AppLocalizations.of(context)!.violationAnalyticsToday,
         value: summary.today.toString(),
       ),
       _SummaryItem(
         icon: Icons.location_on_outlined,
-        label: _t(context, '最高風險工地', 'Top site'),
+        label: AppLocalizations.of(context)!.violationAnalyticsTopSite,
         value: summary.topSite?.label ?? '-',
         trailing: summary.topSite != null ? '${summary.topSite!.count}' : null,
       ),
       _SummaryItem(
         icon: Icons.category_outlined,
-        label: _t(context, '主要類型', 'Top type'),
+        label: AppLocalizations.of(context)!.violationAnalyticsTopType,
         value: summary.topType?.label ?? '-',
         trailing: summary.topType != null ? '${summary.topType!.count}' : null,
       ),
@@ -279,12 +280,14 @@ class _TrendCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return _SectionCard(
-      title: _t(context, '違規趨勢', 'Violation trend'),
+      title: AppLocalizations.of(context)!.violationAnalyticsTrend,
       child: SizedBox(
         width: double.infinity,
         height: 240,
         child: points.isEmpty
-            ? _InlineEmpty(text: _t(context, '沒有趨勢資料', 'No trend data'))
+            ? _InlineEmpty(
+                text: AppLocalizations.of(context)!.violationAnalyticsNoTrend,
+              )
             : CustomPaint(
                 painter: _TrendPainter(
                   points: points,
@@ -319,12 +322,12 @@ class _TypeDonutCard extends StatelessWidget {
         .take(6)
         .toList();
     return _SectionCard(
-      title: _t(context, '項目分類', 'Type breakdown'),
+      title: AppLocalizations.of(context)!.violationAnalyticsTypeBreakdown,
       child: visible.isEmpty
           ? SizedBox(
               height: 180,
               child: _InlineEmpty(
-                text: _t(context, '沒有分類資料', 'No type data'),
+                text: AppLocalizations.of(context)!.violationAnalyticsNoType,
               ),
             )
           : LayoutBuilder(
@@ -391,7 +394,7 @@ class _TypeRankingCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return _SectionCard(
-      title: _t(context, '違規項目排行', 'Violation type ranking'),
+      title: AppLocalizations.of(context)!.violationAnalyticsTypeRanking,
       child: _RankedBars<ViolationAnalyticsTypeStat>(
         items: items,
         labelBuilder: (ViolationAnalyticsTypeStat item) => item.label,
@@ -414,7 +417,7 @@ class _SiteRankingCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return _SectionCard(
-      title: _t(context, '工地排行', 'Site ranking'),
+      title: AppLocalizations.of(context)!.violationAnalyticsSiteRanking,
       child: _RankedBars<ViolationAnalyticsSiteStat>(
         items: items,
         labelBuilder: (ViolationAnalyticsSiteStat item) =>
@@ -442,11 +445,13 @@ class _HourlyCard extends StatelessWidget {
     final int maxCount = values.values
         .fold<int>(0, (int max, int value) => math.max(max, value));
     return _SectionCard(
-      title: _t(context, '時段分布', 'Hourly distribution'),
+      title: AppLocalizations.of(context)!.violationAnalyticsHourly,
       child: SizedBox(
         height: 148,
         child: maxCount == 0
-            ? _InlineEmpty(text: _t(context, '沒有時段資料', 'No hourly data'))
+            ? _InlineEmpty(
+                text: AppLocalizations.of(context)!.violationAnalyticsNoHourly,
+              )
             : Row(
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: List<Widget>.generate(24, (int hour) {
@@ -514,7 +519,9 @@ class _RankedBars<T> extends StatelessWidget {
     if (visible.isEmpty) {
       return SizedBox(
         height: 120,
-        child: _InlineEmpty(text: _t(context, '沒有排行資料', 'No ranking data')),
+        child: _InlineEmpty(
+          text: AppLocalizations.of(context)!.violationAnalyticsNoRanking,
+        ),
       );
     }
     final int maxCount = visible.fold<int>(
@@ -685,7 +692,7 @@ class _AnalyticsError extends StatelessWidget {
           ),
           const SizedBox(height: 12),
           Text(
-            _t(context, '統計資料暫時無法載入', 'Analytics are unavailable'),
+            AppLocalizations.of(context)!.violationAnalyticsUnavailable,
             style: Theme.of(context).textTheme.titleMedium,
           ),
           const SizedBox(height: 6),
@@ -700,7 +707,7 @@ class _AnalyticsError extends StatelessWidget {
           FilledButton.icon(
             onPressed: onRefresh,
             icon: const Icon(Icons.refresh_rounded),
-            label: Text(_t(context, '重新整理', 'Refresh')),
+            label: Text(AppLocalizations.of(context)!.refresh),
           ),
         ],
       ),
@@ -725,12 +732,12 @@ class _AnalyticsEmpty extends StatelessWidget {
             color: Theme.of(context).colorScheme.onSurfaceVariant,
           ),
           const SizedBox(height: 12),
-          Text(_t(context, '目前沒有統計資料', 'No analytics data')),
+          Text(AppLocalizations.of(context)!.violationAnalyticsEmpty),
           const SizedBox(height: 16),
           OutlinedButton.icon(
             onPressed: onRefresh,
             icon: const Icon(Icons.refresh_rounded),
-            label: Text(_t(context, '重新整理', 'Refresh')),
+            label: Text(AppLocalizations.of(context)!.refresh),
           ),
         ],
       ),
@@ -945,9 +952,4 @@ Color _chartColor(BuildContext context, int index) {
     const Color(0xFF475569),
   ];
   return palette[index % palette.length];
-}
-
-String _t(BuildContext context, String zh, String en) {
-  final Locale locale = Localizations.localeOf(context);
-  return locale.languageCode == 'zh' ? zh : en;
 }

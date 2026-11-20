@@ -51,25 +51,25 @@ class AppLocalizationsJa extends AppLocalizations {
   String get detectionTime => 'Detection Time';
 
   @override
-  String get violationMessage => 'Violation Message';
+  String get violationMessage => '違反メッセージ';
 
   @override
   String get loadingImageError => 'Failed to load image';
 
   @override
-  String get violationRecordQuery => 'Violation Record Query';
+  String get violationRecordQuery => '違反記録';
 
   @override
-  String get keyword => 'Keyword (stream_name or message)';
+  String get keyword => 'キーワード（カメラ名またはメッセージ）';
 
   @override
-  String get startTime => 'Start Time';
+  String get startTime => '開始日時';
 
   @override
-  String get endTime => 'End Time';
+  String get endTime => '終了日時';
 
   @override
-  String get query => 'Query';
+  String get query => '検索';
 
   @override
   String get noRecords => 'No records available';
@@ -99,7 +99,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get noImage => 'No camera images available';
 
   @override
-  String get warnings => 'Warnings';
+  String get warnings => '警告';
 
   @override
   String get lastUpdated => 'Last updated';
@@ -168,7 +168,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get confirmDeleteChatRoom => 'Are you sure you want to delete this chat room?';
 
   @override
-  String get cancel => 'Cancel';
+  String get cancel => 'キャンセル';
 
   @override
   String get delete => 'Delete';
@@ -177,24 +177,24 @@ class AppLocalizationsJa extends AppLocalizations {
   String get deleteFailed => 'Deletion failed';
 
   @override
-  String get selectSite => 'Select Site';
+  String get selectSite => '現場を選択';
 
   @override
-  String get notSelected => 'Not selected';
+  String get notSelected => '未選択';
 
   @override
   String errorPrefix(String error) {
-    return 'Error: $error';
+    return 'エラー：$error';
   }
 
   @override
-  String get sitePrefix => 'Site: ';
+  String get sitePrefix => '現場：';
 
   @override
-  String get streamPrefix => 'Stream: ';
+  String get streamPrefix => '配信：';
 
   @override
-  String get detectionTimePrefix => 'Detection Time: ';
+  String get detectionTimePrefix => '検知日時：';
 
   @override
   String get urlUpdated => 'Updated Streaming Web Base URL to:';
@@ -290,75 +290,75 @@ class AppLocalizationsJa extends AppLocalizations {
   String get showDetectionResults => '検知結果を表示';
 
   @override
-  String get hardhat => 'Hardhat';
+  String get hardhat => 'ヘルメット';
 
   @override
-  String get vest => 'Vest';
+  String get vest => '安全ベスト';
 
   @override
-  String get machinery => 'Machinery';
+  String get machinery => '重機';
 
   @override
-  String get vehicle => 'Vehicle';
+  String get vehicle => '車両';
 
   @override
-  String get no_hardhat => 'No Hardhat';
+  String get no_hardhat => 'ヘルメット未着用';
 
   @override
-  String get no_vest => 'No Vest';
+  String get no_vest => '安全ベスト未着用';
 
   @override
-  String get person => 'Person';
+  String get person => '人';
 
   @override
-  String get cone => 'Safety Cone';
+  String get cone => 'カラーコーン';
 
   @override
-  String get mask => 'Mask';
+  String get mask => 'マスク';
 
   @override
-  String get no_mask => 'No Mask';
+  String get no_mask => 'マスク未着用';
 
   @override
-  String get utility_pole => 'Utility Pole';
+  String get utility_pole => '電柱';
 
   @override
   String warning_people_in_controlled_area(int count) {
-    return 'Warning: $count people have entered the controlled area!';
+    return '警告：$count人が管理区域に入りました。';
   }
 
   @override
   String warning_people_in_utility_pole_controlled_area(int count) {
-    return 'Warning: $count people have entered the utility pole restricted area!';
+    return '警告：$count人が電柱の立入制限区域に入りました。';
   }
 
   @override
   String warning_no_hardhat(int count) {
-    return 'Warning: $count people are not wearing a hardhat!';
+    return '警告：$count人がヘルメットを着用していません。';
   }
 
   @override
   String warning_no_safety_vest(int count) {
-    return 'Warning: $count people are not wearing a safety vest!';
+    return '警告：$count人が安全ベストを着用していません。';
   }
 
   @override
   String warning_close_to_machinery(int count) {
-    return 'Warning: $count people are too close to machinery!';
+    return '警告：$count人が重機に近づきすぎています。';
   }
 
   @override
   String warning_close_to_vehicle(int count) {
-    return 'Warning: $count people are too close to vehicles!';
+    return '警告：$count人が車両に近づきすぎています。';
   }
 
   @override
   String detect_machinery_close_to_pole(int count) {
-    return 'Warning: $count machinery are too close to the utility pole!';
+    return '警告：$count台の重機が電柱に近づきすぎています。';
   }
 
   @override
-  String get showOverlay => 'Show Overlay';
+  String get showOverlay => '注釈を表示';
 
   @override
   String get add => 'Add';
@@ -505,7 +505,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get selectConstructionSite => 'Select Construction Site';
 
   @override
-  String get allSites => 'All Sites';
+  String get allSites => 'すべての現場';
 
   @override
   String get startDate => 'Start Date';
@@ -753,7 +753,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get selectAll => 'Select All';
 
   @override
-  String get clearSelection => 'Clear Selection';
+  String get clearSelection => '選択を解除';
 
   @override
   String get back => 'Back';
@@ -800,7 +800,7 @@ class AppLocalizationsJa extends AppLocalizations {
   }
 
   @override
-  String get refresh => 'Refresh';
+  String get refresh => '更新';
 
   @override
   String get resetAll => 'Reset All to Defaults';
@@ -1239,234 +1239,234 @@ class AppLocalizationsJa extends AppLocalizations {
   String get notificationFallbackTitle => 'Notification';
 
   @override
-  String get violationNoMatchingRecords => 'No matching records';
+  String get violationNoMatchingRecords => '該当する記録はありません';
 
   @override
-  String get violationRecordsTab => 'Records';
+  String get violationRecordsTab => '記録';
 
   @override
-  String get violationAnalyticsTab => 'Analytics';
+  String get violationAnalyticsTab => '統計';
 
   @override
-  String get violationGroup => 'Group';
+  String get violationGroup => 'グループ';
 
   @override
-  String get violationAllGroups => 'All groups';
+  String get violationAllGroups => 'すべてのグループ';
 
   @override
-  String get violationRangeLastDay => 'Last day';
+  String get violationRangeLastDay => '過去24時間';
 
   @override
-  String get violationRangeLast30Days => '30 days';
+  String get violationRangeLast30Days => '過去30日間';
 
   @override
-  String get violationRangeLastHalfYear => '6 months';
+  String get violationRangeLastHalfYear => '過去6か月';
 
   @override
-  String get violationRangeLastYear => '1 year';
+  String get violationRangeLastYear => '過去1年間';
 
   @override
-  String get violationRangeYearToDate => 'YTD';
+  String get violationRangeYearToDate => '年初から現在まで';
 
   @override
-  String get violationUnnamedGroup => 'Unnamed group';
+  String get violationUnnamedGroup => '名前のないグループ';
 
   @override
-  String get reviewFilterAll => 'All';
+  String get reviewFilterAll => 'すべて';
 
   @override
-  String get reviewFilterFlagged => 'Flagged';
+  String get reviewFilterFlagged => '報告済み';
 
   @override
-  String get reviewFilterPending => 'Pending';
+  String get reviewFilterPending => '保留中';
 
   @override
-  String get reviewFilterResolved => 'Resolved';
+  String get reviewFilterResolved => '対応済み';
 
   @override
-  String get reviewFilterDismissed => 'Dismissed';
+  String get reviewFilterDismissed => '却下済み';
 
   @override
-  String get reviewStatusReviewed => 'Reviewed';
+  String get reviewStatusReviewed => '確認済み';
 
   @override
-  String get reviewStatusNotSubmitted => 'Not submitted';
+  String get reviewStatusNotSubmitted => '未提出';
 
   @override
-  String get reviewFlagReasonLabel => 'Flag reason';
+  String get reviewFlagReasonLabel => '報告理由';
 
   @override
-  String get reviewSectionTitle => 'Review';
+  String get reviewSectionTitle => '確認';
 
   @override
-  String get reviewFlaggedBadge => 'Flagged';
+  String get reviewFlaggedBadge => '報告済み';
 
   @override
-  String get reviewPendingNote => 'Pending note';
+  String get reviewPendingNote => '保留メモ';
 
   @override
-  String get reviewNote => 'Review note';
+  String get reviewNote => '確認メモ';
 
   @override
-  String get reviewHandled => 'Handled';
+  String get reviewHandled => '処理済み';
 
   @override
-  String get reviewNoteOptional => 'Review note, optional';
+  String get reviewNoteOptional => '確認メモ（任意）';
 
   @override
-  String get reviewAuditTrail => 'Audit trail';
+  String get reviewAuditTrail => '確認履歴';
 
   @override
   String reviewAuditTrailLoadFailed(String error) {
-    return 'Unable to load audit trail: $error';
+    return '確認履歴を読み込めませんでした：$error';
   }
 
   @override
-  String get reviewAuditTrailEmpty => 'No audit trail yet.';
+  String get reviewAuditTrailEmpty => '確認履歴はまだありません。';
 
   @override
-  String get overlayLabel => 'Overlay';
+  String get overlayLabel => '注釈';
 
   @override
-  String get overlayHidden => 'Off';
+  String get overlayHidden => 'オフ';
 
   @override
-  String get overlayAll => 'All';
+  String get overlayAll => 'すべて';
 
   @override
-  String get overlayFlaggedOnly => 'Flagged only';
+  String get overlayFlaggedOnly => '報告済みのみ';
 
   @override
-  String get reviewChangeMarkerColor => 'Change marker color';
+  String get reviewChangeMarkerColor => 'マーカーの色を変更';
 
   @override
-  String get reviewActionResolve => 'Resolve';
+  String get reviewActionResolve => '対応済みにする';
 
   @override
-  String get reviewActionDismiss => 'Dismiss';
+  String get reviewActionDismiss => '却下する';
 
   @override
-  String get reviewActionPending => 'Set pending';
+  String get reviewActionPending => '保留にする';
 
   @override
-  String get reviewMissingRecordUpdate => 'Unable to update review because the record ID is missing.';
+  String get reviewMissingRecordUpdate => '記録IDがないため、確認状況を更新できません。';
 
   @override
-  String get reviewSignInRequiredUpdate => 'You must be signed in to update review status.';
+  String get reviewSignInRequiredUpdate => '確認状況を更新するにはログインしてください。';
 
   @override
-  String get reviewUpdated => 'Review status updated.';
+  String get reviewUpdated => '確認状況を更新しました。';
 
   @override
-  String get reviewUpdatedNext => 'Review updated. Moving to the next pending item.';
+  String get reviewUpdatedNext => '確認状況を更新しました。次の保留項目に移動します。';
 
   @override
   String reviewUpdateFailed(String error) {
-    return 'Failed to update review: $error';
+    return '確認状況を更新できませんでした：$error';
   }
 
   @override
-  String get reviewReasonFalsePositive => 'False positive: the detection was reported as incorrect';
+  String get reviewReasonFalsePositive => '誤検知：この検知は誤りとして報告されました';
 
   @override
-  String get reviewReasonFalseNegative => 'Missed detection: an object was missing from the results';
+  String get reviewReasonFalseNegative => '見逃し：結果に対象が含まれていません';
 
   @override
-  String get reviewReasonWrongClass => 'Wrong class: the detection label needs correction';
+  String get reviewReasonWrongClass => '分類誤り：検知ラベルの修正が必要です';
 
   @override
-  String get reviewReasonBadBox => 'Bad box: the bounding box needs correction';
+  String get reviewReasonBadBox => '枠の誤り：検知枠の修正が必要です';
 
   @override
-  String get detectionFeedbackTitle => 'Detection feedback';
+  String get detectionFeedbackTitle => '検知結果へのフィードバック';
 
   @override
-  String get detectionFeedbackDescription => 'Mark false positives or missed detections for model improvement review.';
+  String get detectionFeedbackDescription => '誤検知や見逃しを報告してモデルの改善に役立ててください。';
 
   @override
-  String get detectionFeedbackFalsePositive => 'Mark wrong';
+  String get detectionFeedbackFalsePositive => '誤検知を報告';
 
   @override
-  String get detectionFeedbackMissed => 'Draw missed';
+  String get detectionFeedbackMissed => '見逃した対象を囲む';
 
   @override
-  String get detectionFeedbackNoBoxes => 'No detection boxes are available to select.';
+  String get detectionFeedbackNoBoxes => '選択できる検知枠はありません。';
 
   @override
-  String get detectionFeedbackMissedLabel => 'Missed label';
+  String get detectionFeedbackMissedLabel => '見逃した対象の分類';
 
   @override
-  String get detectionFeedbackNoteOptional => 'Note, optional';
+  String get detectionFeedbackNoteOptional => 'メモ（任意）';
 
   @override
-  String get detectionFeedbackNoMissedTarget => 'No missed target selected';
+  String get detectionFeedbackNoMissedTarget => '見逃した対象が選択されていません';
 
   @override
   String detectionFeedbackSelectedBox(String bbox) {
-    return 'Selected $bbox';
+    return '選択した枠：$bbox';
   }
 
   @override
-  String get detectionFeedbackSubmitMissed => 'Submit missed';
+  String get detectionFeedbackSubmitMissed => '見逃しを送信';
 
   @override
-  String get detectionFeedbackFalsePositiveHint => 'Tap the wrong detection box in the image.';
+  String get detectionFeedbackFalsePositiveHint => '画像内の誤った検知枠をタップしてください。';
 
   @override
-  String get detectionFeedbackMissedHint => 'Drag on the image to draw the missed target.';
+  String get detectionFeedbackMissedHint => '画像をドラッグして見逃した対象を囲んでください。';
 
   @override
-  String get detectionFeedbackBoxes => 'Boxes';
+  String get detectionFeedbackBoxes => '検知枠';
 
   @override
-  String get feedbackNoDetectionSelected => 'No detection box was selected. Tap inside a box.';
+  String get feedbackNoDetectionSelected => '検知枠が選択されていません。枠の内側をタップしてください。';
 
   @override
-  String get feedbackSelectionTooSmall => 'The selected area is too small. Please draw it again.';
+  String get feedbackSelectionTooSmall => '選択範囲が小さすぎます。もう一度描いてください。';
 
   @override
-  String get feedbackFalsePositiveDialogTitle => 'Report false positive';
+  String get feedbackFalsePositiveDialogTitle => '誤検知を報告する';
 
   @override
-  String get feedbackFalsePositiveDialogMessage => 'This detection will be marked as a false positive for review.';
+  String get feedbackFalsePositiveDialogMessage => 'この検知を確認対象の誤検知として報告します。';
 
   @override
-  String get feedbackDrawMissedFirst => 'Draw the missed target in the image first.';
+  String get feedbackDrawMissedFirst => '先に画像内の見逃した対象を囲んでください。';
 
   @override
-  String get feedbackMissingRecord => 'Unable to submit feedback because the record ID is missing.';
+  String get feedbackMissingRecord => '記録IDがないため、フィードバックを送信できません。';
 
   @override
-  String get feedbackSignInRequired => 'You must be signed in to submit feedback.';
+  String get feedbackSignInRequired => 'フィードバックを送信するにはログインしてください。';
 
   @override
-  String get feedbackSubmitted => 'Feedback submitted. Thank you.';
+  String get feedbackSubmitted => 'フィードバックを送信しました。ありがとうございます。';
 
   @override
   String feedbackSubmitFailed(String error) {
-    return 'Failed to submit feedback: $error';
+    return 'フィードバックを送信できませんでした：$error';
   }
 
   @override
-  String get imageViewerTitle => 'Image viewer';
+  String get imageViewerTitle => '画像ビューアー';
 
   @override
-  String get imageViewerRotate => 'Rotate';
+  String get imageViewerRotate => '回転';
 
   @override
-  String get imageViewerResetZoom => 'Reset zoom';
+  String get imageViewerResetZoom => 'ズームをリセット';
 
   @override
-  String get falsePositivePickerTitle => 'Select wrong detection';
+  String get falsePositivePickerTitle => '誤検知を選択';
 
   @override
-  String get falsePositivePickerHint => 'Double tap to zoom, pan, then tap a box or label.';
+  String get falsePositivePickerHint => 'ダブルタップで拡大し、画像を移動してから枠またはラベルをタップします。';
 
   @override
-  String get falsePositivePickerBottomHint => 'Tap a highlighted box or label to report';
+  String get falsePositivePickerBottomHint => '強調された枠またはラベルをタップすると報告できます。';
 
   @override
-  String get falsePositivePickerMiss => 'Tap a box or label. Zoom in if needed.';
+  String get falsePositivePickerMiss => '枠またはラベルをタップしてください。必要に応じて拡大します。';
 
   @override
   String get saveSuccess => 'Saved successfully.';
@@ -1982,4 +1982,82 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get commentRequired => 'Comment is required for this action.';
+
+  @override
+  String get violationResultsHeading => '検索結果';
+
+  @override
+  String get violationEvidenceImage => '画像';
+
+  @override
+  String get violationSiteStreamHeading => '現場 / 配信';
+
+  @override
+  String get violationTimeRange => '期間';
+
+  @override
+  String get violationReviewStatus => '確認状況';
+
+  @override
+  String get violationFiltersHeading => '絞り込み';
+
+  @override
+  String get violationFiltersDescription => '現場、カメラ、違反の種類、期間、確認状況で記録を絞り込みます。';
+
+  @override
+  String get violationAllCameras => 'すべてのカメラ';
+
+  @override
+  String get violationCameraLabel => 'カメラ';
+
+  @override
+  String get violationAllTypes => 'すべての違反の種類';
+
+  @override
+  String get violationTypeLabel => '違反の種類';
+
+  @override
+  String get violationAnalyticsTotal => '違反件数の合計';
+
+  @override
+  String get violationAnalyticsToday => '本日';
+
+  @override
+  String get violationAnalyticsTopSite => '違反件数が最も多い現場';
+
+  @override
+  String get violationAnalyticsTopType => '最多の違反の種類';
+
+  @override
+  String get violationAnalyticsTrend => '違反の推移';
+
+  @override
+  String get violationAnalyticsNoTrend => '推移データがありません';
+
+  @override
+  String get violationAnalyticsTypeBreakdown => '種類別の内訳';
+
+  @override
+  String get violationAnalyticsNoType => '種類別のデータがありません';
+
+  @override
+  String get violationAnalyticsTypeRanking => '違反の種類別ランキング';
+
+  @override
+  String get violationAnalyticsSiteRanking => '現場別ランキング';
+
+  @override
+  String get violationAnalyticsHourly => '時間帯別の分布';
+
+  @override
+  String get violationAnalyticsNoHourly => '時間帯別のデータがありません';
+
+  @override
+  String get violationAnalyticsNoRanking => 'ランキングデータがありません';
+
+  @override
+  String get violationAnalyticsUnavailable => '統計情報を読み込めません';
+
+  @override
+  String get violationAnalyticsEmpty => '統計データがありません';
 }

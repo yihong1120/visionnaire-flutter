@@ -58,7 +58,7 @@
   "@detectionTime": {
     "description": "偵測時間標籤"
   },
-  "violationMessage": "違規訊息",
+  "violationMessage": "违规消息",
   "@violationMessage": {
     "description": "違規訊息標籤"
   },
@@ -66,23 +66,23 @@
   "@loadingImageError": {
     "description": "影像載入失敗錯誤訊息"
   },
-  "violationRecordQuery": "違規紀錄查詢",
+  "violationRecordQuery": "违规记录查询",
   "@violationRecordQuery": {
     "description": "違規紀錄查詢頁標題"
   },
-  "keyword": "關鍵字 (stream_name 或訊息)",
+  "keyword": "关键词（摄像头或消息）",
   "@keyword": {
     "description": "關鍵字輸入提示"
   },
-  "startTime": "開始時間",
+  "startTime": "开始时间",
   "@startTime": {
     "description": "開始時間標籤"
   },
-  "endTime": "結束時間",
+  "endTime": "结束时间",
   "@endTime": {
     "description": "結束時間標籤"
   },
-  "query": "查詢",
+  "query": "查询",
   "@query": {
     "description": "查詢按鈕文字"
   },
@@ -122,7 +122,7 @@
   "@noImage": {
     "description": "無攝影機畫面時顯示的文字"
   },
-  "warnings": "警告訊息",
+  "warnings": "警告",
   "@warnings": {
     "description": "警告訊息標籤"
   },
@@ -226,15 +226,15 @@
   "@deleteFailed": {
     "description": "刪除失敗的錯誤訊息"
   },
-  "selectSite": "選擇工地",
+  "selectSite": "选择工地",
   "@selectSite": {
     "description": "下拉選單提示：選擇工地"
   },
-  "notSelected": "未選擇",
+  "notSelected": "未选择",
   "@notSelected": {
     "description": "當未選擇項目時顯示的文字"
   },
-  "errorPrefix": "錯誤：",
+  "errorPrefix": "错误：{error}",
   "@errorPrefix": {
     "description": "錯誤訊息前綴"
   },
@@ -242,11 +242,11 @@
   "@sitePrefix": {
     "description": "工地名稱前綴"
   },
-  "streamPrefix": "串流：",
+  "streamPrefix": "视频流：",
   "@streamPrefix": {
     "description": "串流名稱前綴"
   },
-  "detectionTimePrefix": "偵測時間：",
+  "detectionTimePrefix": "检测时间：",
   "@detectionTimePrefix": {
     "description": "偵測時間前綴"
   },
@@ -405,37 +405,37 @@
     "description": "安全帽標籤"
   },
 
-  "vest": "背心",
+  "vest": "安全背心",
   "@vest": {
     "description": "背心標籤"
   },
 
-  "machinery": "機具",
+  "machinery": "工程机械",
   "@machinery": {
     "description": "機具標籤"
   },
 
-  "vehicle": "車輛",
+  "vehicle": "车辆",
   "@vehicle": {
     "description": "車輛標籤"
   },
 
-  "no_hardhat": "無安全帽",
+  "no_hardhat": "未戴安全帽",
   "@no_hardhat": {
     "description": "無安全帽標籤"
   },
 
-  "no_vest": "無安全背心",
+  "no_vest": "未穿安全背心",
   "@no_vest": {
     "description": "無安全背心標籤"
   },
 
-  "person": "人員",
+  "person": "人员",
   "@person": {
     "description": "人員標籤"
   },
 
-  "cone": "安全錐",
+  "cone": "交通锥",
   "@cone": {
     "description": "安全錐標籤"
   },
@@ -445,17 +445,17 @@
     "description": "口罩標籤"
   },
 
-  "no_mask": "無口罩",
+  "no_mask": "未戴口罩",
   "@no_mask": {
     "description": "無口罩標籤"
   },
 
-  "utility_pole": "電桿",
+  "utility_pole": "电杆",
   "@utility_pole": {
     "description": "電桿標籤"
   },
 
-  "warning_people_in_controlled_area": "警告：{count} 人進入受控區域！",
+  "warning_people_in_controlled_area": "警告：有 {count} 人进入受控区域！",
   "@warning_people_in_controlled_area": {
     "description": "警告訊息：人員進入受控區域",
     "placeholders": {
@@ -466,7 +466,7 @@
     }
   },
 
-  "warning_people_in_utility_pole_controlled_area": "警告：{count} 人進入電桿受控區域！",
+  "warning_people_in_utility_pole_controlled_area": "警告：有 {count} 人进入电杆管制区！",
   "@warning_people_in_utility_pole_controlled_area": {
     "description": "警告訊息：人員進入電桿受控區域",
     "placeholders": {
@@ -477,7 +477,7 @@
     }
   },
 
-  "warning_no_hardhat": "警告: 有{count}人未佩戴安全帽！",
+  "warning_no_hardhat": "警告：有 {count} 人未戴安全帽！",
   "@warning_no_hardhat": {
     "description": "警告訊息：缺少安全帽",
     "placeholders": {
@@ -488,7 +488,7 @@
     }
   },
 
-  "warning_no_safety_vest": "警告: 有{count}人未穿著安全背心！",
+  "warning_no_safety_vest": "警告：有 {count} 人未穿安全背心！",
   "@warning_no_safety_vest": {
     "description": "警告訊息：缺少安全背心",
     "placeholders": {
@@ -499,7 +499,7 @@
     }
   },
 
-  "warning_close_to_machinery": "警告：{count} 人靠近機具！",
+  "warning_close_to_machinery": "警告：有 {count} 人过于靠近工程机械！",
   "@warning_close_to_machinery": {
     "description": "警告訊息：人員靠近機具",
     "placeholders": {
@@ -510,7 +510,7 @@
     }
   },
 
-  "warning_close_to_vehicle": "警告：{count} 人靠近車輛！",
+  "warning_close_to_vehicle": "警告：有 {count} 人过于靠近车辆！",
   "@warning_close_to_vehicle": {
     "description": "警告訊息：人員靠近車輛",
     "placeholders": {
@@ -521,7 +521,7 @@
     }
   },
 
-  "detect_machinery_close_to_pole": "警告：{count} 台機具靠近電桿！",
+  "detect_machinery_close_to_pole": "警告：有 {count} 台工程机械过于靠近电杆！",
   "@detect_machinery_close_to_pole": {
     "description": "警告訊息：機具靠近電桿",
     "placeholders": {
@@ -532,8 +532,112 @@
     }
   },
 
-  "showOverlay": "顯示覆蓋層",
+  "showOverlay": "显示标注",
   "@showOverlay": {
     "description": "顯示覆蓋層按鈕文字"
-  }
+  },
+
+  "allSites": "全部工地",
+  "clearSelection": "清除选择",
+  "refresh": "刷新",
+  "violationNoMatchingRecords": "没有符合条件的记录",
+  "violationRecordsTab": "记录",
+  "violationAnalyticsTab": "统计",
+  "violationGroup": "组",
+  "violationAllGroups": "全部组",
+  "violationRangeLastDay": "最近24小时",
+  "violationRangeLast30Days": "最近30天",
+  "violationRangeLastHalfYear": "最近6个月",
+  "violationRangeLastYear": "最近1年",
+  "violationRangeYearToDate": "年初至今",
+  "violationUnnamedGroup": "未命名组",
+  "reviewFilterAll": "全部",
+  "reviewFilterFlagged": "已标记",
+  "reviewFilterPending": "待处理",
+  "reviewFilterResolved": "已处理",
+  "reviewFilterDismissed": "已驳回",
+  "reviewStatusReviewed": "已审核",
+  "reviewStatusNotSubmitted": "未提交",
+  "reviewFlagReasonLabel": "标记原因",
+  "reviewSectionTitle": "审核",
+  "reviewFlaggedBadge": "已标记",
+  "reviewPendingNote": "待处理备注",
+  "reviewNote": "审核备注",
+  "reviewHandled": "已处理",
+  "reviewNoteOptional": "审核备注（可选）",
+  "reviewAuditTrail": "审核记录",
+  "reviewAuditTrailLoadFailed": "无法加载审核记录：{error}",
+  "reviewAuditTrailEmpty": "暂无审核记录。",
+  "overlayLabel": "标注",
+  "overlayHidden": "关闭",
+  "overlayAll": "全部",
+  "overlayFlaggedOnly": "仅标记项",
+  "reviewChangeMarkerColor": "更改标记颜色",
+  "reviewActionResolve": "标记为已处理",
+  "reviewActionDismiss": "驳回",
+  "reviewActionPending": "设为待处理",
+  "reviewMissingRecordUpdate": "缺少记录 ID，无法更新审核状态。",
+  "reviewSignInRequiredUpdate": "请登录后更新审核状态。",
+  "reviewUpdated": "审核状态已更新。",
+  "reviewUpdatedNext": "审核状态已更新，正在转到下一条待处理记录。",
+  "reviewUpdateFailed": "无法更新审核状态：{error}",
+  "reviewReasonFalsePositive": "误报：此检测被报告为不正确",
+  "reviewReasonFalseNegative": "漏检：检测结果中缺少某个物体",
+  "reviewReasonWrongClass": "类别错误：需要更正检测标签",
+  "reviewReasonBadBox": "框选错误：需要更正检测框",
+  "detectionFeedbackTitle": "检测结果反馈",
+  "detectionFeedbackDescription": "标记误报或漏检，以便改进模型。",
+  "detectionFeedbackFalsePositive": "标记误报",
+  "detectionFeedbackMissed": "框选漏检",
+  "detectionFeedbackNoBoxes": "没有可选的检测框。",
+  "detectionFeedbackMissedLabel": "漏检类别",
+  "detectionFeedbackNoteOptional": "备注（可选）",
+  "detectionFeedbackNoMissedTarget": "尚未选择漏检目标",
+  "detectionFeedbackSelectedBox": "已选框：{bbox}",
+  "detectionFeedbackSubmitMissed": "提交漏检",
+  "detectionFeedbackFalsePositiveHint": "请点击图片中错误的检测框。",
+  "detectionFeedbackMissedHint": "请在图片中拖动框选漏检目标。",
+  "detectionFeedbackBoxes": "检测框",
+  "feedbackNoDetectionSelected": "未选择检测框。请点击框内。",
+  "feedbackSelectionTooSmall": "所选区域太小，请重新绘制。",
+  "feedbackFalsePositiveDialogTitle": "报告误报",
+  "feedbackFalsePositiveDialogMessage": "此检测将被标记为误报以供审核。",
+  "feedbackDrawMissedFirst": "请先在图片中框选漏检目标。",
+  "feedbackMissingRecord": "缺少记录 ID，无法提交反馈。",
+  "feedbackSignInRequired": "请登录后提交反馈。",
+  "feedbackSubmitted": "反馈已提交，谢谢。",
+  "feedbackSubmitFailed": "无法提交反馈：{error}",
+  "imageViewerTitle": "图片查看器",
+  "imageViewerRotate": "旋转",
+  "imageViewerResetZoom": "重置缩放",
+  "falsePositivePickerTitle": "选择误报检测",
+  "falsePositivePickerHint": "双击放大，平移图片，再点击框或标签。",
+  "falsePositivePickerBottomHint": "点击高亮框或标签进行报告。",
+  "falsePositivePickerMiss": "点击框或标签，必要时可放大。",
+  "violationResultsHeading": "查询结果",
+  "violationEvidenceImage": "图像",
+  "violationSiteStreamHeading": "工地 / 视频流",
+  "violationTimeRange": "时间范围",
+  "violationReviewStatus": "审核状态",
+  "violationFiltersHeading": "查询条件",
+  "violationFiltersDescription": "按工地、摄像头、违规类型、时间和审核状态筛选记录。",
+  "violationAllCameras": "全部摄像头",
+  "violationCameraLabel": "摄像头",
+  "violationAllTypes": "全部违规类型",
+  "violationTypeLabel": "违规类型",
+  "violationAnalyticsTotal": "违规总数",
+  "violationAnalyticsToday": "今日违规",
+  "violationAnalyticsTopSite": "违规最多的工地",
+  "violationAnalyticsTopType": "最常见的违规类型",
+  "violationAnalyticsTrend": "违规趋势",
+  "violationAnalyticsNoTrend": "没有趋势数据",
+  "violationAnalyticsTypeBreakdown": "类型分布",
+  "violationAnalyticsNoType": "没有类型数据",
+  "violationAnalyticsTypeRanking": "违规类型排行",
+  "violationAnalyticsSiteRanking": "工地排行",
+  "violationAnalyticsHourly": "时段分布",
+  "violationAnalyticsNoHourly": "没有时段数据",
+  "violationAnalyticsNoRanking": "没有排行数据",
+  "violationAnalyticsUnavailable": "暂时无法加载统计数据",
+  "violationAnalyticsEmpty": "暂无统计数据"
 }

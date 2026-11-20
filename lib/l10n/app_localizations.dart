@@ -3759,6 +3759,162 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Comment is required for this action.'**
   String get commentRequired;
+
+  /// No description provided for @violationResultsHeading.
+  ///
+  /// In en, this message translates to:
+  /// **'Results'**
+  String get violationResultsHeading;
+
+  /// No description provided for @violationEvidenceImage.
+  ///
+  /// In en, this message translates to:
+  /// **'Image'**
+  String get violationEvidenceImage;
+
+  /// No description provided for @violationSiteStreamHeading.
+  ///
+  /// In en, this message translates to:
+  /// **'Site / Stream'**
+  String get violationSiteStreamHeading;
+
+  /// No description provided for @violationTimeRange.
+  ///
+  /// In en, this message translates to:
+  /// **'Time range'**
+  String get violationTimeRange;
+
+  /// No description provided for @violationReviewStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'Review status'**
+  String get violationReviewStatus;
+
+  /// No description provided for @violationFiltersHeading.
+  ///
+  /// In en, this message translates to:
+  /// **'Filters'**
+  String get violationFiltersHeading;
+
+  /// No description provided for @violationFiltersDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Narrow records by site, camera, violation type, time and review status.'**
+  String get violationFiltersDescription;
+
+  /// No description provided for @violationAllCameras.
+  ///
+  /// In en, this message translates to:
+  /// **'All cameras'**
+  String get violationAllCameras;
+
+  /// No description provided for @violationCameraLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Camera'**
+  String get violationCameraLabel;
+
+  /// No description provided for @violationAllTypes.
+  ///
+  /// In en, this message translates to:
+  /// **'All violation types'**
+  String get violationAllTypes;
+
+  /// No description provided for @violationTypeLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Violation type'**
+  String get violationTypeLabel;
+
+  /// No description provided for @violationAnalyticsTotal.
+  ///
+  /// In en, this message translates to:
+  /// **'Total violations'**
+  String get violationAnalyticsTotal;
+
+  /// No description provided for @violationAnalyticsToday.
+  ///
+  /// In en, this message translates to:
+  /// **'Today'**
+  String get violationAnalyticsToday;
+
+  /// No description provided for @violationAnalyticsTopSite.
+  ///
+  /// In en, this message translates to:
+  /// **'Most affected site'**
+  String get violationAnalyticsTopSite;
+
+  /// No description provided for @violationAnalyticsTopType.
+  ///
+  /// In en, this message translates to:
+  /// **'Most frequent type'**
+  String get violationAnalyticsTopType;
+
+  /// No description provided for @violationAnalyticsTrend.
+  ///
+  /// In en, this message translates to:
+  /// **'Violation trend'**
+  String get violationAnalyticsTrend;
+
+  /// No description provided for @violationAnalyticsNoTrend.
+  ///
+  /// In en, this message translates to:
+  /// **'No trend data'**
+  String get violationAnalyticsNoTrend;
+
+  /// No description provided for @violationAnalyticsTypeBreakdown.
+  ///
+  /// In en, this message translates to:
+  /// **'Breakdown by type'**
+  String get violationAnalyticsTypeBreakdown;
+
+  /// No description provided for @violationAnalyticsNoType.
+  ///
+  /// In en, this message translates to:
+  /// **'No data by type'**
+  String get violationAnalyticsNoType;
+
+  /// No description provided for @violationAnalyticsTypeRanking.
+  ///
+  /// In en, this message translates to:
+  /// **'Violation type ranking'**
+  String get violationAnalyticsTypeRanking;
+
+  /// No description provided for @violationAnalyticsSiteRanking.
+  ///
+  /// In en, this message translates to:
+  /// **'Site ranking'**
+  String get violationAnalyticsSiteRanking;
+
+  /// No description provided for @violationAnalyticsHourly.
+  ///
+  /// In en, this message translates to:
+  /// **'Hourly distribution'**
+  String get violationAnalyticsHourly;
+
+  /// No description provided for @violationAnalyticsNoHourly.
+  ///
+  /// In en, this message translates to:
+  /// **'No hourly data'**
+  String get violationAnalyticsNoHourly;
+
+  /// No description provided for @violationAnalyticsNoRanking.
+  ///
+  /// In en, this message translates to:
+  /// **'No ranking data'**
+  String get violationAnalyticsNoRanking;
+
+  /// No description provided for @violationAnalyticsUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Analytics are unavailable'**
+  String get violationAnalyticsUnavailable;
+
+  /// No description provided for @violationAnalyticsEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No analytics data'**
+  String get violationAnalyticsEmpty;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
