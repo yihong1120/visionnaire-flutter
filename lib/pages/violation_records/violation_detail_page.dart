@@ -384,6 +384,7 @@ class _ViolationDetailPageState extends State<ViolationDetailPage> {
           // Parse detection items from violation data.
           final dynamic detectionItemsJson =
               _violationData!["detection_items"] ??
+                  _violationData!["detections"] ??
                   _violationData!["detections_json"] ??
                   "[]";
           final List<_FeedbackDetection> feedbackDetections =
@@ -3029,24 +3030,27 @@ class _ViolationDetailPageState extends State<ViolationDetailPage> {
       );
       final Rect? rect = _rectFromDetectionMap(map);
       if (rect == null) return null;
+      final String label = _readFirstString(map, <String>[
+            'label',
+            'class_name',
+            'className',
+            'class',
+            'class_id',
+            'classId',
+            'display_name',
+            'displayName',
+          ]) ??
+          '';
       return _FeedbackDetection(
         id: _readFirstString(
           map,
           <String>['id', 'detection_id', 'detectionId', 'target_detection_id'],
         ),
         rect: rect,
-        label: _readFirstString(
-              map,
-              <String>[
-                'label',
-                'class_name',
-                'className',
-                'class',
-                'class_id',
-                'classId',
-              ],
-            ) ??
-            '',
+        label: DetectionOverlayLabels.preferredLabel(
+          label,
+          _readFirstString(map, <String>['code', 'class_code', 'classCode']),
+        ),
         confidence: _readDouble(
           map['confidence'] ?? map['conf'] ?? map['score'],
         ),
@@ -3357,38 +3361,10 @@ String _normalizeReviewToken(String? value) {
 
 String _normalizeDetectionLabelToken(String? value) {
   final String raw = _normalizeReviewToken(value);
-  if (raw.isEmpty) return '';
-
-  final String canonical = DetectionOverlayLabels.canonicalKey(raw)
-      .trim()
-      .toLowerCase()
-      .replaceAll(RegExp(r'[\s-]+'), '_');
-  return switch (canonical) {
-    '安全帽' || 'helmet' || 'hard_hat' || 'safety_helmet' => 'hardhat',
-    '口罩' || 'face_mask' || 'safety_mask' => 'mask',
-    '未戴安全帽' ||
-    '沒戴安全帽' ||
-    'no_helmet' ||
-    'without_helmet' ||
-    'no_safety_helmet' ||
-    'no_hard_hat' =>
-      'no_hardhat',
-    '未戴口罩' || '沒戴口罩' || 'without_mask' => 'no_mask',
-    '無安全背心' ||
-    '未穿著安全背心' ||
-    '未穿安全背心' ||
-    'no_safety_vest' ||
-    'without_vest' ||
-    'without_safety_vest' =>
-      'no_vest',
-    '人' || '人員' || 'worker' || 'workers' => 'person',
-    '交通錐' || 'cone_barrel' || 'safety_cone' => 'cone',
-    '安全背心' || 'safety_vest' => 'vest',
-    '機具' || '機械' || 'machine' || 'equipment' => 'machinery',
-    '電桿' || 'utilitypole' || 'pole' => 'utility_pole',
-    '車' || '車輛' || 'car' || 'truck' || 'bus' => 'vehicle',
-    _ => canonical,
-  };
+  return DetectionOverlayLabels.canonicalKey(raw).replaceAll(
+    RegExp(r'[\s-]+'),
+    '_',
+  );
 }
 
 class _FeedbackDetectionIndex {
