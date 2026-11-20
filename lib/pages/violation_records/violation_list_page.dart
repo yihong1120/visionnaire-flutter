@@ -13,6 +13,7 @@ import '../../services/violation_records_api_service.dart';
 import '../../utils/app_navigation.dart';
 import '../../utils/authenticated_uri.dart';
 import '../../utils/auth_utils.dart';
+import '../../utils/violation_timestamp.dart';
 import '../../widgets/responsive_scaffold.dart';
 import 'violation_analytics_panel.dart';
 import 'violation_review_queue_store.dart';
@@ -971,7 +972,8 @@ class _ViolationListPageState extends State<ViolationListPage> {
   }) {
     final ThemeData theme = Theme.of(context);
     final ColorScheme colorScheme = theme.colorScheme;
-    final String detectionTime = item["detection_time"] ?? "";
+    final String detectionTime =
+        formatViolationTimestamp(item['detection_time'], local.localeName);
     final String siteName = item["site_name"] ?? "";
     final String streamName = item["stream_name"] ?? "";
     final List<String> warningsList = _buildWarningsList(
@@ -1857,7 +1859,8 @@ class _ViolationListPageState extends State<ViolationListPage> {
     final ThemeData theme = Theme.of(context);
     final ColorScheme colorScheme = theme.colorScheme;
     final bool desktop = _useDesktopWebLayout(context);
-    final String detectionTime = item["detection_time"] ?? "";
+    final String detectionTime =
+        formatViolationTimestamp(item['detection_time'], local.localeName);
     final String siteName = item["site_name"] ?? "";
     final String streamName = item["stream_name"] ?? "";
     final List<Widget> reviewBadges = _buildReviewBadges(item);

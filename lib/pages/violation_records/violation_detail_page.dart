@@ -11,6 +11,7 @@ import '../../providers/unified_auth_provider.dart';
 import '../../services/violation_image_cache.dart';
 import '../../services/violation_records_api_service.dart';
 import '../../utils/app_navigation.dart';
+import '../../utils/violation_timestamp.dart';
 import '../../widgets/detection_painter.dart';
 import '../../widgets/responsive_scaffold.dart';
 import '../../widgets/unified_image_action_buttons.dart';
@@ -690,8 +691,10 @@ class _ViolationDetailPageState extends State<ViolationDetailPage> {
 
     final String siteName = _violationData!["site_name"] ?? "";
     final String streamName = _violationData!["stream_name"] ?? "";
-    final String detectionTime =
-        _violationData!["detection_time"]?.toString() ?? "";
+    final String detectionTime = formatViolationTimestamp(
+      _violationData!['detection_time'],
+      local.localeName,
+    );
     final String message = _violationData!["notification_message"] ?? "";
 
     final List<String> warningsList =
