@@ -58,7 +58,7 @@
     "@detectionTime": {
       "description": "Label for detection time"
     },
-    "violationMessage": "Violation Message",
+    "violationMessage": "Thông báo vi phạm",
     "@violationMessage": {
       "description": "Label for violation message"
     },
@@ -66,23 +66,23 @@
     "@loadingImageError": {
       "description": "Error message when image fails to load"
     },
-    "violationRecordQuery": "Violation Record Query",
+    "violationRecordQuery": "Nhật ký vi phạm",
     "@violationRecordQuery": {
       "description": "Title of the violation record query page"
     },
-    "keyword": "Keyword (stream_name or message)",
+    "keyword": "Từ khóa (camera hoặc thông báo)",
     "@keyword": {
       "description": "Hint text for keyword input"
     },
-    "startTime": "Start Time",
+    "startTime": "Thời gian bắt đầu",
     "@startTime": {
       "description": "Label for start time"
     },
-    "endTime": "End Time",
+    "endTime": "Thời gian kết thúc",
     "@endTime": {
       "description": "Label for end time"
     },
-    "query": "Query",
+    "query": "Tìm kiếm",
     "@query": {
       "description": "Text for the query button"
     },
@@ -122,7 +122,7 @@
     "@noImage": {
       "description": "Text shown when no camera images are available"
     },
-    "warnings": "Warnings",
+    "warnings": "Cảnh báo",
     "@warnings": {
       "description": "Label for warnings section"
     },
@@ -226,11 +226,11 @@
     "@deleteFailed": {
       "description": "Error message when chat room deletion fails"
     },
-    "selectSite": "Select Site",
+    "selectSite": "Chọn công trường",
     "@selectSite": {
       "description": "Hint text for site selection dropdown"
     },
-    "notSelected": "Not selected",
+    "notSelected": "Chưa chọn",
     "@notSelected": {
       "description": "Text shown when nothing is selected"
     },
@@ -238,15 +238,15 @@
     "@errorPrefix": {
       "description": "Prefix for error messages"
     },
-    "sitePrefix": "Site: ",
+    "sitePrefix": "Công trường: ",
     "@sitePrefix": {
       "description": "Prefix label for site name"
     },
-    "streamPrefix": "Stream: ",
+    "streamPrefix": "Luồng: ",
     "@streamPrefix": {
       "description": "Prefix label for stream name"
     },
-    "detectionTimePrefix": "Detection Time: ",
+    "detectionTimePrefix": "Thời gian phát hiện: ",
     "@detectionTimePrefix": {
       "description": "Prefix label for detection time"
     },
@@ -400,62 +400,62 @@
       "description": "Label for toggling object detection overlay on streams"
     },
 
-    "hardhat": "Hardhat",
+    "hardhat": "Mũ bảo hộ",
     "@hardhat": {
       "description": "Label for hardhat"
     },
 
-    "vest": "Vest",
+    "vest": "Áo phản quang",
     "@vest": {
       "description": "Label for vest"
     },
 
-    "machinery": "Machinery",
+    "machinery": "Máy thi công",
     "@machinery": {
       "description": "Label for machinery"
     },
 
-    "vehicle": "Vehicle",
+    "vehicle": "Phương tiện",
     "@vehicle": {
       "description": "Label for vehicle"
     },
 
-    "no_hardhat": "No Hardhat",
+    "no_hardhat": "Không đội mũ bảo hộ",
     "@no_hardhat": {
       "description": "Label for no hardhat"
     },
 
-    "no_vest": "No Vest",
+    "no_vest": "Không mặc áo phản quang",
     "@no_vest": {
       "description": "Label for no vest"
     },
 
-    "person": "Person",
+    "person": "Người",
     "@person": {
       "description": "Label for person"
     },
 
-    "cone": "Safety Cone",
+    "cone": "Cọc tiêu giao thông",
     "@cone": {
       "description": "Label for safety cone"
     },
 
-    "mask": "Mask",
+    "mask": "Khẩu trang",
     "@mask": {
       "description": "Label for mask"
     },
 
-    "no_mask": "No Mask",
+    "no_mask": "Không đeo khẩu trang",
     "@no_mask": {
       "description": "Label for no mask"
     },
 
-    "utility_pole": "Utility Pole",
+    "utility_pole": "Cột điện",
     "@utility_pole": {
       "description": "Label for utility pole"
     },
 
-    "warning_people_in_controlled_area": "Warning: {count} people have entered the controlled area!",
+    "warning_people_in_controlled_area": "Cảnh báo: Có {count} người đã vào khu vực kiểm soát!",
     "@warning_people_in_controlled_area": {
       "description": "Warning message for people entering the controlled zone",
       "placeholders": {
@@ -466,7 +466,7 @@
       }
     },
 
-    "warning_people_in_utility_pole_controlled_area": "Warning: {count} people have entered the utility pole restricted area!",
+    "warning_people_in_utility_pole_controlled_area": "Cảnh báo: Có {count} người đã vào khu vực hạn chế quanh cột điện!",
     "@warning_people_in_utility_pole_controlled_area": {
       "description": "Warning message for people entering the utility pole controlled area",
       "placeholders": {
@@ -477,7 +477,7 @@
       }
     },
 
-    "warning_no_hardhat": "Warning: {count} people are not wearing a hardhat!",
+    "warning_no_hardhat": "Cảnh báo: Có {count} người không đội mũ bảo hộ!",
     "@warning_no_hardhat": {
       "description": "Warning message for missing hardhat",
       "placeholders": {
@@ -488,7 +488,7 @@
       }
     },
 
-    "warning_no_safety_vest": "Warning: {count} people are not wearing a safety vest!",
+    "warning_no_safety_vest": "Cảnh báo: Có {count} người không mặc áo phản quang!",
     "@warning_no_safety_vest": {
       "description": "Warning message for missing safety vest",
       "placeholders": {
@@ -499,7 +499,7 @@
       }
     },
 
-    "warning_close_to_machinery": "Warning: {count} people are too close to machinery!",
+    "warning_close_to_machinery": "Cảnh báo: Có {count} người ở quá gần máy thi công!",
     "@warning_close_to_machinery": {
       "description": "Warning message for people close to machinery",
       "placeholders": {
@@ -510,7 +510,7 @@
       }
     },
 
-    "warning_close_to_vehicle": "Warning: {count} people are too close to vehicles!",
+    "warning_close_to_vehicle": "Cảnh báo: Có {count} người ở quá gần phương tiện!",
     "@warning_close_to_vehicle": {
       "description": "Warning message for people close to vehicles",
       "placeholders": {
@@ -521,7 +521,7 @@
       }
     },
 
-    "detect_machinery_close_to_pole": "Warning: {count} machinery are too close to the utility pole!",
+    "detect_machinery_close_to_pole": "Cảnh báo: Có {count} máy thi công ở quá gần cột điện!",
     "@detect_machinery_close_to_pole": {
       "description": "Warning message for machinery close to the utility pole",
       "placeholders": {
@@ -532,7 +532,7 @@
       }
     },
 
-    "showOverlay": "Show Overlay",
+    "showOverlay": "Hiện chú thích",
     "@showOverlay": {
       "description": "Text for the show overlay button"
     },
@@ -761,7 +761,7 @@
     "@selectConstructionSite": {
       "description": "Title for select construction site dialog"
     },
-    "allSites": "All Sites",
+    "allSites": "Tất cả công trường",
     "@allSites": {
       "description": "All sites option"
     },
@@ -781,7 +781,7 @@
     "@fileTypeNotConfigured": {
       "description": "Error message for unconfigured file type"
     },
-    "errorPrefix": "Error: {error}",
+    "errorPrefix": "Lỗi: {error}",
     "@errorPrefix": {
       "description": "Error message prefix",
       "placeholders": {
@@ -1146,7 +1146,7 @@
     "@selectAll": {
       "description": "Select all option"
     },
-    "clearSelection": "Clear Selection",
+    "clearSelection": "Xóa lựa chọn",
     "@clearSelection": {
       "description": "Clear selection button"
     },
@@ -1261,7 +1261,7 @@
       }
     },
 
-    "refresh": "Refresh",
+    "refresh": "Làm mới",
     "@refresh": {
       "description": "Tooltip for refresh button"
     },
@@ -1549,7 +1549,7 @@
     "@edit": {
       "description": "Edit title prefix"
     },
-    "cancel": "Cancel",
+    "cancel": "Hủy",
     "@cancel": {
       "description": "Cancel button"
     },
@@ -1771,5 +1771,106 @@
     "shareFailed": "Share failed",
     "@shareFailed": {
       "description": "Message when share fails"
-    }
-  }
+    },
+
+  "violationNoMatchingRecords": "Không có bản ghi phù hợp",
+  "violationRecordsTab": "Bản ghi",
+  "violationAnalyticsTab": "Thống kê",
+  "violationGroup": "Nhóm",
+  "violationAllGroups": "Tất cả nhóm",
+  "violationRangeLastDay": "24 giờ qua",
+  "violationRangeLast30Days": "30 ngày qua",
+  "violationRangeLastHalfYear": "6 tháng qua",
+  "violationRangeLastYear": "1 năm qua",
+  "violationRangeYearToDate": "Từ đầu năm",
+  "violationUnnamedGroup": "Nhóm chưa đặt tên",
+  "reviewFilterAll": "Tất cả",
+  "reviewFilterFlagged": "Đã đánh dấu",
+  "reviewFilterPending": "Đang chờ",
+  "reviewFilterResolved": "Đã xử lý",
+  "reviewFilterDismissed": "Đã bác bỏ",
+  "reviewStatusReviewed": "Đã xem xét",
+  "reviewStatusNotSubmitted": "Chưa gửi",
+  "reviewFlagReasonLabel": "Lý do đánh dấu",
+  "reviewSectionTitle": "Xem xét",
+  "reviewFlaggedBadge": "Đã đánh dấu",
+  "reviewPendingNote": "Ghi chú đang chờ",
+  "reviewNote": "Ghi chú xem xét",
+  "reviewHandled": "Đã xử lý",
+  "reviewNoteOptional": "Ghi chú xem xét (tùy chọn)",
+  "reviewAuditTrail": "Nhật ký xem xét",
+  "reviewAuditTrailLoadFailed": "Không thể tải nhật ký xem xét: {error}",
+  "reviewAuditTrailEmpty": "Chưa có nhật ký xem xét.",
+  "overlayLabel": "Chú thích",
+  "overlayHidden": "Tắt",
+  "overlayAll": "Tất cả",
+  "overlayFlaggedOnly": "Chỉ mục đã đánh dấu",
+  "reviewChangeMarkerColor": "Đổi màu dấu đánh dấu",
+  "reviewActionResolve": "Đánh dấu đã xử lý",
+  "reviewActionDismiss": "Bác bỏ",
+  "reviewActionPending": "Chuyển sang chờ xử lý",
+  "reviewMissingRecordUpdate": "Không thể cập nhật vì thiếu mã bản ghi.",
+  "reviewSignInRequiredUpdate": "Đăng nhập để cập nhật trạng thái xem xét.",
+  "reviewUpdated": "Đã cập nhật trạng thái xem xét.",
+  "reviewUpdatedNext": "Đã cập nhật. Chuyển đến mục đang chờ tiếp theo.",
+  "reviewUpdateFailed": "Không thể cập nhật xem xét: {error}",
+  "reviewReasonFalsePositive": "Phát hiện nhầm: kết quả phát hiện đã được báo là không đúng",
+  "reviewReasonFalseNegative": "Bỏ sót: một đối tượng không có trong kết quả",
+  "reviewReasonWrongClass": "Sai loại: cần sửa nhãn phát hiện",
+  "reviewReasonBadBox": "Sai khung: cần sửa khung giới hạn",
+  "detectionFeedbackTitle": "Phản hồi về phát hiện",
+  "detectionFeedbackDescription": "Đánh dấu các phát hiện nhầm hoặc đối tượng bị bỏ sót để cải thiện mô hình.",
+  "detectionFeedbackFalsePositive": "Báo phát hiện nhầm",
+  "detectionFeedbackMissed": "Vẽ khung đối tượng bị bỏ sót",
+  "detectionFeedbackNoBoxes": "Không có khung phát hiện để chọn.",
+  "detectionFeedbackMissedLabel": "Loại đối tượng bị bỏ sót",
+  "detectionFeedbackNoteOptional": "Ghi chú (tùy chọn)",
+  "detectionFeedbackNoMissedTarget": "Chưa chọn đối tượng bị bỏ sót",
+  "detectionFeedbackSelectedBox": "Khung đã chọn: {bbox}",
+  "detectionFeedbackSubmitMissed": "Gửi báo cáo bỏ sót",
+  "detectionFeedbackFalsePositiveHint": "Chạm vào khung phát hiện sai trong ảnh.",
+  "detectionFeedbackMissedHint": "Kéo trên ảnh để khoanh đối tượng bị bỏ sót.",
+  "detectionFeedbackBoxes": "Khung",
+  "feedbackNoDetectionSelected": "Chưa chọn khung phát hiện. Chạm vào bên trong một khung.",
+  "feedbackSelectionTooSmall": "Vùng đã chọn quá nhỏ. Vui lòng vẽ lại.",
+  "feedbackFalsePositiveDialogTitle": "Báo cáo phát hiện nhầm",
+  "feedbackFalsePositiveDialogMessage": "Kết quả này sẽ được đánh dấu là phát hiện nhầm để xem xét.",
+  "feedbackDrawMissedFirst": "Hãy khoanh đối tượng bị bỏ sót trong ảnh trước.",
+  "feedbackMissingRecord": "Không thể gửi phản hồi vì thiếu mã bản ghi.",
+  "feedbackSignInRequired": "Đăng nhập để gửi phản hồi.",
+  "feedbackSubmitted": "Đã gửi phản hồi. Cảm ơn bạn.",
+  "feedbackSubmitFailed": "Không thể gửi phản hồi: {error}",
+  "imageViewerTitle": "Trình xem ảnh",
+  "imageViewerRotate": "Xoay",
+  "imageViewerResetZoom": "Đặt lại độ thu phóng",
+  "falsePositivePickerTitle": "Chọn phát hiện nhầm",
+  "falsePositivePickerHint": "Chạm hai lần để phóng to, di chuyển ảnh, rồi chạm vào khung hoặc nhãn.",
+  "falsePositivePickerBottomHint": "Chạm vào khung hoặc nhãn được làm nổi bật để báo cáo.",
+  "falsePositivePickerMiss": "Chạm vào khung hoặc nhãn. Phóng to nếu cần.",
+  "violationResultsHeading": "Kết quả",
+  "violationEvidenceImage": "Ảnh",
+  "violationSiteStreamHeading": "Công trường / Luồng",
+  "violationTimeRange": "Khoảng thời gian",
+  "violationReviewStatus": "Trạng thái xem xét",
+  "violationFiltersHeading": "Bộ lọc",
+  "violationFiltersDescription": "Lọc bản ghi theo công trường, camera, loại vi phạm, thời gian và trạng thái xem xét.",
+  "violationAllCameras": "Tất cả camera",
+  "violationCameraLabel": "Camera",
+  "violationAllTypes": "Tất cả loại vi phạm",
+  "violationTypeLabel": "Loại vi phạm",
+  "violationAnalyticsTotal": "Tổng số vi phạm",
+  "violationAnalyticsToday": "Hôm nay",
+  "violationAnalyticsTopSite": "Công trường có nhiều vi phạm nhất",
+  "violationAnalyticsTopType": "Loại vi phạm phổ biến nhất",
+  "violationAnalyticsTrend": "Xu hướng vi phạm",
+  "violationAnalyticsNoTrend": "Không có dữ liệu xu hướng",
+  "violationAnalyticsTypeBreakdown": "Phân bố theo loại",
+  "violationAnalyticsNoType": "Không có dữ liệu theo loại",
+  "violationAnalyticsTypeRanking": "Xếp hạng loại vi phạm",
+  "violationAnalyticsSiteRanking": "Xếp hạng công trường",
+  "violationAnalyticsHourly": "Phân bố theo giờ",
+  "violationAnalyticsNoHourly": "Không có dữ liệu theo giờ",
+  "violationAnalyticsNoRanking": "Không có dữ liệu xếp hạng",
+  "violationAnalyticsUnavailable": "Không thể tải dữ liệu thống kê",
+  "violationAnalyticsEmpty": "Không có dữ liệu thống kê"
+}

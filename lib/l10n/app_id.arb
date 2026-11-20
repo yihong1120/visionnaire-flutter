@@ -58,7 +58,7 @@
     "@detectionTime": {
       "description": "Label for detection time"
     },
-    "violationMessage": "Violation Message",
+    "violationMessage": "Pesan pelanggaran",
     "@violationMessage": {
       "description": "Label for violation message"
     },
@@ -66,23 +66,23 @@
     "@loadingImageError": {
       "description": "Error message when image fails to load"
     },
-    "violationRecordQuery": "Violation Record Query",
+    "violationRecordQuery": "Catatan pelanggaran",
     "@violationRecordQuery": {
       "description": "Title of the violation record query page"
     },
-    "keyword": "Keyword (stream_name or message)",
+    "keyword": "Kata kunci (kamera atau pesan)",
     "@keyword": {
       "description": "Hint text for keyword input"
     },
-    "startTime": "Start Time",
+    "startTime": "Waktu mulai",
     "@startTime": {
       "description": "Label for start time"
     },
-    "endTime": "End Time",
+    "endTime": "Waktu selesai",
     "@endTime": {
       "description": "Label for end time"
     },
-    "query": "Query",
+    "query": "Cari",
     "@query": {
       "description": "Text for the query button"
     },
@@ -122,7 +122,7 @@
     "@noImage": {
       "description": "Text shown when no camera images are available"
     },
-    "warnings": "Warnings",
+    "warnings": "Peringatan",
     "@warnings": {
       "description": "Label for warnings section"
     },
@@ -226,11 +226,11 @@
     "@deleteFailed": {
       "description": "Error message when chat room deletion fails"
     },
-    "selectSite": "Select Site",
+    "selectSite": "Pilih lokasi",
     "@selectSite": {
       "description": "Hint text for site selection dropdown"
     },
-    "notSelected": "Not selected",
+    "notSelected": "Belum dipilih",
     "@notSelected": {
       "description": "Text shown when nothing is selected"
     },
@@ -238,15 +238,15 @@
     "@errorPrefix": {
       "description": "Prefix for error messages"
     },
-    "sitePrefix": "Site: ",
+    "sitePrefix": "Lokasi: ",
     "@sitePrefix": {
       "description": "Prefix label for site name"
     },
-    "streamPrefix": "Stream: ",
+    "streamPrefix": "Siaran: ",
     "@streamPrefix": {
       "description": "Prefix label for stream name"
     },
-    "detectionTimePrefix": "Detection Time: ",
+    "detectionTimePrefix": "Waktu deteksi: ",
     "@detectionTimePrefix": {
       "description": "Prefix label for detection time"
     },
@@ -400,62 +400,62 @@
       "description": "Label for toggling object detection overlay on streams"
     },
 
-    "hardhat": "Hardhat",
+    "hardhat": "Helm keselamatan",
     "@hardhat": {
       "description": "Label for hardhat"
     },
 
-    "vest": "Vest",
+    "vest": "Rompi keselamatan",
     "@vest": {
       "description": "Label for vest"
     },
 
-    "machinery": "Machinery",
+    "machinery": "Alat berat",
     "@machinery": {
       "description": "Label for machinery"
     },
 
-    "vehicle": "Vehicle",
+    "vehicle": "Kendaraan",
     "@vehicle": {
       "description": "Label for vehicle"
     },
 
-    "no_hardhat": "No Hardhat",
+    "no_hardhat": "Tanpa helm",
     "@no_hardhat": {
       "description": "Label for no hardhat"
     },
 
-    "no_vest": "No Vest",
+    "no_vest": "Tanpa rompi keselamatan",
     "@no_vest": {
       "description": "Label for no vest"
     },
 
-    "person": "Person",
+    "person": "Orang",
     "@person": {
       "description": "Label for person"
     },
 
-    "cone": "Safety Cone",
+    "cone": "Kerucut lalu lintas",
     "@cone": {
       "description": "Label for safety cone"
     },
 
-    "mask": "Mask",
+    "mask": "Masker",
     "@mask": {
       "description": "Label for mask"
     },
 
-    "no_mask": "No Mask",
+    "no_mask": "Tanpa masker",
     "@no_mask": {
       "description": "Label for no mask"
     },
 
-    "utility_pole": "Utility Pole",
+    "utility_pole": "Tiang listrik",
     "@utility_pole": {
       "description": "Label for utility pole"
     },
 
-    "warning_people_in_controlled_area": "Warning: {count} people have entered the controlled area!",
+    "warning_people_in_controlled_area": "Peringatan: {count} orang memasuki area terkendali!",
     "@warning_people_in_controlled_area": {
       "description": "Warning message for people entering the controlled zone",
       "placeholders": {
@@ -466,7 +466,7 @@
       }
     },
 
-    "warning_people_in_utility_pole_controlled_area": "Warning: {count} people have entered the utility pole restricted area!",
+    "warning_people_in_utility_pole_controlled_area": "Peringatan: {count} orang memasuki area terbatas di sekitar tiang listrik!",
     "@warning_people_in_utility_pole_controlled_area": {
       "description": "Warning message for people entering the utility pole controlled area",
       "placeholders": {
@@ -477,7 +477,7 @@
       }
     },
 
-    "warning_no_hardhat": "Warning: {count} people are not wearing a hardhat!",
+    "warning_no_hardhat": "Peringatan: {count} orang tidak mengenakan helm keselamatan!",
     "@warning_no_hardhat": {
       "description": "Warning message for missing hardhat",
       "placeholders": {
@@ -488,7 +488,7 @@
       }
     },
 
-    "warning_no_safety_vest": "Warning: {count} people are not wearing a safety vest!",
+    "warning_no_safety_vest": "Peringatan: {count} orang tidak mengenakan rompi keselamatan!",
     "@warning_no_safety_vest": {
       "description": "Warning message for missing safety vest",
       "placeholders": {
@@ -499,7 +499,7 @@
       }
     },
 
-    "warning_close_to_machinery": "Warning: {count} people are too close to machinery!",
+    "warning_close_to_machinery": "Peringatan: {count} orang terlalu dekat dengan alat berat!",
     "@warning_close_to_machinery": {
       "description": "Warning message for people close to machinery",
       "placeholders": {
@@ -510,7 +510,7 @@
       }
     },
 
-    "warning_close_to_vehicle": "Warning: {count} people are too close to vehicles!",
+    "warning_close_to_vehicle": "Peringatan: {count} orang terlalu dekat dengan kendaraan!",
     "@warning_close_to_vehicle": {
       "description": "Warning message for people close to vehicles",
       "placeholders": {
@@ -521,7 +521,7 @@
       }
     },
 
-    "detect_machinery_close_to_pole": "Warning: {count} machinery are too close to the utility pole!",
+    "detect_machinery_close_to_pole": "Peringatan: {count} alat berat terlalu dekat dengan tiang listrik!",
     "@detect_machinery_close_to_pole": {
       "description": "Warning message for machinery close to the utility pole",
       "placeholders": {
@@ -532,7 +532,7 @@
       }
     },
 
-    "showOverlay": "Show Overlay",
+    "showOverlay": "Tampilkan anotasi",
     "@showOverlay": {
       "description": "Text for the show overlay button"
     },
@@ -761,7 +761,7 @@
     "@selectConstructionSite": {
       "description": "Title for select construction site dialog"
     },
-    "allSites": "All Sites",
+    "allSites": "Semua lokasi",
     "@allSites": {
       "description": "All sites option"
     },
@@ -781,7 +781,7 @@
     "@fileTypeNotConfigured": {
       "description": "Error message for unconfigured file type"
     },
-    "errorPrefix": "Error: {error}",
+    "errorPrefix": "Galat: {error}",
     "@errorPrefix": {
       "description": "Error message prefix",
       "placeholders": {
@@ -1146,7 +1146,7 @@
     "@selectAll": {
       "description": "Select all option"
     },
-    "clearSelection": "Clear Selection",
+    "clearSelection": "Hapus pilihan",
     "@clearSelection": {
       "description": "Clear selection button"
     },
@@ -1261,7 +1261,7 @@
       }
     },
 
-    "refresh": "Refresh",
+    "refresh": "Muat ulang",
     "@refresh": {
       "description": "Tooltip for refresh button"
     },
@@ -1549,7 +1549,7 @@
     "@edit": {
       "description": "Edit title prefix"
     },
-    "cancel": "Cancel",
+    "cancel": "Batal",
     "@cancel": {
       "description": "Cancel button"
     },
@@ -1771,5 +1771,106 @@
     "shareFailed": "Share failed",
     "@shareFailed": {
       "description": "Message when share fails"
-    }
-  }
+    },
+
+  "violationNoMatchingRecords": "Tidak ada catatan yang cocok",
+  "violationRecordsTab": "Catatan",
+  "violationAnalyticsTab": "Statistik",
+  "violationGroup": "Grup",
+  "violationAllGroups": "Semua grup",
+  "violationRangeLastDay": "24 jam terakhir",
+  "violationRangeLast30Days": "30 hari terakhir",
+  "violationRangeLastHalfYear": "6 bulan terakhir",
+  "violationRangeLastYear": "12 bulan terakhir",
+  "violationRangeYearToDate": "Sejak awal tahun",
+  "violationUnnamedGroup": "Grup tanpa nama",
+  "reviewFilterAll": "Semua",
+  "reviewFilterFlagged": "Ditandai",
+  "reviewFilterPending": "Menunggu",
+  "reviewFilterResolved": "Diselesaikan",
+  "reviewFilterDismissed": "Ditolak",
+  "reviewStatusReviewed": "Ditinjau",
+  "reviewStatusNotSubmitted": "Belum dikirim",
+  "reviewFlagReasonLabel": "Alasan penandaan",
+  "reviewSectionTitle": "Peninjauan",
+  "reviewFlaggedBadge": "Ditandai",
+  "reviewPendingNote": "Catatan tertunda",
+  "reviewNote": "Catatan peninjauan",
+  "reviewHandled": "Sudah ditangani",
+  "reviewNoteOptional": "Catatan peninjauan (opsional)",
+  "reviewAuditTrail": "Riwayat peninjauan",
+  "reviewAuditTrailLoadFailed": "Riwayat peninjauan tidak dapat dimuat: {error}",
+  "reviewAuditTrailEmpty": "Belum ada riwayat peninjauan.",
+  "overlayLabel": "Anotasi",
+  "overlayHidden": "Nonaktif",
+  "overlayAll": "Semua",
+  "overlayFlaggedOnly": "Hanya yang ditandai",
+  "reviewChangeMarkerColor": "Ubah warna penanda",
+  "reviewActionResolve": "Selesaikan",
+  "reviewActionDismiss": "Tolak",
+  "reviewActionPending": "Tandai menunggu",
+  "reviewMissingRecordUpdate": "Peninjauan tidak dapat diperbarui karena ID catatan tidak ada.",
+  "reviewSignInRequiredUpdate": "Masuk untuk memperbarui status peninjauan.",
+  "reviewUpdated": "Status peninjauan diperbarui.",
+  "reviewUpdatedNext": "Peninjauan diperbarui. Beralih ke item tertunda berikutnya.",
+  "reviewUpdateFailed": "Peninjauan gagal diperbarui: {error}",
+  "reviewReasonFalsePositive": "Positif palsu: deteksi dilaporkan tidak tepat",
+  "reviewReasonFalseNegative": "Deteksi terlewat: ada objek yang tidak muncul dalam hasil",
+  "reviewReasonWrongClass": "Kelas salah: label deteksi perlu diperbaiki",
+  "reviewReasonBadBox": "Kotak salah: kotak deteksi perlu diperbaiki",
+  "detectionFeedbackTitle": "Masukan deteksi",
+  "detectionFeedbackDescription": "Tandai deteksi yang salah atau terlewat untuk membantu memperbaiki model.",
+  "detectionFeedbackFalsePositive": "Tandai salah deteksi",
+  "detectionFeedbackMissed": "Bingkai objek yang terlewat",
+  "detectionFeedbackNoBoxes": "Tidak ada kotak deteksi yang dapat dipilih.",
+  "detectionFeedbackMissedLabel": "Kelas objek yang terlewat",
+  "detectionFeedbackNoteOptional": "Catatan (opsional)",
+  "detectionFeedbackNoMissedTarget": "Belum ada objek terlewat yang dipilih",
+  "detectionFeedbackSelectedBox": "Kotak terpilih: {bbox}",
+  "detectionFeedbackSubmitMissed": "Kirim laporan objek terlewat",
+  "detectionFeedbackFalsePositiveHint": "Ketuk kotak deteksi yang salah pada gambar.",
+  "detectionFeedbackMissedHint": "Seret pada gambar untuk membingkai objek yang terlewat.",
+  "detectionFeedbackBoxes": "Kotak",
+  "feedbackNoDetectionSelected": "Belum ada kotak deteksi yang dipilih. Ketuk bagian dalam kotak.",
+  "feedbackSelectionTooSmall": "Area yang dipilih terlalu kecil. Gambar ulang area tersebut.",
+  "feedbackFalsePositiveDialogTitle": "Laporkan positif palsu",
+  "feedbackFalsePositiveDialogMessage": "Deteksi ini akan ditandai sebagai positif palsu untuk ditinjau.",
+  "feedbackDrawMissedFirst": "Bingkai objek yang terlewat pada gambar terlebih dahulu.",
+  "feedbackMissingRecord": "Masukan tidak dapat dikirim karena ID catatan tidak ada.",
+  "feedbackSignInRequired": "Masuk untuk mengirim masukan.",
+  "feedbackSubmitted": "Masukan dikirim. Terima kasih.",
+  "feedbackSubmitFailed": "Masukan gagal dikirim: {error}",
+  "imageViewerTitle": "Penampil gambar",
+  "imageViewerRotate": "Putar",
+  "imageViewerResetZoom": "Atur ulang zoom",
+  "falsePositivePickerTitle": "Pilih deteksi yang salah",
+  "falsePositivePickerHint": "Ketuk dua kali untuk memperbesar, geser gambar, lalu ketuk kotak atau label.",
+  "falsePositivePickerBottomHint": "Ketuk kotak atau label yang disorot untuk melaporkan.",
+  "falsePositivePickerMiss": "Ketuk kotak atau label. Perbesar jika perlu.",
+  "violationResultsHeading": "Hasil",
+  "violationEvidenceImage": "Gambar",
+  "violationSiteStreamHeading": "Lokasi / Siaran",
+  "violationTimeRange": "Rentang waktu",
+  "violationReviewStatus": "Status peninjauan",
+  "violationFiltersHeading": "Filter",
+  "violationFiltersDescription": "Persempit hasil berdasarkan lokasi, kamera, jenis pelanggaran, waktu, dan status peninjauan.",
+  "violationAllCameras": "Semua kamera",
+  "violationCameraLabel": "Kamera",
+  "violationAllTypes": "Semua jenis pelanggaran",
+  "violationTypeLabel": "Jenis pelanggaran",
+  "violationAnalyticsTotal": "Total pelanggaran",
+  "violationAnalyticsToday": "Hari ini",
+  "violationAnalyticsTopSite": "Lokasi dengan pelanggaran terbanyak",
+  "violationAnalyticsTopType": "Jenis paling sering terjadi",
+  "violationAnalyticsTrend": "Tren pelanggaran",
+  "violationAnalyticsNoTrend": "Tidak ada data tren",
+  "violationAnalyticsTypeBreakdown": "Rincian berdasarkan jenis",
+  "violationAnalyticsNoType": "Tidak ada data berdasarkan jenis",
+  "violationAnalyticsTypeRanking": "Peringkat jenis pelanggaran",
+  "violationAnalyticsSiteRanking": "Peringkat lokasi",
+  "violationAnalyticsHourly": "Distribusi per jam",
+  "violationAnalyticsNoHourly": "Tidak ada data per jam",
+  "violationAnalyticsNoRanking": "Tidak ada data peringkat",
+  "violationAnalyticsUnavailable": "Statistik tidak tersedia",
+  "violationAnalyticsEmpty": "Tidak ada data statistik"
+}

@@ -425,7 +425,7 @@
     "description": "Étiquette pour pas de casque"
   },
 
-  "no_vest": "Pas de gilet",
+  "no_vest": "Sans gilet de sécurité",
   "@no_vest": {
     "description": "Étiquette pour pas de gilet"
   },
@@ -455,7 +455,7 @@
     "description": "Étiquette pour le poteau utilitaire"
   },
 
-  "warning_people_in_controlled_area": "Attention: {count} personnes sont entrées dans la zone contrôlée!",
+  "warning_people_in_controlled_area": "{count, plural, =1{Avertissement : 1 personne est entrée dans la zone contrôlée.} other{Avertissement : {count} personnes sont entrées dans la zone contrôlée.}}",
   "@warning_people_in_controlled_area": {
     "description": "Message d'avertissement pour les personnes entrées dans la zone contrôlée",
     "placeholders": {
@@ -466,7 +466,7 @@
     }
   },
 
-  "warning_people_in_utility_pole_controlled_area": "Attention: {count} personnes sont entrées dans la zone contrôlée du poteau utilitaire!",
+  "warning_people_in_utility_pole_controlled_area": "{count, plural, =1{Avertissement : 1 personne est entrée dans la zone réglementée du poteau électrique.} other{Avertissement : {count} personnes sont entrées dans la zone réglementée du poteau électrique.}}",
   "@warning_people_in_utility_pole_controlled_area": {
     "description": "Warning message for people entering the utility pole controlled area",
     "placeholders": {
@@ -477,7 +477,7 @@
     }
   },
 
-  "warning_no_hardhat": "Avertissement: {count} personnes ne portent pas de casque!",
+  "warning_no_hardhat": "{count, plural, =1{Avertissement : 1 personne ne porte pas de casque de sécurité.} other{Avertissement : {count} personnes ne portent pas de casque de sécurité.}}",
   "@warning_no_hardhat": {
     "description": "Message d'avertissement pour l'absence de casque",
     "placeholders": {
@@ -488,7 +488,7 @@
     }
   },
 
-  "warning_no_safety_vest": "Avertissement: {count} personnes ne portent pas de gilet de sécurité!",
+  "warning_no_safety_vest": "{count, plural, =1{Avertissement : 1 personne ne porte pas de gilet de sécurité.} other{Avertissement : {count} personnes ne portent pas de gilet de sécurité.}}",
   "@warning_no_safety_vest": {
     "description": "Message d'avertissement pour l'absence de gilet de sécurité",
     "placeholders": {
@@ -499,7 +499,7 @@
     }
   },
 
-  "warning_close_to_machinery": "Attention: {count} personnes sont trop proches de la machinerie!",
+  "warning_close_to_machinery": "{count, plural, =1{Avertissement : 1 personne est trop proche des engins de chantier.} other{Avertissement : {count} personnes sont trop proches des engins de chantier.}}",
   "@warning_close_to_machinery": {
     "description": "Message d'avertissement pour les personnes trop proches de la machinerie",
     "placeholders": {
@@ -510,7 +510,7 @@
     }
   },
 
-  "warning_close_to_vehicle": "Attention: {count} personnes sont trop proches des véhicules!",
+  "warning_close_to_vehicle": "{count, plural, =1{Avertissement : 1 personne est trop proche des véhicules.} other{Avertissement : {count} personnes sont trop proches des véhicules.}}",
   "@warning_close_to_vehicle": {
     "description": "Message d'avertissement pour les personnes trop proches des véhicules",
     "placeholders": {
@@ -521,7 +521,7 @@
     }
   },
 
-  "detect_machinery_close_to_pole": "Avertissement: {count} machines sont trop proches du poteau!",
+  "detect_machinery_close_to_pole": "{count, plural, =1{Avertissement : 1 engin de chantier est trop proche du poteau électrique.} other{Avertissement : {count} engins de chantier sont trop proches du poteau électrique.}}",
   "@detect_machinery_close_to_pole": {
     "description": "Message d'avertissement pour les machines trop proches du poteau",
     "placeholders": {
@@ -532,7 +532,7 @@
     }
   },
 
-  "showOverlay": "Afficher l'overlay",
+  "showOverlay": "Afficher les annotations",
   "@showOverlay": {
     "description": "Texte du bouton pour afficher l'overlay"
   },
@@ -1768,5 +1768,106 @@
     "shareFailed": "Partage échoué",
     "@shareFailed": {
       "description": "Message quand le partage échoue"
-    }
-  }
+    },
+
+  "violationNoMatchingRecords": "Aucun enregistrement correspondant",
+  "violationRecordsTab": "Registre",
+  "violationAnalyticsTab": "Statistiques",
+  "violationGroup": "Groupe",
+  "violationAllGroups": "Tous les groupes",
+  "violationRangeLastDay": "Dernières 24 heures",
+  "violationRangeLast30Days": "30 derniers jours",
+  "violationRangeLastHalfYear": "6 derniers mois",
+  "violationRangeLastYear": "12 derniers mois",
+  "violationRangeYearToDate": "Depuis le début de l’année",
+  "violationUnnamedGroup": "Groupe sans nom",
+  "reviewFilterAll": "Tous",
+  "reviewFilterFlagged": "Signalés",
+  "reviewFilterPending": "En attente",
+  "reviewFilterResolved": "Traités",
+  "reviewFilterDismissed": "Classés sans suite",
+  "reviewStatusReviewed": "Examiné",
+  "reviewStatusNotSubmitted": "Non soumis",
+  "reviewFlagReasonLabel": "Motif du signalement",
+  "reviewSectionTitle": "Vérification",
+  "reviewFlaggedBadge": "Signalé",
+  "reviewPendingNote": "Note en attente",
+  "reviewNote": "Note de vérification",
+  "reviewHandled": "Traité",
+  "reviewNoteOptional": "Note de vérification (facultative)",
+  "reviewAuditTrail": "Journal de vérification",
+  "reviewAuditTrailLoadFailed": "Impossible de charger le journal de vérification : {error}",
+  "reviewAuditTrailEmpty": "Le journal de vérification est encore vide.",
+  "overlayLabel": "Annotations",
+  "overlayHidden": "Masquées",
+  "overlayAll": "Toutes",
+  "overlayFlaggedOnly": "Signalées uniquement",
+  "reviewChangeMarkerColor": "Changer la couleur du repère",
+  "reviewActionResolve": "Marquer comme traité",
+  "reviewActionDismiss": "Classer sans suite",
+  "reviewActionPending": "Mettre en attente",
+  "reviewMissingRecordUpdate": "Impossible de modifier la vérification : l’identifiant de l’enregistrement manque.",
+  "reviewSignInRequiredUpdate": "Connectez-vous pour modifier l’état de vérification.",
+  "reviewUpdated": "État de vérification mis à jour.",
+  "reviewUpdatedNext": "Vérification mise à jour. Passage au prochain élément en attente.",
+  "reviewUpdateFailed": "Impossible de modifier la vérification : {error}",
+  "reviewReasonFalsePositive": "Faux positif : la détection a été signalée comme incorrecte",
+  "reviewReasonFalseNegative": "Détection manquée : un objet est absent des résultats",
+  "reviewReasonWrongClass": "Classe incorrecte : l’étiquette doit être corrigée",
+  "reviewReasonBadBox": "Cadre incorrect : le cadre de détection doit être corrigé",
+  "detectionFeedbackTitle": "Retours sur la détection",
+  "detectionFeedbackDescription": "Signalez les faux positifs ou les objets manqués pour améliorer le modèle.",
+  "detectionFeedbackFalsePositive": "Signaler un faux positif",
+  "detectionFeedbackMissed": "Encadrer un objet manqué",
+  "detectionFeedbackNoBoxes": "Aucun cadre de détection à sélectionner.",
+  "detectionFeedbackMissedLabel": "Classe de l’objet manqué",
+  "detectionFeedbackNoteOptional": "Note (facultative)",
+  "detectionFeedbackNoMissedTarget": "Aucun objet manqué sélectionné",
+  "detectionFeedbackSelectedBox": "Cadre sélectionné : {bbox}",
+  "detectionFeedbackSubmitMissed": "Envoyer le signalement",
+  "detectionFeedbackFalsePositiveHint": "Sélectionnez le cadre incorrect dans l’image.",
+  "detectionFeedbackMissedHint": "Tracez un cadre autour de l’objet manqué.",
+  "detectionFeedbackBoxes": "Cadres",
+  "feedbackNoDetectionSelected": "Aucun cadre sélectionné. Sélectionnez l’intérieur d’un cadre.",
+  "feedbackSelectionTooSmall": "La zone sélectionnée est trop petite. Tracez-la de nouveau.",
+  "feedbackFalsePositiveDialogTitle": "Signaler un faux positif",
+  "feedbackFalsePositiveDialogMessage": "Cette détection sera signalée comme faux positif pour vérification.",
+  "feedbackDrawMissedFirst": "Encadrez d’abord l’objet manqué sur l’image.",
+  "feedbackMissingRecord": "Impossible d’envoyer le retour : l’identifiant de l’enregistrement manque.",
+  "feedbackSignInRequired": "Connectez-vous pour envoyer un retour.",
+  "feedbackSubmitted": "Retour envoyé. Merci.",
+  "feedbackSubmitFailed": "Impossible d’envoyer le retour : {error}",
+  "imageViewerTitle": "Visionneuse d’images",
+  "imageViewerRotate": "Pivoter",
+  "imageViewerResetZoom": "Réinitialiser le zoom",
+  "falsePositivePickerTitle": "Sélectionner la détection incorrecte",
+  "falsePositivePickerHint": "Touchez deux fois pour zoomer, déplacez l’image puis sélectionnez un cadre ou une étiquette.",
+  "falsePositivePickerBottomHint": "Sélectionnez un cadre ou une étiquette en surbrillance.",
+  "falsePositivePickerMiss": "Sélectionnez un cadre ou une étiquette. Zoomez au besoin.",
+  "violationResultsHeading": "Résultats",
+  "violationEvidenceImage": "Image",
+  "violationSiteStreamHeading": "Chantier / Flux",
+  "violationTimeRange": "Période",
+  "violationReviewStatus": "État de vérification",
+  "violationFiltersHeading": "Filtres",
+  "violationFiltersDescription": "Filtrez les enregistrements par chantier, caméra, type d’infraction, période et état de vérification.",
+  "violationAllCameras": "Toutes les caméras",
+  "violationCameraLabel": "Caméra",
+  "violationAllTypes": "Tous les types d’infraction",
+  "violationTypeLabel": "Type d’infraction",
+  "violationAnalyticsTotal": "Nombre total d’infractions",
+  "violationAnalyticsToday": "Aujourd’hui",
+  "violationAnalyticsTopSite": "Chantier le plus touché",
+  "violationAnalyticsTopType": "Type le plus fréquent",
+  "violationAnalyticsTrend": "Évolution des infractions",
+  "violationAnalyticsNoTrend": "Aucune donnée de tendance",
+  "violationAnalyticsTypeBreakdown": "Répartition par type",
+  "violationAnalyticsNoType": "Aucune donnée par type",
+  "violationAnalyticsTypeRanking": "Classement des types d’infraction",
+  "violationAnalyticsSiteRanking": "Classement des chantiers",
+  "violationAnalyticsHourly": "Répartition par heure",
+  "violationAnalyticsNoHourly": "Aucune donnée horaire",
+  "violationAnalyticsNoRanking": "Aucune donnée de classement",
+  "violationAnalyticsUnavailable": "Les statistiques sont indisponibles",
+  "violationAnalyticsEmpty": "Aucune donnée statistique"
+}

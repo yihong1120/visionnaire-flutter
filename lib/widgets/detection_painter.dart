@@ -28,6 +28,21 @@ class DetectionItem {
 /// widgets after the owning route starts leaving the tree.
 @immutable
 class DetectionOverlayLabels {
+  static const Map<int, String> _classKeys = <int, String>{
+    0: 'hardhat',
+    1: 'mask',
+    2: 'no_hardhat',
+    3: 'no_mask',
+    4: 'no_vest',
+    5: 'person',
+    6: 'cone',
+    7: 'vest',
+    8: 'machinery',
+    9: 'utility_pole',
+    10: 'vehicle',
+  };
+  static final RegExp _labelSeparators = RegExp(r'[\s-]+');
+
   final String hardhat;
   final String mask;
   final String noHardhat;
@@ -135,26 +150,53 @@ class DetectionOverlayLabels {
   }
 
   static String canonicalKey(String rawLabel) {
-    final double? numeric = double.tryParse(rawLabel.trim());
-    if (numeric == null ||
-        !numeric.isFinite ||
-        numeric != numeric.truncateToDouble()) {
-      return rawLabel;
+    final String label = rawLabel.trim();
+    final double? numeric = double.tryParse(label);
+    if (numeric != null &&
+        numeric.isFinite &&
+        numeric == numeric.truncateToDouble()) {
+      return _classKeys[numeric.toInt()] ?? rawLabel;
     }
-    const Map<int, String> idToKey = <int, String>{
-      0: 'hardhat',
-      1: 'mask',
-      2: 'no_hardhat',
-      3: 'no_mask',
-      4: 'no_vest',
-      5: 'person',
-      6: 'cone',
-      7: 'vest',
-      8: 'machinery',
-      9: 'utility_pole',
-      10: 'vehicle',
+    final String normalized = label.toLowerCase().replaceAll(
+          _labelSeparators,
+          '_',
+        );
+    final String key = switch (normalized) {
+      '安全帽' || 'helmet' || 'hard_hat' || 'safety_helmet' => 'hardhat',
+      '口罩' || 'face_mask' || 'safety_mask' => 'mask',
+      '未戴安全帽' ||
+      '沒戴安全帽' ||
+      '没戴安全帽' ||
+      'no_helmet' ||
+      'without_helmet' ||
+      'no_safety_helmet' ||
+      'no_hard_hat' =>
+        'no_hardhat',
+      '未戴口罩' || '沒戴口罩' || '没戴口罩' || 'without_mask' => 'no_mask',
+      '無安全背心' ||
+      '无安全背心' ||
+      '未穿著安全背心' ||
+      '未穿着安全背心' ||
+      '未穿安全背心' ||
+      'no_safety_vest' ||
+      'without_vest' ||
+      'without_safety_vest' =>
+        'no_vest',
+      '人' || '人員' || '人员' || 'worker' || 'workers' => 'person',
+      '交通錐' || '交通锥' || 'cone_barrel' || 'safety_cone' => 'cone',
+      '安全背心' || 'safety_vest' => 'vest',
+      '機具' || '機械' || '机具' || '机械' || 'machine' || 'equipment' => 'machinery',
+      '電桿' || '电杆' || 'utilitypole' || 'pole' => 'utility_pole',
+      '車' || '車輛' || '车' || '车辆' || 'car' || 'truck' || 'bus' => 'vehicle',
+      _ => normalized,
     };
-    return idToKey[numeric.toInt()] ?? rawLabel;
+    return _classKeys.containsValue(key) ? key : rawLabel;
+  }
+
+  static String preferredLabel(String label, String? code) {
+    if (code == null) return label;
+    final String key = canonicalKey(code);
+    return _classKeys.containsValue(key) || label.isEmpty ? key : label;
   }
 
   @override

@@ -1982,6 +1982,84 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get commentRequired => '此操作需要填寫註記。';
+
+  @override
+  String get violationResultsHeading => '查詢結果';
+
+  @override
+  String get violationEvidenceImage => '影像';
+
+  @override
+  String get violationSiteStreamHeading => '工地 / 串流';
+
+  @override
+  String get violationTimeRange => '時間範圍';
+
+  @override
+  String get violationReviewStatus => '審核狀態';
+
+  @override
+  String get violationFiltersHeading => '查詢條件';
+
+  @override
+  String get violationFiltersDescription => '依工地、鏡頭、違規項目、時間與審核狀態篩選紀錄。';
+
+  @override
+  String get violationAllCameras => '全部鏡頭';
+
+  @override
+  String get violationCameraLabel => '鏡頭';
+
+  @override
+  String get violationAllTypes => '全部違規項目';
+
+  @override
+  String get violationTypeLabel => '違規項目';
+
+  @override
+  String get violationAnalyticsTotal => '總違規數';
+
+  @override
+  String get violationAnalyticsToday => '今日違規';
+
+  @override
+  String get violationAnalyticsTopSite => '違規最多的工地';
+
+  @override
+  String get violationAnalyticsTopType => '最常見的違規項目';
+
+  @override
+  String get violationAnalyticsTrend => '違規趨勢';
+
+  @override
+  String get violationAnalyticsNoTrend => '沒有趨勢資料';
+
+  @override
+  String get violationAnalyticsTypeBreakdown => '項目分類';
+
+  @override
+  String get violationAnalyticsNoType => '沒有分類資料';
+
+  @override
+  String get violationAnalyticsTypeRanking => '違規項目排行';
+
+  @override
+  String get violationAnalyticsSiteRanking => '工地排行';
+
+  @override
+  String get violationAnalyticsHourly => '時段分布';
+
+  @override
+  String get violationAnalyticsNoHourly => '沒有時段資料';
+
+  @override
+  String get violationAnalyticsNoRanking => '沒有排行資料';
+
+  @override
+  String get violationAnalyticsUnavailable => '暫時無法載入統計資料';
+
+  @override
+  String get violationAnalyticsEmpty => '目前沒有統計資料';
 }
 
 /// The translations for Chinese, as used in China (`zh_CN`).
@@ -2031,25 +2109,25 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
   String get detectionTime => '偵測時間';
 
   @override
-  String get violationMessage => '違規訊息';
+  String get violationMessage => '违规消息';
 
   @override
   String get loadingImageError => '無法載入影像';
 
   @override
-  String get violationRecordQuery => '違規紀錄查詢';
+  String get violationRecordQuery => '违规记录查询';
 
   @override
-  String get keyword => '關鍵字 (stream_name 或訊息)';
+  String get keyword => '关键词（摄像头或消息）';
 
   @override
-  String get startTime => '開始時間';
+  String get startTime => '开始时间';
 
   @override
-  String get endTime => '結束時間';
+  String get endTime => '结束时间';
 
   @override
-  String get query => '查詢';
+  String get query => '查询';
 
   @override
   String get noRecords => '目前尚無標籤資料';
@@ -2079,7 +2157,7 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
   String get noImage => '尚無攝影機畫面資料';
 
   @override
-  String get warnings => '警告訊息';
+  String get warnings => '警告';
 
   @override
   String get lastUpdated => '最後更新時間';
@@ -2157,24 +2235,24 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
   String get deleteFailed => '刪除失敗';
 
   @override
-  String get selectSite => '選擇工地';
+  String get selectSite => '选择工地';
 
   @override
-  String get notSelected => '未選擇';
+  String get notSelected => '未选择';
 
   @override
   String errorPrefix(String error) {
-    return '錯誤：';
+    return '错误：$error';
   }
 
   @override
   String get sitePrefix => '工地：';
 
   @override
-  String get streamPrefix => '串流：';
+  String get streamPrefix => '视频流：';
 
   @override
-  String get detectionTimePrefix => '偵測時間：';
+  String get detectionTimePrefix => '检测时间：';
 
   @override
   String get urlUpdated => '已更新 Streaming Web Base URL 為：';
@@ -2273,70 +2351,387 @@ class AppLocalizationsZhCn extends AppLocalizationsZh {
   String get hardhat => '安全帽';
 
   @override
-  String get vest => '背心';
+  String get vest => '安全背心';
 
   @override
-  String get machinery => '機具';
+  String get machinery => '工程机械';
 
   @override
-  String get vehicle => '車輛';
+  String get vehicle => '车辆';
 
   @override
-  String get no_hardhat => '無安全帽';
+  String get no_hardhat => '未戴安全帽';
 
   @override
-  String get no_vest => '無安全背心';
+  String get no_vest => '未穿安全背心';
 
   @override
-  String get person => '人員';
+  String get person => '人员';
 
   @override
-  String get cone => '安全錐';
+  String get cone => '交通锥';
 
   @override
   String get mask => '口罩';
 
   @override
-  String get no_mask => '無口罩';
+  String get no_mask => '未戴口罩';
 
   @override
-  String get utility_pole => '電桿';
+  String get utility_pole => '电杆';
 
   @override
   String warning_people_in_controlled_area(int count) {
-    return '警告：$count 人進入受控區域！';
+    return '警告：有 $count 人进入受控区域！';
   }
 
   @override
   String warning_people_in_utility_pole_controlled_area(int count) {
-    return '警告：$count 人進入電桿受控區域！';
+    return '警告：有 $count 人进入电杆管制区！';
   }
 
   @override
   String warning_no_hardhat(int count) {
-    return '警告: 有$count人未佩戴安全帽！';
+    return '警告：有 $count 人未戴安全帽！';
   }
 
   @override
   String warning_no_safety_vest(int count) {
-    return '警告: 有$count人未穿著安全背心！';
+    return '警告：有 $count 人未穿安全背心！';
   }
 
   @override
   String warning_close_to_machinery(int count) {
-    return '警告：$count 人靠近機具！';
+    return '警告：有 $count 人过于靠近工程机械！';
   }
 
   @override
   String warning_close_to_vehicle(int count) {
-    return '警告：$count 人靠近車輛！';
+    return '警告：有 $count 人过于靠近车辆！';
   }
 
   @override
   String detect_machinery_close_to_pole(int count) {
-    return '警告：$count 台機具靠近電桿！';
+    return '警告：有 $count 台工程机械过于靠近电杆！';
   }
 
   @override
-  String get showOverlay => '顯示覆蓋層';
+  String get showOverlay => '显示标注';
+
+  @override
+  String get allSites => '全部工地';
+
+  @override
+  String get clearSelection => '清除选择';
+
+  @override
+  String get refresh => '刷新';
+
+  @override
+  String get violationNoMatchingRecords => '没有符合条件的记录';
+
+  @override
+  String get violationRecordsTab => '记录';
+
+  @override
+  String get violationAnalyticsTab => '统计';
+
+  @override
+  String get violationGroup => '组';
+
+  @override
+  String get violationAllGroups => '全部组';
+
+  @override
+  String get violationRangeLastDay => '最近24小时';
+
+  @override
+  String get violationRangeLast30Days => '最近30天';
+
+  @override
+  String get violationRangeLastHalfYear => '最近6个月';
+
+  @override
+  String get violationRangeLastYear => '最近1年';
+
+  @override
+  String get violationRangeYearToDate => '年初至今';
+
+  @override
+  String get violationUnnamedGroup => '未命名组';
+
+  @override
+  String get reviewFilterAll => '全部';
+
+  @override
+  String get reviewFilterFlagged => '已标记';
+
+  @override
+  String get reviewFilterPending => '待处理';
+
+  @override
+  String get reviewFilterResolved => '已处理';
+
+  @override
+  String get reviewFilterDismissed => '已驳回';
+
+  @override
+  String get reviewStatusReviewed => '已审核';
+
+  @override
+  String get reviewStatusNotSubmitted => '未提交';
+
+  @override
+  String get reviewFlagReasonLabel => '标记原因';
+
+  @override
+  String get reviewSectionTitle => '审核';
+
+  @override
+  String get reviewFlaggedBadge => '已标记';
+
+  @override
+  String get reviewPendingNote => '待处理备注';
+
+  @override
+  String get reviewNote => '审核备注';
+
+  @override
+  String get reviewHandled => '已处理';
+
+  @override
+  String get reviewNoteOptional => '审核备注（可选）';
+
+  @override
+  String get reviewAuditTrail => '审核记录';
+
+  @override
+  String reviewAuditTrailLoadFailed(String error) {
+    return '无法加载审核记录：$error';
+  }
+
+  @override
+  String get reviewAuditTrailEmpty => '暂无审核记录。';
+
+  @override
+  String get overlayLabel => '标注';
+
+  @override
+  String get overlayHidden => '关闭';
+
+  @override
+  String get overlayAll => '全部';
+
+  @override
+  String get overlayFlaggedOnly => '仅标记项';
+
+  @override
+  String get reviewChangeMarkerColor => '更改标记颜色';
+
+  @override
+  String get reviewActionResolve => '标记为已处理';
+
+  @override
+  String get reviewActionDismiss => '驳回';
+
+  @override
+  String get reviewActionPending => '设为待处理';
+
+  @override
+  String get reviewMissingRecordUpdate => '缺少记录 ID，无法更新审核状态。';
+
+  @override
+  String get reviewSignInRequiredUpdate => '请登录后更新审核状态。';
+
+  @override
+  String get reviewUpdated => '审核状态已更新。';
+
+  @override
+  String get reviewUpdatedNext => '审核状态已更新，正在转到下一条待处理记录。';
+
+  @override
+  String reviewUpdateFailed(String error) {
+    return '无法更新审核状态：$error';
+  }
+
+  @override
+  String get reviewReasonFalsePositive => '误报：此检测被报告为不正确';
+
+  @override
+  String get reviewReasonFalseNegative => '漏检：检测结果中缺少某个物体';
+
+  @override
+  String get reviewReasonWrongClass => '类别错误：需要更正检测标签';
+
+  @override
+  String get reviewReasonBadBox => '框选错误：需要更正检测框';
+
+  @override
+  String get detectionFeedbackTitle => '检测结果反馈';
+
+  @override
+  String get detectionFeedbackDescription => '标记误报或漏检，以便改进模型。';
+
+  @override
+  String get detectionFeedbackFalsePositive => '标记误报';
+
+  @override
+  String get detectionFeedbackMissed => '框选漏检';
+
+  @override
+  String get detectionFeedbackNoBoxes => '没有可选的检测框。';
+
+  @override
+  String get detectionFeedbackMissedLabel => '漏检类别';
+
+  @override
+  String get detectionFeedbackNoteOptional => '备注（可选）';
+
+  @override
+  String get detectionFeedbackNoMissedTarget => '尚未选择漏检目标';
+
+  @override
+  String detectionFeedbackSelectedBox(String bbox) {
+    return '已选框：$bbox';
+  }
+
+  @override
+  String get detectionFeedbackSubmitMissed => '提交漏检';
+
+  @override
+  String get detectionFeedbackFalsePositiveHint => '请点击图片中错误的检测框。';
+
+  @override
+  String get detectionFeedbackMissedHint => '请在图片中拖动框选漏检目标。';
+
+  @override
+  String get detectionFeedbackBoxes => '检测框';
+
+  @override
+  String get feedbackNoDetectionSelected => '未选择检测框。请点击框内。';
+
+  @override
+  String get feedbackSelectionTooSmall => '所选区域太小，请重新绘制。';
+
+  @override
+  String get feedbackFalsePositiveDialogTitle => '报告误报';
+
+  @override
+  String get feedbackFalsePositiveDialogMessage => '此检测将被标记为误报以供审核。';
+
+  @override
+  String get feedbackDrawMissedFirst => '请先在图片中框选漏检目标。';
+
+  @override
+  String get feedbackMissingRecord => '缺少记录 ID，无法提交反馈。';
+
+  @override
+  String get feedbackSignInRequired => '请登录后提交反馈。';
+
+  @override
+  String get feedbackSubmitted => '反馈已提交，谢谢。';
+
+  @override
+  String feedbackSubmitFailed(String error) {
+    return '无法提交反馈：$error';
+  }
+
+  @override
+  String get imageViewerTitle => '图片查看器';
+
+  @override
+  String get imageViewerRotate => '旋转';
+
+  @override
+  String get imageViewerResetZoom => '重置缩放';
+
+  @override
+  String get falsePositivePickerTitle => '选择误报检测';
+
+  @override
+  String get falsePositivePickerHint => '双击放大，平移图片，再点击框或标签。';
+
+  @override
+  String get falsePositivePickerBottomHint => '点击高亮框或标签进行报告。';
+
+  @override
+  String get falsePositivePickerMiss => '点击框或标签，必要时可放大。';
+
+  @override
+  String get violationResultsHeading => '查询结果';
+
+  @override
+  String get violationEvidenceImage => '图像';
+
+  @override
+  String get violationSiteStreamHeading => '工地 / 视频流';
+
+  @override
+  String get violationTimeRange => '时间范围';
+
+  @override
+  String get violationReviewStatus => '审核状态';
+
+  @override
+  String get violationFiltersHeading => '查询条件';
+
+  @override
+  String get violationFiltersDescription => '按工地、摄像头、违规类型、时间和审核状态筛选记录。';
+
+  @override
+  String get violationAllCameras => '全部摄像头';
+
+  @override
+  String get violationCameraLabel => '摄像头';
+
+  @override
+  String get violationAllTypes => '全部违规类型';
+
+  @override
+  String get violationTypeLabel => '违规类型';
+
+  @override
+  String get violationAnalyticsTotal => '违规总数';
+
+  @override
+  String get violationAnalyticsToday => '今日违规';
+
+  @override
+  String get violationAnalyticsTopSite => '违规最多的工地';
+
+  @override
+  String get violationAnalyticsTopType => '最常见的违规类型';
+
+  @override
+  String get violationAnalyticsTrend => '违规趋势';
+
+  @override
+  String get violationAnalyticsNoTrend => '没有趋势数据';
+
+  @override
+  String get violationAnalyticsTypeBreakdown => '类型分布';
+
+  @override
+  String get violationAnalyticsNoType => '没有类型数据';
+
+  @override
+  String get violationAnalyticsTypeRanking => '违规类型排行';
+
+  @override
+  String get violationAnalyticsSiteRanking => '工地排行';
+
+  @override
+  String get violationAnalyticsHourly => '时段分布';
+
+  @override
+  String get violationAnalyticsNoHourly => '没有时段数据';
+
+  @override
+  String get violationAnalyticsNoRanking => '没有排行数据';
+
+  @override
+  String get violationAnalyticsUnavailable => '暂时无法加载统计数据';
+
+  @override
+  String get violationAnalyticsEmpty => '暂无统计数据';
 }

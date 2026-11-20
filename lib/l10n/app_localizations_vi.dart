@@ -51,25 +51,25 @@ class AppLocalizationsVi extends AppLocalizations {
   String get detectionTime => 'Detection Time';
 
   @override
-  String get violationMessage => 'Violation Message';
+  String get violationMessage => 'Thông báo vi phạm';
 
   @override
   String get loadingImageError => 'Failed to load image';
 
   @override
-  String get violationRecordQuery => 'Violation Record Query';
+  String get violationRecordQuery => 'Nhật ký vi phạm';
 
   @override
-  String get keyword => 'Keyword (stream_name or message)';
+  String get keyword => 'Từ khóa (camera hoặc thông báo)';
 
   @override
-  String get startTime => 'Start Time';
+  String get startTime => 'Thời gian bắt đầu';
 
   @override
-  String get endTime => 'End Time';
+  String get endTime => 'Thời gian kết thúc';
 
   @override
-  String get query => 'Query';
+  String get query => 'Tìm kiếm';
 
   @override
   String get noRecords => 'No records available';
@@ -99,7 +99,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get noImage => 'No camera images available';
 
   @override
-  String get warnings => 'Warnings';
+  String get warnings => 'Cảnh báo';
 
   @override
   String get lastUpdated => 'Last updated';
@@ -168,7 +168,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get confirmDeleteChatRoom => 'Are you sure you want to delete this chat room?';
 
   @override
-  String get cancel => 'Cancel';
+  String get cancel => 'Hủy';
 
   @override
   String get delete => 'Delete';
@@ -177,24 +177,24 @@ class AppLocalizationsVi extends AppLocalizations {
   String get deleteFailed => 'Deletion failed';
 
   @override
-  String get selectSite => 'Select Site';
+  String get selectSite => 'Chọn công trường';
 
   @override
-  String get notSelected => 'Not selected';
+  String get notSelected => 'Chưa chọn';
 
   @override
   String errorPrefix(String error) {
-    return 'Error: $error';
+    return 'Lỗi: $error';
   }
 
   @override
-  String get sitePrefix => 'Site: ';
+  String get sitePrefix => 'Công trường: ';
 
   @override
-  String get streamPrefix => 'Stream: ';
+  String get streamPrefix => 'Luồng: ';
 
   @override
-  String get detectionTimePrefix => 'Detection Time: ';
+  String get detectionTimePrefix => 'Thời gian phát hiện: ';
 
   @override
   String get urlUpdated => 'Updated Streaming Web Base URL to:';
@@ -290,75 +290,75 @@ class AppLocalizationsVi extends AppLocalizations {
   String get showDetectionResults => 'Hiển thị kết quả phát hiện';
 
   @override
-  String get hardhat => 'Hardhat';
+  String get hardhat => 'Mũ bảo hộ';
 
   @override
-  String get vest => 'Vest';
+  String get vest => 'Áo phản quang';
 
   @override
-  String get machinery => 'Machinery';
+  String get machinery => 'Máy thi công';
 
   @override
-  String get vehicle => 'Vehicle';
+  String get vehicle => 'Phương tiện';
 
   @override
-  String get no_hardhat => 'No Hardhat';
+  String get no_hardhat => 'Không đội mũ bảo hộ';
 
   @override
-  String get no_vest => 'No Vest';
+  String get no_vest => 'Không mặc áo phản quang';
 
   @override
-  String get person => 'Person';
+  String get person => 'Người';
 
   @override
-  String get cone => 'Safety Cone';
+  String get cone => 'Cọc tiêu giao thông';
 
   @override
-  String get mask => 'Mask';
+  String get mask => 'Khẩu trang';
 
   @override
-  String get no_mask => 'No Mask';
+  String get no_mask => 'Không đeo khẩu trang';
 
   @override
-  String get utility_pole => 'Utility Pole';
+  String get utility_pole => 'Cột điện';
 
   @override
   String warning_people_in_controlled_area(int count) {
-    return 'Warning: $count people have entered the controlled area!';
+    return 'Cảnh báo: Có $count người đã vào khu vực kiểm soát!';
   }
 
   @override
   String warning_people_in_utility_pole_controlled_area(int count) {
-    return 'Warning: $count people have entered the utility pole restricted area!';
+    return 'Cảnh báo: Có $count người đã vào khu vực hạn chế quanh cột điện!';
   }
 
   @override
   String warning_no_hardhat(int count) {
-    return 'Warning: $count people are not wearing a hardhat!';
+    return 'Cảnh báo: Có $count người không đội mũ bảo hộ!';
   }
 
   @override
   String warning_no_safety_vest(int count) {
-    return 'Warning: $count people are not wearing a safety vest!';
+    return 'Cảnh báo: Có $count người không mặc áo phản quang!';
   }
 
   @override
   String warning_close_to_machinery(int count) {
-    return 'Warning: $count people are too close to machinery!';
+    return 'Cảnh báo: Có $count người ở quá gần máy thi công!';
   }
 
   @override
   String warning_close_to_vehicle(int count) {
-    return 'Warning: $count people are too close to vehicles!';
+    return 'Cảnh báo: Có $count người ở quá gần phương tiện!';
   }
 
   @override
   String detect_machinery_close_to_pole(int count) {
-    return 'Warning: $count machinery are too close to the utility pole!';
+    return 'Cảnh báo: Có $count máy thi công ở quá gần cột điện!';
   }
 
   @override
-  String get showOverlay => 'Show Overlay';
+  String get showOverlay => 'Hiện chú thích';
 
   @override
   String get add => 'Add';
@@ -505,7 +505,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get selectConstructionSite => 'Select Construction Site';
 
   @override
-  String get allSites => 'All Sites';
+  String get allSites => 'Tất cả công trường';
 
   @override
   String get startDate => 'Start Date';
@@ -753,7 +753,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get selectAll => 'Select All';
 
   @override
-  String get clearSelection => 'Clear Selection';
+  String get clearSelection => 'Xóa lựa chọn';
 
   @override
   String get back => 'Back';
@@ -800,7 +800,7 @@ class AppLocalizationsVi extends AppLocalizations {
   }
 
   @override
-  String get refresh => 'Refresh';
+  String get refresh => 'Làm mới';
 
   @override
   String get resetAll => 'Reset All to Defaults';
@@ -1239,234 +1239,234 @@ class AppLocalizationsVi extends AppLocalizations {
   String get notificationFallbackTitle => 'Notification';
 
   @override
-  String get violationNoMatchingRecords => 'No matching records';
+  String get violationNoMatchingRecords => 'Không có bản ghi phù hợp';
 
   @override
-  String get violationRecordsTab => 'Records';
+  String get violationRecordsTab => 'Bản ghi';
 
   @override
-  String get violationAnalyticsTab => 'Analytics';
+  String get violationAnalyticsTab => 'Thống kê';
 
   @override
-  String get violationGroup => 'Group';
+  String get violationGroup => 'Nhóm';
 
   @override
-  String get violationAllGroups => 'All groups';
+  String get violationAllGroups => 'Tất cả nhóm';
 
   @override
-  String get violationRangeLastDay => 'Last day';
+  String get violationRangeLastDay => '24 giờ qua';
 
   @override
-  String get violationRangeLast30Days => '30 days';
+  String get violationRangeLast30Days => '30 ngày qua';
 
   @override
-  String get violationRangeLastHalfYear => '6 months';
+  String get violationRangeLastHalfYear => '6 tháng qua';
 
   @override
-  String get violationRangeLastYear => '1 year';
+  String get violationRangeLastYear => '1 năm qua';
 
   @override
-  String get violationRangeYearToDate => 'YTD';
+  String get violationRangeYearToDate => 'Từ đầu năm';
 
   @override
-  String get violationUnnamedGroup => 'Unnamed group';
+  String get violationUnnamedGroup => 'Nhóm chưa đặt tên';
 
   @override
-  String get reviewFilterAll => 'All';
+  String get reviewFilterAll => 'Tất cả';
 
   @override
-  String get reviewFilterFlagged => 'Flagged';
+  String get reviewFilterFlagged => 'Đã đánh dấu';
 
   @override
-  String get reviewFilterPending => 'Pending';
+  String get reviewFilterPending => 'Đang chờ';
 
   @override
-  String get reviewFilterResolved => 'Resolved';
+  String get reviewFilterResolved => 'Đã xử lý';
 
   @override
-  String get reviewFilterDismissed => 'Dismissed';
+  String get reviewFilterDismissed => 'Đã bác bỏ';
 
   @override
-  String get reviewStatusReviewed => 'Reviewed';
+  String get reviewStatusReviewed => 'Đã xem xét';
 
   @override
-  String get reviewStatusNotSubmitted => 'Not submitted';
+  String get reviewStatusNotSubmitted => 'Chưa gửi';
 
   @override
-  String get reviewFlagReasonLabel => 'Flag reason';
+  String get reviewFlagReasonLabel => 'Lý do đánh dấu';
 
   @override
-  String get reviewSectionTitle => 'Review';
+  String get reviewSectionTitle => 'Xem xét';
 
   @override
-  String get reviewFlaggedBadge => 'Flagged';
+  String get reviewFlaggedBadge => 'Đã đánh dấu';
 
   @override
-  String get reviewPendingNote => 'Pending note';
+  String get reviewPendingNote => 'Ghi chú đang chờ';
 
   @override
-  String get reviewNote => 'Review note';
+  String get reviewNote => 'Ghi chú xem xét';
 
   @override
-  String get reviewHandled => 'Handled';
+  String get reviewHandled => 'Đã xử lý';
 
   @override
-  String get reviewNoteOptional => 'Review note, optional';
+  String get reviewNoteOptional => 'Ghi chú xem xét (tùy chọn)';
 
   @override
-  String get reviewAuditTrail => 'Audit trail';
+  String get reviewAuditTrail => 'Nhật ký xem xét';
 
   @override
   String reviewAuditTrailLoadFailed(String error) {
-    return 'Unable to load audit trail: $error';
+    return 'Không thể tải nhật ký xem xét: $error';
   }
 
   @override
-  String get reviewAuditTrailEmpty => 'No audit trail yet.';
+  String get reviewAuditTrailEmpty => 'Chưa có nhật ký xem xét.';
 
   @override
-  String get overlayLabel => 'Overlay';
+  String get overlayLabel => 'Chú thích';
 
   @override
-  String get overlayHidden => 'Off';
+  String get overlayHidden => 'Tắt';
 
   @override
-  String get overlayAll => 'All';
+  String get overlayAll => 'Tất cả';
 
   @override
-  String get overlayFlaggedOnly => 'Flagged only';
+  String get overlayFlaggedOnly => 'Chỉ mục đã đánh dấu';
 
   @override
-  String get reviewChangeMarkerColor => 'Change marker color';
+  String get reviewChangeMarkerColor => 'Đổi màu dấu đánh dấu';
 
   @override
-  String get reviewActionResolve => 'Resolve';
+  String get reviewActionResolve => 'Đánh dấu đã xử lý';
 
   @override
-  String get reviewActionDismiss => 'Dismiss';
+  String get reviewActionDismiss => 'Bác bỏ';
 
   @override
-  String get reviewActionPending => 'Set pending';
+  String get reviewActionPending => 'Chuyển sang chờ xử lý';
 
   @override
-  String get reviewMissingRecordUpdate => 'Unable to update review because the record ID is missing.';
+  String get reviewMissingRecordUpdate => 'Không thể cập nhật vì thiếu mã bản ghi.';
 
   @override
-  String get reviewSignInRequiredUpdate => 'You must be signed in to update review status.';
+  String get reviewSignInRequiredUpdate => 'Đăng nhập để cập nhật trạng thái xem xét.';
 
   @override
-  String get reviewUpdated => 'Review status updated.';
+  String get reviewUpdated => 'Đã cập nhật trạng thái xem xét.';
 
   @override
-  String get reviewUpdatedNext => 'Review updated. Moving to the next pending item.';
+  String get reviewUpdatedNext => 'Đã cập nhật. Chuyển đến mục đang chờ tiếp theo.';
 
   @override
   String reviewUpdateFailed(String error) {
-    return 'Failed to update review: $error';
+    return 'Không thể cập nhật xem xét: $error';
   }
 
   @override
-  String get reviewReasonFalsePositive => 'False positive: the detection was reported as incorrect';
+  String get reviewReasonFalsePositive => 'Phát hiện nhầm: kết quả phát hiện đã được báo là không đúng';
 
   @override
-  String get reviewReasonFalseNegative => 'Missed detection: an object was missing from the results';
+  String get reviewReasonFalseNegative => 'Bỏ sót: một đối tượng không có trong kết quả';
 
   @override
-  String get reviewReasonWrongClass => 'Wrong class: the detection label needs correction';
+  String get reviewReasonWrongClass => 'Sai loại: cần sửa nhãn phát hiện';
 
   @override
-  String get reviewReasonBadBox => 'Bad box: the bounding box needs correction';
+  String get reviewReasonBadBox => 'Sai khung: cần sửa khung giới hạn';
 
   @override
-  String get detectionFeedbackTitle => 'Detection feedback';
+  String get detectionFeedbackTitle => 'Phản hồi về phát hiện';
 
   @override
-  String get detectionFeedbackDescription => 'Mark false positives or missed detections for model improvement review.';
+  String get detectionFeedbackDescription => 'Đánh dấu các phát hiện nhầm hoặc đối tượng bị bỏ sót để cải thiện mô hình.';
 
   @override
-  String get detectionFeedbackFalsePositive => 'Mark wrong';
+  String get detectionFeedbackFalsePositive => 'Báo phát hiện nhầm';
 
   @override
-  String get detectionFeedbackMissed => 'Draw missed';
+  String get detectionFeedbackMissed => 'Vẽ khung đối tượng bị bỏ sót';
 
   @override
-  String get detectionFeedbackNoBoxes => 'No detection boxes are available to select.';
+  String get detectionFeedbackNoBoxes => 'Không có khung phát hiện để chọn.';
 
   @override
-  String get detectionFeedbackMissedLabel => 'Missed label';
+  String get detectionFeedbackMissedLabel => 'Loại đối tượng bị bỏ sót';
 
   @override
-  String get detectionFeedbackNoteOptional => 'Note, optional';
+  String get detectionFeedbackNoteOptional => 'Ghi chú (tùy chọn)';
 
   @override
-  String get detectionFeedbackNoMissedTarget => 'No missed target selected';
+  String get detectionFeedbackNoMissedTarget => 'Chưa chọn đối tượng bị bỏ sót';
 
   @override
   String detectionFeedbackSelectedBox(String bbox) {
-    return 'Selected $bbox';
+    return 'Khung đã chọn: $bbox';
   }
 
   @override
-  String get detectionFeedbackSubmitMissed => 'Submit missed';
+  String get detectionFeedbackSubmitMissed => 'Gửi báo cáo bỏ sót';
 
   @override
-  String get detectionFeedbackFalsePositiveHint => 'Tap the wrong detection box in the image.';
+  String get detectionFeedbackFalsePositiveHint => 'Chạm vào khung phát hiện sai trong ảnh.';
 
   @override
-  String get detectionFeedbackMissedHint => 'Drag on the image to draw the missed target.';
+  String get detectionFeedbackMissedHint => 'Kéo trên ảnh để khoanh đối tượng bị bỏ sót.';
 
   @override
-  String get detectionFeedbackBoxes => 'Boxes';
+  String get detectionFeedbackBoxes => 'Khung';
 
   @override
-  String get feedbackNoDetectionSelected => 'No detection box was selected. Tap inside a box.';
+  String get feedbackNoDetectionSelected => 'Chưa chọn khung phát hiện. Chạm vào bên trong một khung.';
 
   @override
-  String get feedbackSelectionTooSmall => 'The selected area is too small. Please draw it again.';
+  String get feedbackSelectionTooSmall => 'Vùng đã chọn quá nhỏ. Vui lòng vẽ lại.';
 
   @override
-  String get feedbackFalsePositiveDialogTitle => 'Report false positive';
+  String get feedbackFalsePositiveDialogTitle => 'Báo cáo phát hiện nhầm';
 
   @override
-  String get feedbackFalsePositiveDialogMessage => 'This detection will be marked as a false positive for review.';
+  String get feedbackFalsePositiveDialogMessage => 'Kết quả này sẽ được đánh dấu là phát hiện nhầm để xem xét.';
 
   @override
-  String get feedbackDrawMissedFirst => 'Draw the missed target in the image first.';
+  String get feedbackDrawMissedFirst => 'Hãy khoanh đối tượng bị bỏ sót trong ảnh trước.';
 
   @override
-  String get feedbackMissingRecord => 'Unable to submit feedback because the record ID is missing.';
+  String get feedbackMissingRecord => 'Không thể gửi phản hồi vì thiếu mã bản ghi.';
 
   @override
-  String get feedbackSignInRequired => 'You must be signed in to submit feedback.';
+  String get feedbackSignInRequired => 'Đăng nhập để gửi phản hồi.';
 
   @override
-  String get feedbackSubmitted => 'Feedback submitted. Thank you.';
+  String get feedbackSubmitted => 'Đã gửi phản hồi. Cảm ơn bạn.';
 
   @override
   String feedbackSubmitFailed(String error) {
-    return 'Failed to submit feedback: $error';
+    return 'Không thể gửi phản hồi: $error';
   }
 
   @override
-  String get imageViewerTitle => 'Image viewer';
+  String get imageViewerTitle => 'Trình xem ảnh';
 
   @override
-  String get imageViewerRotate => 'Rotate';
+  String get imageViewerRotate => 'Xoay';
 
   @override
-  String get imageViewerResetZoom => 'Reset zoom';
+  String get imageViewerResetZoom => 'Đặt lại độ thu phóng';
 
   @override
-  String get falsePositivePickerTitle => 'Select wrong detection';
+  String get falsePositivePickerTitle => 'Chọn phát hiện nhầm';
 
   @override
-  String get falsePositivePickerHint => 'Double tap to zoom, pan, then tap a box or label.';
+  String get falsePositivePickerHint => 'Chạm hai lần để phóng to, di chuyển ảnh, rồi chạm vào khung hoặc nhãn.';
 
   @override
-  String get falsePositivePickerBottomHint => 'Tap a highlighted box or label to report';
+  String get falsePositivePickerBottomHint => 'Chạm vào khung hoặc nhãn được làm nổi bật để báo cáo.';
 
   @override
-  String get falsePositivePickerMiss => 'Tap a box or label. Zoom in if needed.';
+  String get falsePositivePickerMiss => 'Chạm vào khung hoặc nhãn. Phóng to nếu cần.';
 
   @override
   String get saveSuccess => 'Saved successfully.';
@@ -1982,4 +1982,82 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get commentRequired => 'Comment is required for this action.';
+
+  @override
+  String get violationResultsHeading => 'Kết quả';
+
+  @override
+  String get violationEvidenceImage => 'Ảnh';
+
+  @override
+  String get violationSiteStreamHeading => 'Công trường / Luồng';
+
+  @override
+  String get violationTimeRange => 'Khoảng thời gian';
+
+  @override
+  String get violationReviewStatus => 'Trạng thái xem xét';
+
+  @override
+  String get violationFiltersHeading => 'Bộ lọc';
+
+  @override
+  String get violationFiltersDescription => 'Lọc bản ghi theo công trường, camera, loại vi phạm, thời gian và trạng thái xem xét.';
+
+  @override
+  String get violationAllCameras => 'Tất cả camera';
+
+  @override
+  String get violationCameraLabel => 'Camera';
+
+  @override
+  String get violationAllTypes => 'Tất cả loại vi phạm';
+
+  @override
+  String get violationTypeLabel => 'Loại vi phạm';
+
+  @override
+  String get violationAnalyticsTotal => 'Tổng số vi phạm';
+
+  @override
+  String get violationAnalyticsToday => 'Hôm nay';
+
+  @override
+  String get violationAnalyticsTopSite => 'Công trường có nhiều vi phạm nhất';
+
+  @override
+  String get violationAnalyticsTopType => 'Loại vi phạm phổ biến nhất';
+
+  @override
+  String get violationAnalyticsTrend => 'Xu hướng vi phạm';
+
+  @override
+  String get violationAnalyticsNoTrend => 'Không có dữ liệu xu hướng';
+
+  @override
+  String get violationAnalyticsTypeBreakdown => 'Phân bố theo loại';
+
+  @override
+  String get violationAnalyticsNoType => 'Không có dữ liệu theo loại';
+
+  @override
+  String get violationAnalyticsTypeRanking => 'Xếp hạng loại vi phạm';
+
+  @override
+  String get violationAnalyticsSiteRanking => 'Xếp hạng công trường';
+
+  @override
+  String get violationAnalyticsHourly => 'Phân bố theo giờ';
+
+  @override
+  String get violationAnalyticsNoHourly => 'Không có dữ liệu theo giờ';
+
+  @override
+  String get violationAnalyticsNoRanking => 'Không có dữ liệu xếp hạng';
+
+  @override
+  String get violationAnalyticsUnavailable => 'Không thể tải dữ liệu thống kê';
+
+  @override
+  String get violationAnalyticsEmpty => 'Không có dữ liệu thống kê';
 }

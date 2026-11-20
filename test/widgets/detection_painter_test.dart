@@ -104,6 +104,26 @@ Widget _wrapWithLocalizations(Widget child) {
 
 void main() {
   group('OverlayPainter.mapLabelToLocalString', () {
+    test('localizes stable codes and historical aliases in French', () {
+      final AppLocalizations local = lookupAppLocalizations(const Locale('fr'));
+      final DetectionOverlayLabels labels =
+          DetectionOverlayLabels.fromLocalizations(local);
+      expect(labels.labelFor('未穿安全背心'), local.no_vest);
+      expect(labels.labelFor('no_safety_vest'), local.no_vest);
+      expect(labels.colorFor('未穿安全背心'), Colors.red);
+      expect(
+        labels.labelFor(DetectionOverlayLabels.preferredLabel(
+          'Ancienne annotation',
+          'no_safety_vest',
+        )),
+        local.no_vest,
+      );
+      expect(
+        DetectionOverlayLabels.preferredLabel('Classe personnalisée', 'custom'),
+        'Classe personnalisée',
+      );
+    });
+
     testWidgets('maps numeric and string labels to localised strings',
         (WidgetTester tester) async {
       late BuildContext ctx;

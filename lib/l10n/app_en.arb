@@ -2039,5 +2039,32 @@
       }
     }
   },
-  "commentRequired": "Comment is required for this action."
+  "commentRequired": "Comment is required for this action.",
+
+  "violationResultsHeading": "Results",
+  "violationEvidenceImage": "Image",
+  "violationSiteStreamHeading": "Site / Stream",
+  "violationTimeRange": "Time range",
+  "violationReviewStatus": "Review status",
+  "violationFiltersHeading": "Filters",
+  "violationFiltersDescription": "Narrow records by site, camera, violation type, time and review status.",
+  "violationAllCameras": "All cameras",
+  "violationCameraLabel": "Camera",
+  "violationAllTypes": "All violation types",
+  "violationTypeLabel": "Violation type",
+  "violationAnalyticsTotal": "Total violations",
+  "violationAnalyticsToday": "Today",
+  "violationAnalyticsTopSite": "Most affected site",
+  "violationAnalyticsTopType": "Most frequent type",
+  "violationAnalyticsTrend": "Violation trend",
+  "violationAnalyticsNoTrend": "No trend data",
+  "violationAnalyticsTypeBreakdown": "Breakdown by type",
+  "violationAnalyticsNoType": "No data by type",
+  "violationAnalyticsTypeRanking": "Violation type ranking",
+  "violationAnalyticsSiteRanking": "Site ranking",
+  "violationAnalyticsHourly": "Hourly distribution",
+  "violationAnalyticsNoHourly": "No hourly data",
+  "violationAnalyticsNoRanking": "No ranking data",
+  "violationAnalyticsUnavailable": "Analytics are unavailable",
+  "violationAnalyticsEmpty": "No analytics data"
 }

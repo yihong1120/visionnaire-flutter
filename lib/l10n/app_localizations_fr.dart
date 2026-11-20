@@ -305,7 +305,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get no_hardhat => 'Pas de casque';
 
   @override
-  String get no_vest => 'Pas de gilet';
+  String get no_vest => 'Sans gilet de sécurité';
 
   @override
   String get person => 'Personne';
@@ -324,41 +324,83 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String warning_people_in_controlled_area(int count) {
-    return 'Attention: $count personnes sont entrées dans la zone contrôlée!';
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Avertissement : $count personnes sont entrées dans la zone contrôlée.',
+      one: 'Avertissement : 1 personne est entrée dans la zone contrôlée.',
+    );
+    return '$_temp0';
   }
 
   @override
   String warning_people_in_utility_pole_controlled_area(int count) {
-    return 'Attention: $count personnes sont entrées dans la zone contrôlée du poteau utilitaire!';
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Avertissement : $count personnes sont entrées dans la zone réglementée du poteau électrique.',
+      one: 'Avertissement : 1 personne est entrée dans la zone réglementée du poteau électrique.',
+    );
+    return '$_temp0';
   }
 
   @override
   String warning_no_hardhat(int count) {
-    return 'Avertissement: $count personnes ne portent pas de casque!';
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Avertissement : $count personnes ne portent pas de casque de sécurité.',
+      one: 'Avertissement : 1 personne ne porte pas de casque de sécurité.',
+    );
+    return '$_temp0';
   }
 
   @override
   String warning_no_safety_vest(int count) {
-    return 'Avertissement: $count personnes ne portent pas de gilet de sécurité!';
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Avertissement : $count personnes ne portent pas de gilet de sécurité.',
+      one: 'Avertissement : 1 personne ne porte pas de gilet de sécurité.',
+    );
+    return '$_temp0';
   }
 
   @override
   String warning_close_to_machinery(int count) {
-    return 'Attention: $count personnes sont trop proches de la machinerie!';
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Avertissement : $count personnes sont trop proches des engins de chantier.',
+      one: 'Avertissement : 1 personne est trop proche des engins de chantier.',
+    );
+    return '$_temp0';
   }
 
   @override
   String warning_close_to_vehicle(int count) {
-    return 'Attention: $count personnes sont trop proches des véhicules!';
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Avertissement : $count personnes sont trop proches des véhicules.',
+      one: 'Avertissement : 1 personne est trop proche des véhicules.',
+    );
+    return '$_temp0';
   }
 
   @override
   String detect_machinery_close_to_pole(int count) {
-    return 'Avertissement: $count machines sont trop proches du poteau!';
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Avertissement : $count engins de chantier sont trop proches du poteau électrique.',
+      one: 'Avertissement : 1 engin de chantier est trop proche du poteau électrique.',
+    );
+    return '$_temp0';
   }
 
   @override
-  String get showOverlay => 'Afficher l\'overlay';
+  String get showOverlay => 'Afficher les annotations';
 
   @override
   String get add => 'Ajouter';
@@ -1239,234 +1281,234 @@ class AppLocalizationsFr extends AppLocalizations {
   String get notificationFallbackTitle => 'Notification';
 
   @override
-  String get violationNoMatchingRecords => 'No matching records';
+  String get violationNoMatchingRecords => 'Aucun enregistrement correspondant';
 
   @override
-  String get violationRecordsTab => 'Records';
+  String get violationRecordsTab => 'Registre';
 
   @override
-  String get violationAnalyticsTab => 'Analytics';
+  String get violationAnalyticsTab => 'Statistiques';
 
   @override
-  String get violationGroup => 'Group';
+  String get violationGroup => 'Groupe';
 
   @override
-  String get violationAllGroups => 'All groups';
+  String get violationAllGroups => 'Tous les groupes';
 
   @override
-  String get violationRangeLastDay => 'Last day';
+  String get violationRangeLastDay => 'Dernières 24 heures';
 
   @override
-  String get violationRangeLast30Days => '30 days';
+  String get violationRangeLast30Days => '30 derniers jours';
 
   @override
-  String get violationRangeLastHalfYear => '6 months';
+  String get violationRangeLastHalfYear => '6 derniers mois';
 
   @override
-  String get violationRangeLastYear => '1 year';
+  String get violationRangeLastYear => '12 derniers mois';
 
   @override
-  String get violationRangeYearToDate => 'YTD';
+  String get violationRangeYearToDate => 'Depuis le début de l’année';
 
   @override
-  String get violationUnnamedGroup => 'Unnamed group';
+  String get violationUnnamedGroup => 'Groupe sans nom';
 
   @override
-  String get reviewFilterAll => 'All';
+  String get reviewFilterAll => 'Tous';
 
   @override
-  String get reviewFilterFlagged => 'Flagged';
+  String get reviewFilterFlagged => 'Signalés';
 
   @override
-  String get reviewFilterPending => 'Pending';
+  String get reviewFilterPending => 'En attente';
 
   @override
-  String get reviewFilterResolved => 'Resolved';
+  String get reviewFilterResolved => 'Traités';
 
   @override
-  String get reviewFilterDismissed => 'Dismissed';
+  String get reviewFilterDismissed => 'Classés sans suite';
 
   @override
-  String get reviewStatusReviewed => 'Reviewed';
+  String get reviewStatusReviewed => 'Examiné';
 
   @override
-  String get reviewStatusNotSubmitted => 'Not submitted';
+  String get reviewStatusNotSubmitted => 'Non soumis';
 
   @override
-  String get reviewFlagReasonLabel => 'Flag reason';
+  String get reviewFlagReasonLabel => 'Motif du signalement';
 
   @override
-  String get reviewSectionTitle => 'Review';
+  String get reviewSectionTitle => 'Vérification';
 
   @override
-  String get reviewFlaggedBadge => 'Flagged';
+  String get reviewFlaggedBadge => 'Signalé';
 
   @override
-  String get reviewPendingNote => 'Pending note';
+  String get reviewPendingNote => 'Note en attente';
 
   @override
-  String get reviewNote => 'Review note';
+  String get reviewNote => 'Note de vérification';
 
   @override
-  String get reviewHandled => 'Handled';
+  String get reviewHandled => 'Traité';
 
   @override
-  String get reviewNoteOptional => 'Review note, optional';
+  String get reviewNoteOptional => 'Note de vérification (facultative)';
 
   @override
-  String get reviewAuditTrail => 'Audit trail';
+  String get reviewAuditTrail => 'Journal de vérification';
 
   @override
   String reviewAuditTrailLoadFailed(String error) {
-    return 'Unable to load audit trail: $error';
+    return 'Impossible de charger le journal de vérification : $error';
   }
 
   @override
-  String get reviewAuditTrailEmpty => 'No audit trail yet.';
+  String get reviewAuditTrailEmpty => 'Le journal de vérification est encore vide.';
 
   @override
-  String get overlayLabel => 'Overlay';
+  String get overlayLabel => 'Annotations';
 
   @override
-  String get overlayHidden => 'Off';
+  String get overlayHidden => 'Masquées';
 
   @override
-  String get overlayAll => 'All';
+  String get overlayAll => 'Toutes';
 
   @override
-  String get overlayFlaggedOnly => 'Flagged only';
+  String get overlayFlaggedOnly => 'Signalées uniquement';
 
   @override
-  String get reviewChangeMarkerColor => 'Change marker color';
+  String get reviewChangeMarkerColor => 'Changer la couleur du repère';
 
   @override
-  String get reviewActionResolve => 'Resolve';
+  String get reviewActionResolve => 'Marquer comme traité';
 
   @override
-  String get reviewActionDismiss => 'Dismiss';
+  String get reviewActionDismiss => 'Classer sans suite';
 
   @override
-  String get reviewActionPending => 'Set pending';
+  String get reviewActionPending => 'Mettre en attente';
 
   @override
-  String get reviewMissingRecordUpdate => 'Unable to update review because the record ID is missing.';
+  String get reviewMissingRecordUpdate => 'Impossible de modifier la vérification : l’identifiant de l’enregistrement manque.';
 
   @override
-  String get reviewSignInRequiredUpdate => 'You must be signed in to update review status.';
+  String get reviewSignInRequiredUpdate => 'Connectez-vous pour modifier l’état de vérification.';
 
   @override
-  String get reviewUpdated => 'Review status updated.';
+  String get reviewUpdated => 'État de vérification mis à jour.';
 
   @override
-  String get reviewUpdatedNext => 'Review updated. Moving to the next pending item.';
+  String get reviewUpdatedNext => 'Vérification mise à jour. Passage au prochain élément en attente.';
 
   @override
   String reviewUpdateFailed(String error) {
-    return 'Failed to update review: $error';
+    return 'Impossible de modifier la vérification : $error';
   }
 
   @override
-  String get reviewReasonFalsePositive => 'False positive: the detection was reported as incorrect';
+  String get reviewReasonFalsePositive => 'Faux positif : la détection a été signalée comme incorrecte';
 
   @override
-  String get reviewReasonFalseNegative => 'Missed detection: an object was missing from the results';
+  String get reviewReasonFalseNegative => 'Détection manquée : un objet est absent des résultats';
 
   @override
-  String get reviewReasonWrongClass => 'Wrong class: the detection label needs correction';
+  String get reviewReasonWrongClass => 'Classe incorrecte : l’étiquette doit être corrigée';
 
   @override
-  String get reviewReasonBadBox => 'Bad box: the bounding box needs correction';
+  String get reviewReasonBadBox => 'Cadre incorrect : le cadre de détection doit être corrigé';
 
   @override
-  String get detectionFeedbackTitle => 'Detection feedback';
+  String get detectionFeedbackTitle => 'Retours sur la détection';
 
   @override
-  String get detectionFeedbackDescription => 'Mark false positives or missed detections for model improvement review.';
+  String get detectionFeedbackDescription => 'Signalez les faux positifs ou les objets manqués pour améliorer le modèle.';
 
   @override
-  String get detectionFeedbackFalsePositive => 'Mark wrong';
+  String get detectionFeedbackFalsePositive => 'Signaler un faux positif';
 
   @override
-  String get detectionFeedbackMissed => 'Draw missed';
+  String get detectionFeedbackMissed => 'Encadrer un objet manqué';
 
   @override
-  String get detectionFeedbackNoBoxes => 'No detection boxes are available to select.';
+  String get detectionFeedbackNoBoxes => 'Aucun cadre de détection à sélectionner.';
 
   @override
-  String get detectionFeedbackMissedLabel => 'Missed label';
+  String get detectionFeedbackMissedLabel => 'Classe de l’objet manqué';
 
   @override
-  String get detectionFeedbackNoteOptional => 'Note, optional';
+  String get detectionFeedbackNoteOptional => 'Note (facultative)';
 
   @override
-  String get detectionFeedbackNoMissedTarget => 'No missed target selected';
+  String get detectionFeedbackNoMissedTarget => 'Aucun objet manqué sélectionné';
 
   @override
   String detectionFeedbackSelectedBox(String bbox) {
-    return 'Selected $bbox';
+    return 'Cadre sélectionné : $bbox';
   }
 
   @override
-  String get detectionFeedbackSubmitMissed => 'Submit missed';
+  String get detectionFeedbackSubmitMissed => 'Envoyer le signalement';
 
   @override
-  String get detectionFeedbackFalsePositiveHint => 'Tap the wrong detection box in the image.';
+  String get detectionFeedbackFalsePositiveHint => 'Sélectionnez le cadre incorrect dans l’image.';
 
   @override
-  String get detectionFeedbackMissedHint => 'Drag on the image to draw the missed target.';
+  String get detectionFeedbackMissedHint => 'Tracez un cadre autour de l’objet manqué.';
 
   @override
-  String get detectionFeedbackBoxes => 'Boxes';
+  String get detectionFeedbackBoxes => 'Cadres';
 
   @override
-  String get feedbackNoDetectionSelected => 'No detection box was selected. Tap inside a box.';
+  String get feedbackNoDetectionSelected => 'Aucun cadre sélectionné. Sélectionnez l’intérieur d’un cadre.';
 
   @override
-  String get feedbackSelectionTooSmall => 'The selected area is too small. Please draw it again.';
+  String get feedbackSelectionTooSmall => 'La zone sélectionnée est trop petite. Tracez-la de nouveau.';
 
   @override
-  String get feedbackFalsePositiveDialogTitle => 'Report false positive';
+  String get feedbackFalsePositiveDialogTitle => 'Signaler un faux positif';
 
   @override
-  String get feedbackFalsePositiveDialogMessage => 'This detection will be marked as a false positive for review.';
+  String get feedbackFalsePositiveDialogMessage => 'Cette détection sera signalée comme faux positif pour vérification.';
 
   @override
-  String get feedbackDrawMissedFirst => 'Draw the missed target in the image first.';
+  String get feedbackDrawMissedFirst => 'Encadrez d’abord l’objet manqué sur l’image.';
 
   @override
-  String get feedbackMissingRecord => 'Unable to submit feedback because the record ID is missing.';
+  String get feedbackMissingRecord => 'Impossible d’envoyer le retour : l’identifiant de l’enregistrement manque.';
 
   @override
-  String get feedbackSignInRequired => 'You must be signed in to submit feedback.';
+  String get feedbackSignInRequired => 'Connectez-vous pour envoyer un retour.';
 
   @override
-  String get feedbackSubmitted => 'Feedback submitted. Thank you.';
+  String get feedbackSubmitted => 'Retour envoyé. Merci.';
 
   @override
   String feedbackSubmitFailed(String error) {
-    return 'Failed to submit feedback: $error';
+    return 'Impossible d’envoyer le retour : $error';
   }
 
   @override
-  String get imageViewerTitle => 'Image viewer';
+  String get imageViewerTitle => 'Visionneuse d’images';
 
   @override
-  String get imageViewerRotate => 'Rotate';
+  String get imageViewerRotate => 'Pivoter';
 
   @override
-  String get imageViewerResetZoom => 'Reset zoom';
+  String get imageViewerResetZoom => 'Réinitialiser le zoom';
 
   @override
-  String get falsePositivePickerTitle => 'Select wrong detection';
+  String get falsePositivePickerTitle => 'Sélectionner la détection incorrecte';
 
   @override
-  String get falsePositivePickerHint => 'Double tap to zoom, pan, then tap a box or label.';
+  String get falsePositivePickerHint => 'Touchez deux fois pour zoomer, déplacez l’image puis sélectionnez un cadre ou une étiquette.';
 
   @override
-  String get falsePositivePickerBottomHint => 'Tap a highlighted box or label to report';
+  String get falsePositivePickerBottomHint => 'Sélectionnez un cadre ou une étiquette en surbrillance.';
 
   @override
-  String get falsePositivePickerMiss => 'Tap a box or label. Zoom in if needed.';
+  String get falsePositivePickerMiss => 'Sélectionnez un cadre ou une étiquette. Zoomez au besoin.';
 
   @override
   String get saveSuccess => 'Saved successfully.';
@@ -1982,4 +2024,82 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get commentRequired => 'Comment is required for this action.';
+
+  @override
+  String get violationResultsHeading => 'Résultats';
+
+  @override
+  String get violationEvidenceImage => 'Image';
+
+  @override
+  String get violationSiteStreamHeading => 'Chantier / Flux';
+
+  @override
+  String get violationTimeRange => 'Période';
+
+  @override
+  String get violationReviewStatus => 'État de vérification';
+
+  @override
+  String get violationFiltersHeading => 'Filtres';
+
+  @override
+  String get violationFiltersDescription => 'Filtrez les enregistrements par chantier, caméra, type d’infraction, période et état de vérification.';
+
+  @override
+  String get violationAllCameras => 'Toutes les caméras';
+
+  @override
+  String get violationCameraLabel => 'Caméra';
+
+  @override
+  String get violationAllTypes => 'Tous les types d’infraction';
+
+  @override
+  String get violationTypeLabel => 'Type d’infraction';
+
+  @override
+  String get violationAnalyticsTotal => 'Nombre total d’infractions';
+
+  @override
+  String get violationAnalyticsToday => 'Aujourd’hui';
+
+  @override
+  String get violationAnalyticsTopSite => 'Chantier le plus touché';
+
+  @override
+  String get violationAnalyticsTopType => 'Type le plus fréquent';
+
+  @override
+  String get violationAnalyticsTrend => 'Évolution des infractions';
+
+  @override
+  String get violationAnalyticsNoTrend => 'Aucune donnée de tendance';
+
+  @override
+  String get violationAnalyticsTypeBreakdown => 'Répartition par type';
+
+  @override
+  String get violationAnalyticsNoType => 'Aucune donnée par type';
+
+  @override
+  String get violationAnalyticsTypeRanking => 'Classement des types d’infraction';
+
+  @override
+  String get violationAnalyticsSiteRanking => 'Classement des chantiers';
+
+  @override
+  String get violationAnalyticsHourly => 'Répartition par heure';
+
+  @override
+  String get violationAnalyticsNoHourly => 'Aucune donnée horaire';
+
+  @override
+  String get violationAnalyticsNoRanking => 'Aucune donnée de classement';
+
+  @override
+  String get violationAnalyticsUnavailable => 'Les statistiques sont indisponibles';
+
+  @override
+  String get violationAnalyticsEmpty => 'Aucune donnée statistique';
 }

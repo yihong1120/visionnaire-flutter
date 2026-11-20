@@ -51,25 +51,25 @@ class AppLocalizationsTh extends AppLocalizations {
   String get detectionTime => 'Detection Time';
 
   @override
-  String get violationMessage => 'Violation Message';
+  String get violationMessage => 'ข้อความการละเมิด';
 
   @override
   String get loadingImageError => 'Failed to load image';
 
   @override
-  String get violationRecordQuery => 'Violation Record Query';
+  String get violationRecordQuery => 'บันทึกการละเมิด';
 
   @override
-  String get keyword => 'Keyword (stream_name or message)';
+  String get keyword => 'คำค้น (กล้องหรือข้อความ)';
 
   @override
-  String get startTime => 'Start Time';
+  String get startTime => 'เวลาเริ่มต้น';
 
   @override
-  String get endTime => 'End Time';
+  String get endTime => 'เวลาสิ้นสุด';
 
   @override
-  String get query => 'Query';
+  String get query => 'ค้นหา';
 
   @override
   String get noRecords => 'No records available';
@@ -99,7 +99,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get noImage => 'No camera images available';
 
   @override
-  String get warnings => 'Warnings';
+  String get warnings => 'คำเตือน';
 
   @override
   String get lastUpdated => 'Last updated';
@@ -168,7 +168,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get confirmDeleteChatRoom => 'Are you sure you want to delete this chat room?';
 
   @override
-  String get cancel => 'Cancel';
+  String get cancel => 'ยกเลิก';
 
   @override
   String get delete => 'Delete';
@@ -177,24 +177,24 @@ class AppLocalizationsTh extends AppLocalizations {
   String get deleteFailed => 'Deletion failed';
 
   @override
-  String get selectSite => 'Select Site';
+  String get selectSite => 'เลือกไซต์งาน';
 
   @override
-  String get notSelected => 'Not selected';
+  String get notSelected => 'ยังไม่ได้เลือก';
 
   @override
   String errorPrefix(String error) {
-    return 'Error: $error';
+    return 'ข้อผิดพลาด: $error';
   }
 
   @override
-  String get sitePrefix => 'Site: ';
+  String get sitePrefix => 'ไซต์งาน: ';
 
   @override
-  String get streamPrefix => 'Stream: ';
+  String get streamPrefix => 'สตรีม: ';
 
   @override
-  String get detectionTimePrefix => 'Detection Time: ';
+  String get detectionTimePrefix => 'เวลาที่ตรวจพบ: ';
 
   @override
   String get urlUpdated => 'Updated Streaming Web Base URL to:';
@@ -290,75 +290,75 @@ class AppLocalizationsTh extends AppLocalizations {
   String get showDetectionResults => 'แสดงผลการตรวจจับ';
 
   @override
-  String get hardhat => 'Hardhat';
+  String get hardhat => 'หมวกนิรภัย';
 
   @override
-  String get vest => 'Vest';
+  String get vest => 'เสื้อกั๊กนิรภัย';
 
   @override
-  String get machinery => 'Machinery';
+  String get machinery => 'เครื่องจักร';
 
   @override
-  String get vehicle => 'Vehicle';
+  String get vehicle => 'ยานพาหนะ';
 
   @override
-  String get no_hardhat => 'No Hardhat';
+  String get no_hardhat => 'ไม่สวมหมวกนิรภัย';
 
   @override
-  String get no_vest => 'No Vest';
+  String get no_vest => 'ไม่สวมเสื้อกั๊กนิรภัย';
 
   @override
-  String get person => 'Person';
+  String get person => 'บุคคล';
 
   @override
-  String get cone => 'Safety Cone';
+  String get cone => 'กรวยจราจร';
 
   @override
-  String get mask => 'Mask';
+  String get mask => 'หน้ากาก';
 
   @override
-  String get no_mask => 'No Mask';
+  String get no_mask => 'ไม่สวมหน้ากาก';
 
   @override
-  String get utility_pole => 'Utility Pole';
+  String get utility_pole => 'เสาไฟฟ้า';
 
   @override
   String warning_people_in_controlled_area(int count) {
-    return 'Warning: $count people have entered the controlled area!';
+    return 'คำเตือน: มี $count คนเข้าเขตควบคุม';
   }
 
   @override
   String warning_people_in_utility_pole_controlled_area(int count) {
-    return 'Warning: $count people have entered the utility pole restricted area!';
+    return 'คำเตือน: มี $count คนเข้าเขตหวงห้ามรอบเสาไฟฟ้า';
   }
 
   @override
   String warning_no_hardhat(int count) {
-    return 'Warning: $count people are not wearing a hardhat!';
+    return 'คำเตือน: มี $count คนไม่สวมหมวกนิรภัย';
   }
 
   @override
   String warning_no_safety_vest(int count) {
-    return 'Warning: $count people are not wearing a safety vest!';
+    return 'คำเตือน: มี $count คนไม่สวมเสื้อกั๊กนิรภัย';
   }
 
   @override
   String warning_close_to_machinery(int count) {
-    return 'Warning: $count people are too close to machinery!';
+    return 'คำเตือน: มี $count คนอยู่ใกล้เครื่องจักรเกินไป';
   }
 
   @override
   String warning_close_to_vehicle(int count) {
-    return 'Warning: $count people are too close to vehicles!';
+    return 'คำเตือน: มี $count คนอยู่ใกล้ยานพาหนะเกินไป';
   }
 
   @override
   String detect_machinery_close_to_pole(int count) {
-    return 'Warning: $count machinery are too close to the utility pole!';
+    return 'คำเตือน: เครื่องจักร $count เครื่องอยู่ใกล้เสาไฟฟ้าเกินไป';
   }
 
   @override
-  String get showOverlay => 'Show Overlay';
+  String get showOverlay => 'แสดงคำกำกับภาพ';
 
   @override
   String get add => 'Add';
@@ -505,7 +505,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get selectConstructionSite => 'Select Construction Site';
 
   @override
-  String get allSites => 'All Sites';
+  String get allSites => 'ทุกไซต์งาน';
 
   @override
   String get startDate => 'Start Date';
@@ -753,7 +753,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get selectAll => 'Select All';
 
   @override
-  String get clearSelection => 'Clear Selection';
+  String get clearSelection => 'ล้างการเลือก';
 
   @override
   String get back => 'Back';
@@ -800,7 +800,7 @@ class AppLocalizationsTh extends AppLocalizations {
   }
 
   @override
-  String get refresh => 'Refresh';
+  String get refresh => 'รีเฟรช';
 
   @override
   String get resetAll => 'Reset All to Defaults';
@@ -1239,234 +1239,234 @@ class AppLocalizationsTh extends AppLocalizations {
   String get notificationFallbackTitle => 'Notification';
 
   @override
-  String get violationNoMatchingRecords => 'No matching records';
+  String get violationNoMatchingRecords => 'ไม่พบบันทึกที่ตรงกัน';
 
   @override
-  String get violationRecordsTab => 'Records';
+  String get violationRecordsTab => 'บันทึก';
 
   @override
-  String get violationAnalyticsTab => 'Analytics';
+  String get violationAnalyticsTab => 'สถิติ';
 
   @override
-  String get violationGroup => 'Group';
+  String get violationGroup => 'กลุ่ม';
 
   @override
-  String get violationAllGroups => 'All groups';
+  String get violationAllGroups => 'ทุกกลุ่ม';
 
   @override
-  String get violationRangeLastDay => 'Last day';
+  String get violationRangeLastDay => '24 ชั่วโมงที่ผ่านมา';
 
   @override
-  String get violationRangeLast30Days => '30 days';
+  String get violationRangeLast30Days => '30 วันที่ผ่านมา';
 
   @override
-  String get violationRangeLastHalfYear => '6 months';
+  String get violationRangeLastHalfYear => '6 เดือนที่ผ่านมา';
 
   @override
-  String get violationRangeLastYear => '1 year';
+  String get violationRangeLastYear => '1 ปีที่ผ่านมา';
 
   @override
-  String get violationRangeYearToDate => 'YTD';
+  String get violationRangeYearToDate => 'ตั้งแต่ต้นปี';
 
   @override
-  String get violationUnnamedGroup => 'Unnamed group';
+  String get violationUnnamedGroup => 'กลุ่มไม่มีชื่อ';
 
   @override
-  String get reviewFilterAll => 'All';
+  String get reviewFilterAll => 'ทั้งหมด';
 
   @override
-  String get reviewFilterFlagged => 'Flagged';
+  String get reviewFilterFlagged => 'ที่ทำเครื่องหมาย';
 
   @override
-  String get reviewFilterPending => 'Pending';
+  String get reviewFilterPending => 'รอดำเนินการ';
 
   @override
-  String get reviewFilterResolved => 'Resolved';
+  String get reviewFilterResolved => 'แก้ไขแล้ว';
 
   @override
-  String get reviewFilterDismissed => 'Dismissed';
+  String get reviewFilterDismissed => 'ปฏิเสธแล้ว';
 
   @override
-  String get reviewStatusReviewed => 'Reviewed';
+  String get reviewStatusReviewed => 'ตรวจสอบแล้ว';
 
   @override
-  String get reviewStatusNotSubmitted => 'Not submitted';
+  String get reviewStatusNotSubmitted => 'ยังไม่ได้ส่ง';
 
   @override
-  String get reviewFlagReasonLabel => 'Flag reason';
+  String get reviewFlagReasonLabel => 'เหตุผลที่ทำเครื่องหมาย';
 
   @override
-  String get reviewSectionTitle => 'Review';
+  String get reviewSectionTitle => 'การตรวจสอบ';
 
   @override
-  String get reviewFlaggedBadge => 'Flagged';
+  String get reviewFlaggedBadge => 'ทำเครื่องหมายแล้ว';
 
   @override
-  String get reviewPendingNote => 'Pending note';
+  String get reviewPendingNote => 'หมายเหตุที่รอดำเนินการ';
 
   @override
-  String get reviewNote => 'Review note';
+  String get reviewNote => 'หมายเหตุการตรวจสอบ';
 
   @override
-  String get reviewHandled => 'Handled';
+  String get reviewHandled => 'ดำเนินการแล้ว';
 
   @override
-  String get reviewNoteOptional => 'Review note, optional';
+  String get reviewNoteOptional => 'หมายเหตุการตรวจสอบ (ไม่บังคับ)';
 
   @override
-  String get reviewAuditTrail => 'Audit trail';
+  String get reviewAuditTrail => 'ประวัติการตรวจสอบ';
 
   @override
   String reviewAuditTrailLoadFailed(String error) {
-    return 'Unable to load audit trail: $error';
+    return 'โหลดประวัติการตรวจสอบไม่ได้: $error';
   }
 
   @override
-  String get reviewAuditTrailEmpty => 'No audit trail yet.';
+  String get reviewAuditTrailEmpty => 'ยังไม่มีประวัติการตรวจสอบ';
 
   @override
-  String get overlayLabel => 'Overlay';
+  String get overlayLabel => 'คำกำกับภาพ';
 
   @override
-  String get overlayHidden => 'Off';
+  String get overlayHidden => 'ปิด';
 
   @override
-  String get overlayAll => 'All';
+  String get overlayAll => 'ทั้งหมด';
 
   @override
-  String get overlayFlaggedOnly => 'Flagged only';
+  String get overlayFlaggedOnly => 'เฉพาะที่ทำเครื่องหมาย';
 
   @override
-  String get reviewChangeMarkerColor => 'Change marker color';
+  String get reviewChangeMarkerColor => 'เปลี่ยนสีเครื่องหมาย';
 
   @override
-  String get reviewActionResolve => 'Resolve';
+  String get reviewActionResolve => 'ทำเครื่องหมายว่าแก้ไขแล้ว';
 
   @override
-  String get reviewActionDismiss => 'Dismiss';
+  String get reviewActionDismiss => 'ปฏิเสธ';
 
   @override
-  String get reviewActionPending => 'Set pending';
+  String get reviewActionPending => 'ตั้งเป็นรอดำเนินการ';
 
   @override
-  String get reviewMissingRecordUpdate => 'Unable to update review because the record ID is missing.';
+  String get reviewMissingRecordUpdate => 'อัปเดตการตรวจสอบไม่ได้เนื่องจากไม่มีรหัสบันทึก';
 
   @override
-  String get reviewSignInRequiredUpdate => 'You must be signed in to update review status.';
+  String get reviewSignInRequiredUpdate => 'เข้าสู่ระบบเพื่ออัปเดตสถานะการตรวจสอบ';
 
   @override
-  String get reviewUpdated => 'Review status updated.';
+  String get reviewUpdated => 'อัปเดตสถานะการตรวจสอบแล้ว';
 
   @override
-  String get reviewUpdatedNext => 'Review updated. Moving to the next pending item.';
+  String get reviewUpdatedNext => 'อัปเดตการตรวจสอบแล้ว กำลังไปยังรายการรอดำเนินการถัดไป';
 
   @override
   String reviewUpdateFailed(String error) {
-    return 'Failed to update review: $error';
+    return 'อัปเดตการตรวจสอบไม่สำเร็จ: $error';
   }
 
   @override
-  String get reviewReasonFalsePositive => 'False positive: the detection was reported as incorrect';
+  String get reviewReasonFalsePositive => 'การตรวจจับผิดพลาด: มีการรายงานว่าผลตรวจจับไม่ถูกต้อง';
 
   @override
-  String get reviewReasonFalseNegative => 'Missed detection: an object was missing from the results';
+  String get reviewReasonFalseNegative => 'ตรวจจับไม่ครบ: มีวัตถุที่ไม่ปรากฏในผลตรวจจับ';
 
   @override
-  String get reviewReasonWrongClass => 'Wrong class: the detection label needs correction';
+  String get reviewReasonWrongClass => 'ประเภทไม่ถูกต้อง: ต้องแก้ไขป้ายกำกับการตรวจจับ';
 
   @override
-  String get reviewReasonBadBox => 'Bad box: the bounding box needs correction';
+  String get reviewReasonBadBox => 'กรอบไม่ถูกต้อง: ต้องแก้ไขกรอบการตรวจจับ';
 
   @override
-  String get detectionFeedbackTitle => 'Detection feedback';
+  String get detectionFeedbackTitle => 'ข้อเสนอแนะเกี่ยวกับการตรวจจับ';
 
   @override
-  String get detectionFeedbackDescription => 'Mark false positives or missed detections for model improvement review.';
+  String get detectionFeedbackDescription => 'ทำเครื่องหมายการตรวจจับผิดพลาดหรือวัตถุที่ตรวจไม่พบเพื่อปรับปรุงโมเดล';
 
   @override
-  String get detectionFeedbackFalsePositive => 'Mark wrong';
+  String get detectionFeedbackFalsePositive => 'แจ้งการตรวจจับผิดพลาด';
 
   @override
-  String get detectionFeedbackMissed => 'Draw missed';
+  String get detectionFeedbackMissed => 'วาดกรอบวัตถุที่ตรวจไม่พบ';
 
   @override
-  String get detectionFeedbackNoBoxes => 'No detection boxes are available to select.';
+  String get detectionFeedbackNoBoxes => 'ไม่มีกรอบการตรวจจับให้เลือก';
 
   @override
-  String get detectionFeedbackMissedLabel => 'Missed label';
+  String get detectionFeedbackMissedLabel => 'ประเภทวัตถุที่ตรวจไม่พบ';
 
   @override
-  String get detectionFeedbackNoteOptional => 'Note, optional';
+  String get detectionFeedbackNoteOptional => 'หมายเหตุ (ไม่บังคับ)';
 
   @override
-  String get detectionFeedbackNoMissedTarget => 'No missed target selected';
+  String get detectionFeedbackNoMissedTarget => 'ยังไม่ได้เลือกวัตถุที่ตรวจไม่พบ';
 
   @override
   String detectionFeedbackSelectedBox(String bbox) {
-    return 'Selected $bbox';
+    return 'กรอบที่เลือก: $bbox';
   }
 
   @override
-  String get detectionFeedbackSubmitMissed => 'Submit missed';
+  String get detectionFeedbackSubmitMissed => 'ส่งรายงานวัตถุที่ตรวจไม่พบ';
 
   @override
-  String get detectionFeedbackFalsePositiveHint => 'Tap the wrong detection box in the image.';
+  String get detectionFeedbackFalsePositiveHint => 'แตะกรอบที่ตรวจจับผิดในภาพ';
 
   @override
-  String get detectionFeedbackMissedHint => 'Drag on the image to draw the missed target.';
+  String get detectionFeedbackMissedHint => 'ลากบนภาพเพื่อวาดกรอบวัตถุที่ตรวจไม่พบ';
 
   @override
-  String get detectionFeedbackBoxes => 'Boxes';
+  String get detectionFeedbackBoxes => 'กรอบ';
 
   @override
-  String get feedbackNoDetectionSelected => 'No detection box was selected. Tap inside a box.';
+  String get feedbackNoDetectionSelected => 'ยังไม่ได้เลือกกรอบการตรวจจับ แตะด้านในกรอบ';
 
   @override
-  String get feedbackSelectionTooSmall => 'The selected area is too small. Please draw it again.';
+  String get feedbackSelectionTooSmall => 'พื้นที่ที่เลือกเล็กเกินไป โปรดวาดใหม่';
 
   @override
-  String get feedbackFalsePositiveDialogTitle => 'Report false positive';
+  String get feedbackFalsePositiveDialogTitle => 'รายงานการตรวจจับผิดพลาด';
 
   @override
-  String get feedbackFalsePositiveDialogMessage => 'This detection will be marked as a false positive for review.';
+  String get feedbackFalsePositiveDialogMessage => 'ระบบจะทำเครื่องหมายผลนี้ว่าเป็นการตรวจจับผิดพลาดเพื่อให้ตรวจสอบ';
 
   @override
-  String get feedbackDrawMissedFirst => 'Draw the missed target in the image first.';
+  String get feedbackDrawMissedFirst => 'วาดกรอบวัตถุที่ตรวจไม่พบบนภาพก่อน';
 
   @override
-  String get feedbackMissingRecord => 'Unable to submit feedback because the record ID is missing.';
+  String get feedbackMissingRecord => 'ส่งข้อเสนอแนะไม่ได้เนื่องจากไม่มีรหัสบันทึก';
 
   @override
-  String get feedbackSignInRequired => 'You must be signed in to submit feedback.';
+  String get feedbackSignInRequired => 'เข้าสู่ระบบเพื่อส่งข้อเสนอแนะ';
 
   @override
-  String get feedbackSubmitted => 'Feedback submitted. Thank you.';
+  String get feedbackSubmitted => 'ส่งข้อเสนอแนะแล้ว ขอบคุณ';
 
   @override
   String feedbackSubmitFailed(String error) {
-    return 'Failed to submit feedback: $error';
+    return 'ส่งข้อเสนอแนะไม่สำเร็จ: $error';
   }
 
   @override
-  String get imageViewerTitle => 'Image viewer';
+  String get imageViewerTitle => 'ตัวแสดงภาพ';
 
   @override
-  String get imageViewerRotate => 'Rotate';
+  String get imageViewerRotate => 'หมุน';
 
   @override
-  String get imageViewerResetZoom => 'Reset zoom';
+  String get imageViewerResetZoom => 'รีเซ็ตการซูม';
 
   @override
-  String get falsePositivePickerTitle => 'Select wrong detection';
+  String get falsePositivePickerTitle => 'เลือกการตรวจจับที่ผิดพลาด';
 
   @override
-  String get falsePositivePickerHint => 'Double tap to zoom, pan, then tap a box or label.';
+  String get falsePositivePickerHint => 'แตะสองครั้งเพื่อซูม เลื่อนภาพ แล้วแตะกรอบหรือป้ายกำกับ';
 
   @override
-  String get falsePositivePickerBottomHint => 'Tap a highlighted box or label to report';
+  String get falsePositivePickerBottomHint => 'แตะกรอบหรือป้ายกำกับที่ไฮไลต์เพื่อรายงาน';
 
   @override
-  String get falsePositivePickerMiss => 'Tap a box or label. Zoom in if needed.';
+  String get falsePositivePickerMiss => 'แตะกรอบหรือป้ายกำกับ ซูมเข้าสู่ภาพหากจำเป็น';
 
   @override
   String get saveSuccess => 'Saved successfully.';
@@ -1982,4 +1982,82 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get commentRequired => 'Comment is required for this action.';
+
+  @override
+  String get violationResultsHeading => 'ผลการค้นหา';
+
+  @override
+  String get violationEvidenceImage => 'ภาพ';
+
+  @override
+  String get violationSiteStreamHeading => 'ไซต์งาน / สตรีม';
+
+  @override
+  String get violationTimeRange => 'ช่วงเวลา';
+
+  @override
+  String get violationReviewStatus => 'สถานะการตรวจสอบ';
+
+  @override
+  String get violationFiltersHeading => 'ตัวกรอง';
+
+  @override
+  String get violationFiltersDescription => 'กรองบันทึกตามไซต์งาน กล้อง ประเภทการละเมิด เวลา และสถานะการตรวจสอบ';
+
+  @override
+  String get violationAllCameras => 'กล้องทั้งหมด';
+
+  @override
+  String get violationCameraLabel => 'กล้อง';
+
+  @override
+  String get violationAllTypes => 'การละเมิดทุกประเภท';
+
+  @override
+  String get violationTypeLabel => 'ประเภทการละเมิด';
+
+  @override
+  String get violationAnalyticsTotal => 'จำนวนการละเมิดทั้งหมด';
+
+  @override
+  String get violationAnalyticsToday => 'วันนี้';
+
+  @override
+  String get violationAnalyticsTopSite => 'ไซต์งานที่พบการละเมิดมากที่สุด';
+
+  @override
+  String get violationAnalyticsTopType => 'ประเภทที่พบบ่อยที่สุด';
+
+  @override
+  String get violationAnalyticsTrend => 'แนวโน้มการละเมิด';
+
+  @override
+  String get violationAnalyticsNoTrend => 'ไม่มีข้อมูลแนวโน้ม';
+
+  @override
+  String get violationAnalyticsTypeBreakdown => 'การกระจายตามประเภท';
+
+  @override
+  String get violationAnalyticsNoType => 'ไม่มีข้อมูลตามประเภท';
+
+  @override
+  String get violationAnalyticsTypeRanking => 'ลำดับประเภทการละเมิด';
+
+  @override
+  String get violationAnalyticsSiteRanking => 'ลำดับไซต์งาน';
+
+  @override
+  String get violationAnalyticsHourly => 'การกระจายรายชั่วโมง';
+
+  @override
+  String get violationAnalyticsNoHourly => 'ไม่มีข้อมูลรายชั่วโมง';
+
+  @override
+  String get violationAnalyticsNoRanking => 'ไม่มีข้อมูลการจัดลำดับ';
+
+  @override
+  String get violationAnalyticsUnavailable => 'ไม่สามารถโหลดข้อมูลสถิติได้';
+
+  @override
+  String get violationAnalyticsEmpty => 'ไม่มีข้อมูลสถิติ';
 }

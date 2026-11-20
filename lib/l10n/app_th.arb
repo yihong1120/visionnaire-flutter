@@ -58,7 +58,7 @@
     "@detectionTime": {
       "description": "Label for detection time"
     },
-    "violationMessage": "Violation Message",
+    "violationMessage": "ข้อความการละเมิด",
     "@violationMessage": {
       "description": "Label for violation message"
     },
@@ -66,23 +66,23 @@
     "@loadingImageError": {
       "description": "Error message when image fails to load"
     },
-    "violationRecordQuery": "Violation Record Query",
+    "violationRecordQuery": "บันทึกการละเมิด",
     "@violationRecordQuery": {
       "description": "Title of the violation record query page"
     },
-    "keyword": "Keyword (stream_name or message)",
+    "keyword": "คำค้น (กล้องหรือข้อความ)",
     "@keyword": {
       "description": "Hint text for keyword input"
     },
-    "startTime": "Start Time",
+    "startTime": "เวลาเริ่มต้น",
     "@startTime": {
       "description": "Label for start time"
     },
-    "endTime": "End Time",
+    "endTime": "เวลาสิ้นสุด",
     "@endTime": {
       "description": "Label for end time"
     },
-    "query": "Query",
+    "query": "ค้นหา",
     "@query": {
       "description": "Text for the query button"
     },
@@ -122,7 +122,7 @@
     "@noImage": {
       "description": "Text shown when no camera images are available"
     },
-    "warnings": "Warnings",
+    "warnings": "คำเตือน",
     "@warnings": {
       "description": "Label for warnings section"
     },
@@ -226,11 +226,11 @@
     "@deleteFailed": {
       "description": "Error message when chat room deletion fails"
     },
-    "selectSite": "Select Site",
+    "selectSite": "เลือกไซต์งาน",
     "@selectSite": {
       "description": "Hint text for site selection dropdown"
     },
-    "notSelected": "Not selected",
+    "notSelected": "ยังไม่ได้เลือก",
     "@notSelected": {
       "description": "Text shown when nothing is selected"
     },
@@ -238,15 +238,15 @@
     "@errorPrefix": {
       "description": "Prefix for error messages"
     },
-    "sitePrefix": "Site: ",
+    "sitePrefix": "ไซต์งาน: ",
     "@sitePrefix": {
       "description": "Prefix label for site name"
     },
-    "streamPrefix": "Stream: ",
+    "streamPrefix": "สตรีม: ",
     "@streamPrefix": {
       "description": "Prefix label for stream name"
     },
-    "detectionTimePrefix": "Detection Time: ",
+    "detectionTimePrefix": "เวลาที่ตรวจพบ: ",
     "@detectionTimePrefix": {
       "description": "Prefix label for detection time"
     },
@@ -400,62 +400,62 @@
       "description": "Label for toggling object detection overlay on streams"
     },
 
-    "hardhat": "Hardhat",
+    "hardhat": "หมวกนิรภัย",
     "@hardhat": {
       "description": "Label for hardhat"
     },
 
-    "vest": "Vest",
+    "vest": "เสื้อกั๊กนิรภัย",
     "@vest": {
       "description": "Label for vest"
     },
 
-    "machinery": "Machinery",
+    "machinery": "เครื่องจักร",
     "@machinery": {
       "description": "Label for machinery"
     },
 
-    "vehicle": "Vehicle",
+    "vehicle": "ยานพาหนะ",
     "@vehicle": {
       "description": "Label for vehicle"
     },
 
-    "no_hardhat": "No Hardhat",
+    "no_hardhat": "ไม่สวมหมวกนิรภัย",
     "@no_hardhat": {
       "description": "Label for no hardhat"
     },
 
-    "no_vest": "No Vest",
+    "no_vest": "ไม่สวมเสื้อกั๊กนิรภัย",
     "@no_vest": {
       "description": "Label for no vest"
     },
 
-    "person": "Person",
+    "person": "บุคคล",
     "@person": {
       "description": "Label for person"
     },
 
-    "cone": "Safety Cone",
+    "cone": "กรวยจราจร",
     "@cone": {
       "description": "Label for safety cone"
     },
 
-    "mask": "Mask",
+    "mask": "หน้ากาก",
     "@mask": {
       "description": "Label for mask"
     },
 
-    "no_mask": "No Mask",
+    "no_mask": "ไม่สวมหน้ากาก",
     "@no_mask": {
       "description": "Label for no mask"
     },
 
-    "utility_pole": "Utility Pole",
+    "utility_pole": "เสาไฟฟ้า",
     "@utility_pole": {
       "description": "Label for utility pole"
     },
 
-    "warning_people_in_controlled_area": "Warning: {count} people have entered the controlled area!",
+    "warning_people_in_controlled_area": "คำเตือน: มี {count} คนเข้าเขตควบคุม",
     "@warning_people_in_controlled_area": {
       "description": "Warning message for people entering the controlled zone",
       "placeholders": {
@@ -466,7 +466,7 @@
       }
     },
 
-    "warning_people_in_utility_pole_controlled_area": "Warning: {count} people have entered the utility pole restricted area!",
+    "warning_people_in_utility_pole_controlled_area": "คำเตือน: มี {count} คนเข้าเขตหวงห้ามรอบเสาไฟฟ้า",
     "@warning_people_in_utility_pole_controlled_area": {
       "description": "Warning message for people entering the utility pole controlled area",
       "placeholders": {
@@ -477,7 +477,7 @@
       }
     },
 
-    "warning_no_hardhat": "Warning: {count} people are not wearing a hardhat!",
+    "warning_no_hardhat": "คำเตือน: มี {count} คนไม่สวมหมวกนิรภัย",
     "@warning_no_hardhat": {
       "description": "Warning message for missing hardhat",
       "placeholders": {
@@ -488,7 +488,7 @@
       }
     },
 
-    "warning_no_safety_vest": "Warning: {count} people are not wearing a safety vest!",
+    "warning_no_safety_vest": "คำเตือน: มี {count} คนไม่สวมเสื้อกั๊กนิรภัย",
     "@warning_no_safety_vest": {
       "description": "Warning message for missing safety vest",
       "placeholders": {
@@ -499,7 +499,7 @@
       }
     },
 
-    "warning_close_to_machinery": "Warning: {count} people are too close to machinery!",
+    "warning_close_to_machinery": "คำเตือน: มี {count} คนอยู่ใกล้เครื่องจักรเกินไป",
     "@warning_close_to_machinery": {
       "description": "Warning message for people close to machinery",
       "placeholders": {
@@ -510,7 +510,7 @@
       }
     },
 
-    "warning_close_to_vehicle": "Warning: {count} people are too close to vehicles!",
+    "warning_close_to_vehicle": "คำเตือน: มี {count} คนอยู่ใกล้ยานพาหนะเกินไป",
     "@warning_close_to_vehicle": {
       "description": "Warning message for people close to vehicles",
       "placeholders": {
@@ -521,7 +521,7 @@
       }
     },
 
-    "detect_machinery_close_to_pole": "Warning: {count} machinery are too close to the utility pole!",
+    "detect_machinery_close_to_pole": "คำเตือน: เครื่องจักร {count} เครื่องอยู่ใกล้เสาไฟฟ้าเกินไป",
     "@detect_machinery_close_to_pole": {
       "description": "Warning message for machinery close to the utility pole",
       "placeholders": {
@@ -532,7 +532,7 @@
       }
     },
 
-    "showOverlay": "Show Overlay",
+    "showOverlay": "แสดงคำกำกับภาพ",
     "@showOverlay": {
       "description": "Text for the show overlay button"
     },
@@ -761,7 +761,7 @@
     "@selectConstructionSite": {
       "description": "Title for select construction site dialog"
     },
-    "allSites": "All Sites",
+    "allSites": "ทุกไซต์งาน",
     "@allSites": {
       "description": "All sites option"
     },
@@ -781,7 +781,7 @@
     "@fileTypeNotConfigured": {
       "description": "Error message for unconfigured file type"
     },
-    "errorPrefix": "Error: {error}",
+    "errorPrefix": "ข้อผิดพลาด: {error}",
     "@errorPrefix": {
       "description": "Error message prefix",
       "placeholders": {
@@ -1146,7 +1146,7 @@
     "@selectAll": {
       "description": "Select all option"
     },
-    "clearSelection": "Clear Selection",
+    "clearSelection": "ล้างการเลือก",
     "@clearSelection": {
       "description": "Clear selection button"
     },
@@ -1261,7 +1261,7 @@
       }
     },
 
-    "refresh": "Refresh",
+    "refresh": "รีเฟรช",
     "@refresh": {
       "description": "Tooltip for refresh button"
     },
@@ -1549,7 +1549,7 @@
     "@edit": {
       "description": "Edit title prefix"
     },
-    "cancel": "Cancel",
+    "cancel": "ยกเลิก",
     "@cancel": {
       "description": "Cancel button"
     },
@@ -1771,5 +1771,106 @@
     "shareFailed": "Share failed",
     "@shareFailed": {
       "description": "Message when share fails"
-    }
-  }
+    },
+
+  "violationNoMatchingRecords": "ไม่พบบันทึกที่ตรงกัน",
+  "violationRecordsTab": "บันทึก",
+  "violationAnalyticsTab": "สถิติ",
+  "violationGroup": "กลุ่ม",
+  "violationAllGroups": "ทุกกลุ่ม",
+  "violationRangeLastDay": "24 ชั่วโมงที่ผ่านมา",
+  "violationRangeLast30Days": "30 วันที่ผ่านมา",
+  "violationRangeLastHalfYear": "6 เดือนที่ผ่านมา",
+  "violationRangeLastYear": "1 ปีที่ผ่านมา",
+  "violationRangeYearToDate": "ตั้งแต่ต้นปี",
+  "violationUnnamedGroup": "กลุ่มไม่มีชื่อ",
+  "reviewFilterAll": "ทั้งหมด",
+  "reviewFilterFlagged": "ที่ทำเครื่องหมาย",
+  "reviewFilterPending": "รอดำเนินการ",
+  "reviewFilterResolved": "แก้ไขแล้ว",
+  "reviewFilterDismissed": "ปฏิเสธแล้ว",
+  "reviewStatusReviewed": "ตรวจสอบแล้ว",
+  "reviewStatusNotSubmitted": "ยังไม่ได้ส่ง",
+  "reviewFlagReasonLabel": "เหตุผลที่ทำเครื่องหมาย",
+  "reviewSectionTitle": "การตรวจสอบ",
+  "reviewFlaggedBadge": "ทำเครื่องหมายแล้ว",
+  "reviewPendingNote": "หมายเหตุที่รอดำเนินการ",
+  "reviewNote": "หมายเหตุการตรวจสอบ",
+  "reviewHandled": "ดำเนินการแล้ว",
+  "reviewNoteOptional": "หมายเหตุการตรวจสอบ (ไม่บังคับ)",
+  "reviewAuditTrail": "ประวัติการตรวจสอบ",
+  "reviewAuditTrailLoadFailed": "โหลดประวัติการตรวจสอบไม่ได้: {error}",
+  "reviewAuditTrailEmpty": "ยังไม่มีประวัติการตรวจสอบ",
+  "overlayLabel": "คำกำกับภาพ",
+  "overlayHidden": "ปิด",
+  "overlayAll": "ทั้งหมด",
+  "overlayFlaggedOnly": "เฉพาะที่ทำเครื่องหมาย",
+  "reviewChangeMarkerColor": "เปลี่ยนสีเครื่องหมาย",
+  "reviewActionResolve": "ทำเครื่องหมายว่าแก้ไขแล้ว",
+  "reviewActionDismiss": "ปฏิเสธ",
+  "reviewActionPending": "ตั้งเป็นรอดำเนินการ",
+  "reviewMissingRecordUpdate": "อัปเดตการตรวจสอบไม่ได้เนื่องจากไม่มีรหัสบันทึก",
+  "reviewSignInRequiredUpdate": "เข้าสู่ระบบเพื่ออัปเดตสถานะการตรวจสอบ",
+  "reviewUpdated": "อัปเดตสถานะการตรวจสอบแล้ว",
+  "reviewUpdatedNext": "อัปเดตการตรวจสอบแล้ว กำลังไปยังรายการรอดำเนินการถัดไป",
+  "reviewUpdateFailed": "อัปเดตการตรวจสอบไม่สำเร็จ: {error}",
+  "reviewReasonFalsePositive": "การตรวจจับผิดพลาด: มีการรายงานว่าผลตรวจจับไม่ถูกต้อง",
+  "reviewReasonFalseNegative": "ตรวจจับไม่ครบ: มีวัตถุที่ไม่ปรากฏในผลตรวจจับ",
+  "reviewReasonWrongClass": "ประเภทไม่ถูกต้อง: ต้องแก้ไขป้ายกำกับการตรวจจับ",
+  "reviewReasonBadBox": "กรอบไม่ถูกต้อง: ต้องแก้ไขกรอบการตรวจจับ",
+  "detectionFeedbackTitle": "ข้อเสนอแนะเกี่ยวกับการตรวจจับ",
+  "detectionFeedbackDescription": "ทำเครื่องหมายการตรวจจับผิดพลาดหรือวัตถุที่ตรวจไม่พบเพื่อปรับปรุงโมเดล",
+  "detectionFeedbackFalsePositive": "แจ้งการตรวจจับผิดพลาด",
+  "detectionFeedbackMissed": "วาดกรอบวัตถุที่ตรวจไม่พบ",
+  "detectionFeedbackNoBoxes": "ไม่มีกรอบการตรวจจับให้เลือก",
+  "detectionFeedbackMissedLabel": "ประเภทวัตถุที่ตรวจไม่พบ",
+  "detectionFeedbackNoteOptional": "หมายเหตุ (ไม่บังคับ)",
+  "detectionFeedbackNoMissedTarget": "ยังไม่ได้เลือกวัตถุที่ตรวจไม่พบ",
+  "detectionFeedbackSelectedBox": "กรอบที่เลือก: {bbox}",
+  "detectionFeedbackSubmitMissed": "ส่งรายงานวัตถุที่ตรวจไม่พบ",
+  "detectionFeedbackFalsePositiveHint": "แตะกรอบที่ตรวจจับผิดในภาพ",
+  "detectionFeedbackMissedHint": "ลากบนภาพเพื่อวาดกรอบวัตถุที่ตรวจไม่พบ",
+  "detectionFeedbackBoxes": "กรอบ",
+  "feedbackNoDetectionSelected": "ยังไม่ได้เลือกกรอบการตรวจจับ แตะด้านในกรอบ",
+  "feedbackSelectionTooSmall": "พื้นที่ที่เลือกเล็กเกินไป โปรดวาดใหม่",
+  "feedbackFalsePositiveDialogTitle": "รายงานการตรวจจับผิดพลาด",
+  "feedbackFalsePositiveDialogMessage": "ระบบจะทำเครื่องหมายผลนี้ว่าเป็นการตรวจจับผิดพลาดเพื่อให้ตรวจสอบ",
+  "feedbackDrawMissedFirst": "วาดกรอบวัตถุที่ตรวจไม่พบบนภาพก่อน",
+  "feedbackMissingRecord": "ส่งข้อเสนอแนะไม่ได้เนื่องจากไม่มีรหัสบันทึก",
+  "feedbackSignInRequired": "เข้าสู่ระบบเพื่อส่งข้อเสนอแนะ",
+  "feedbackSubmitted": "ส่งข้อเสนอแนะแล้ว ขอบคุณ",
+  "feedbackSubmitFailed": "ส่งข้อเสนอแนะไม่สำเร็จ: {error}",
+  "imageViewerTitle": "ตัวแสดงภาพ",
+  "imageViewerRotate": "หมุน",
+  "imageViewerResetZoom": "รีเซ็ตการซูม",
+  "falsePositivePickerTitle": "เลือกการตรวจจับที่ผิดพลาด",
+  "falsePositivePickerHint": "แตะสองครั้งเพื่อซูม เลื่อนภาพ แล้วแตะกรอบหรือป้ายกำกับ",
+  "falsePositivePickerBottomHint": "แตะกรอบหรือป้ายกำกับที่ไฮไลต์เพื่อรายงาน",
+  "falsePositivePickerMiss": "แตะกรอบหรือป้ายกำกับ ซูมเข้าสู่ภาพหากจำเป็น",
+  "violationResultsHeading": "ผลการค้นหา",
+  "violationEvidenceImage": "ภาพ",
+  "violationSiteStreamHeading": "ไซต์งาน / สตรีม",
+  "violationTimeRange": "ช่วงเวลา",
+  "violationReviewStatus": "สถานะการตรวจสอบ",
+  "violationFiltersHeading": "ตัวกรอง",
+  "violationFiltersDescription": "กรองบันทึกตามไซต์งาน กล้อง ประเภทการละเมิด เวลา และสถานะการตรวจสอบ",
+  "violationAllCameras": "กล้องทั้งหมด",
+  "violationCameraLabel": "กล้อง",
+  "violationAllTypes": "การละเมิดทุกประเภท",
+  "violationTypeLabel": "ประเภทการละเมิด",
+  "violationAnalyticsTotal": "จำนวนการละเมิดทั้งหมด",
+  "violationAnalyticsToday": "วันนี้",
+  "violationAnalyticsTopSite": "ไซต์งานที่พบการละเมิดมากที่สุด",
+  "violationAnalyticsTopType": "ประเภทที่พบบ่อยที่สุด",
+  "violationAnalyticsTrend": "แนวโน้มการละเมิด",
+  "violationAnalyticsNoTrend": "ไม่มีข้อมูลแนวโน้ม",
+  "violationAnalyticsTypeBreakdown": "การกระจายตามประเภท",
+  "violationAnalyticsNoType": "ไม่มีข้อมูลตามประเภท",
+  "violationAnalyticsTypeRanking": "ลำดับประเภทการละเมิด",
+  "violationAnalyticsSiteRanking": "ลำดับไซต์งาน",
+  "violationAnalyticsHourly": "การกระจายรายชั่วโมง",
+  "violationAnalyticsNoHourly": "ไม่มีข้อมูลรายชั่วโมง",
+  "violationAnalyticsNoRanking": "ไม่มีข้อมูลการจัดลำดับ",
+  "violationAnalyticsUnavailable": "ไม่สามารถโหลดข้อมูลสถิติได้",
+  "violationAnalyticsEmpty": "ไม่มีข้อมูลสถิติ"
+}

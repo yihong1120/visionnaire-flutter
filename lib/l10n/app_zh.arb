@@ -2036,5 +2036,32 @@
       }
     }
   },
-  "commentRequired": "此操作需要填寫註記。"
+  "commentRequired": "此操作需要填寫註記。",
+
+  "violationResultsHeading": "查詢結果",
+  "violationEvidenceImage": "影像",
+  "violationSiteStreamHeading": "工地 / 串流",
+  "violationTimeRange": "時間範圍",
+  "violationReviewStatus": "審核狀態",
+  "violationFiltersHeading": "查詢條件",
+  "violationFiltersDescription": "依工地、鏡頭、違規項目、時間與審核狀態篩選紀錄。",
+  "violationAllCameras": "全部鏡頭",
+  "violationCameraLabel": "鏡頭",
+  "violationAllTypes": "全部違規項目",
+  "violationTypeLabel": "違規項目",
+  "violationAnalyticsTotal": "總違規數",
+  "violationAnalyticsToday": "今日違規",
+  "violationAnalyticsTopSite": "違規最多的工地",
+  "violationAnalyticsTopType": "最常見的違規項目",
+  "violationAnalyticsTrend": "違規趨勢",
+  "violationAnalyticsNoTrend": "沒有趨勢資料",
+  "violationAnalyticsTypeBreakdown": "項目分類",
+  "violationAnalyticsNoType": "沒有分類資料",
+  "violationAnalyticsTypeRanking": "違規項目排行",
+  "violationAnalyticsSiteRanking": "工地排行",
+  "violationAnalyticsHourly": "時段分布",
+  "violationAnalyticsNoHourly": "沒有時段資料",
+  "violationAnalyticsNoRanking": "沒有排行資料",
+  "violationAnalyticsUnavailable": "暫時無法載入統計資料",
+  "violationAnalyticsEmpty": "目前沒有統計資料"
 }

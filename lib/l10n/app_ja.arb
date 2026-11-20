@@ -58,7 +58,7 @@
     "@detectionTime": {
       "description": "Label for detection time"
     },
-    "violationMessage": "Violation Message",
+    "violationMessage": "違反メッセージ",
     "@violationMessage": {
       "description": "Label for violation message"
     },
@@ -66,23 +66,23 @@
     "@loadingImageError": {
       "description": "Error message when image fails to load"
     },
-    "violationRecordQuery": "Violation Record Query",
+    "violationRecordQuery": "違反記録",
     "@violationRecordQuery": {
       "description": "Title of the violation record query page"
     },
-    "keyword": "Keyword (stream_name or message)",
+    "keyword": "キーワード（カメラ名またはメッセージ）",
     "@keyword": {
       "description": "Hint text for keyword input"
     },
-    "startTime": "Start Time",
+    "startTime": "開始日時",
     "@startTime": {
       "description": "Label for start time"
     },
-    "endTime": "End Time",
+    "endTime": "終了日時",
     "@endTime": {
       "description": "Label for end time"
     },
-    "query": "Query",
+    "query": "検索",
     "@query": {
       "description": "Text for the query button"
     },
@@ -122,7 +122,7 @@
     "@noImage": {
       "description": "Text shown when no camera images are available"
     },
-    "warnings": "Warnings",
+    "warnings": "警告",
     "@warnings": {
       "description": "Label for warnings section"
     },
@@ -226,11 +226,11 @@
     "@deleteFailed": {
       "description": "Error message when chat room deletion fails"
     },
-    "selectSite": "Select Site",
+    "selectSite": "現場を選択",
     "@selectSite": {
       "description": "Hint text for site selection dropdown"
     },
-    "notSelected": "Not selected",
+    "notSelected": "未選択",
     "@notSelected": {
       "description": "Text shown when nothing is selected"
     },
@@ -238,15 +238,15 @@
     "@errorPrefix": {
       "description": "Prefix for error messages"
     },
-    "sitePrefix": "Site: ",
+    "sitePrefix": "現場：",
     "@sitePrefix": {
       "description": "Prefix label for site name"
     },
-    "streamPrefix": "Stream: ",
+    "streamPrefix": "配信：",
     "@streamPrefix": {
       "description": "Prefix label for stream name"
     },
-    "detectionTimePrefix": "Detection Time: ",
+    "detectionTimePrefix": "検知日時：",
     "@detectionTimePrefix": {
       "description": "Prefix label for detection time"
     },
@@ -400,62 +400,62 @@
       "description": "Label for toggling object detection overlay on streams"
     },
 
-    "hardhat": "Hardhat",
+    "hardhat": "ヘルメット",
     "@hardhat": {
       "description": "Label for hardhat"
     },
 
-    "vest": "Vest",
+    "vest": "安全ベスト",
     "@vest": {
       "description": "Label for vest"
     },
 
-    "machinery": "Machinery",
+    "machinery": "重機",
     "@machinery": {
       "description": "Label for machinery"
     },
 
-    "vehicle": "Vehicle",
+    "vehicle": "車両",
     "@vehicle": {
       "description": "Label for vehicle"
     },
 
-    "no_hardhat": "No Hardhat",
+    "no_hardhat": "ヘルメット未着用",
     "@no_hardhat": {
       "description": "Label for no hardhat"
     },
 
-    "no_vest": "No Vest",
+    "no_vest": "安全ベスト未着用",
     "@no_vest": {
       "description": "Label for no vest"
     },
 
-    "person": "Person",
+    "person": "人",
     "@person": {
       "description": "Label for person"
     },
 
-    "cone": "Safety Cone",
+    "cone": "カラーコーン",
     "@cone": {
       "description": "Label for safety cone"
     },
 
-    "mask": "Mask",
+    "mask": "マスク",
     "@mask": {
       "description": "Label for mask"
     },
 
-    "no_mask": "No Mask",
+    "no_mask": "マスク未着用",
     "@no_mask": {
       "description": "Label for no mask"
     },
 
-    "utility_pole": "Utility Pole",
+    "utility_pole": "電柱",
     "@utility_pole": {
       "description": "Label for utility pole"
     },
 
-    "warning_people_in_controlled_area": "Warning: {count} people have entered the controlled area!",
+    "warning_people_in_controlled_area": "警告：{count}人が管理区域に入りました。",
     "@warning_people_in_controlled_area": {
       "description": "Warning message for people entering the controlled zone",
       "placeholders": {
@@ -466,7 +466,7 @@
       }
     },
 
-    "warning_people_in_utility_pole_controlled_area": "Warning: {count} people have entered the utility pole restricted area!",
+    "warning_people_in_utility_pole_controlled_area": "警告：{count}人が電柱の立入制限区域に入りました。",
     "@warning_people_in_utility_pole_controlled_area": {
       "description": "Warning message for people entering the utility pole controlled area",
       "placeholders": {
@@ -477,7 +477,7 @@
       }
     },
 
-    "warning_no_hardhat": "Warning: {count} people are not wearing a hardhat!",
+    "warning_no_hardhat": "警告：{count}人がヘルメットを着用していません。",
     "@warning_no_hardhat": {
       "description": "Warning message for missing hardhat",
       "placeholders": {
@@ -488,7 +488,7 @@
       }
     },
 
-    "warning_no_safety_vest": "Warning: {count} people are not wearing a safety vest!",
+    "warning_no_safety_vest": "警告：{count}人が安全ベストを着用していません。",
     "@warning_no_safety_vest": {
       "description": "Warning message for missing safety vest",
       "placeholders": {
@@ -499,7 +499,7 @@
       }
     },
 
-    "warning_close_to_machinery": "Warning: {count} people are too close to machinery!",
+    "warning_close_to_machinery": "警告：{count}人が重機に近づきすぎています。",
     "@warning_close_to_machinery": {
       "description": "Warning message for people close to machinery",
       "placeholders": {
@@ -510,7 +510,7 @@
       }
     },
 
-    "warning_close_to_vehicle": "Warning: {count} people are too close to vehicles!",
+    "warning_close_to_vehicle": "警告：{count}人が車両に近づきすぎています。",
     "@warning_close_to_vehicle": {
       "description": "Warning message for people close to vehicles",
       "placeholders": {
@@ -521,7 +521,7 @@
       }
     },
 
-    "detect_machinery_close_to_pole": "Warning: {count} machinery are too close to the utility pole!",
+    "detect_machinery_close_to_pole": "警告：{count}台の重機が電柱に近づきすぎています。",
     "@detect_machinery_close_to_pole": {
       "description": "Warning message for machinery close to the utility pole",
       "placeholders": {
@@ -532,7 +532,7 @@
       }
     },
 
-    "showOverlay": "Show Overlay",
+    "showOverlay": "注釈を表示",
     "@showOverlay": {
       "description": "Text for the show overlay button"
     },
@@ -761,7 +761,7 @@
     "@selectConstructionSite": {
       "description": "Title for select construction site dialog"
     },
-    "allSites": "All Sites",
+    "allSites": "すべての現場",
     "@allSites": {
       "description": "All sites option"
     },
@@ -781,7 +781,7 @@
     "@fileTypeNotConfigured": {
       "description": "Error message for unconfigured file type"
     },
-    "errorPrefix": "Error: {error}",
+    "errorPrefix": "エラー：{error}",
     "@errorPrefix": {
       "description": "Error message prefix",
       "placeholders": {
@@ -1146,7 +1146,7 @@
     "@selectAll": {
       "description": "Select all option"
     },
-    "clearSelection": "Clear Selection",
+    "clearSelection": "選択を解除",
     "@clearSelection": {
       "description": "Clear selection button"
     },
@@ -1261,7 +1261,7 @@
       }
     },
 
-    "refresh": "Refresh",
+    "refresh": "更新",
     "@refresh": {
       "description": "Tooltip for refresh button"
     },
@@ -1549,7 +1549,7 @@
     "@edit": {
       "description": "Edit title prefix"
     },
-    "cancel": "Cancel",
+    "cancel": "キャンセル",
     "@cancel": {
       "description": "Cancel button"
     },
@@ -1771,5 +1771,106 @@
     "shareFailed": "Share failed",
     "@shareFailed": {
       "description": "Message when share fails"
-    }
-  }
+    },
+
+  "violationNoMatchingRecords": "該当する記録はありません",
+  "violationRecordsTab": "記録",
+  "violationAnalyticsTab": "統計",
+  "violationGroup": "グループ",
+  "violationAllGroups": "すべてのグループ",
+  "violationRangeLastDay": "過去24時間",
+  "violationRangeLast30Days": "過去30日間",
+  "violationRangeLastHalfYear": "過去6か月",
+  "violationRangeLastYear": "過去1年間",
+  "violationRangeYearToDate": "年初から現在まで",
+  "violationUnnamedGroup": "名前のないグループ",
+  "reviewFilterAll": "すべて",
+  "reviewFilterFlagged": "報告済み",
+  "reviewFilterPending": "保留中",
+  "reviewFilterResolved": "対応済み",
+  "reviewFilterDismissed": "却下済み",
+  "reviewStatusReviewed": "確認済み",
+  "reviewStatusNotSubmitted": "未提出",
+  "reviewFlagReasonLabel": "報告理由",
+  "reviewSectionTitle": "確認",
+  "reviewFlaggedBadge": "報告済み",
+  "reviewPendingNote": "保留メモ",
+  "reviewNote": "確認メモ",
+  "reviewHandled": "処理済み",
+  "reviewNoteOptional": "確認メモ（任意）",
+  "reviewAuditTrail": "確認履歴",
+  "reviewAuditTrailLoadFailed": "確認履歴を読み込めませんでした：{error}",
+  "reviewAuditTrailEmpty": "確認履歴はまだありません。",
+  "overlayLabel": "注釈",
+  "overlayHidden": "オフ",
+  "overlayAll": "すべて",
+  "overlayFlaggedOnly": "報告済みのみ",
+  "reviewChangeMarkerColor": "マーカーの色を変更",
+  "reviewActionResolve": "対応済みにする",
+  "reviewActionDismiss": "却下する",
+  "reviewActionPending": "保留にする",
+  "reviewMissingRecordUpdate": "記録IDがないため、確認状況を更新できません。",
+  "reviewSignInRequiredUpdate": "確認状況を更新するにはログインしてください。",
+  "reviewUpdated": "確認状況を更新しました。",
+  "reviewUpdatedNext": "確認状況を更新しました。次の保留項目に移動します。",
+  "reviewUpdateFailed": "確認状況を更新できませんでした：{error}",
+  "reviewReasonFalsePositive": "誤検知：この検知は誤りとして報告されました",
+  "reviewReasonFalseNegative": "見逃し：結果に対象が含まれていません",
+  "reviewReasonWrongClass": "分類誤り：検知ラベルの修正が必要です",
+  "reviewReasonBadBox": "枠の誤り：検知枠の修正が必要です",
+  "detectionFeedbackTitle": "検知結果へのフィードバック",
+  "detectionFeedbackDescription": "誤検知や見逃しを報告してモデルの改善に役立ててください。",
+  "detectionFeedbackFalsePositive": "誤検知を報告",
+  "detectionFeedbackMissed": "見逃した対象を囲む",
+  "detectionFeedbackNoBoxes": "選択できる検知枠はありません。",
+  "detectionFeedbackMissedLabel": "見逃した対象の分類",
+  "detectionFeedbackNoteOptional": "メモ（任意）",
+  "detectionFeedbackNoMissedTarget": "見逃した対象が選択されていません",
+  "detectionFeedbackSelectedBox": "選択した枠：{bbox}",
+  "detectionFeedbackSubmitMissed": "見逃しを送信",
+  "detectionFeedbackFalsePositiveHint": "画像内の誤った検知枠をタップしてください。",
+  "detectionFeedbackMissedHint": "画像をドラッグして見逃した対象を囲んでください。",
+  "detectionFeedbackBoxes": "検知枠",
+  "feedbackNoDetectionSelected": "検知枠が選択されていません。枠の内側をタップしてください。",
+  "feedbackSelectionTooSmall": "選択範囲が小さすぎます。もう一度描いてください。",
+  "feedbackFalsePositiveDialogTitle": "誤検知を報告する",
+  "feedbackFalsePositiveDialogMessage": "この検知を確認対象の誤検知として報告します。",
+  "feedbackDrawMissedFirst": "先に画像内の見逃した対象を囲んでください。",
+  "feedbackMissingRecord": "記録IDがないため、フィードバックを送信できません。",
+  "feedbackSignInRequired": "フィードバックを送信するにはログインしてください。",
+  "feedbackSubmitted": "フィードバックを送信しました。ありがとうございます。",
+  "feedbackSubmitFailed": "フィードバックを送信できませんでした：{error}",
+  "imageViewerTitle": "画像ビューアー",
+  "imageViewerRotate": "回転",
+  "imageViewerResetZoom": "ズームをリセット",
+  "falsePositivePickerTitle": "誤検知を選択",
+  "falsePositivePickerHint": "ダブルタップで拡大し、画像を移動してから枠またはラベルをタップします。",
+  "falsePositivePickerBottomHint": "強調された枠またはラベルをタップすると報告できます。",
+  "falsePositivePickerMiss": "枠またはラベルをタップしてください。必要に応じて拡大します。",
+  "violationResultsHeading": "検索結果",
+  "violationEvidenceImage": "画像",
+  "violationSiteStreamHeading": "現場 / 配信",
+  "violationTimeRange": "期間",
+  "violationReviewStatus": "確認状況",
+  "violationFiltersHeading": "絞り込み",
+  "violationFiltersDescription": "現場、カメラ、違反の種類、期間、確認状況で記録を絞り込みます。",
+  "violationAllCameras": "すべてのカメラ",
+  "violationCameraLabel": "カメラ",
+  "violationAllTypes": "すべての違反の種類",
+  "violationTypeLabel": "違反の種類",
+  "violationAnalyticsTotal": "違反件数の合計",
+  "violationAnalyticsToday": "本日",
+  "violationAnalyticsTopSite": "違反件数が最も多い現場",
+  "violationAnalyticsTopType": "最多の違反の種類",
+  "violationAnalyticsTrend": "違反の推移",
+  "violationAnalyticsNoTrend": "推移データがありません",
+  "violationAnalyticsTypeBreakdown": "種類別の内訳",
+  "violationAnalyticsNoType": "種類別のデータがありません",
+  "violationAnalyticsTypeRanking": "違反の種類別ランキング",
+  "violationAnalyticsSiteRanking": "現場別ランキング",
+  "violationAnalyticsHourly": "時間帯別の分布",
+  "violationAnalyticsNoHourly": "時間帯別のデータがありません",
+  "violationAnalyticsNoRanking": "ランキングデータがありません",
+  "violationAnalyticsUnavailable": "統計情報を読み込めません",
+  "violationAnalyticsEmpty": "統計データがありません"
+}
